@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="map-cut.svg"
+   inkscape:export-filename="/var/www/geo/web-storymaps/storymap5/app/images/map-cut.png"
+   inkscape:export-xdpi="72"
+   inkscape:export-ydpi="72">
+  <defs
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3110">
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path3112"
+         d="m 335.3808,433.66442 39.2129,48.6764 -43.25815,55.54436 134.15097,0 0,-104.22076 z"
+         style="fill:#000000;stroke:none" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter3956"
+       x="-0.096750069"
+       width="1.1935001"
+       y="-0.10002577"
+       height="1.2000515">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.4300095"
+         id="feGaussianBlur3958" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="331.45033"
+     inkscape:cy="538.66698"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="908"
+     inkscape:window-height="707"
+     inkscape:window-x="177"
+     inkscape:window-y="146"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#e6e6e6;stroke:none;opacity:0.51666667"
+       d="m 137.3909,433.66442 39.2129,48.6764 -43.25815,55.54436 48.48181,0 43.85105,-56.30567 -37.1676,-47.91509 z"
+       id="path2985"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path2987"
+       d="m 216.1828,433.66442 39.2129,48.6764 -43.25815,55.54436 48.48181,0 43.85105,-56.30567 -37.1676,-47.91509 z"
+       style="fill:#e6e6e6;stroke:none;opacity:0.51666667" />
+    <path
+       style="fill:#e6e6e6;stroke:none;opacity:0.51666667"
+       d="m 278.81226,433.66442 39.2129,48.6764 -43.25815,55.54436 48.48181,0 43.85105,-56.30567 -37.1676,-47.91509 z"
+       id="path2989"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <g
+       id="g3983"
+       style="opacity:0.49583333">
+      <path
+         style="fill:#e6e6e6;stroke:none"
+         d="m 335.3808,433.66442 39.2129,48.6764 -43.25815,55.54436 134.15097,0 0,-104.22076 z"
+         id="path2991"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+      <image
+         clip-path="url(#clipPath3110)"
+         width="195"
+         height="169"
+         xlink:href="file:///var/www/geo/web-storymaps/storymap5/app/images/map-cut-bw.png"
+         id="image3082"
+         x="320.70319"
+         y="409.2478" />
+      <g
+         transform="matrix(0.63148909,0.29164456,-0.29164456,0.63148909,292.40132,59.559204)"
+         id="g3960">
+        <path
+           sodipodi:type="star"
+           style="color:#000000;fill:#b8b78f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.59999990000000025;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter3956);enable-background:accumulate"
+           id="path3944"
+           sodipodi:sides="5"
+           sodipodi:cx="376.7869"
+           sodipodi:cy="505.86966"
+           sodipodi:r1="57.852734"
+           sodipodi:r2="28.926367"
+           sodipodi:arg1="-0.26179939"
+           sodipodi:arg2="0.36651914"
+           inkscape:flatsided="false"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 432.66835,490.89627 -28.87636,25.33967 4.50376,38.1531 -33.02274,-19.63266 -34.89402,16.0733 8.46718,-37.47333 -26.06945,-28.21926 38.25575,-3.52712 18.7822,-33.51376 15.17618,35.29344 z"
+           inkscape:transform-center-x="-0.42929724"
+           inkscape:transform-center-y="-2.1230131"
+           transform="matrix(0.4588288,0,0,0.4588288,237.30692,253.91083)" />
+        <path
+           transform="matrix(0.4588288,0,0,0.4588288,232.25616,251.89052)"
+           inkscape:transform-center-y="-2.1230131"
+           inkscape:transform-center-x="-0.42929724"
+           d="m 432.66835,490.89627 -28.87636,25.33967 4.50376,38.1531 -33.02274,-19.63266 -34.89402,16.0733 8.46718,-37.47333 -26.06945,-28.21926 38.25575,-3.52712 18.7822,-33.51376 15.17618,35.29344 z"
+           inkscape:randomized="0"
+           inkscape:rounded="0"
+           inkscape:flatsided="false"
+           sodipodi:arg2="0.36651914"
+           sodipodi:arg1="-0.26179939"
+           sodipodi:r2="28.926367"
+           sodipodi:r1="57.852734"
+           sodipodi:cy="505.86966"
+           sodipodi:cx="376.7869"
+           sodipodi:sides="5"
+           id="path3946"
+           style="color:#000000;fill:#ffdf00;fill-opacity:0.87330315999999997;fill-rule:nonzero;stroke:none;stroke-width:7.59999990000000025;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           sodipodi:type="star" />
+      </g>
+    </g>
+  </g>
+</svg>

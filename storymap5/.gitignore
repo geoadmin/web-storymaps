@@ -1,0 +1,16 @@
+node_modules
+dist
+docs
+.tmp
+app/bower_components
+app/fonts/
+app/styles/*.css
+libpeerconnection.log
+
+*.sublime-workspace
+.~lock*
+
+app/data/*.xlsx
+app/data/photos
+
+release.sh
