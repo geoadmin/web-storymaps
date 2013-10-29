@@ -690,8 +690,8 @@ var guesser = {
 	} // -- getVector
 };
 
-// Useful for iOS debugging (disable in production!)
-window.onerror = function(m,u,l) { alert(m+'\n'+u+'\n'+l); };
+///Useful for iOS debugging (disable in production!)
+///window.onerror = function(m,u,l) { alert(m+'\n'+u+'\n'+l); };
 
 $('#loading').removeClass('hidden');
 
