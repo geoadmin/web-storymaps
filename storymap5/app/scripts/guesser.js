@@ -362,14 +362,18 @@ var guesser = {
 		// Reset guess opacity
 		this.user.vectors.forEach(function(l) { l.setOpacity(1); });
 		
-		// Generate a hash
-		var permalink = document.location.href;
+		// Generate a hash for the permalink
+		var permalink = window.location.protocol + "//" + window.location.host + "/";
 		permalink += (permalink.indexOf('?') > 0) ? "&" : "?";
 		permalink += "game=";
 		for (var i = 0; i<this.user.count; i++) {
 			permalink += String.fromCharCode(
 				this.user.collection[i].ix + 97);
 		}
+
+		// For local devs
+		if (document.location.hostname == 'localhost')
+			return guesser.share(permalink);
 
 		// Generate shortened URL
 		$.ajax({
@@ -381,7 +385,7 @@ var guesser = {
 			},
 			error: function() {
 				// Use full link instead (e.g. local dev)
-				guesser.share(permalink);	
+				guesser.share(permalink);
 			}
 		});
 
