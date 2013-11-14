@@ -12,7 +12,7 @@ var guesser = {
 	supportedLangs: ['DE','FR','IT','EN'],
 
 	// Set up anonymous user profile
-	user: { score: 0, count: 5, collection: [] },
+	user: { score: 0, count: 5, collection: [], vectors: [] },
 
 	// State variables
 	config: null, 
@@ -298,6 +298,9 @@ var guesser = {
 		// Initialize image list
 		this.user.collection = [];
 
+		// Reset guess vectors
+		this.user.vectors = [];
+
 		if (this.query['game']) {
 			// Shared game collection
 			var g = this.query['game'].split('');
@@ -355,6 +358,9 @@ var guesser = {
 
 	// ### Game over
 	finish: function() {
+
+		// Reset guess opacity
+		this.user.vectors.forEach(function(l) { l.setOpacity(1); });
 		
 		// Generate a hash
 		var permalink = document.location.href;
@@ -533,6 +539,10 @@ var guesser = {
 
 		// Add layer to the map
 		map.addLayer(vectorGuess);
+
+		// Fade previous guesses
+		this.user.vectors.forEach(function(l) { l.setOpacity(0.5); });
+		this.user.vectors.push(vectorGuess);
 
 		// Center map on guess
 		var minx = (this.position[0] < this.currentAnswer[0]) ? 
