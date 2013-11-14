@@ -248,7 +248,7 @@ var guesser = {
 		$('.total', infobox).html(this.user.score);
 
 		// Result box description
-		$('.info', this.domResults).html(metadata[this.lang]);
+		$('.info p', this.domResults).html(metadata[this.lang]);
 		///console.log('Loading image', metadata.id, this.lang);
 	
 		// Start the challenge
@@ -473,10 +473,9 @@ var guesser = {
 		// User facing text message
 		$('.message', guesser.domFinishBox).html(txt);
 
-		// On mobile, reverse the order
+		// Navigate directly to photo/info on mobile
 		if (guesser.is.mobile()) {
-			$('.info', guesser.domResults).before(guesser.domFinishBox);
-			guesser.domBtnNext.click(); // navigate to photo/info
+			guesser.domBtnNext.click();
 		}
 
 		// UI buttons, game restart
