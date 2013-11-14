@@ -550,13 +550,75 @@ var guesser = {
 					  Math.round(maxx)+escale, Math.round(maxy)+escale];
 		///console.log('Zooming to', extent);
 
+		/// Define start and end points
+		var flyFrom = /** @type {ol.Coordinate} */ 
+				[this.position[0], this.position[1]],
+			flyTo = /** @type {ol.Coordinate} */ 
+				[this.currentAnswer[0], this.currentAnswer[1]];
+
 		// Fit viewport on guess
 		// TODO: https://github.com/geoadmin/web-storymaps/issues/20
-		view.fitExtent(extent, map.getSize());
-		
-		// Workaround: center on the answer
-		view.setCenter([this.currentAnswer[0],this.currentAnswer[1]]);
-		
+		//view.fitExtent(extent, map.getSize());
+
+		// Fly to the guess
+		setTimeout(function() {
+			var speed = 1000;
+			var start = +new Date();
+			var pan = ol.animation.pan({
+				start: start,
+				duration: speed,
+				source: (view.getCenter())
+			});
+			var zoom = ol.animation.zoom({
+				start: start,
+				duration: speed,
+				resolution: (view.getResolution()),
+				easing: ol.easing.linear
+			});
+			map.beforeRender(pan, zoom);
+			view.setResolution(100);
+			view.setCenter(flyFrom);
+		}, 50);
+
+		// Fly to the answer
+		setTimeout(function() {
+			var speed = 1500;
+			var start = +new Date();
+			var pan = ol.animation.pan({
+				start: start,
+				duration: speed,
+				source: flyFrom
+			});
+			var bounce = ol.animation.bounce({
+				start: start,
+				duration: speed,
+				resolution: view.getResolution() * 2
+			});
+			map.beforeRender(pan, bounce);
+			view.setCenter(flyTo);
+		}, 1500);
+
+		// Fly to full map
+		setTimeout(function() {
+			var speed = 1000;
+			var start = +new Date();
+			var pan = ol.animation.pan({
+				start: start,
+				duration: speed,
+				source: (view.getCenter())
+			});
+			var zoom = ol.animation.zoom({
+				start: start,
+				duration: speed,
+				resolution: (view.getResolution()),
+				easing: ol.easing.linear
+			});
+			map.beforeRender(pan, zoom);
+			view.setResolution(
+				geoadmin.isLayoutHorizontal('#map') ? 500 : 650);
+			view.setCenter([660000, 190000]);
+		}, 4000);
+
 		// Calculate distance to answer (km)
 		var dist = geoadmin.getDistanceEuclidian(
 			this.position, this.currentAnswer) / 1000;
