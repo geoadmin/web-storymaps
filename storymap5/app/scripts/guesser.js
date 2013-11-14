@@ -195,6 +195,11 @@ var guesser = {
 		this.domBtnMobile.click(function() {
 			$(this).addClass('hidden');
 			guesser.domBtnNext.removeClass('hidden');
+			// Scroll to bottom of results box
+			setTimeout(function() {
+				guesser.domResults.animate({ scrollTop: 
+					guesser.domResults[0].scrollHeight}, 1000);
+			}, 100);
 		});
 
 		// Bind switcher buttons
