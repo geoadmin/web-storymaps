@@ -329,7 +329,6 @@ var guesser = {
 				$('#d-start').modal('hide');
 			} else {
 				this.user.badges['completed'] = true;
-				window.alert('Well done!');
 			}
 		}
 
