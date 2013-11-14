@@ -135,8 +135,16 @@ var guesser = {
 					'/' + self.lang.toLowerCase() + '/')); });
 
 		// Fullscreen mode
-		$('.lightbox').on('shown.bs.modal', function () {
+		self.domLightBox.on('shown.bs.modal', function () {
 			$('.modal-backdrop.in').css('opacity', 1);
+			// Zoom photo properly
+			$(this).css('overflow','hidden');
+			$('img', this).css({'width':'', 'height':''});
+			if ($(window).width() < $(window).height()) {
+				$('img', this).css('height', $(window).height());
+			} else {
+				$('img', this).css('width', '100%');
+			}
 		}).on('hidden.bs.modal', function () {
 			// Clear backdrops properly (bug?)
 			$('.modal-backdrop.in').remove();
