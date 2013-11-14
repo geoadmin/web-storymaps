@@ -15,6 +15,7 @@ var guesser = {
 	user: { 
 		score: 0, 		// current score
 		count: 5, 		// how many photos per game
+		history: '',	// hash of previous game states
 		collection: [], // holds metadata during game
 		vectors: [], 	// holds shown vector layers
 		badges: {}		// completion badges
@@ -307,18 +308,25 @@ var guesser = {
 		this.user.vectors = [];
 
 		// Load game history
-		if (this.query['history']) {
+		var queryhist = this.query['history'];
+		if (queryhist) {
 			// Shared game collection
 			var gamecoll = this.collection,
-				g = this.query['history'].split('');
+				g = queryhist.split('');
 			if (g.length < gamecoll.length) {
+				queryhist = '';
 				g.forEach(function(h) {
+					queryhist += h;
 					var ix = h.charCodeAt(0) - 97;
 					// Prevent this image from being shown again
-					if (ix != null && ix >= 0 && ix < gamecoll.length) {
-						this.collection[ix].shown = true;
+					if (ix != null && typeof gamecoll[ix] != 'undefined') {
+						gamecoll[ix].shown = true;
 					}
 				});
+				// History enabled
+				this.user.history = queryhist;
+				// Close starting dialogue
+				$('#d-start').modal('hide');
 			} else {
 				this.user.badges['completed'] = true;
 				window.alert('Well done!');
@@ -392,12 +400,13 @@ var guesser = {
 		// Generate a hash of the current game
 		var hash = "";
 		for (var i = 0; i<this.user.count; i++) {
-			hash += String.fromCharCode(this.user.collection[i].ix + 97);
+			if (this.user.collection[i])
+				hash += String.fromCharCode(this.user.collection[i].ix + 97);
 		}
 
 		// Create permalink and new game link
 		var permalink = url + "?game=" + hash,
-			histolink = url + "?history=" + hash + this.history;
+			histolink = url + "?history=" + hash + this.user.history;
 
 		// For local devs
 		if (document.location.hostname == 'localhost')
@@ -475,10 +484,11 @@ var guesser = {
 		guesser.domFinishBox.removeClass('hidden');
 
 		// Set up new game link
-		guesser.domBtnFinish.click(function() { location.href = histolink; });
+		guesser.domBtnFinish.attr('data-href', histolink)
+			.click(function() { location.href = $(this).attr('data-href'); });
 
 		// Pause 2 seconds before showing new game button
-		setTimeout(function() {	guesser.domBtnFinish.hide().removeClass('hidden').fadeIn(); }, 2000);
+		setTimeout(function() { guesser.domBtnFinish.hide().removeClass('hidden').fadeIn(); }, 2000);
 	},
 
 	// ### User starts making a guess 
@@ -565,10 +575,6 @@ var guesser = {
 		// Deactivate guessing for this round
 		this.active = false;
 
-		// Zoom map out
-		var view = map.getView().getView2D();
-		view.setZoom(0);
-
 		// Sets up a new vector layer
 		var vectorGuess = this.getVector(
 			this.currentIndex+1, this.position, this.currentAnswer);
@@ -596,15 +602,73 @@ var guesser = {
 					  Math.round(maxx)+escale, Math.round(maxy)+escale];
 		///console.log('Zooming to', extent);
 
-		/// Define start and end points
-		var flyFrom = /** @type {ol.Coordinate} */ 
-				[this.position[0], this.position[1]],
-			flyTo = /** @type {ol.Coordinate} */ 
-				[this.currentAnswer[0], this.currentAnswer[1]];
+		// Adjust map to show answers
+		if ($('#chk-anim').is(':checked')) {
+			// Fly from guess to answer
+			this.startAnim(
+				/** @type {ol.Coordinate} */ 
+				[this.position[0], this.position[1]], 
+				/** @type {ol.Coordinate} */ 
+				[this.currentAnswer[0], this.currentAnswer[1]]
+			);
+		} else {
+			// Fit viewport on guess and answer
+			// TODO: https://github.com/geoadmin/web-storymaps/issues/20
+			map.getView().getView2D().fitExtent(extent, map.getSize());
+		}
 
-		// Fit viewport on guess
-		// TODO: https://github.com/geoadmin/web-storymaps/issues/20
-		//view.fitExtent(extent, map.getSize());
+		// Calculate distance to answer (km)
+		var dist = geoadmin.getDistanceEuclidian(
+			this.position, this.currentAnswer) / 1000;
+
+		// Calculate score
+		var score = (dist < 260) ? 
+			Math.floor(-824.693 * Math.log(0.00340872 * dist) / 100.0)*100
+			: 0;
+		score = (score > 4500) ? 4500 : score;
+		this.user.score += score;
+
+		// Hide the overlays
+		this.domOverlay.popover('hide');
+		this.domLocator.addClass('hidden');
+
+		// Update dialog with score results
+		$('.score', this.domResults).html(score);
+		$('.total', this.domResults).html(this.user.score);
+		$('.distance', this.domResults).html(parseInt(dist) + " km");
+		$('.total', this.domPhotoInf).html(this.user.score);
+		
+		// Generate a comment
+		var comment = (score < 1000) ? "Result-1" :
+		              (score < 2000) ? "Result-2" : "Result-3";
+		this.domResults.find('.comment').html(i18n.t(comment));
+
+		// Show dialog and get ready to continue the game
+		this.domResults.removeClass('hidden');
+		this.domBtnNext.parent().find('button').addClass('hidden');
+
+		// Two-step continue when on mobile screens
+		if (this.is.mobile()) {
+			this.domBtnMobile.removeClass('hidden');
+		} else {
+			this.domBtnNext.removeClass('hidden');
+		}
+
+		// Disable "start" button
+		$(this.domBtnStart).addClass('hidden');
+		$(this.domBtnClose).removeClass('hidden');
+
+		// Check end game status
+		if (this.currentIndex+1 == this.user.collection.length) {
+			this.finish();
+		}
+
+	}, // -- guess
+
+	// ### Animates transitions between points
+	startAnim: function(flyFrom, flyTo) {
+
+		var view = map.getView().getView2D();
 
 		// Fly to the guess
 		setTimeout(function() {
@@ -665,53 +729,7 @@ var guesser = {
 			view.setCenter([660000, 190000]);
 		}, 4000);
 
-		// Calculate distance to answer (km)
-		var dist = geoadmin.getDistanceEuclidian(
-			this.position, this.currentAnswer) / 1000;
-
-		// Calculate score
-		var score = (dist < 260) ? 
-			Math.floor(-824.693 * Math.log(0.00340872 * dist) / 100.0)*100
-			: 0;
-		score = (score > 4500) ? 4500 : score;
-		this.user.score += score;
-
-		// Hide the overlays
-		this.domOverlay.popover('hide');
-		this.domLocator.addClass('hidden');
-
-		// Update dialog with score results
-		$('.score', this.domResults).html(score);
-		$('.total', this.domResults).html(this.user.score);
-		$('.distance', this.domResults).html(parseInt(dist) + " km");
-		$('.total', this.domPhotoInf).html(this.user.score);
-		
-		// Generate a comment
-		var comment = (score < 1000) ? "Result-1" :
-		              (score < 2000) ? "Result-2" : "Result-3";
-		this.domResults.find('.comment').html(i18n.t(comment));
-
-		// Show dialog and get ready to continue the game
-		this.domResults.removeClass('hidden');
-		this.domBtnNext.parent().find('button').addClass('hidden');
-
-		// Two-step continue when on mobile screens
-		if (this.is.mobile()) {
-			this.domBtnMobile.removeClass('hidden');
-		} else {
-			this.domBtnNext.removeClass('hidden');
-		}
-
-		// Disable "start" button
-		$(this.domBtnStart).addClass('hidden');
-		$(this.domBtnClose).removeClass('hidden');
-
-		// Check end game status
-		if (this.currentIndex+1 == this.user.collection.length) {
-			this.finish();
-		}
-
-	}, // -- guess
+	}, // -- startAnim
 
 	// ### Creates vector feature for a guess
 	getVector: function(label, from, to) {
