@@ -11,8 +11,14 @@ var guesser = {
 	lang: 'DE',
 	supportedLangs: ['DE','FR','IT','EN'],
 
-	// Set up anonymous user profile
-	user: { score: 0, count: 5, collection: [], vectors: [] },
+	// Anonymous user profile
+	user: { 
+		score: 0, 		// current score
+		count: 5, 		// how many photos per game
+		collection: [], // holds metadata during game
+		vectors: [], 	// holds shown vector layers
+		badges: {}		// completion badges
+	},
 
 	// State variables
 	config: null, 
@@ -105,8 +111,7 @@ var guesser = {
 		// Language of header links
 		$('#webHeaderLinks a').each(function() {
 			$(this).attr('href',
-				$(this).attr('href') + 
-				'?lang=' + self.lang.toLowerCase()
+				$(this).attr('href') + '?lang=' + self.lang.toLowerCase()
 			);
 		});
 
@@ -301,6 +306,25 @@ var guesser = {
 		// Reset guess vectors
 		this.user.vectors = [];
 
+		// Load game history
+		if (this.query['history']) {
+			// Shared game collection
+			var gamecoll = this.collection,
+				g = this.query['history'].split('');
+			if (g.length < gamecoll.length) {
+				g.forEach(function(h) {
+					var ix = h.charCodeAt(0) - 97;
+					// Prevent this image from being shown again
+					if (ix != null && ix >= 0 && ix < gamecoll.length) {
+						this.collection[ix].shown = true;
+					}
+				});
+			} else {
+				this.user.badges['completed'] = true;
+				window.alert('Well done!');
+			}
+		}
+
 		if (this.query['game']) {
 			// Shared game collection
 			var g = this.query['game'].split('');
@@ -361,19 +385,23 @@ var guesser = {
 
 		// Reset guess opacity
 		this.user.vectors.forEach(function(l) { l.setOpacity(1); });
+
+		// Get game location
+		var url = window.location.protocol + "//" + window.location.host + "/";
 		
-		// Generate a hash for the permalink
-		var permalink = window.location.protocol + "//" + window.location.host + "/";
-		permalink += (permalink.indexOf('?') > 0) ? "&" : "?";
-		permalink += "game=";
+		// Generate a hash of the current game
+		var hash = "";
 		for (var i = 0; i<this.user.count; i++) {
-			permalink += String.fromCharCode(
-				this.user.collection[i].ix + 97);
+			hash += String.fromCharCode(this.user.collection[i].ix + 97);
 		}
+
+		// Create permalink and new game link
+		var permalink = url + "?game=" + hash,
+			histolink = url + "?history=" + hash + this.history;
 
 		// For local devs
 		if (document.location.hostname == 'localhost')
-			return guesser.share(permalink);
+			return guesser.share(permalink, histolink);
 
 		// Generate shortened URL
 		$.ajax({
@@ -381,18 +409,18 @@ var guesser = {
 			jsonp: "cb",
 			data: { "url": permalink },
 			success: function(data) {
-				guesser.share(data['shorturl']);
+				guesser.share(data['shorturl'], histolink);
 			},
 			error: function() {
 				// Use full link instead (e.g. local dev)
-				guesser.share(permalink);
+				guesser.share(permalink, histolink);
 			}
 		});
 
 	},
 
 	// ### Populate share box
-	share: function(permalink) {
+	share: function(permalink, histolink) {
 
 		var msg = i18n.t('Share-Message', 
 					{score: guesser.user.score}),
@@ -445,6 +473,10 @@ var guesser = {
 		// UI buttons, game restart
 		guesser.domBtnNext.parent().find('button').addClass('hidden');
 		guesser.domFinishBox.removeClass('hidden');
+
+		// Set up new game link
+		guesser.domBtnFinish.click(function() { location.href = histolink; });
+
 		// Pause 2 seconds before showing new game button
 		setTimeout(function() {	guesser.domBtnFinish.hide().removeClass('hidden').fadeIn(); }, 2000);
 	},
