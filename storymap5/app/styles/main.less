@@ -341,11 +341,15 @@ body.modal-open, .modal-open .navbar-fixed-top {
 		position: absolute;
 		right: 10px; top: 10px;
 		background: #fff;
-		padding: 6px;
+		padding: 7px 7px 9px 7px;
 		border-radius: 6px;
 		font-size: 120%;
 		color: black;
 		width: auto;
+		opacity: 0.5;
+	}
+	.glyphicon-fullscreen:hover {
+		opacity: 1;
 	}
 
 	.fullscreen, .fullscreen img {
@@ -435,7 +439,23 @@ body.modal-open, .modal-open .navbar-fixed-top {
 	padding: 0;
 	border: none;
 	background: #fff;
-	button { padding-right: 5px; }
+
+	/* Close button */
+	button { 
+		position: fixed;
+		top: 10px;
+		right: 10px;
+		width: auto;
+		padding: 6px 9px;
+		font-size: 20px;
+		color: black;
+		background: #fff;
+		border-radius: 6px;
+		opacity: 0.5;
+	}
+	button:hover {
+		opacity: 1;
+	}
 }
 
 .btn-primary { 
