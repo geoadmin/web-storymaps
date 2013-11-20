@@ -680,6 +680,7 @@ var guesser = {
 		var view = map.getView().getView2D();
 
 		// Fly to the guess
+		/*
 		setTimeout(function() {
 			var speed = 1000;
 			var start = +new Date();
@@ -697,7 +698,7 @@ var guesser = {
 			map.beforeRender(pan, zoom);
 			view.setResolution(100);
 			view.setCenter(flyFrom);
-		}, 50);
+		}, 50);*/
 
 		// Fly to the answer
 		setTimeout(function() {
@@ -706,16 +707,18 @@ var guesser = {
 			var pan = ol.animation.pan({
 				start: start,
 				duration: speed,
-				source: flyFrom
+				source: (view.getCenter()) //flyFrom
 			});
-			var bounce = ol.animation.bounce({
+			var zoom = ol.animation.zoom({
 				start: start,
 				duration: speed,
-				resolution: view.getResolution() * 2
+				resolution: (view.getResolution()),
+				easing: ol.easing.linear
 			});
-			map.beforeRender(pan, bounce);
+			map.beforeRender(pan, zoom);
+			view.setResolution(100);
 			view.setCenter(flyTo);
-		}, 1500);
+		}, 50);
 
 		// Fly to full map
 		setTimeout(function() {
@@ -736,7 +739,7 @@ var guesser = {
 			view.setResolution(
 				geoadmin.isLayoutHorizontal('#map') ? 500 : 650);
 			view.setCenter([660000, 190000]);
-		}, 4000);
+		}, 2500);
 
 	}, // -- startAnim
 
