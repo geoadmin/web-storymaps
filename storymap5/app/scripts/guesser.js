@@ -137,13 +137,11 @@ var guesser = {
 		// Fullscreen mode
 		self.domLightBox.on('shown.bs.modal', function () {
 			$('.modal-backdrop.in').css('opacity', 1);
-			// Zoom photo properly
-			$(this).css('overflow','hidden');
-			$('img', this).css({'width':'', 'height':''});
+
+			// Stretch image to fill (default: width 100%)
 			if ($(window).width() < $(window).height()) {
-				$('img', this).css('height', $(window).height());
-			} else {
-				$('img', this).css('width', '100%');
+				$('img', this).attr('width', '')
+					.attr('height', $(window).height());
 			}
 		}).on('hidden.bs.modal', function () {
 			// Clear backdrops properly (bug?)
