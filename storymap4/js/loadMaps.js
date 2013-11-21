@@ -3,6 +3,9 @@
 //********************************************************
 // 				Variables
 //********************************************************
+//
+
+OpenLayers.ImgPath = "http://api.geo.admin.ch/main/wsgi/GeoAdmin.ux/Map/img/";
 
 
 // define colors	
