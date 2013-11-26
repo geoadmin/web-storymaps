@@ -1,0 +1,6 @@
+A local build of OpenLayers 3 with GeoAdmin support.
+
+To update:
+
+1. Build a local copy from https://github.com/geoadmin/ol3 master
+2. Copy the 'build' and 'src/ga' folders here

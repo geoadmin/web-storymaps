@@ -1,0 +1,18 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.css"
+			],
+			"follow_symlinks": true,
+			"path": "/var/www/geo/web-storymaps/storymap5"
+		}
+	],
+	"settings":
+	{
+		"tab_size": 4,
+		"wrap_width": 80
+	}
+}
