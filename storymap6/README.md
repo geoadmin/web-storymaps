@@ -12,6 +12,8 @@ The project is built with OpenLayers 3, jQuery 2 and the Twitter Bootstrap 3 fra
 1. Install Node.js http://nodejs.org/download/
 2. Install dependencies from the Node Package Manager with this command at the project root:
 
+`storymap5$ npm install`
+
 `storymap5$ npm install grunt-cli bower`
 
 Run this command as root to use system-wide, or use the [nave.sh](https://github.com/isaacs/nave) utility for your local user.
@@ -53,6 +55,8 @@ See Grunt documentation and `Gruntfile.js` for other commands.
 ## Deploying releases
 
 First you need to build the Bootstrap framework. From the `app/bower_components/bootstrap/` folder run:
+
+`bootstrap$ npm install`
 
 `bootstrap$ npm install grunt-cli`
 
