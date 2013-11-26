@@ -64,7 +64,7 @@ First you need to build the Bootstrap framework. From the `app/bower_components/
 
 Now you can build this project's distribution folder.
 
-`storymap5$ node_modules/.bin/grunt build`
+`storymap5$ node_modules/.bin/grunt --force build`
 
 Finally, zip up the `dist` folder and deploy it to the target host.
 
