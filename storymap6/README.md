@@ -1,7 +1,7 @@
 SwissGuesser
 ============
 
-This SwissGuessr Story Map is an interactive game to guess historical locations from the Swiss National Archive on the Swisstopo map of Switzerland.
+This SwissGuessr Story Map is an interactive game to guess Seilbahnen on the Swisstopo map of Switzerland.
 
 This project is in Beta stage. Please follow our progress and raise technical issues in the [GitHub project](https://github.com/geoadmin/web-storymaps/issues?page=1&state=open). 
 
