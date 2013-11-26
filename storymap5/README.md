@@ -1,7 +1,7 @@
 SwissGuesser
 ============
 
-This GeoAdmin Story Map is an interactive game to guess historical locations from the Swiss National Archive on the Swisstopo map of Switzerland.
+This SwissGuessr Story Map is an interactive game to guess historical locations from the Swiss National Archive on the Swisstopo map of Switzerland.
 
 This project is in Beta stage. Please follow our progress and raise technical issues in the [GitHub project](https://github.com/geoadmin/web-storymaps/issues?page=1&state=open). 
 
@@ -12,19 +12,11 @@ The project is built with OpenLayers 3, jQuery 2 and the Twitter Bootstrap 3 fra
 1. Install Node.js http://nodejs.org/download/
 2. Install dependencies from the Node Package Manager with this command at the project root:
 
-`storymap5$ npm install`
-
-This will install Grunt and Bower automatically. However, it is recommended that they are installed globally:
-
-`storymap5# npm install -g grunt-cli bower`
+`storymap5$ npm install grunt-cli bower`
 
 Run this command as root to use system-wide, or use the [nave.sh](https://github.com/isaacs/nave) utility for your local user.
 
 Install dependencies
-
-`storymap5# bower install`
-
-or
 
 `storymap5# node_modules/.bin/bower install`
 
@@ -50,11 +42,11 @@ With a similar process, translations for this app are in a spreadsheet. Export t
 
 To a local server watching for changes, and open a browser:
 
-`storymap5$ grunt server`
+`storymap5$ node_modules/.bin/grunt server`
 
 To create a `docs/` folder with HTML documentation, run:
 
-`storymap5$ grunt docs`
+`storymap5$ node_modules/.bin/grunt docs`
 
 See Grunt documentation and `Gruntfile.js` for other commands.
 
@@ -62,13 +54,13 @@ See Grunt documentation and `Gruntfile.js` for other commands.
 
 First you need to build the Bootstrap framework. From the `app/bower_components/bootstrap/` folder run:
 
-`bootstrap$ npm install`
+`bootstrap$ npm install grunt-cli`
 
-`bootstrap$ grunt dist`
+`bootstrap$ node_modules/.bin/grunt dist`
 
 Now you can build this project's distribution folder.
 
-`storymap5$ grunt build`
+`storymap5$ node_modules/.bin/grunt build`
 
 Finally, zip up the `dist` folder and deploy it to the target host.
 
