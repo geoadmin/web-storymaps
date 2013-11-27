@@ -611,20 +611,15 @@ var guesser = {
 					  Math.round(maxx)+escale, Math.round(maxy)+escale];
 		///console.log('Zooming to', extent);
 
-		// Adjust map to show answers
-		if ($('#chk-anim').is(':checked')) {
-			// Fly from guess to answer
-			this.startAnim(
-				/** @type {ol.Coordinate} */ 
-				[this.position[0], this.position[1]], 
-				/** @type {ol.Coordinate} */ 
-				[this.currentAnswer[0], this.currentAnswer[1]]
-			);
-		} else {
-			// Fit viewport on guess and answer
-			// TODO: https://github.com/geoadmin/web-storymaps/issues/20
-			map.getView().getView2D().fitExtent(extent, map.getSize());
-		}
+		// Fly from guess to answer
+		this.startAnim(
+			/** @type {ol.Coordinate} */ 
+			[this.position[0], this.position[1]], 
+			/** @type {ol.Coordinate} */ 
+			[this.currentAnswer[0], this.currentAnswer[1]],
+			/** @type {ol.Extent} */ 
+			extent
+		);
 
 		// Calculate distance to answer (km)
 		var dist = geoadmin.getDistanceEuclidian(
@@ -675,9 +670,31 @@ var guesser = {
 	}, // -- guess
 
 	// ### Animates transitions between points
-	startAnim: function(flyFrom, flyTo) {
+	startAnim: function(flyFrom, flyTo, flyExtent) {
 
 		var view = map.getView().getView2D();
+
+		// Fly to the answer
+		setTimeout(function() {
+			var speed = 1500;
+			var start = +new Date();
+			var pan = ol.animation.pan({
+				start: start,
+				duration: speed,
+				source: (view.getCenter()) //flyFrom
+			});
+			var zoom = ol.animation.zoom({
+				start: start,
+				duration: speed,
+				resolution: (view.getResolution()),
+				easing: ol.easing.linear
+			});
+			map.beforeRender(pan, zoom);
+			// Fit viewport on guess and answer
+			//view.setCenter(flyTo);
+			//view.setResolution(100);
+			view.fitExtent(flyExtent, map.getSize());
+		}, 50);
 
 		// Fly to the guess
 		/*
@@ -698,7 +715,7 @@ var guesser = {
 			map.beforeRender(pan, zoom);
 			view.setResolution(100);
 			view.setCenter(flyFrom);
-		}, 50);*/
+		}, 50);
 
 		// Fly to the answer
 		setTimeout(function() {
@@ -740,6 +757,7 @@ var guesser = {
 				geoadmin.isLayoutHorizontal('#map') ? 500 : 650);
 			view.setCenter([660000, 190000]);
 		}, 2500);
+		*/
 
 	}, // -- startAnim
 
