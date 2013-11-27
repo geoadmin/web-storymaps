@@ -1,0 +1,382 @@
+html, body, div, ul, li {
+  margin: 0;
+  padding: 0;
+  font-family: arial,helvetica,verdana,sans-serif;
+  list-style-type: square;
+}
+
+a, a:link, a:active, td a:active, a:visited, td a:visited {
+    color: #3399cc;
+    text-decoration: none;
+}
+
+a, a:hover{
+    color: #3399cc;
+/*    text-decoration: underline;  */
+}
+
+h1 {
+	font-size: 1.5em;
+	font-size: bold;
+}
+
+ul.dropdown-menu li{
+
+list-style: none;
+}
+
+
+/* ************************************* */
+/*  header */
+/* ************************************* */
+
+
+#header-desktop {
+  background-color: white;
+  width: 100%;
+  top: 0px;
+  bottom: 125px;
+}
+
+#header-mobile {
+  display: none;
+}
+
+#header a {
+  color: black;
+  text-decoration: none;
+  font-size: .9em;
+  vertical-align: middle;
+}
+
+.navServiceBackground {
+  height: 20px;
+  line-height: 18px;
+  background-color: #ccc;
+  border-top: 1px solid white;
+  border-bottom: 1px solid black;
+  padding-right: 5px;
+  padding-left: 2px;
+  font-size: .75em;
+  letter-spacing: 0;
+}
+
+.header_sub {
+  height: 103px;
+}
+
+.inline-list {
+  list-style-type: none;
+}
+
+.inline-list li {
+  display: inline;
+  float: left;
+  cursor:pointer;
+  font-size: 10px;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+.pipe {
+  background-image: url('../img/pipe.gif');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  width: 9px;
+}
+
+
+/* ************************************* */
+/*  infoboxinfobox*/
+/* ************************************* */
+
+#infobox {
+  position: absolute;
+  display: none;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: smaller;
+  right: 0px;
+  margin-right: 16px;
+  width: 350px;
+  background: #222222;
+ /* background-image: url('../img/transparent.png');*/
+  border: solid 2px #FFFFFF;
+  margin: 10px;
+  border-radius: 10px;
+  z-Index: 10000;
+}
+
+h1.infobox{
+  line-height: 1.2em;
+  margin: 0;
+  font-size: 15px;
+  margin-right: 30px;
+}
+
+h2.infobox {
+  line-height: 1em;
+  font-size: 13px;
+}
+
+h3.infobox {
+  line-height: 1em;
+  font-size: 12px;
+  margin: 0 0 5 0;
+  font-weight: normal;
+}
+
+p.infobox, a.infobox {
+  line-height: 1.2em;
+  font-size: 12px;
+}
+
+#infobox a:link {
+  color: #3399cc;
+}
+
+#infobox ul {
+  list-style: square outside;
+  margin-left: 10px;
+  color: #ccc;
+}
+
+#infobox li {
+  height: 1.2em;
+  line-height: 1.2em;
+  font-size: 11px;
+}
+
+#infobox a {
+  height: 1.2em;
+  line-height: 1.2em;
+  font-size: 12px;
+}
+
+#infobox {
+  margin-bottom: 10px;
+}
+.title {
+  border-bottom: solid 2px #FFFFFF;
+  text-decoration: inherit;
+  padding: 10px;
+}
+
+.moreinfo {
+  border-bottom: solid 2px #FFFFFF;
+  text-decoration: inherit;
+}
+
+.abstract {
+  border-bottom: solid 2px #FFFFFF;
+  text-decoration: inherit;
+  line-height: 1.2em;
+}
+
+.colophon {
+  text-decoration: inherit;
+  font-size: 10px;
+}
+
+.inner {
+  margin: 10px;
+  font-size: 13px;
+  line-height: 1.2em;
+}
+
+
+
+/* ************************************* */
+/* main content */
+/* ************************************* */
+	
+#mainContent{
+	overflow: hidden;
+	display: inline;	
+	position: absolute;
+	top: 125px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+
+/********* horisontal split *********/
+
+#maps{
+	position: absolute;
+	top: 0px;
+	bottom:300px;
+	left: 0px; 
+	right: 0px;
+}
+
+#infos{
+	position: absolute;
+	height: 300px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+
+/********* containers *********/
+
+#overviewMapContainer { 
+	float: left;	
+	height:100%;
+	width: 40%;
+	left: 0px;
+}
+#detailMapContainer { 
+	float: right;	
+	height: 100%;
+	width: 60%;
+	right: 0px;		
+}
+#objectInfoContainer { 
+	float: left;	
+	height:100%;
+	width: 40%;
+	left: 0px;
+}
+#barChartContainer { 
+	float: right;	
+	height: 100%;
+	width: 60%;
+	right: 0px;
+}
+
+
+
+
+/********* main elements *********/
+
+#overviewMap { 
+	height:100%;
+	width: 100%;
+}
+#detailMap { 
+	height: 100%;
+	width: 100%;
+}
+#objectInfo { 
+	height:100%;
+	width: 100%;
+}
+#barChart { 
+	height: 100%;
+	width: 100%;
+	margin: 20px 20px 20px 20px;		
+}
+
+
+
+/********* Object infos *********/
+
+
+table.objectDetails{
+	width: 100%;
+	margin: 10px 15px;
+	font-size: 1em;
+	height: 100%;
+}
+
+
+tr.objectDetails {
+	height: 16%;
+}
+
+td.objectDetails {
+	padding: 5px;
+	width: 50%;
+	vertical-align: top;	
+	height: auto;
+}
+
+div.objectDetails {
+	height: 1.3em;
+	line-height: 1.3em;
+}
+
+#d-station{
+	font-weight: bold;
+	font-size: 130%;
+}
+
+#d-temperature{
+	font-weight: bold;
+	font-size: 230%;
+	height: auto; 
+}
+
+#celcius{
+	font-weight: bold;
+	font-size: 230%;
+	height: auto; 
+}
+
+#d-date{
+	font-weight: bold;
+}
+
+#d-time{
+	font-weight: bold;
+}
+
+#d-stationNumber{
+	font-weight: bold;
+}
+
+#counter{
+	margin-top: 10px;
+	text-align: center;
+	margin-right: 40px;
+}
+
+#d-rank{
+	font-weight: bold;
+	font-size: 300%;
+	margin: 3px 0px 2px 0px;
+	text-align: center;
+}
+
+.flash{
+	text-align: center;
+}
+
+#firstRow{
+	height: 24%;
+}
+
+.lastrow{
+	height: 1em;
+}
+
+
+
+/********* bar chart *********/
+
+.axis path, .axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+h1.tips{
+	font-size: 12px;
+	margin: 0;
+	line-height: 1.2em;
+	max-width: 160px;
+}
+
+
+
+

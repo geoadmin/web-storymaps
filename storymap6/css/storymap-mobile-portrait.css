@@ -1,0 +1,176 @@
+
+
+
+
+
+
+
+
+
+/* ************************************* */
+/*  main layout */
+/* ************************************* */
+
+#map
+{position: absolute; left: 0px; top: 47px !important; width: 100%; bottom: 0; min-height: 580px;}
+
+
+#header-mobile {
+	display: inline;	
+}
+#header-desktop {
+	display: none;	
+}	
+#mainContent{
+	top: 41px;
+}	
+#overviewMapContainer { 
+	width: 100%;
+}
+#detailMapContainer { 
+	width: 0%;
+}
+
+#barChartContainer { 
+	width: 100%;
+	visibility: visible;
+}
+#objectInfoContainer { 
+	width: 0%;
+	visibility: hidden;
+}
+
+
+
+/* ************************************* */
+/*  deiverse */
+/* ************************************* */
+
+#spanClasses{
+	z-Index: 100000;
+	background-color: white;
+}
+
+table.objectDetails{
+	font-size: 1em;
+}
+
+.icon{
+	width: 30px;
+	height: 30px;
+}
+
+
+
+/* ************************************* */
+/*  infoboxinfobox*/
+/* ************************************* */
+
+#infobox {
+  right: 10px;
+  left: 10px;
+  top: 20px;
+  width: auto;
+}
+
+
+h1.infobox{
+  font-size: 16px;
+}
+
+h2.infobox {
+  font-size: 14px;
+}
+
+h3.infobox {
+  font-size: 14px;
+}
+
+p.infobox, a.infobox {
+  font-size: 12px;
+}
+
+#infobox a {
+  font-size: 12px;
+}
+
+#infobox ul {
+  list-style: square outside;
+  color: #ccc;
+}
+#infobox li {
+  font-size: 12px;
+}
+
+.colophon {
+  font-size: 12px;
+}
+
+.inner {
+  font-size: 12px;
+}
+
+
+
+
+
+/* ************************************* */
+/*  Smartphone small*/
+/* ************************************* */
+
+
+
+@media all and (max-height: 650px){
+	#infos {
+		height: 50%;
+		font-size: 0.8em;
+	}
+	#maps {
+		height: 50%;
+	}
+}
+
+
+@media all and (max-width: 358px){
+	a.brand {
+		display: none !important;
+	}	
+	img#ch {
+		display: none; 
+	}
+}
+
+
+@media all and (max-height: 500px){
+	#infobox {
+		top: 0px;
+		left: 0px;
+		right: 0px;
+	}
+	.inner {
+		font-size: 1em;
+	}
+	div.inner {
+		margin: 5px;
+		font-size: 11px;
+	}
+	h1.infobox {
+		font-size: 1.2em;
+	}
+	h2.infobox, h3.infobox {
+		margin: 4px 0 4px 0;
+		font-size: 1em;
+	}
+	.infobox {
+		font-size: 0.9em;
+	}
+	a.infobox {
+		font-size: 9px;
+	}
+	table.objectDetails{	
+		margin: 5px;
+	}
+}
+
+
+
