@@ -1,0 +1,45 @@
+{
+
+"text": {	
+	"adminch": "Amministrazione federale admin.ch",
+	"depart": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",	
+	"FOEN": "Ufficio federale dell'ambiente UFAM",
+	
+	"overview": "Vista d'insieme",
+	"detailview": "Dettagli",
+	"moreInfo": "Informazione",
+	"share": "Condividere",	
+	"language": "Lingua",
+	
+	"infoboxTitle": "I fiumi “più caldi” della Svizzera",
+	"abstract": "La Divisione Idrologia dell’Ufficio Federale dell’Ambiente gestisce una rete di circa 80 stazioni di monitoraggio della temperatura dei corsi d’acqua. Oltre alle variazioni annuali della temperatura, è possibile osservare varie fluttuazioni giornaliere. La temperatura dell’acqua è visualizzata in real-time (aggiornamenti ogni ora), per cui la classifica delle stazioni potrebbe cambiare.",
+	"infoboxMoreInfo": "Ulteriori informazioni",
+	"dep": "Ufficio Federale dell’Ambiente",
+
+	"station": "Stazione:",
+	"rank": "Rango:",
+	"temperature": "Temperatura:",
+	"date": "Data:",
+	"time": "Ora:",
+	"detail": "Dettagli",
+	"stationNumber": "Numero della stazione:"
+},
+
+"html": {
+    "infolinks": [
+		"<a href='http://www.bafu.admin.ch/hydrologie/01831/01841/index.html?lang=it' target='_blank'>Rete di misurazione delle temperature</a></br>", 
+		"<a class='infobox' href='http://www.hydrodaten.admin.ch/it/index.html#aktuelle_situation_gewaesser' target='_blank'>Dati idrologici attuali</a> <br>",
+		"<a class='infobox'  href='http://s.geo.admin.ch/7d94ba893' target='_blank'>Mappa delle stazioni idrologiche</a> <br>",
+		"<a class='infobox' href='http://s.geo.admin.ch/9a5ce079c' target='_blank'>Mappa delle stazioni di misurazione della temperatura</a>"
+	],
+	"disclaimer": [
+		"<ul>",
+		"<li>Realizzato con: ",
+		"<a href='http://api.geo.admin.ch' target='_blank'>api.geo.admin.ch</a><br></li>",
+		"<li><a href='http://www.geo.admin.ch/internet/geoportal/it/home/geoadmin/contact.html#copyright' target='_blank'>Copyright e protezione dei diritti d'autore</a><br></li>",
+		"</ul>"
+	]
+}
+
+
+}

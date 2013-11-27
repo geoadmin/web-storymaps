@@ -1,0 +1,45 @@
+{
+
+"text": {	
+	"adminch": "Bundesverwaltung admin.ch",
+	"depart": "Departement für Umwelt, Verkehr, Energie und Kommunikation",	
+	"FOEN": "Bundesamt für Umwelt BAFU",
+	
+	"overview": "Übersicht",
+	"detailview": "Detailansicht",
+	"moreInfo": "Informationen",
+	"share": "Teilen",	
+	"language": "Sprache",
+	
+	"infoboxTitle": "Die wärmsten Fliessgewässer der Schweiz",
+	"abstract": "Die Abteilung Hydrologie des Bundesamt für Umwelt misst an über 80 Standorten die Temperatur verschiedener Fliessgewässer der Schweiz. Neben einem Jahresgang weisen einige Fliessgewässer auch starke Temperaturunterschiede innerhalb eines Tages auf. Die Daten des Wassertemperaturmessnetzes werden in Echtzeit dargestellt (stündliche Nachführung) - die Rangliste ändert sich somit von Stunde zu Stunde.",
+	"infoboxMoreInfo": "Weitere Informationen",
+	"dep": "Bundesamt für Umwelt",
+
+	"station": "Station:",
+	"rank": "Rang:",
+	"temperature": "Temperatur:",
+	"date": "Datum:",
+	"time": "Zeit:",
+	"detail": "Details",
+	"stationNumber": "Stationsnummer:"
+},
+
+"html": {
+    "infolinks": [
+		"<a href='http://www.bafu.admin.ch/hydrologie/01831/01841/index.html?lang=de' target='_blank'>Temperaturmessnetz</a></br>", 
+		"<a class='infobox' href='http://www.hydrodaten.admin.ch/de/index.html#aktuelle_situation_gewaesser' target='_blank'>Aktuelle hydrologische Daten</a> <br>",
+		"<a class='infobox'  href='http://s.geo.admin.ch/465352d97' target='_blank'>Karte Basismessnetz</a> <br>",
+		"<a class='infobox' href='http://s.geo.admin.ch/10ec72dc1' target='_blank'>Karte Messstationen Wassertemperatur</a>"
+	],
+	"disclaimer": [
+		"<ul>",
+		"<li>Umgesetzt mit: ",
+		"<a href='http://api.geo.admin.ch' target='_blank'>api.geo.admin.ch</a><br></li>",
+		"<li><a href='http://www.geo.admin.ch/internet/geoportal/de/home/geoadmin/contact.html#copyright' target='_blank'>Copyright und Datenschutzerklärung</a><br></li>",
+		"</ul>"
+	]
+}
+
+
+}
