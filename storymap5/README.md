@@ -1,13 +1,12 @@
 SwissGuesser
 ============
 
-This GeoAdmin Story Map is an interactive game to guess historical locations from the Swiss National Archive on the Swisstopo map of Switzerland.
-
-This project is in Beta stage. Please follow our progress and raise technical issues in the [GitHub project](https://github.com/geoadmin/web-storymaps/issues?page=1&state=open). 
+This GeoAdmin Story Map is an interactive game to guess historical locations from the Swiss National Archive on the Swisstopo map of Switzerland. Play here:
+http://storymaps.geo.admin.ch/storymaps/storymap5
 
 # Installation
 
-The project is built with OpenLayers 3, jQuery 2 and the Twitter Bootstrap 3 framework, with a collection of tools powered by Node.js.
+The project uses a custom build of OpenLayers 3 for the GeoAdmin map, jQuery 2 and the Twitter Bootstrap 3 framework, with a collection of tools powered by Node.js. Deployment instructions:
 
 1. Install Node.js http://nodejs.org/download/
 2. Install dependencies from the Node Package Manager with this command at the project root:
@@ -20,7 +19,7 @@ This will install Grunt and Bower automatically. However, it is recommended that
 
 Run this command as root to use system-wide, or use the [nave.sh](https://github.com/isaacs/nave) utility for your local user.
 
-Install dependencies
+## Install dependencies
 
 `storymap5# bower install`
 
@@ -31,6 +30,16 @@ or
 For generating documentation, the [Pygments](http://pygments.org/) utility is required, which can be installed as indicated [on the website](http://pygments.org/download/) or on Ubuntu/Debian systems as follows:
 
 `# sudo apt-get install python-pygments`
+
+## Install OpenLayers 3
+
+A build of the OpenLayers framework needs to be placed in the `app/src` directory, so that `app/src/build/ol-whitespace.js` is available at runtime. We are using the [custom build](https://github.com/geoadmin/ol3/) from GeoAdmin:
+
+1. Check out [the project](https://github.com/geoadmin/ol3/), then build it using: 
+`$ python build.py build`
+2. Copy the `build` folder to `storymap5/app/src`.
+
+Please note that under `app/src/ga` are AngularJS dependencies which may also need to be updated.
 
 ## Preparing data
 
