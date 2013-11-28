@@ -282,6 +282,9 @@ var guesser = {
 		// Re-center map
 		geoadmin.reset();
 
+		// Fade all previous answers
+		this.fadeLayers(0.5);
+
 	},
 
 	// ### Get the next random image
@@ -401,28 +404,28 @@ var guesser = {
 	// ### Game over
 	finish: function() {
 
+		var self = this;
+
 		// Reset guess opacity after a few seconds
-		setTimeout(function() {
-			guesser.user.vectors.forEach(function(l) { l.setOpacity(1); });
-		}, 4000);
+		setTimeout(function() { self.fadeLayers(1); }, 4000);
 
 		// Get game location
 		var url = window.location.protocol + "//" + window.location.host + "/";
 		
 		// Generate a hash of the current game
 		var hash = "";
-		for (var i = 0; i<this.user.count; i++) {
-			if (this.user.collection[i])
-				hash += String.fromCharCode(this.user.collection[i].ix + 97);
+		for (var i = 0; i < self.user.count; i++) {
+			if (self.user.collection[i])
+				hash += String.fromCharCode(self.user.collection[i].ix + 97);
 		}
 
 		// Create permalink and new game link
 		var permalink = url + "?game=" + hash,
-			histolink = url + "?history=" + hash + this.user.history;
+			histolink = url + "?history=" + hash + self.user.history;
 
 		// For local devs
 		if (document.location.hostname == 'localhost')
-			return guesser.share(permalink, histolink);
+			return self.share(permalink, histolink);
 
 		// Generate shortened URL
 		$.ajax({
@@ -430,11 +433,11 @@ var guesser = {
 			jsonp: "cb",
 			data: { "url": permalink },
 			success: function(data) {
-				guesser.share(data['shorturl'], histolink);
+				self.share(data['shorturl'], histolink);
 			},
 			error: function() {
 				// Use full link instead (e.g. local dev)
-				guesser.share(permalink, histolink);
+				self.share(permalink, histolink);
 			}
 		});
 
@@ -694,10 +697,15 @@ var guesser = {
 			map.beforeRender(pan, zoom);
 			// Fit viewport on guess and answer
 			view.fitExtent(flyExtent, map.getSize());
-			view.setResolution(view.getResolution()+75);
+			view.setResolution(view.getResolution() + 100);
 		}, 100);
 
 	}, // -- startAnim
+
+	// ### Sets the opacity of guess layers
+	fadeLayers: function(opacity) {
+		guesser.user.vectors.forEach(function(l) { l.setOpacity(opacity); });
+	},
 
 	// ### Creates vector feature for a guess
 	getVector: function(label, from, to) {
