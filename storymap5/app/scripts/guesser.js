@@ -691,9 +691,8 @@ var guesser = {
 			});
 			map.beforeRender(pan, zoom);
 			// Fit viewport on guess and answer
-			//view.setCenter(flyTo);
-			//view.setResolution(100);
 			view.fitExtent(flyExtent, map.getSize());
+			view.setResolution(view.getResolution()+50);
 		}, 50);
 
 		// Fly to the guess
