@@ -401,8 +401,10 @@ var guesser = {
 	// ### Game over
 	finish: function() {
 
-		// Reset guess opacity
-		this.user.vectors.forEach(function(l) { l.setOpacity(1); });
+		// Reset guess opacity after a few seconds
+		setTimeout(function() {
+			guesser.user.vectors.forEach(function(l) { l.setOpacity(1); });
+		}, 4000);
 
 		// Get game location
 		var url = window.location.protocol + "//" + window.location.host + "/";
@@ -676,12 +678,12 @@ var guesser = {
 
 		// Fly to the answer
 		setTimeout(function() {
-			var speed = 1500;
+			var speed = 1200;
 			var start = +new Date();
 			var pan = ol.animation.pan({
 				start: start,
 				duration: speed,
-				source: (view.getCenter()) //flyFrom
+				source: (view.getCenter())
 			});
 			var zoom = ol.animation.zoom({
 				start: start,
@@ -692,71 +694,8 @@ var guesser = {
 			map.beforeRender(pan, zoom);
 			// Fit viewport on guess and answer
 			view.fitExtent(flyExtent, map.getSize());
-			view.setResolution(view.getResolution()+50);
-		}, 50);
-
-		// Fly to the guess
-		/*
-		setTimeout(function() {
-			var speed = 1000;
-			var start = +new Date();
-			var pan = ol.animation.pan({
-				start: start,
-				duration: speed,
-				source: (view.getCenter())
-			});
-			var zoom = ol.animation.zoom({
-				start: start,
-				duration: speed,
-				resolution: (view.getResolution()),
-				easing: ol.easing.linear
-			});
-			map.beforeRender(pan, zoom);
-			view.setResolution(100);
-			view.setCenter(flyFrom);
-		}, 50);
-
-		// Fly to the answer
-		setTimeout(function() {
-			var speed = 1500;
-			var start = +new Date();
-			var pan = ol.animation.pan({
-				start: start,
-				duration: speed,
-				source: (view.getCenter()) //flyFrom
-			});
-			var zoom = ol.animation.zoom({
-				start: start,
-				duration: speed,
-				resolution: (view.getResolution()),
-				easing: ol.easing.linear
-			});
-			map.beforeRender(pan, zoom);
-			view.setResolution(100);
-			view.setCenter(flyTo);
-		}, 50);
-
-		// Fly to full map
-		setTimeout(function() {
-			var speed = 1000;
-			var start = +new Date();
-			var pan = ol.animation.pan({
-				start: start,
-				duration: speed,
-				source: (view.getCenter())
-			});
-			var zoom = ol.animation.zoom({
-				start: start,
-				duration: speed,
-				resolution: (view.getResolution()),
-				easing: ol.easing.linear
-			});
-			map.beforeRender(pan, zoom);
-			view.setResolution(
-				geoadmin.isLayoutHorizontal('#map') ? 500 : 650);
-			view.setCenter([660000, 190000]);
-		}, 2500);
-		*/
+			view.setResolution(view.getResolution()+75);
+		}, 100);
 
 	}, // -- startAnim
 
@@ -794,17 +733,6 @@ var guesser = {
 			      	url: 'images/G.png',
 			      	width: 32, height: 64
 			      })
-			    /*
-			      new ol.style.Shape({
-			        size: 20,
-			        fill: new ol.style.Fill({color: '#9d9', opacity:1}),
-			        opacity: 1,
-			        stroke: new ol.style.Stroke({
-			          color: '#3f3',
-			          width: 2,
-			          opacity: 1
-			        })
-			      }) */
 			    ]
 			  })
 			] }); // -- style
