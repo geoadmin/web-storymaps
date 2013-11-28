@@ -5,6 +5,7 @@ docs
 app/bower_components
 app/fonts/
 app/styles/*.css
+app/src/build/
 libpeerconnection.log
 
 *.sublime-workspace
