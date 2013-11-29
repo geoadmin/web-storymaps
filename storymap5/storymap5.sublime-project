@@ -11,7 +11,7 @@
 		},
 		{
 			"follow_symlinks": true,
-			"path": "/opt/localdev/geo/ol3/src"
+			"path": "/opt/localdev/geo/ol3"
 		}
 	],
 	"settings":
