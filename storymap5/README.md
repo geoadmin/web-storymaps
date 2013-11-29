@@ -33,13 +33,11 @@ For generating documentation, the [Pygments](http://pygments.org/) utility is re
 
 ## Install OpenLayers 3
 
-A build of the OpenLayers framework needs to be placed in the `app/src` directory, so that `app/src/build/ol-whitespace.js` is available at runtime. We are using the [custom build](https://github.com/geoadmin/ol3/) from GeoAdmin:
+A custom GeoAdmin build of the OpenLayers framework needs to be placed in the `app/src` directory, so that `app/src/build/ga.js` is available at runtime. We are using the [ga fork](https://github.com/geoadmin/ol3/):
 
-1. Check out [the project](https://github.com/geoadmin/ol3/), then build it using: 
-`$ python build.py build`
+1. Check out [geoadmin/ol3](https://github.com/geoadmin/ol3/), then build it using: 
+`$ python build-ga.py build`
 2. Copy the `build` folder to `storymap5/app/src`.
-
-Please note that under `app/src/ga` are AngularJS dependencies which may also need to be updated.
 
 ## Preparing data
 
