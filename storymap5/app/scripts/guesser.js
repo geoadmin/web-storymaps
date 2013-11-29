@@ -559,10 +559,12 @@ var guesser = {
 		// Update placement
 		var element = $(self.overlay.getElement());
 		this.position = evt.getCoordinate();
-		///console.log(this.position);
+		console.log(this.position);
 
-		element.css('background-image',
-			"url('images/" + (self.currentIndex+1) + ".png')");
+		element.css({
+			'background-image': "url('images/" + (self.currentIndex+1) + ".png')",
+			'margin-top': "-31px"
+		});
 		
 		element.popover('destroy');
 		self.overlay.setPosition(this.position);

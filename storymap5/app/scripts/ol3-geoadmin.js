@@ -1,7 +1,9 @@
-// Not necessary with 'ga.js'
+// Not necessary with ol.js or ga.js
+/*
 goog.require('ga.Map');
 goog.require('ga.layer');
 goog.require('ol.View2D');
+*/
 
 // Create a GeoAdmin Map
 var map, geoadmin = {};
@@ -22,8 +24,8 @@ geoadmin.init = function() {
     })
   });
   // Add GeoAdmin layers
-  // NB: 'ch.swisstopo.pixelkarte-farbe' no longer works..
-  var lyr = ga.layer.create('ch.swisstopo.swisstlm3d-karte-farbe');
+  // TODO: switch to ch.swisstopo.swisstlm3d-karte-farbe
+  var lyr = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
   map.addLayer(lyr);
 };
 
