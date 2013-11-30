@@ -24,8 +24,8 @@ geoadmin.init = function() {
     })
   });
   // Add GeoAdmin layers
-  // TODO: switch to ch.swisstopo.swisstlm3d-karte-farbe
-  var lyr = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
+  // TODO: switch to ch.swisstopo.swisstlm3d-karte-farbe ?
+  var lyr = ga.layer.create('ch.swisstopo.pixelkarte-farbe-pk1000.noscale');
   map.addLayer(lyr);
 };
 
@@ -55,7 +55,6 @@ geoadmin.getDistanceGeometric = function(A, B) {
   return pA.distanceTo(pB); // TODO: Unsuppoted in OpenLayers3
 };
 
-/*
 function getConfig(){ return {
   "ch.swisstopo.pixelkarte-farbe-pk1000.noscale": {
       "attribution": "swisstopo", 
@@ -78,4 +77,3 @@ function getConfig(){ return {
       "type": "wmts"
     }
 } }
-*/
