@@ -1,4 +1,3 @@
-
 function getURLParameter(key) {
     var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search); 
     return result && result[1] || ""; 
@@ -127,7 +126,7 @@ var i18n = {
 	"title": "Randa rockslide",
 	"Zusammenfassung" : "On 18 April 1991, around 15 million m3 of rock slid down to the valley near the town of Randa which is located in the Matter Valley. " +
 		         "The rocks were the size of houses and the drop height was 600 metres. " +
-			"The main cause of the rockslide was the effect of frost and thaw periods and increased water pressure in teh rock fissures. " +
+			"The main cause of the rockslide was the effect of frost and thaw periods and increased water pressure in the rock fissures. " +
       "Another landslide comprising a few million cubic metres of rock material occurred in Randa on 9 May of the same year. " +
       "A total of 33 million m3 of rock fell to the vallex in all of the rockslides (Mpa: Siegfriedkarte 1881; ",
   "Link LK25": "http://map.geo.admin.ch/?selectedNode=node_ch.swisstopo.pixelkarte-pk25.metadata1&Y=627542&X=104544&zoom=5&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.swisstopo.pixelkarte-pk25.metadata&layers_opacity=1&layers_visibility=true&time_current=latest&lang=en",
