@@ -95,7 +95,7 @@ var guesser = {
 	},
 
 	is: {
-		mobile: function() { return $(window).width() <= 768; }
+		mobile: function() { return $(window).width() <= 768 && $(window).height() < 1024; }
 	},
 
 	// ### User Interface setup
@@ -233,9 +233,9 @@ var guesser = {
 		frameheight -= headheight + footheight;
 		// Adjust height to fit screen
 		$('.container-main')
-			.css('height', parseInt(frameheight - 22) + 'px');
+			.css('height', parseInt(frameheight - 25) + 'px');
 		$('.d-photo', this.domPhotoBox)
-			.css('height', parseInt(frameheight - 23) + 'px');
+			.css('height', parseInt(frameheight - 26) + 'px');
 		//this.domPhotoBox.scrollTop(this.domPhotoBox.height()*2);
 		if (map && typeof map.updateSize == 'function') map.updateSize();
 	},
@@ -518,19 +518,14 @@ var guesser = {
 		$('.btn.overlay').addClass('hidden');
 
 		// On re-init, clear map
-		if (this.overlay != null) {
-			return;
-		}
+		if (this.overlay != null) { return; }
 		
 		// Save overlay content and clear
 		this.overlayhtml = this.domOverlay.html();
 		this.domOverlay.html('');
 
 		// Create an Overlay
-		this.overlay =
-			new ol.Overlay({
-				element: this.domOverlay[0]
-			});
+		this.overlay = new ol.Overlay({ element: this.domOverlay[0] });
 		olMap.addOverlay(this.overlay);
 
 		// Bind click event to map
@@ -559,7 +554,7 @@ var guesser = {
 		// Update placement
 		var element = $(self.overlay.getElement());
 		this.position = evt.getCoordinate();
-		console.log(this.position);
+		///console.log(this.position);
 
 		element.css({
 			'background-image': "url('images/" + (self.currentIndex+1) + ".png')",
