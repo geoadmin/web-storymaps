@@ -1,4 +1,3 @@
-
 function getURLParameter(key) {
     var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search); 
     return result && result[1] || ""; 
@@ -32,8 +31,7 @@ var i18n = {
 	"Zersiedelung": "Zersiedelung",
 	
 	"Bundesamt für Umwelt": "Bundesamt für Umwelt",
-	"Zustandsbericht Landschaft": "Zustandsbericht Landschaft",
-	"Zustand der Landschaft in der Schweiz": "Zustand der Landschaft in der Schweiz",
+	"Umweltzustand": "Umweltzustand: Landschaft",
 	"Indikator Landschaftszersiedelung": "Indikator Landschaftszersiedelung",
 	
 	"Bundesamt für Raumentwicklung": "Bundesamt für Raumentwicklung",
@@ -71,8 +69,7 @@ var i18n = {
 	"Zersiedelung": "Etalement urbain",
 	
 	"Bundesamt für Umwelt": "Office Fédéral de l'Environnement",
-	"Zustandsbericht Landschaft": "Rapport d’état sur les paysages",
-	"Zustand der Landschaft in der Schweiz": "L’état du paysage en Suisse",
+	"Umweltzustand": "Etat de l'environnement: paysage",
 	"Indikator Landschaftszersiedelung": "Indicateur mitage du paysage",
 	
 	"Bundesamt für Raumentwicklung": "Office fédéral du développement territorial",
@@ -108,8 +105,7 @@ var i18n = {
 	"Zersiedelung": "Espansione urbana",
 
 	"Bundesamt für Umwelt": "Ufficio federale dell'ambiente",
-	"Zustandsbericht Landschaft": "Rapporto sullo stato dell’ambiente Paesaggio",
-	"Zustand der Landschaft in der Schweiz": "Stato del paesaggio in Svizzera",
+	"Umweltzustand": "Stato dell'ambiente: paesaggio",
 	"Indikator Landschaftszersiedelung": "Indicatore Dispersione insediativa",
 	
 	"Bundesamt für Raumentwicklung": "Ufficio federale dello sviluppo territoriale",
@@ -145,8 +141,7 @@ var i18n = {
 	"Zersiedelung": "Urban sprawl",
 	
 	"Bundesamt für Umwelt": "Federal Office for the Environment",
-	"Zustandsbericht Landschaft": "Status Report on Landscape",
-	"Zustand der Landschaft in der Schweiz": "Status on Landscape in Switzerland",
+	"Umweltzustand": "Environmental state: Landscape",
 	"Indikator Landschaftszersiedelung": "Indicator Urban sprawl",
 	
 	"Bundesamt für Raumentwicklung": "Federal Office for Spatial Development",
