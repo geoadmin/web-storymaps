@@ -249,11 +249,6 @@
 <noscript><p class="browsehappy">Please enable JavaScript to use this app.</p></noscript>
 <script language="JavaScript">/* Quirks mode / ancient IE */ if (document.documentMode && document.documentMode < 8 && window.confirm("Please upgrade your browser to use this website.")) document.location.href = "http://browsehappy.com/"; </script>
 
-<!-- OpenLayers 3 and extensions -->
-<!--script src="http://ol3js.org/en/master/build/ol.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/proj4js/1.1.0/defs/EPSG21781.js" type="text/javascript"></script>-->
-<script src="http://cdnjs.cloudflare.com/ajax/libs/proj4js/1.1.0/proj4js-compressed.js" type="text/javascript"></script>
-
 <!-- build:js scripts/vendor/bootstrap.js -->
 <script src="bower_components/jquery/jquery.js"></script>
 <script src="bower_components/bootstrap/js/affix.js"></script>
@@ -274,9 +269,11 @@
 <script src="bower_components/i18next/release/i18next-1.7.1.min.js"></script>
 <!-- endbuild -->
 
-<!-- build:js scripts/swissguesser.js -->
+<!-- OpenLayers for GeoAdmin -->
 <script src="scripts/ol3-geoadmin.js"></script>
-<script src="src/build/ga-whitespace.js"></script>
+<script src="src/build/ga.js"></script>
+
+<!-- build:js scripts/swissguesser.js -->
 <script src="scripts/guesser.js"></script>
 <!-- endbuild -->
 
