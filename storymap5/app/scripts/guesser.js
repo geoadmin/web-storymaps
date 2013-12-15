@@ -707,74 +707,58 @@ var guesser = {
 	// ### Creates vector feature for a guess
 	getVector: function(label, from, to) {
 		var imageUrl = 'images/' + label + '.png';
-		var style = new ol.style.Style({ 
-			rules: [
+		var style = new ol.style.Style({ rules: [
 				// Lines
-			  new ol.style.Rule({
-			  	filter: 'geometryType("linestring")',
-			    symbolizers: [
-			      new ol.style.Stroke({
-			        color: '#f70',
-			        width: 3,
-			        opacity: 1
-			      })
-			    ]
-			  }),
-			  // Starting point
-			  new ol.style.Rule({
-			    filter: 'geometryType("point") && which == "guess"',
-			    symbolizers: [
-			      new ol.style.Icon({
-			      	url: imageUrl,
-			      	width: 32, height: 64
-			      })
-			    ]
-			  }),
-			  // Ending point 
-			  new ol.style.Rule({
-			    filter: 'geometryType("point") && which == "answer"',
-			    symbolizers: [
-			    	new ol.style.Icon({
-			      	url: 'images/G.png',
-			      	width: 32, height: 64
-			      })
-			    ]
-			  })
+				new ol.style.Rule({
+					filter: 'geometryType("LineString")',
+					symbolizers: [ new ol.style.Stroke({
+						color: '#f70',
+						width: 3,
+						opacity: 1
+					}) ]
+				}),
+				// Starting point
+				new ol.style.Rule({
+					filter: 'geometryType("Point") && which == "guess"',
+					symbolizers: [ new ol.style.Icon({
+						url: imageUrl,
+						width: 32, height: 64
+					}) ]
+				}),
+				// Ending point 
+				new ol.style.Rule({
+					filter: 'geometryType("Point") && which == "answer"',
+					symbolizers: [ new ol.style.Icon({
+						url: 'images/G.png',
+						width: 32, height: 64
+					}) ]
+				})
 			] }); // -- style
 		
 		var features = [
-				{
-					// Starting point (the guess)
-					type: 'Feature',
-					properties: { 
-						label: label, which: 'guess' },
-					geometry: {
-						type: 'Point', coordinates: from }
-				},{
-					// Ending point (the real answer)
-					type: 'Feature',
-					properties: {
-						label: label, which: 'answer' },
-					geometry: {
-						type: 'Point', coordinates: to }
-				},{
-					// Line from A to B
-					type: 'Feature',
-					properties: { color: '#fff' },
-					geometry: {
-						type: 'LineString', coordinates: [from, to] }
-				}
-			];
+			new ol.Feature({
+				// Starting point (the guess)
+				label: label, which: 'guess',
+				geometry: new ol.geom.Point(from)
+			}),
+			new ol.Feature({
+				// Ending point (the real answer)
+				label: label, which: 'answer',
+				geometry: new ol.geom.Point(to)
+			}),
+			new ol.Feature({
+				// Line from A to B
+				color: '#fff',
+				geometry: new ol.geom.LineString([from, to])
+			})
+		];
 
 		return new ol.layer.Vector({
-				style: style,
-				source: new ol.source.Vector({
-				 parser: new ol.parser.GeoJSON(),
-				 projection: map.getView().getProjection(),
-				 data: { type: 'FeatureCollection',
-				         features: features }
-				})
-	 		});
+			style: style,
+			source: new ol.source.Vector({
+			 features: features
+			})
+ 		});
 	} // -- getVector
 };
 
