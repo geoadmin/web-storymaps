@@ -529,7 +529,7 @@ var guesser = {
 		olMap.addOverlay(this.overlay);
 
 		// Bind click event to map
-		olMap.on('click', function(evt) { guesser.place(evt); });
+		olMap.on('singleclick', function(evt) { guesser.place(evt); });
 
 	}, // -- challenge
 
