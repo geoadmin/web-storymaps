@@ -457,7 +457,11 @@ var guesser = {
 		$('input', shareform).hide().val(permalink);
 		$('input, button', shareform).click(function() {
 			var slink = $('.sharebox .shareform input').fadeIn()[0];
-			if (slink) slink.select(); // HTML5 does not yet support copy
+			// In most browsers just do a handy select
+			if (slink) slink.select();
+			// If access to clipboard is supported
+			if (window.clipboardData) 
+				window.clipboardData.setData('URL', permalink);
 		});
 		$('a', shareform).attr('href', permalink).click(function(evt) {
 			evt.preventDefault();
