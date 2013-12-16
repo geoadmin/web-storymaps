@@ -25,11 +25,9 @@
 <script type="text/javascript" src="js/jquery.tipsy.js"></script>
 <script type="text/javascript" src="js/OpenLayers.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<!--
 <![if  (gte IE 9) | (!IE)]> 
 <script type="text/javascript" src="js/d3.v3.min.js"></script>
 <![endif]>
--->
 <title>Der Bergsturz von Randa</title>
 
 <!-- css files -->
@@ -85,94 +83,92 @@
 	</div>
 
 	<!-- header mobile -->
-	<div id="header-mobile" >
-		<div class="navbar">
-  		<div class="navbar-inner">
-    		<div class="container" style="text-align: left;">
-					<a class="brand"  href="http://geo.admin.ch" target="_blank"><img id="ch" src="img/admin.png" style="height: 25px;"></a>
-      		<a style="text-align: left;" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse" data-original-title="" title="">
-						<span class="icon-bar"></span>
-        		<span class="icon-bar"></span>
-        		<span class="icon-bar"></span>
-      		</a>
-      		<div style="text-align: left;" class="nav-collapse collapse" id="spanClasses" style="height: auto;">
-        		<ul class="nav">
-							<li><a id="moreInfo" class="multilang docol" href="#">{{moreInfo}}</a></li>  
-							<li class="dropdown open">
-								<a id="language" class="dropdown-toggle multilang">{{language}}</a>	
-								<ul class="dropdown-menu">
-									<li><a href="index.html?lang=de">Deutsch</a></li> 
-									<li><a href="index.html?lang=fr">Français</a></li> 
-									<li><a href="index.html?lang=it">Italiano</a></li> 
-									<li><a href="index.html?lang=en">English</a></li> 
-								</ul>
-							</li>
-							<li class="dropdown open">  
-              	<a id="share" class="dropdown-toggle multilang">{{share}}</a>  
+    <div id="header-mobile" >
+        <div class="navbar">
+        <div class="navbar-inner">
+            <div class="container" style="text-align: left;">
+                    <a class="brand"  href="http://geo.admin.ch" target="_blank"><img id="ch" src="img/admin.png" style="height: 25px;"></a>
+            <a style="text-align: left;" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse" data-original-title="" title="">
+                        <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <div style="text-align: left;" class="nav-collapse collapse" id="spanClasses" style="height: auto;">
+                <ul class="nav">
+                            <li><a id="moreInfo" class="multilang docol" href="#">{{moreInfo}}</a></li>  
+                            <li class="dropdown open">
+                                <a id="language" class="dropdown-toggle multilang">{{language}}</a> 
+                                <ul class="dropdown-menu">
+                                    <li><a href="index.html?lang=de">Deutsch</a></li> 
+                                    <li><a href="index.html?lang=fr">Françs</a></li> 
+                                    <li><a href="index.html?lang=it">Italiano</a></li> 
+                                    <li><a href="index.html?lang=en">English</a></li> 
+                                </ul>
+                            </li>
+                            <li class="dropdown open">  
+                <a id="share" class="dropdown-toggle multilang">{{share}}</a>  
                 <ul class="dropdown-menu">  
-									<li><a href="http://www.facebook.com/sharer.php?u=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap6/?&t=geo.admin.ch%20Storymaps" title="Facebook" target="_blank"><img class="icon" src="./img/facebook_big.png" alt="Facebook">  Facebook</a></li> 
-									<li><a href="http://twitter.com/intent/tweet?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap6/&t=geo.admin.ch%20Storymaps" title="Twitter" target="_blank"><img class="icon" src="./img/twitter_big.png" alt="Facebook">  Twitter</a></li> 
-									<li><a href="https://plus.google.com/share?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap6/&t=geo.admin.ch%20Storymaps" title="Google+" target="_blank"><img class="icon" src="./img/googleplus_big.png" alt="Google+">  Google+</a></li> 
+                                    <li><a href="http://www.facebook.com/sharer.php?u=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap6/?&t=geo.admin.ch%20Storymaps" title="Facebook" target="_blank"><img class="icon" src="./img/facebook_big.png" alt="Facebook">  Facebook</a></li> 
+                                    <li><a href="http://twitter.com/intent/tweet?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap6/&t=geo.admin.ch%20Storymaps" title="Twitter" target="_blank"><img class="icon" src="./img/twitter_big.png" alt="Facebook">  Twitter</a></li> 
+                                    <li><a href="https://plus.google.com/share?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap6/&t=geo.admin.ch%20Storymaps" title="Google+" target="_blank"><img class="icon" src="./img/googleplus_big.png" alt="Google+">  Google+</a></li> 
                 </ul>  
-              </li>	
-      			</ul>
-					</div>
-   			</div>
-  		</div>
-		</div>	
-	</div>
-	
-
-
-	<div id="map" style="position: absolute; left: 0px; top: 123px; width: 100%; bottom: 0; min-height: 580px;">
-		
-		<div id="infobox">
-			<div id="close_box" style="position: absolute; right: 8px; top: 8px; cursor: pointer;">
-				<svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
-					<g>
-						<path id="svg_1" d="m3.13264,16.88795c-3.7922,-3.81782 -3.7922,-10.00817 0,-13.82607c3.79341,-3.81782 9.94103,-3.81782 13.73441,0c3.79223,3.81785 3.79223,10.00824 0,13.82607c-3.79337,3.81839 -9.941,3.81839 -13.73441,0zm12.01788,-12.09795c-2.84504,-2.86366 -7.45632,-2.86366 -10.30019,0c-2.84503,2.86366 -2.84503,7.50617 0,10.36983c2.84386,2.86369 7.45515,2.86369 10.30019,0c2.84393,-2.86373 2.84393,-7.50618 0,-10.36983zm-7.72543,9.50579l-1.71652,-1.72869l2.57476,-2.5922l-2.57476,-2.59216l1.71652,-1.72873l2.57476,2.59277l2.5748,-2.59277l1.71648,1.72873l-2.57476,2.59216l2.57476,2.5922l-1.71648,1.72869l-2.5748,-2.59277l-2.57476,2.59277z" fill="white"/>
-					</g>
-				</svg>
-			</div>
-    	<div class="title"><h1 class="infobox multilang" data-i18n="text.infoboxTitle">{{title}}</h1></div>
-      <div class="abstract">
-      	<div class="inner">
-        	{{Zusammenfassung}}<a href="{{Link LK25}}" target="_blank">VS 1:25 000</a> + <a href="{{href Geotope}}" target="_blank">{{Link Geotope}}</a>).
+              </li> 
+                </ul>
+                    </div>
+            </div>
         </div>
-			</div>
-			<div class="moreinfo">
-				<div class="inner">
-        	<h2>{{Weitere Infos}}</h2>
-  				<p>{{PLANAT}}</br>
-  				<ul>
-  				<li><a href="{{href PLANAT}}" target="_blank">{{Info Bergsturz von Randa}}</a></li>
-  				</ul>
-  				</p>
-  				<p>{{swisstopo}}</br>
-  				<ul>
-  				<li><a href="{{href Kartenviewer}}" target="_blank">{{Link Kartenviewer}}</a></br></li>
-    			<li><a href="{{href Geologie}}" target="_blank">{{Link Geologie}}</br></a></li>
-    			<li><a href="{{href Zeitreihenviewer}}" target="_blank">{{Link Zeitreiseviewer}}</a></br></li>
-    			<li><a href="{{href Luftbild}}" target="_blank">{{Randa im Luftbild}}</a></br></li>
-    			<li><a href="{{href Geotope}}" target="_blank">{{Link Geotope}}</a></br></li>
-    			</ul>	
-    			</p>
-  				<p>{{BAFU}}</br>
-  				<ul>
-  				<li><a href="{{href BAFU}}" target="_blank">{{Link BAFU}}</a></li>
-  				</ul>
-  				</p>
-	  		</div>
-			</div>
+        </div>  
+    </div>
+    
+    <div id="map" style="position: absolute; left: 0px; top: 123px; width: 100%; bottom: 0; min-height: 580px;">
+        <div id="infobox">
+            <div id="close_box" style="position: absolute; right: 8px; top: 8px; cursor: pointer;">
+                <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <path id="svg_1" d="m3.13264,16.88795c-3.7922,-3.81782 -3.7922,-10.00817 0,-13.82607c3.79341,-3.81782 9.94103,-3.81782 13.73441,0c3.79223,3.81785 3.79223,10.00824 0,13.82607c-3.79337,3.81839 -9.941,3.81839 -13.73441,0zm12.01788,-12.09795c-2.84504,-2.86366 -7.45632,-2.86366 -10.30019,0c-2.84503,2.86366 -2.84503,7.50617 0,10.36983c2.84386,2.86369 7.45515,2.86369 10.30019,0c2.84393,-2.86373 2.84393,-7.50618 0,-10.36983zm-7.72543,9.50579l-1.71652,-1.72869l2.57476,-2.5922l-2.57476,-2.59216l1.71652,-1.72873l2.57476,2.59277l2.5748,-2.59277l1.71648,1.72873l-2.57476,2.59216l2.57476,2.5922l-1.71648,1.72869l-2.5748,-2.59277l-2.57476,2.59277z" fill="white"></path>
+                    </g>
+                </svg>
+            </div>
+        <div class="title"><h1 class="infobox multilang" data-i18n="text.infoboxTitle">{{title}}</h1></div>
+      <div class="abstract">
+        <div class="inner">
+            {{Zusammenfassung}}<a href="{{Link LK25}}" target="_blank">VS 1:25 000</a> + <a href="{{href Geotope}}" target="_blank">{{Link Geotope}}</a>).
+        </div>
+            </div>
+            <div class="moreinfo">
+                <div class="inner">
+            <h2>{{Weitere Infos}}</h2>
+                <p>{{PLANAT}}
+                  <ul>
+                   <li><a href="{{href PLANAT}}" target="_blank">{{Info Bergsturz von Randa}}</a></li>
+                  </ul>
+                </p>
+                <p>{{swisstopo}}
+                  <ul>
+                 <li><a href="{{href Kartenviewer}}" target="_blank">{{Link Kartenviewer}}</a><br/></li>
+                 <li><a href="{{href Geologie}}" target="_blank">{{Link Geologie}}</a><br/></li>
+                   <li><a href="{{href Zeitreihenviewer}}" target="_blank">{{Link Zeitreiseviewer}}</a><br/></li>
+                   <li><a href="{{href Luftbild}}" target="_blank">{{Randa im Luftbild}}</a><br/></li>
+                   <li><a href="{{href Geotope}}" target="_blank">{{Link Geotope}}</a><br/></li>
+                 </ul>  
+                </p>
+                <p>{{BAFU}}
+                <ul>
+                <li><a href="{{href BAFU}}" target="_blank">{{Link BAFU}}</a></li>
+                </ul>
+                </p>
+            </div>
+            </div>
       <div class="colophon">
-      	<div class="inner">
-					<ul>
-						<li>{{Realized with}}: <a href="http://api.geo.admin.ch" target="_blank">api.geo.admin.ch</a></br>
-						<li><a href="http://www.geo.admin.ch/internet/geoportal/en/home/geoadmin/contact.html#copyright" target="_blank">{{Copyright and Data protection}}</a></br>
-					</ul>
-      	</div>
-			</div>
-		</div>
+        <div class="inner">
+                    <ul>
+                        <li>{{Realized with}}: <a href="http://api.geo.admin.ch" target="_blank">api.geo.admin.ch</a><br/></li>
+                        <li><a href="http://www.geo.admin.ch/internet/geoportal/en/home/geoadmin/contact.html#copyright" target="_blank">{{Copyright and Data protection}}</a><br/></li>
+                    </ul>
+        </div>
+            </div>
+        </div>
+    </div>
 </div>
 <script type="text/javascript" src="http://api.geo.admin.ch/loader.js"></script>
 <script type="text/javascript" src="js/storymap.js"></script>
