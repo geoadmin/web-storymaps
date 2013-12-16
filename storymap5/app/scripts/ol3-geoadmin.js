@@ -24,8 +24,7 @@ geoadmin.init = function() {
     })
   });
   // Add GeoAdmin layers
-  // TODO: switch to ch.swisstopo.swisstlm3d-karte-farbe ?
-  var lyr = ga.layer.create('ch.swisstopo.pixelkarte-farbe-pk1000.noscale');
+  var lyr = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
   map.addLayer(lyr);
 };
 
@@ -33,6 +32,7 @@ geoadmin.reset = function() {
   map.getView().setResolution(
     geoadmin.isLayoutHorizontal('#map') ? 500 : 650);
   map.getView().setCenter([660000, 190000]);
+  map.getView().setRotation(0);
 };
 
 geoadmin.isLayoutHorizontal = function(obj) {
@@ -54,26 +54,3 @@ geoadmin.getDistanceGeometric = function(A, B) {
   var pB = new ol.geom.Point(B); //.transform(proj, merc);
   return pA.distanceTo(pB); // TODO: Unsuppoted in OpenLayers3
 };
-
-function getConfig(){ return {
-  "ch.swisstopo.pixelkarte-farbe-pk1000.noscale": {
-      "attribution": "swisstopo", 
-      "attributionUrl": "http://www.swisstopo.admin.ch/internet/swisstopo/de/home.html", 
-      "background": false, 
-      "format": "jpeg", 
-      "hasLegend": true, 
-      "highlightable": true, 
-      "label": "Landeskarte 1:1 Mio.", 
-      "queryable": false, 
-      "searchable": false, 
-      "serverLayerName": "ch.swisstopo.pixelkarte-farbe-pk1000.noscale", 
-      "staging": "prod", 
-      "timeBehaviour": "last", 
-      "timeEnabled": false, 
-      "timestamps": [
-        "20120809", 
-        "20111027"
-      ], 
-      "type": "wmts"
-    }
-} }

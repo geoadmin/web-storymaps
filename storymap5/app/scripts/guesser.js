@@ -531,6 +531,11 @@ var guesser = {
 		// Bind click event to map
 		olMap.on('singleclick', function(evt) { guesser.place(evt); });
 
+		// Prevent rotation (due to iOS vector bug)
+		map.getView().on('change:rotation', function() {
+			setTimeout(function() {	map.getView().setRotation(0); }, 100);
+		});
+
 	}, // -- challenge
 
 	// ### Clear map of answers
