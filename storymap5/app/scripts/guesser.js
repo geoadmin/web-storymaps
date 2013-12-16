@@ -456,7 +456,8 @@ var guesser = {
 		var shareform = $('.shareform', shb);
 		$('input', shareform).hide().val(permalink);
 		$('input, button', shareform).click(function() {
-			$('input', shareform).fadeIn()[0].select(); // HTML5 does not yet support copy
+			var slink = $('.sharebox .shareform input').fadeIn()[0];
+			if (slink) slink.select(); // HTML5 does not yet support copy
 		});
 		$('a', shareform).attr('href', permalink).click(function(evt) {
 			evt.preventDefault();
