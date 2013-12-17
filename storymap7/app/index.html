@@ -1,0 +1,290 @@
+<!--[if HTML5]><![endif]-->
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<!--[if !HTML5]>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<![endif]-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+	<link href="http://www.swisstopo.admin.ch/internet/swisstopo.ConfigFavicon.ico" type="image/x-icon" rel="Shortcut Icon">
+
+	<title>SwissGuesser</title>
+	<meta name="description" content="StoryMaps: Data Stories is a showcase of web maps on interesting themes, with information, learning, entertainment and inspiring stories linked to the use of geodata at the center of interest"/>
+	<!-- Facebook tags -->
+	<meta property="og:site_name" content="geo.admin.ch storymaps"/>
+	<meta property="og:image" content="http://storymaps.geo.admin.ch/storymaps/storymap5/images/preview.jpg" /> 
+	<meta property="og:title" content="SwissGuesser: photo collection from World War I" /> 
+	<meta property="og:description" content="StoryMaps: Data Stories is a showcase of web maps on interesting themes, with information, learning, entertainment and inspiring stories linked to the use of geodata at the center of interest">
+	<!-- Google+ tags -->
+	<meta itemprop="name" content="SwissGuesser: photo collection from World War I">
+	<meta itemprop="description" content="StoryMaps: Data Stories is a showcase of web maps on interesting themes, with information, learning, entertainment and inspiring stories linked to the use of geodata at the center of interest">
+	<meta itemprop="image" content="http://storymaps.geo.admin.ch/storymaps/storymap5/images/preview.jpg">
+
+	<!-- OpenLayers 3 for GeoAdmin -->
+	<link rel="stylesheet" href="src/build/ol.css" type="text/css">
+	<!-- Compiled page styles -->
+	<link rel="stylesheet" href="styles/main.css">
+	<!-- build:js scripts/vendor/modernizr.js -->
+	<script src="bower_components/modernizr/modernizr.js"></script>
+	<!-- endbuild -->
+</head>
+<body>
+
+<nav id="header" class="navbar navbar-fixed-top" role="navigation"><div class="container">
+	<div class="webBlindThis">
+		Accesskeys:
+		<ul>
+		<li><a href="/" accesskey="0">Zur Startseite</a></li>
+		<li><a href="http://www.geo.admin.ch/internet/geoportal/de/tools/contact.html" accesskey="1">Zum Kontakt</a></li>
+		<li><a href="http://www.geo.admin.ch/internet/geoportal/de/tools/sitemap.html" accesskey="2">Zur Übersicht</a></li>
+		<li><a href="http://www.geo.admin.ch/internet/geoportal/de/tools/what_where.html" accesskey="3">Zur Suche</a></li>
+		</ul>
+	</div>
+	<div class="navbar-header logo">
+		<h1 class="navbar-brand" href="#" data-i18n="App-Title" style="display:none">SwissGuesser</h1>
+
+		<div id="webHeaderDiv">
+			<!--UdmComment-->
+			<div id="webHeaderLinks">
+			<div id="adminch"><a href="http://www.admin.ch/" data-i18n="Head-CH">Bundesverwaltung admin.ch</a></div>
+			<div id="depart"><a href="http://www.edi.admin.ch/" data-i18n="Head-EDI">Eidg. Departement des Innern</a></div>
+			<a href="http://www.bar.admin.ch/" data-i18n="Head-BAR">Schweizerisches Bundesarchiv</a>
+			</div>
+			<!--/UdmComment-->
+		</div>
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+			<span class="sr-only" data-i18n="App-Menu">Menu</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<div class="navbar-toggle mobile-switch">
+			<button class="btn btn-default active" type="button" data-target="#d-photobox" data-i18n="Toggle-Photo">Photo</button>
+			<button class="btn btn-default" type="button" data-target="#column-map" data-i18n="Toggle-Map">Map</button>
+		</div>
+	</div>
+	<div class="navServiceBackground">
+	<ul class="inline-list">
+		<li><b>Share:</b></li>
+		<li><a href="http://www.facebook.com/sharer.php?u=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap5/" title="Facebook"><img src="images/social/facebook.gif" alt="Facebook" width="13" height="13"></a></li> 
+		<li><a href="http://twitter.com/intent/tweet?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap5" title="Twitter"><img src="images/social/twitter.gif" alt="Facebook" width="13" height="13"></a></li> 
+		<li><a href="http://google.com/bookmarks/mark?op=edit&amp;bkmk=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap5" title="Google Bookmarks"><img src="images/social/google.gif" alt="Google Bookmarks" width="13" height="13"></a></li> 
+		<li><a href="https://plus.google.com/share?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap5" title="Google+"><img src="images/social/googleplus.gif" alt="Google+" width="13" height="13"></a></li> 
+		<li class="spacer"></li>
+		<li><a tabindex="-1" href="?lang=de">Deutsch</a></li>
+		<li class="pipe">&nbsp;</li>
+	    <li><a tabindex="-1" href="?lang=fr">Français</a></li>
+	    <li class="pipe">&nbsp;</li>
+	    <li><a tabindex="-1" href="?lang=it">Italiano</a></li>
+	    <li class="pipe">&nbsp;</li>
+		<li><a tabindex="-1" href="?lang=en">English</a></li>
+	</ul>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-main"><ul class="nav navbar-nav pull-right">
+		<li>
+			<a href="#" data-target="#d-start" data-toggle="modal" data-i18n="App-About">About</a>
+		</li>
+		<li class="dropdown" id="language">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#"><span data-i18n="App-Lang">Language</span> <span class="caret"></span></a>
+			<ul class="dropdown-menu" aria-labelledby="language">
+			    <li><a tabindex="-1" href="?lang=de" lang="de">Deutsch</a></li>
+			    <li><a tabindex="-1" href="?lang=fr" lang="fr">Français</a></li>
+			    <li><a tabindex="-1" href="?lang=it" lang="it">Italiano</a></li>
+				<li><a tabindex="-1" href="?lang=en" lang="en">English</a></li>
+			</ul>
+		</li>
+		<li class="dropdown">
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="language"><span data-i18n="App-Share">Share</span> <span class="caret"></span></a>
+			<ul class="dropdown-menu" aria-labelledby="language">
+				<li><a href="http://www.facebook.com/sharer.php?u=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap5/"tabindex="-1"><img class="icon" src="images/social/facebook_big.png" width="64" height="64"> Facebook</a></li> 
+				<li><a href="http://twitter.com/intent/tweet?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap5" tabindex="-1"><img class="icon" src="images/social/twitter_big.png" width="64" height="64"> Twitter</a></li>
+				<li><a href="https://plus.google.com/share?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap5" tabindex="-1"><img class="icon" src="images/social/googleplus_big.png" width="64" height="64"> Google+</a></li>
+			</ul>
+		</li>
+	</ul></div>
+</div></nav>
+
+<div class="container container-main">
+<div class="col-md-12 hidden" id="loading" data-i18n="Start-Loading">
+	Please wait, loading ...
+</div>
+<div class="col-md-6 on hidden" id="d-photobox">
+
+	<div class="d-photo">
+		<a data-toggle="modal" href="#d-lightbox">
+			<span class="glyphicon glyphicon-fullscreen"></span>
+		</a>
+	</div>
+	<div class="d-copyright">
+		&copy;
+		<a href="http://www.swiss-archives.ch" data-i18n="Photo-Copyright"></a>
+	</div>
+	<p class="hidden">
+	  <span class="d-photo-text" data-i18n="Photo-Text"></span>
+	  <a href="#map"><span class="glyphicon glyphicon-map-marker"></span></a>
+	</p>
+
+	<div id="d-result" class="overlay hidden alert alert-warning">
+		<!--<img>-->
+		<p>
+		  <span data-i18n="Result-Score"></span> 
+		  <b class="distance"></b> 
+		  <span data-i18n="Result-From">km from the correct location and got</span>
+		  <b class="score"></b> 
+		  <span data-i18n="Result-Points">points.</span>
+		  <span class="comment"></span>
+		</p>
+
+		<p class="info"></p>
+
+		<div id="v-finish" class="hidden">
+			<p class="message"></p>
+
+			<div class="sharebox">
+				<form class="shareicon shareform">
+					<button type="button" class="btn btn-default btn-sm btn-copy">
+						<input type="text" name="url">
+						<a>Link</a></button>
+				</form>
+
+				<div class="shareicon">
+					<button type="button" class="btn btn-default btn-sm btn-twitter">
+						<span class="icon-twitter"></span>
+						Tweet</button>
+				</div>
+
+				<div class="shareicon">
+					<button type="button" class="btn btn-default btn-sm btn-facebook">
+						<span class="glyphicon glyphicon-thumbs-up"></span>
+						Like</button>
+				</div>
+
+				<div class="shareicon">
+					<button type="button" class="btn btn-default btn-sm btn-email">
+						<span class="glyphicon glyphicon-envelope"></span> 
+						E-mail</button>
+				</div>
+			</div><!-- /sharebox -->
+
+		</div><!-- /v-finish -->
+	</div><!-- /d-result -->
+
+</div><!-- /#d-photobox -->
+<div class="col-md-6" id="column-map">
+
+  <div id="map" class="map"></div>
+
+  <div style="display:none">
+	  <div id="map-overlay"></div>
+  </div>
+  
+</div><!-- /.column-map -->
+<div class="col-md-12 hidden" id="row-info">
+
+	<div class="mobile-switch">
+		<button class="btn btn-default" type="button" data-target="#column-map" data-i18n="Game-Guess">Guess</button>
+
+		<button id="btn-guess" class="btn btn-primary hidden" type="button" data-target="#column-map" data-i18n="Game-Confirm">Confirm</button>
+
+		<button id="btn-continue-mobile" class="btn btn-primary hidden" type="button" data-target="#d-photobox" data-i18n="Result-Continue">Continue</button>
+
+		<button id="btn-continue" class="btn btn-primary hidden" type="button" data-target="#d-photobox" data-dismiss="modal" data-i18n="Result-Continue">Continue</a>
+
+		<button id="btn-finish" type="button" class="btn btn-primary hidden" onClick="location.href='?'" data-i18n="Finish-Restart">New Game</button>
+	</div>
+
+	<button type="button" class="btn btn-default restart" onClick="location.href='?'" data-i18n="Photo-Restart"></button>
+
+	<p><span data-i18n="Result-Total"></span> <span class="total"></span></p>
+
+	<h4 id="label-photo" class="panel-title">
+		<span data-i18n="Photo-Counter"></span> <span class="image-count"></span>
+		/ <span class="image-total"></span>
+	</h4>
+
+</div><!-- /.row-info -->
+</div><!-- /container -->
+
+<div id="d-start" class="modal" aria-labelledby="label-intro" aria-hidden="true" tabindex="-1" role="dialog">
+	<div class="modal-dialog">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" href="#d-photobox" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<span data-i18n="Start-Title"></span>
+		</div>
+		<div class="modal-body">
+			<p data-i18n="[html]Start-Text;"></p>
+			<p class="modal-divider">
+				<span data-i18n="Start-Credit"></span>: 
+				<a href="http://api.geo.admin.ch/" target="_blank">api.geo.admin.ch</a><br>
+				<a id="s-copyright" href="http://www.geo.admin.ch/internet/geoportal/de/home/geoadmin/contact.html#copyright" target="_blank"><span data-i18n="Start-Copyright"></span></a>
+			</p>
+		</div>
+		<div class="modal-footer">
+			<button id="btn-start" type="button" class="btn btn-primary" href="#d-photobox" data-dismiss="modal" data-i18n="Game-Start">Start</button>
+			<button id="btn-close" type="button" class="btn btn-primary hidden"data-dismiss="modal" data-i18n="Game-Close">Close</button>
+		</div>
+	</div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div id="d-lightbox" class="modal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="lightbox-content">
+		<button type="button" class="close" data-dismiss="modal" data-toggle="modal" aria-hidden="true">&times;</button>
+		<a href="#" data-dismiss="modal"><img draggable="false" width="100%" /></a>
+	</div>
+</div>
+
+<!--[if lte IE 8]>
+<p class="browsehappy">
+	<button type="button" class="close" onclick="$(this).parent().remove()" aria-hidden="true">&times;</button>
+	<span data-i18n="App-Warning">You are using an outdated browser. Please upgrade to improve your experience.</span>
+	<a href="http://browsehappy.com/">browsehappy.com</a>
+</p>
+<![endif]-->
+<noscript><p class="browsehappy">Please enable JavaScript to use this app.</p></noscript>
+<script language="JavaScript">/* Quirks mode / ancient IE */ if (document.documentMode && document.documentMode < 8 && window.confirm("Please upgrade your browser to use this website.")) document.location.href = "http://browsehappy.com/"; </script>
+
+<!-- OpenLayers 3 and extensions -->
+<!--script src="http://ol3js.org/en/master/build/ol.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/proj4js/1.1.0/defs/EPSG21781.js" type="text/javascript"></script>-->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/proj4js/1.1.0/proj4js-compressed.js" type="text/javascript"></script>
+
+<!-- OpenLayers 3 for GeoAdmin -->
+<script>
+	window.CLOSURE_BASE_PATH = './src/'; 
+	window.CLOSURE_NO_DEPS = true;
+</script>
+<script src="src/build/ol-whitespace.js"></script>
+
+<!-- build:js scripts/vendor/bootstrap.js -->
+<script src="bower_components/jquery/jquery.js"></script>
+<script src="bower_components/bootstrap/js/affix.js"></script>
+<script src="bower_components/bootstrap/js/alert.js"></script>
+<script src="bower_components/bootstrap/js/dropdown.js"></script>
+<script src="bower_components/bootstrap/js/tooltip.js"></script>
+<script src="bower_components/bootstrap/js/modal.js"></script>
+<script src="bower_components/bootstrap/js/transition.js"></script>
+<script src="bower_components/bootstrap/js/button.js"></script>
+<script src="bower_components/bootstrap/js/popover.js"></script>
+<script src="bower_components/bootstrap/js/carousel.js"></script>
+<script src="bower_components/bootstrap/js/scrollspy.js"></script>
+<script src="bower_components/bootstrap/js/collapse.js"></script>
+<!--<script src="bower_components/bootstrap/js/tab.js"></script>-->
+<!-- endbuild -->
+
+<!-- build:js scripts/i18next.js -->
+<script src="bower_components/i18next/release/i18next-1.7.1.min.js"></script>
+<!-- endbuild -->
+
+<!-- build:js scripts/swissguesser.js -->
+<script src="scripts/ol3-geoadmin.js"></script>
+<script src="scripts/guesser.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>
