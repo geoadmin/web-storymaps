@@ -2,20 +2,20 @@ id,de,fr,it,en
 App-About,Informationen,Informations,Informazioni,Information
 App-Lang,Sprache,Langue,Lingua,Language
 App-Share,Teilen,Partager,Condividere,Share
-App-Warning,"Sie verwenden einen veralteten Browser. Um die website in vollem Umfang nutzen zu können, empfehlen wir Ihnen, einen neueren Browser zu installieren.","Vous utilisez un navigateur trop ancien. Pour utiliser toute les possibilités de ce site web, nous vous conseillons d'installer un navigateur plus récent.","Si sta utilizzando un browser non completamente supportato. Per sfruttare appieno le funzionalità di questo sito web, consigliamo di installare un browser più recente",You are using an outdated browser. Please upgrade your browser to improve your experience.
+App-Warning,Sie verwenden einen veralteten Browser. Um die website in vollem Umfang nutzen zu können, empfehlen wir Ihnen, einen neueren Browser zu installieren.,Vous utilisez un navigateur trop ancien. Pour utiliser toute les possibilités de ce site web, nous vous conseillons d'installer un navigateur plus récent.,Si sta utilizzando un browser non completamente supportato. Per sfruttare appieno le funzionalità di questo sito web, consigliamo di installare un browser più recente,You are using an outdated browser. Please upgrade your browser to improve your experience.
 Finish-Email,E-mail,e-mail,e-mail,E-mail
 Finish-Like,Like,Like,Mi piace,Like
-Finish-Restart,Neustart ,Nouvelle partie,Nuova partita,New Game
+Finish-Restart,Neustart,Nouvelle partie,Nuova partita,New Game
 Finish-Text,Teilen Sie Ihr Endergebnis von __score__,Partagez votre résultat de __score__,Condivida il suo risultato finale di __score__,Share your score of __score__
 Finish-Tweet,Tweet,Tweet,Tweet,Tweet
 Game-Close,Beenden,Fermer,Chiudere,Close
 Game-Confirm,Bestätige Schätzung,Confirme ton estimation,Confermare,Confirm guess
-Game-Guess,Rate,Devine,Stimare la posizione ,Make a guess
+Game-Guess,Rate,Devine,Stimare la posizione,Make a guess
 Game-Start,Start,Start,Start,Start
-Head-BAR,Schweizerisches Bundesarchiv,Archives fédérales suisses,Archivio federale svizzero,Swiss Federal Archives
+Head-BAR,Bundesamt für Kultur,Office fédéral de la culture,Ufficio federale della cultura,Federal office of culture
 Head-CH,Bundesverwaltung admin.ch,Administration fédérale admin.ch,Amministrazione federale admin.ch,Federal Administration admin.ch
 Head-EDI,Eidg. Departement des Innern,Département fédéral de l'intérieur,Dipartimento federale dell'interno,Federal Department of Home Affairs
-Photo-Copyright,Schweizerisches Bundesarchiv,Archives fédérales suisses,Archivio federale svizzero,Swiss Federal Archives
+Photo-Copyright,-,-,Archivio federale svizzero,-
 Photo-Counter,Foto,Photo,Foto,Photo
 Photo-Restart,Neustart,Nouvelle partie,Nuova partita,Restart game
 Photo-Text,Wo wurde das Foto aufgenommen? Klick in die Karte.,Où a été prise la photographie? Clique sur la carte.,Dove è stata scattata la foto? Cliccare sulla mappa.,Where do you think has the photo been taken? Click anywhere on the map.
@@ -30,15 +30,11 @@ Result-Total,Total,Total,Totale,Total
 Share-Message,Ich habe __score__ Punkte auf SwissGuesser gemacht! Schaffst du mehr?,J'ai réalisé un total de __score__ points sur SwissGuesser! Es-tu capable de faire mieux?,Ho ottenuto un risultato di __score__ points su SwissGuesser! Riesci a superarmi?,I just scored __score__ playing SwissGuesser! Can you top it?
 Start-Copyright,Copyright und Datenschutzerklärung,Conditions d'utilisation,Copyright e protezione dei diritti d'autore,Copyright and Data protection
 Start-Credit,Umgesetzt mit,Réalisé avec,Realizzato con,Realized with
-Start-Loading,"Bitte warten, laden ...",Veuillez patienter pendant le chargement...,Attendere il caricamento ...,"Please wait, loading ..."
-Start-Text,"Eine der grössten Fotosammlung des <a href=""http://www.bar.admin.ch"">Schweizerischen Bundesarchivs</a> ist die
-Fotosammlung Erster Weltkrieg, die 5'125 digitalisierte Glasplattennegative zum
-Aktivdienst der Schweizer Armee <a href=""https://www.swiss-archives.ch/archivplansuche.aspx?ID=1439228"">während des Ersten Weltkriegs umfasst</a>. 
-
-Erkennen Sie die Orte, an denen die Soldaten damals ihre Übungen und Manöver abhielten?","Une des plus grandes collections de photographies des <a href=""http://www.bar.admin.ch"">Archives fédérales suisses</a> est celle de la 1ère guerre mondiale: celle-ci comprend 5125 négatifs sur plaques de verre digitalisés concernant le Service Actif de l'armée suisse <a href=""https://www.swiss-archives.ch/archivplansuche.aspx?ID=1439228"">pendant la 1ère guerre mondiale</a>.","La collezione di foto della prima guerra mondiale, una delle più grandi degli <a href=""http://www.bar.admin.ch"">Archivi federali svizzeri</a>, comprende 5125 negativi su supporto di vetro e successivamente digitalizzati. Le foto sono relative al Servizio Attivo dell'esercito svizzero <a href=""https://www.swiss-archives.ch/archivplansuche.aspx?ID=1439228"">durante la prima guerra mondiale</a>.","The photo collection of WW I is one of the largest of the <a href=""http://www.bar.admin.ch"">Swiss Federal Archives</a>. It contains more than 5125 negatives on glass plates which are successively digitized. They document the active service of the Swiss Army <a href=""https://www.swiss-archives.ch/archivplansuche.aspx?ID=1439228"">during the first World War</a>
-Can you guess where the pictures were taken?"
-Start-Title,"SwissGuesser: Fotosammlung
-Erster Weltkrieg",SwissGuesser: collection de photographies de la 1ère guerre mondiale,SwissGuesser: collezione di fotografie della prima guerra mondiale,"SwissGuesser: photo collection from
+Start-Loading,Bitte warten, laden ...,Veuillez patienter pendant le chargement...,Attendere il caricamento ...,Please wait, loading ...
+Start-Text,"Die Schweiz ist das Seilbahnland par excellence. Das <a href=""http://www.bak.admin.ch/kulturerbe/04273/04296/index.html?lang=de"">Bundesamt für Kultur BAK</a> als Fachstelle erfasst die denkmalpflegerischen Werte der Seilbahnen in der Schweiz im <a href=""http://www.seilbahninventar.ch"">Schweizer Seilbahninventar</a>. Der Bestand der von Bund und Kantonen reglementierten <a href=""http://map.geo.admin.ch/?layers=ch.swisstopo.vec25-uebrigerverkehr"">Seilbahnen</a> umfasst rund 3000 Anlagen. Deren 129 wurden aufgrund ihrer besonderen kulturhistorischen und/oder technischen Bedeutung ins Inventar aufgenommen. Erkennen Sie die Bahnen und können die Talstationen geographisch zuordnen?","La Suisse est le pays du funiculaire par excellence.L'<a href=""http://www.bak.admin.ch/kulturerbe/04273/04296/index.html?lang=fr""> Office fédéral de la culture OFC</a>, en tant qu'organisme spécialisé, recense la valeur du patrimoine culturel des remontées mécaniques en Suisse <a href=""""http://www.seilbahninventar.ch""""> suisse inventaire téléphérique </ a>. L'ensemble des remontées mécaniques règlementé au niveau fédéral ou cantonal <a href=""""http://map.geo.admin.ch/?layers=ch.swisstopo.vec25-uebrigerverkehr""""> comprend 3000 sites : dont 129 étaient inventoriés à cause de leur intétêt culturel et historique et/ou de leur leur intétêt technique. Reconnaissez-vous les funiculaires et pouvez-vous les localiser les stations de départ ?","La Svizzera è il paese degli impianti a fune per eccellenza. L'<a href=""http://www.bak.admin.ch/kulturerbe/04273/04296/index.html?lang=it"">Ufficio federale della cultura UFC</a>, in qualità di servizio specializzato per la conservazione del patrimonio culturale e storico, preserva il valore degli impianti a fune in Svizzera nell'<a href=""http://www.seilbahninventar.ch"">Inventario svizzero degli impianti a fune</a>. L'insieme degli <a href=""http://map.geo.admin.ch/?layers=ch.swisstopo.vec25-uebrigerverkehr"">Impianti a fune</a> gestiti a livello federale e cantonale comprende circa 3000 siti: di questi, 129 sono stati inclusi nell'Inventario in ragione del loro particolare valore culturale, storico e tecnico. Riconosce le tratte e riesce ad associarle alle relative stazioni a valle?","Switzerland is the cable car country par excellence. <a Href=""""http://www.bak.admin.ch/kulturerbe/04273/04296/index.html?lang=de""""> The Federal Office of Culture </ a> as a specialized body records the historic preservation values ​​of the cable cars in Switzerland <a href=""""http://www.seilbahninventar.ch""""> Swiss cable car inventory </ a>.The portfolio of regulated federal and cantonal <a href=""""http://map.geo.admin.ch/?layers=ch.swisstopo.vec25-uebrigerverkehr""""> cable cars </ a> includes approximately 3000 objects. Out of them, 129 were included in the inventory due to their special cultural, historical and / or technical significance. Do you recognize the cable cars and can you position them on the map?"
+Start-Title,SwissGuesser: Schweizer Seilbahninventar,"SwissGuesser: 
+Inventaire suisse des installations à câbles","SwissGuesser:
+Inventario svizzero degli impianti a fune","SwissGuesser: Swiss cable car inventory
 World War I"
 Toggle-Map,Karte,Carte,Mappa,Map
 Toggle-Photo,Foto,Photo,Foto,Photo
