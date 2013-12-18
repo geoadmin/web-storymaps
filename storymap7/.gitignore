@@ -11,6 +11,5 @@ libpeerconnection.log
 .~lock*
 
 app/data/*.xlsx
-app/data/photos
 
 release.sh
