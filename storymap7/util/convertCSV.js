@@ -36,8 +36,8 @@ csvConverter.on("end_parsed",function(jsonObj){
 	jsonObj.csvRows.forEach(function(item) {
 	    var data = {
 	    	id: 	item['Bildnummer'],
-	    	x: 		parseFloat(item['X Koordinate']),
-	    	y: 		parseFloat(item['Y Koordinate']),
+	    	x: 		parseFloat(item['Y Koordinate']),
+	    	y: 		parseFloat(item['X Koordinate']),
 	    	DE: 	item['Legende DE **'],
 	    	FR: 	item['Legende FR **'],
 	    	IT: 	item['Legende IT **'],
