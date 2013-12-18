@@ -3,7 +3,7 @@ var defaultConfig = {
 	outFileName: 	'data/base.json',
 	csvFileName: 	'data/MetadatenAufnahmen.csv',
 	dataPrefix: 	'data/photos/',
-	dataSuffix: 	'_A1.jpg'
+	dataSuffix: 	'.jpg'
 }
 var config = {
 	outFileName:  process.argv[2],
