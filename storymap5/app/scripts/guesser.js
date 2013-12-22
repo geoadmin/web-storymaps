@@ -11,8 +11,15 @@ var guesser = {
 	lang: 'DE',
 	supportedLangs: ['DE','FR','IT','EN'],
 
-	// Set up anonymous user profile
-	user: { score: 0, count: 5, collection: [] },
+	// Anonymous user profile
+	user: { 
+		score: 0, 		// current score
+		count: 5, 		// how many photos per game
+		history: '',	// hash of previous game states
+		collection: [], // holds metadata during game
+		vectors: [], 	// holds shown vector layers
+		badges: {}		// completion badges
+	},
 
 	// State variables
 	config: null, 
@@ -88,7 +95,7 @@ var guesser = {
 	},
 
 	is: {
-		mobile: function() { return $(window).width() <= 768; }
+		mobile: function() { return $(window).width() <= 768 && $(window).height() < 1024; }
 	},
 
 	// ### User Interface setup
@@ -105,8 +112,7 @@ var guesser = {
 		// Language of header links
 		$('#webHeaderLinks a').each(function() {
 			$(this).attr('href',
-				$(this).attr('href') + 
-				'?lang=' + self.lang.toLowerCase()
+				$(this).attr('href') + '?lang=' + self.lang.toLowerCase()
 			);
 		});
 
@@ -129,8 +135,14 @@ var guesser = {
 					'/' + self.lang.toLowerCase() + '/')); });
 
 		// Fullscreen mode
-		$('.lightbox').on('shown.bs.modal', function () {
+		self.domLightBox.on('shown.bs.modal', function () {
 			$('.modal-backdrop.in').css('opacity', 1);
+
+			// Stretch image to fill (default: width 100%)
+			if ($(window).width() < $(window).height()) {
+				$('img', this).attr('width', '')
+					.attr('height', $(window).height());
+			}
 		}).on('hidden.bs.modal', function () {
 			// Clear backdrops properly (bug?)
 			$('.modal-backdrop.in').remove();
@@ -181,6 +193,11 @@ var guesser = {
 		this.domBtnMobile.click(function() {
 			$(this).addClass('hidden');
 			guesser.domBtnNext.removeClass('hidden');
+			// Scroll to bottom of results box
+			setTimeout(function() {
+				guesser.domResults.animate({ scrollTop: 
+					guesser.domResults[0].scrollHeight}, 1000);
+			}, 100);
 		});
 
 		// Bind switcher buttons
@@ -216,9 +233,9 @@ var guesser = {
 		frameheight -= headheight + footheight;
 		// Adjust height to fit screen
 		$('.container-main')
-			.css('height', parseInt(frameheight - 22) + 'px');
+			.css('height', parseInt(frameheight - 25) + 'px');
 		$('.d-photo', this.domPhotoBox)
-			.css('height', parseInt(frameheight - 23) + 'px');
+			.css('height', parseInt(frameheight - 26) + 'px');
 		//this.domPhotoBox.scrollTop(this.domPhotoBox.height()*2);
 		if (map && typeof map.updateSize == 'function') map.updateSize();
 	},
@@ -242,7 +259,7 @@ var guesser = {
 		$('.total', infobox).html(this.user.score);
 
 		// Result box description
-		$('.info', this.domResults).html(metadata[this.lang]);
+		$('.info p', this.domResults).html(metadata[this.lang]);
 		///console.log('Loading image', metadata.id, this.lang);
 	
 		// Start the challenge
@@ -264,6 +281,9 @@ var guesser = {
 
 		// Re-center map
 		geoadmin.reset();
+
+		// Fade all previous answers
+		this.fadeLayers(0.5);
 
 	},
 
@@ -297,6 +317,34 @@ var guesser = {
 
 		// Initialize image list
 		this.user.collection = [];
+
+		// Reset guess vectors
+		this.user.vectors = [];
+
+		// Load game history
+		var queryhist = this.query['history'];
+		if (queryhist) {
+			// Shared game collection
+			var gamecoll = this.collection,
+				g = queryhist.split('');
+			if (g.length < gamecoll.length) {
+				queryhist = '';
+				g.forEach(function(h) {
+					queryhist += h;
+					var ix = h.charCodeAt(0) - 97;
+					// Prevent this image from being shown again
+					if (ix != null && typeof gamecoll[ix] != 'undefined') {
+						gamecoll[ix].shown = true;
+					}
+				});
+				// History enabled
+				this.user.history = queryhist;
+				// Close starting dialogue
+				$('#d-start').modal('hide');
+			} else {
+				this.user.badges['completed'] = true;
+			}
+		}
 
 		if (this.query['game']) {
 			// Shared game collection
@@ -355,15 +403,29 @@ var guesser = {
 
 	// ### Game over
 	finish: function() {
+
+		var self = this;
+
+		// Reset guess opacity after a few seconds
+		setTimeout(function() { self.fadeLayers(1); }, 4000);
+
+		// Get game location
+		var url = window.location.protocol + "//" + window.location.host + "/";
 		
-		// Generate a hash
-		var permalink = document.location.href;
-		permalink += (permalink.indexOf('?') > 0) ? "&" : "?";
-		permalink += "game=";
-		for (var i = 0; i<this.user.count; i++) {
-			permalink += String.fromCharCode(
-				this.user.collection[i].ix + 97);
+		// Generate a hash of the current game
+		var hash = "";
+		for (var i = 0; i < self.user.count; i++) {
+			if (self.user.collection[i])
+				hash += String.fromCharCode(self.user.collection[i].ix + 97);
 		}
+
+		// Create permalink and new game link
+		var permalink = url + "?game=" + hash,
+			histolink = url + "?history=" + hash + self.user.history;
+
+		// For local devs
+		if (document.location.hostname == 'localhost')
+			return self.share(permalink, histolink);
 
 		// Generate shortened URL
 		$.ajax({
@@ -371,18 +433,18 @@ var guesser = {
 			jsonp: "cb",
 			data: { "url": permalink },
 			success: function(data) {
-				guesser.share(data['shorturl']);
+				self.share(data['shorturl'], histolink);
 			},
 			error: function() {
 				// Use full link instead (e.g. local dev)
-				guesser.share(permalink);	
+				self.share(permalink, histolink);
 			}
 		});
 
 	},
 
 	// ### Populate share box
-	share: function(permalink) {
+	share: function(permalink, histolink) {
 
 		var msg = i18n.t('Share-Message', 
 					{score: guesser.user.score}),
@@ -394,7 +456,12 @@ var guesser = {
 		var shareform = $('.shareform', shb);
 		$('input', shareform).hide().val(permalink);
 		$('input, button', shareform).click(function() {
-			$('input', shareform).fadeIn()[0].select(); // HTML5 does not yet support copy
+			var slink = $('.sharebox .shareform input').fadeIn()[0];
+			// In most browsers just do a handy select
+			if (slink) slink.select();
+			// If access to clipboard is supported
+			if (window.clipboardData) 
+				window.clipboardData.setData('URL', permalink);
 		});
 		$('a', shareform).attr('href', permalink).click(function(evt) {
 			evt.preventDefault();
@@ -426,17 +493,21 @@ var guesser = {
 		// User facing text message
 		$('.message', guesser.domFinishBox).html(txt);
 
-		// On mobile, reverse the order
+		// Navigate directly to photo/info on mobile
 		if (guesser.is.mobile()) {
-			$('.info', guesser.domResults).before(guesser.domFinishBox);
-			guesser.domBtnNext.click(); // navigate to photo/info
+			guesser.domBtnNext.click();
 		}
 
 		// UI buttons, game restart
 		guesser.domBtnNext.parent().find('button').addClass('hidden');
 		guesser.domFinishBox.removeClass('hidden');
+
+		// Set up new game link
+		guesser.domBtnFinish.attr('data-href', histolink)
+			.click(function() { location.href = $(this).attr('data-href'); });
+
 		// Pause 2 seconds before showing new game button
-		setTimeout(function() {	guesser.domBtnFinish.hide().removeClass('hidden').fadeIn(); }, 2000);
+		setTimeout(function() { guesser.domBtnFinish.hide().removeClass('hidden').fadeIn(); }, 2000);
 	},
 
 	// ### User starts making a guess 
@@ -452,23 +523,23 @@ var guesser = {
 		$('.btn.overlay').addClass('hidden');
 
 		// On re-init, clear map
-		if (this.overlay != null) {
-			return;
-		}
+		if (this.overlay != null) { return; }
 		
 		// Save overlay content and clear
 		this.overlayhtml = this.domOverlay.html();
 		this.domOverlay.html('');
 
 		// Create an Overlay
-		this.overlay =
-			new ol.Overlay({
-				element: this.domOverlay[0]
-			});
+		this.overlay = new ol.Overlay({ element: this.domOverlay[0] });
 		olMap.addOverlay(this.overlay);
 
 		// Bind click event to map
-		olMap.on('click', function(evt) { guesser.place(evt); });
+		olMap.on('singleclick', function(evt) { guesser.place(evt); });
+
+		// Prevent rotation (due to iOS vector bug)
+		map.getView().on('change:rotation', function() {
+			setTimeout(function() {	map.getView().setRotation(0); }, 100);
+		});
 
 	}, // -- challenge
 
@@ -495,8 +566,10 @@ var guesser = {
 		this.position = evt.getCoordinate();
 		///console.log(this.position);
 
-		element.css('background-image',
-			"url('images/" + (self.currentIndex+1) + ".png')");
+		element.css({
+			'background-image': "url('images/" + (self.currentIndex+1) + ".png')",
+			'margin-top': "-31px"
+		});
 		
 		element.popover('destroy');
 		self.overlay.setPosition(this.position);
@@ -523,16 +596,16 @@ var guesser = {
 		// Deactivate guessing for this round
 		this.active = false;
 
-		// Zoom map out
-		var view = map.getView().getView2D();
-		view.setZoom(0);
-
 		// Sets up a new vector layer
 		var vectorGuess = this.getVector(
 			this.currentIndex+1, this.position, this.currentAnswer);
 
 		// Add layer to the map
 		map.addLayer(vectorGuess);
+
+		// Fade previous guesses
+		this.user.vectors.forEach(function(l) { l.setOpacity(0.5); });
+		this.user.vectors.push(vectorGuess);
 
 		// Center map on guess
 		var minx = (this.position[0] < this.currentAnswer[0]) ? 
@@ -550,13 +623,16 @@ var guesser = {
 					  Math.round(maxx)+escale, Math.round(maxy)+escale];
 		///console.log('Zooming to', extent);
 
-		// Fit viewport on guess
-		// TODO: https://github.com/geoadmin/web-storymaps/issues/20
-		view.fitExtent(extent, map.getSize());
-		
-		// Workaround: center on the answer
-		view.setCenter([this.currentAnswer[0],this.currentAnswer[1]]);
-		
+		// Fly from guess to answer
+		this.startAnim(
+			/** @type {ol.Coordinate} */ 
+			[this.position[0], this.position[1]], 
+			/** @type {ol.Coordinate} */ 
+			[this.currentAnswer[0], this.currentAnswer[1]],
+			/** @type {ol.Extent} */ 
+			extent
+		);
+
 		// Calculate distance to answer (km)
 		var dist = geoadmin.getDistanceEuclidian(
 			this.position, this.currentAnswer) / 1000;
@@ -605,88 +681,94 @@ var guesser = {
 
 	}, // -- guess
 
+	// ### Animates transitions between points
+	startAnim: function(flyFrom, flyTo, flyExtent) {
+
+		var view = map.getView().getView2D();
+
+		// Fly to the answer
+		setTimeout(function() {
+			var speed = 1200;
+			var start = +new Date();
+			var pan = ol.animation.pan({
+				start: start,
+				duration: speed,
+				source: (view.getCenter())
+			});
+			var zoom = ol.animation.zoom({
+				start: start,
+				duration: speed,
+				resolution: (view.getResolution()),
+				easing: ol.easing.linear
+			});
+			map.beforeRender(pan, zoom);
+			// Fit viewport on guess and answer
+			view.fitExtent(flyExtent, map.getSize());
+			view.setResolution(view.getResolution() + 100);
+		}, 100);
+
+	}, // -- startAnim
+
+	// ### Sets the opacity of guess layers
+	fadeLayers: function(opacity) {
+		guesser.user.vectors.forEach(function(l) { l.setOpacity(opacity); });
+	},
+
 	// ### Creates vector feature for a guess
 	getVector: function(label, from, to) {
 		var imageUrl = 'images/' + label + '.png';
-		var style = new ol.style.Style({ 
-			rules: [
+		var style = new ol.style.Style({ rules: [
 				// Lines
-			  new ol.style.Rule({
-			  	filter: 'geometryType("linestring")',
-			    symbolizers: [
-			      new ol.style.Stroke({
-			        color: '#f70',
-			        width: 3,
-			        opacity: 1
-			      })
-			    ]
-			  }),
-			  // Starting point
-			  new ol.style.Rule({
-			    filter: 'geometryType("point") && which == "guess"',
-			    symbolizers: [
-			      new ol.style.Icon({
-			      	url: imageUrl,
-			      	width: 32, height: 64
-			      })
-			    ]
-			  }),
-			  // Ending point 
-			  new ol.style.Rule({
-			    filter: 'geometryType("point") && which == "answer"',
-			    symbolizers: [
-			    	new ol.style.Icon({
-			      	url: 'images/G.png',
-			      	width: 32, height: 64
-			      })
-			    /*
-			      new ol.style.Shape({
-			        size: 20,
-			        fill: new ol.style.Fill({color: '#9d9', opacity:1}),
-			        opacity: 1,
-			        stroke: new ol.style.Stroke({
-			          color: '#3f3',
-			          width: 2,
-			          opacity: 1
-			        })
-			      }) */
-			    ]
-			  })
+				new ol.style.Rule({
+					filter: 'geometryType("LineString")',
+					symbolizers: [ new ol.style.Stroke({
+						color: '#f70',
+						width: 3,
+						opacity: 1
+					}) ]
+				}),
+				// Starting point
+				new ol.style.Rule({
+					filter: 'geometryType("Point") && which == "guess"',
+					symbolizers: [ new ol.style.Icon({
+						url: imageUrl,
+						width: 32, height: 64
+					}) ]
+				}),
+				// Ending point 
+				new ol.style.Rule({
+					filter: 'geometryType("Point") && which == "answer"',
+					symbolizers: [ new ol.style.Icon({
+						url: 'images/G.png',
+						width: 32, height: 64
+					}) ]
+				})
 			] }); // -- style
 		
 		var features = [
-				{
-					// Starting point (the guess)
-					type: 'Feature',
-					properties: { 
-						label: label, which: 'guess' },
-					geometry: {
-						type: 'Point', coordinates: from }
-				},{
-					// Ending point (the real answer)
-					type: 'Feature',
-					properties: {
-						label: label, which: 'answer' },
-					geometry: {
-						type: 'Point', coordinates: to }
-				},{
-					// Line from A to B
-					type: 'Feature',
-					properties: { color: '#fff' },
-					geometry: {
-						type: 'LineString', coordinates: [from, to] }
-				}
-			];
+			new ol.Feature({
+				// Starting point (the guess)
+				label: label, which: 'guess',
+				geometry: new ol.geom.Point(from)
+			}),
+			new ol.Feature({
+				// Ending point (the real answer)
+				label: label, which: 'answer',
+				geometry: new ol.geom.Point(to)
+			}),
+			new ol.Feature({
+				// Line from A to B
+				color: '#fff',
+				geometry: new ol.geom.LineString([from, to])
+			})
+		];
 
 		return new ol.layer.Vector({
-				style: style,
-				source: new ol.source.Vector({
-				 parser: new ol.parser.GeoJSON(),
-				 projection: map.getView().getProjection(),
-				 data: { type: 'FeatureCollection',
-				         features: features }
-				})
-	 		});
+			style: style,
+			source: new ol.source.Vector({
+			 features: features
+			})
+ 		});
 	} // -- getVector
 };
 

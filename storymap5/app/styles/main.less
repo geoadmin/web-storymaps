@@ -15,8 +15,7 @@ body { background: #fff; overflow: hidden; }
   width: 100%; bottom: 0px;
 }
 
-/* Customize container */
-
+/* Main container */
 .container-main { 
 	margin-top: 120px; 
 
@@ -29,6 +28,7 @@ body { background: #fff; overflow: hidden; }
 }
 .container-main, #map { width:100%; height:100%; }
 
+/* Container alignment */
 #column-map { height:100%; }
 #column-map, #d-photobox { padding:0; z-index:2; }
 #row-info { background: #fff; text-align: center; z-index:1; }
@@ -217,13 +217,6 @@ body #map {
 	height: 100%; 
 	width: 100%;
 
-	.ol-zoom {
-		top: 40px;
-		right: auto;
-		left: 8px;
-		bottom: auto;
-	}
-
 	.ol-zoom a {
 		background: rgba(51,51,51,0.5)!important;
 		text-decoration: none !important;
@@ -240,8 +233,10 @@ body #map {
 	.ol-scale-line { background: none; }
 
 	.ol-attribution {
-		bottom: 9px;
-		left: 110px;
+		bottom: 2px;
+		left: 0px;
+		width: 100%;
+		text-align: center;
 		background: none;
 		color: black;
 		right: auto;
@@ -278,13 +273,19 @@ body.modal-open, .modal-open .navbar-fixed-top {
 
 /* Welcome screen */
 #d-start {
+	.modal-header {
+		border-bottom: 1px solid #555;
+	}
+	.modal-footer {
+		border-top: 1px solid #555;
+	}
 	.modal-content {
 		background: black;
-		border: 1px solid #ddd;
+		border: 1px solid #555;
 		color: white;
 	}
 	.modal-divider { 
-		border-top:1px solid #ddd; 
+		border-top:1px solid #555; 
 		padding-top:0.8em; 
 		margin: 0; 
 	}
@@ -340,12 +341,17 @@ body.modal-open, .modal-open .navbar-fixed-top {
 
 	.glyphicon-fullscreen {
 		position: absolute;
-		right: 25px; top: 50px;
+		right: 10px; top: 10px;
 		background: #fff;
-		padding: 6px;
+		padding: 7px 7px 9px 7px;
 		border-radius: 6px;
 		font-size: 120%;
 		color: black;
+		width: auto;
+		opacity: 0.5;
+	}
+	.glyphicon-fullscreen:hover {
+		opacity: 1;
 	}
 
 	.fullscreen, .fullscreen img {
@@ -380,8 +386,8 @@ body.modal-open, .modal-open .navbar-fixed-top {
 	.mobile-switch {
 		position: relative;
 		top: -0.5em;
+		height: 2.3em;
 		margin: 0; padding: 0;
-
 		.btn { width: 100%; }
 	}
 
@@ -411,6 +417,11 @@ body.modal-open, .modal-open .navbar-fixed-top {
 		line-height: 1.1em;
 		padding-right: 0.5em;
 	}
+
+	.info-checkbox {
+		position:absolute; left:8em;
+		label { color:grey; font-weight: normal; cursor:pointer; }
+	}
 }
 
 .panel-heading {
@@ -430,7 +441,23 @@ body.modal-open, .modal-open .navbar-fixed-top {
 	padding: 0;
 	border: none;
 	background: #fff;
-	button { padding-right: 5px; }
+
+	/* Close button */
+	button { 
+		position: fixed;
+		top: 10px;
+		right: 10px;
+		width: auto;
+		padding: 6px 9px;
+		font-size: 20px;
+		color: black;
+		background: #fff;
+		border-radius: 6px;
+		opacity: 0.5;
+	}
+	button:hover {
+		opacity: 1;
+	}
 }
 
 .btn-primary { 
@@ -458,14 +485,33 @@ body.modal-open, .modal-open .navbar-fixed-top {
     overflow-y:auto;
     margin-left: 0;
     margin-bottom: 24px;
-    border-radius: 0;
-    color: @swissgrey;
+    background: none;
+    border: none;
+    padding: 0;
 
-	/*
-	width: 38em;
-	margin-left: -19em;
-	background: #fffff0 url('../images/map-cut.png') no-repeat top right;
-	*/
+    .result {
+    	background: #f0f0f0;
+	    border-radius: 0;
+	    border-bottom: 1px solid #aaa;
+		border-left: 1px solid #aaa;
+	    color: @swissgrey;
+	    padding: 1em;
+	}
+
+	.info {
+		width: 100%;
+		padding: 0 20px;
+		p {
+			color: #000;
+			line-height: 1.2em;
+			font-size: 110%;
+			font-style: italic;
+			background: rgba(255,255,255,0.65);
+			border: 1px dashed #bbb;
+			padding: 9px 13px;
+			border-radius: 10px;
+		}
+	}
 
 	img { 
 		float: left;
@@ -476,14 +522,6 @@ body.modal-open, .modal-open .navbar-fixed-top {
 
 	p { color: inherit; }
 	b { color: @swissred; }
-
-	.info {
-		width: 100%;
-		color: #000;
-		border-top: 1px solid #ea8;
-		padding-top: 0.5em;
-		margin-bottom: 0.5em;
-	}
 
 	.total {
 		color: @swissred;
@@ -497,6 +535,7 @@ body.modal-open, .modal-open .navbar-fixed-top {
 	}
 
 	#v-finish {
+		background: #ddd; color: black;
 		padding: 0.5em 0;
 		border-top: 1px solid #dd9;
 
@@ -567,6 +606,8 @@ body.modal-open, .modal-open .navbar-fixed-top {
 @media screen and (max-width: 480px) {
 	.navbar-brand { display:none; }
 	.modal-body { font-size:92%; }
+	.info-checkbox { display:none; }
+	body #map .ol-attribution { text-align: right; }
 }
 
 /* Smartphone responsive web */
@@ -602,9 +643,7 @@ body.modal-open, .modal-open .navbar-fixed-top {
 	}
 	#d-photobox { 
 		padding: 6px; height: 100%;
-		.glyphicon-fullscreen {
-			right: 23px; top: 23px;
-		}
+		.glyphicon-fullscreen { right: 23px; top: 23px; }
 	}
 	#d-result {
 		margin-bottom: -5px;

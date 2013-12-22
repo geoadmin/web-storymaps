@@ -1,17 +1,15 @@
-goog.provide('geoadmin.init');
-
+// Not necessary with ol.js or ga.js
+/*
 goog.require('ga.Map');
 goog.require('ga.layer');
 goog.require('ol.View2D');
+*/
 
 // Create a GeoAdmin Map
-var map;
+var map, geoadmin = {};
+
 geoadmin.init = function() {
   map = new ga.Map({
-    // Add GeoAdmin layers
-    layers: [
-      ga.layer.create('ch.swisstopo.pixelkarte-farbe')
-    ],
     // Define the div where the map is placed
     target: 'map',
     // Create a 2D view
@@ -25,12 +23,16 @@ geoadmin.init = function() {
       center: [660000, 190000]
     })
   });
+  // Add GeoAdmin layers
+  var lyr = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
+  map.addLayer(lyr);
 };
 
 geoadmin.reset = function() {
   map.getView().setResolution(
     geoadmin.isLayoutHorizontal('#map') ? 500 : 650);
   map.getView().setCenter([660000, 190000]);
+  map.getView().setRotation(0);
 };
 
 geoadmin.isLayoutHorizontal = function(obj) {
@@ -52,5 +54,3 @@ geoadmin.getDistanceGeometric = function(A, B) {
   var pB = new ol.geom.Point(B); //.transform(proj, merc);
   return pA.distanceTo(pB); // TODO: Unsuppoted in OpenLayers3
 };
-
-goog.exportSymbol('geoadmin.init', geoadmin.init);
