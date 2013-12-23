@@ -5,14 +5,10 @@ docs
 app/bower_components
 app/fonts/
 app/styles/*.css
-app/src/build/
 app/src/ga/
 libpeerconnection.log
 
 *.sublime-workspace
 .~lock*
-
-app/data/*.xlsx
-app/data/photos
 
 release.sh
