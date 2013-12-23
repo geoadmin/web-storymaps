@@ -87,3 +87,14 @@ For debugging the application, you can add `&debug=true` to the URL, which will 
 # Licensing
 
 Please see `LICENSE` in the project root.
+
+# Install on mf0t
+
+- npm install
+- npm install bower
+- node_modules/.bin/bower install
+- npm install grunt
+- npm install grunt-cli
+- node_modules/.bin/grunt build --force
+- cd dist
+- cp -R ../app/src .
