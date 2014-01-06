@@ -12,21 +12,21 @@ The project uses a custom build of OpenLayers 3 for the GeoAdmin map, jQuery 2 a
 1. Install Node.js http://nodejs.org/download/
 2. Install dependencies from the Node Package Manager with this command at the project root:
 
-`storymap5$ npm install`
+`storymap8$ npm install`
 
 This will install Grunt and Bower automatically. However, it is recommended that they are installed globally:
 
-`storymap5# npm install -g grunt-cli bower`
+`storymap8# npm install -g grunt-cli bower`
 
 Run this command as root to use system-wide, or use the [nave.sh](https://github.com/isaacs/nave) utility for your local user.
 
 Install dependencies
 
-`storymap5# bower install`
+`storymap8# bower install`
 
 or
 
-`storymap5# node_modules/.bin/bower install`
+`storymap8# node_modules/.bin/bower install`
 
 For generating documentation, the [Pygments](http://pygments.org/) utility is required, which can be installed as indicated [on the website](http://pygments.org/download/) or on Ubuntu/Debian systems as follows:
 
@@ -44,7 +44,7 @@ A custom GeoAdmin build of the OpenLayers framework needs to be placed in the `a
 
 The metadata for this project is provided in the form of a spreadsheet. Export this file to CSV then use the converter tool:
 
-`storymap5$ node util/convertCSV.js`
+`storymap8$ node util/convertCSV.js`
 
 Due to licensing restrictions, the photo archive JPEGs must be copied manually to the `/app/data/photos/` folder. Their filenames will correspond to the images defined in `base.json`.
 
@@ -52,17 +52,17 @@ Due to licensing restrictions, the photo archive JPEGs must be copied manually t
 
 With a similar process, translations for this app are in a spreadsheet. Export to CSV and save the resulting file under `/app/data/i18n/translation.csv'. Then run:
 
-`storymap5$ node util/translationCSV.js`
+`storymap8$ node util/translationCSV.js`
 
 ## Compiling resources
 
 To a local server watching for changes, and open a browser:
 
-`storymap5$ node_modules/.bin/grunt server`
+`storymap8$ node_modules/.bin/grunt server`
 
 To create a `docs/` folder with HTML documentation, run:
 
-`storymap5$ node_modules/.bin/grunt docs`
+`storymap8$ node_modules/.bin/grunt docs`
 
 See Grunt documentation and `Gruntfile.js` for other commands.
 
@@ -76,7 +76,7 @@ First you need to build the Bootstrap framework. From the `app/bower_components/
 
 Now you can build this project's distribution folder.
 
-`storymap5$ node_modules/.bin/grunt build`
+`storymap8$ node_modules/.bin/grunt build`
 
 Finally, zip up the `dist` folder and deploy it to the target host.
 
