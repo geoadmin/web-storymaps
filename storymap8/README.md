@@ -98,3 +98,4 @@ Please see `LICENSE` in the project root.
 - node_modules/.bin/grunt build --force
 - cd dist
 - cp -R ../app/src .
+- tar -cvf - dist | gzip -c > dist.tar.gz
