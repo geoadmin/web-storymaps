@@ -1,12 +1,16 @@
 SwissGuesser
 ============
 
-This GeoAdmin Story Map is an interactive game to guess historical locations from the Swiss National Archive on the Swisstopo map of Switzerland. Play here:
+This GeoAdmin Story Map is an interactive game to guess historical locations from the [Swiss National Archive](http://www.bar.admin.ch/) on a [Swisstopo](http://swisstopo.admin.ch) map of Switzerland. 
+
+Play the game here:
 http://storymaps.geo.admin.ch/storymaps/storymap5
 
 # Installation
 
-The project uses a custom build of OpenLayers 3 for the GeoAdmin map, jQuery 2 and the Twitter Bootstrap 3 framework, with a collection of tools powered by Node.js. Deployment instructions:
+The project uses a custom build of OpenLayers 3 for the GeoAdmin map, jQuery 2 and the Twitter Bootstrap 3 framework, with a collection of tools powered by Node.js.
+
+## a) Install Node.js and tools
 
 1. Install Node.js http://nodejs.org/download/
 2. Install dependencies from the Node Package Manager with this command at the project root:
@@ -19,7 +23,7 @@ This will install Grunt and Bower automatically. However, it is recommended that
 
 Run this command as root to use system-wide, or use the [nave.sh](https://github.com/isaacs/nave) utility for your local user.
 
-## Install dependencies
+## b) Install dependencies
 
 `storymap5# bower install`
 
@@ -31,7 +35,7 @@ For generating documentation, the [Pygments](http://pygments.org/) utility is re
 
 `# sudo apt-get install python-pygments`
 
-## Install OpenLayers 3
+## c) Install OpenLayers 3
 
 A custom GeoAdmin build of the OpenLayers framework needs to be placed in the `app/src` directory, so that `app/src/build/ga.js` is available at runtime. We are using the [ga fork](https://github.com/geoadmin/ol3/):
 
@@ -39,21 +43,27 @@ A custom GeoAdmin build of the OpenLayers framework needs to be placed in the `a
 `$ python build-ga.py build`
 2. Copy the `build` folder to `storymap5/app/src`.
 
-## Preparing data
+## d) Preparing images
+
+Photo JPEGs are copied manually to the `/app/data/photos/` folder and not included in the source code repository. Their filenames will correspond to the images defined in `base.json`, e.g. `14093_0799_A1.jpg`. 
+
+Please see [app/data/photos/README.md](app/data/photos/README.md) for a file listing and information on how to obtain the original photos, which are available under a Creative Commons license.
+
+## e) Preparing data
 
 The metadata for this project is provided in the form of a spreadsheet. Export this file to CSV then use the converter tool:
 
 `storymap5$ node util/convertCSV.js`
 
-Due to licensing restrictions, the photo archive JPEGs must be copied manually to the `/app/data/photos/` folder. Their filenames will correspond to the images defined in `base.json`, e.g. `14093_0799_A1.jpg`.
+The converter will tell you about any missing images.
 
-## Preparing translations
+## f) Preparing translations
 
 With a similar process, translations for this app are in a spreadsheet. Export to CSV and save the resulting file under `/app/data/i18n/translation.csv'. Then run:
 
 `storymap5$ node util/translationCSV.js`
 
-## Compiling resources
+## g) Compile resources
 
 To a local server watching for changes, and open a browser:
 
@@ -65,7 +75,7 @@ To create a `docs/` folder with HTML documentation, run:
 
 See Grunt documentation and `Gruntfile.js` for other commands.
 
-## Deploying releases
+## h) Deploying releases
 
 First you need to build the Bootstrap framework. From the `app/bower_components/bootstrap/` folder run:
 
@@ -79,7 +89,7 @@ Now you can build this project's distribution folder.
 
 Finally, zip up the `dist` folder and deploy it to the target host.
 
-# Documentation
+# Further documentation
 
 See [guesser](app/scripts/guesser.html) and [wms-custom-proj](app/scripts/wms-custom-proj.html) for a detailed code walkthrough.
 
@@ -87,4 +97,4 @@ For debugging the application, you can add `&debug=true` to the URL, which will 
 
 # Licensing
 
-Please see `LICENSE` in the project root.
+Please see `LICENSE` in the web-storymaps project top folder.
