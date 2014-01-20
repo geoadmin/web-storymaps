@@ -705,7 +705,7 @@ var guesser = {
 			// Fit viewport on guess and answer
 			view.fitExtent(flyExtent, map.getSize());
 			view.setResolution(view.getResolution() + 100);
-		}, 100);
+		}, 200);
 
 	}, // -- startAnim
 
