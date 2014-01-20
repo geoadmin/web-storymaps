@@ -266,6 +266,15 @@ body #map {
 /* Pin tooltip to photo */
 .tooltip.bottom { margin-top: -6em; }
 
+/* Copyright notice on photo */
+.d-copyright {
+	background: white;
+	padding: 0 0.3em 0.3em;
+	border-radius: 5px 0 0 0;
+
+	a[rel="license"] { color: #777; }
+}
+
 /* Fix weird margin issue */
 body.modal-open, .modal-open .navbar-fixed-top {
 	margin-right: 0 !important;
@@ -330,14 +339,11 @@ body.modal-open, .modal-open .navbar-fixed-top {
 	}
 
   	.d-copyright {
-		background-color: #FFFFFF;
-		border-radius: 5px;
 		float: right;
-		padding: 0 0.3em 0.3em;
 		position: relative;
 		right: -0.3em;
 		top: -1.5em;
-  	}
+	}
 
 	.glyphicon-fullscreen {
 		position: absolute;
@@ -457,6 +463,13 @@ body.modal-open, .modal-open .navbar-fixed-top {
 	}
 	button:hover {
 		opacity: 1;
+	}
+
+	/* Copyright notice */
+	.d-copyright {
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
 	}
 }
 
