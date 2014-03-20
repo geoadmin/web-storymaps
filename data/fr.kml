@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Mesures de lutte contre le bruit routier</name>
+  <description><![CDATA[lalalala]]></description>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name><strong>Mesure 1 - Revêtements silencieux</strong></name>
+	
+	 <description><![CDATA[
+
+		
+		<div><iframe width="300" height="200" src=" http://www.youtube.com/watch?v=KlVPVIcUjSE" frameborder="0" allowfullscreen></iframe></div>
+		<div>
+			
+			<p>Les revêtements silencieux permettent de réduire significativement le bruit.</p> 
+			<p></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10947/10956/index.html?lang=fr">Revêtements de routes peu bruyants</a></p>
+			
+		</div>
+		
+		]]></description>	
+	
+   	
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>6.138475627,46.159581486,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Mesure 2 - Revêtements silencieux</strong></name>
+    <description><![CDATA[
+
+		
+		<div><iframe width="300" height="200" src="https://www.youtube.com/watch?feature=player_detailpage&v=p-7odxOf9qU#t=101" frameborder="0" allowfullscreen></iframe></div>
+		<div>
+			
+			<p>Les revêtements silencieux permettent de réduire significativement le bruit.</p> 
+			<p></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10947/10956/index.html?lang=de&download=NHzLpZeg7t,lnp6I0NTU042l2Z6ln1acy4Zn4Z2qZpnO2Yuq2Z6gpJCGenx7fGym162epYbg2c_JjKbNoKSn6A-">Best Practice Liste</a></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10947/10956/index.html?lang=fr">Revêtements de routes peu bruyants</a></p
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>7.565278842,47.554759807,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Mesure 3 - Pneus silencieux</strong></name>
+    <description><![CDATA[
+
+		
+		<div><iframe width="300" height="200" src="https://www.youtube.com/watch?feature=player_detailpage&v=p-7odxOf9qU#t=101" frameborder="0" allowfullscreen></iframe></div>
+		<div>
+			
+			<p>Les pneus silencieux permettent de réduire le bruit directement à la source.</p> 
+			<p></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10947/10955/index.html?lang=fr">Pneus silencieux</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>9.902912374,46.559825391,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Mesure 4 - Pneus silencieux</strong></name>
+    <description><![CDATA[
+
+		
+			
+			<p>Chaque personne peut contribuer à réduire le bruit en achetant des pneus silencieux.</p> 
+			<p></p>
+			<p><a href="http://www.youtube.com/watch?v=USqn70Hmh-I">Etiquette pour les pneus</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>6.932327853,47.128565357,0.000000</coordinates>
+    </Point>
+  </Placemark>
+   <Placemark>
+    <name><strong>Mesure 5 - Limitation de vitesse</strong></name>
+    <description><![CDATA[
+
+			
+			<p>La limitation de vitesse est l’une des mesures de lutte contre le bruit les plus efficaces et les moins coûteuses.</p> 
+			<p></p>
+			<p><a href="https://www.stadt-zuerich.ch/tempo30.secure.html">Limitation 30 ville de Zurich</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>8.635331710,47.378974466,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Mesure 6 - Limitation de vitesse</strong></name>
+    <description><![CDATA[
+
+			
+			<p>Sur l’autoroute également, une réduction de la limitation de vitesse permet de réduire considérablement le bruit.</p> 
+			<p></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>9.203291037,47.432687032,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Mesure 7 - Conduire à bas régime</strong></name>
+    <description><![CDATA[
+
+		
+		<div><iframe width="300" height="200" src="http://www.ubst.bafu.admin.ch/mov/ecodrive_fr.mp4" frameborder="0" allowfullscreen></iframe></div>
+		<div>
+			
+			<p>Rouler à bas régime et anticiper permet de réduire le bruit d’un véhicule de trois bons décibels.</p> 
+			<p></p>
+			<p><a href="http://www.laerm.ch/fr/bruit-silence/mobilit-plus-silencieuse/conduire-bas-rgime/conduire-bas-rgime.html">Conduite à bas régime (Eco-DRIVE)</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>7.157106024,46.804471534,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Mesure 8 - Véhicules silencieux</strong></name>
+    <description><![CDATA[
+
+			
+			<p>Le bruit que produit un véhicule dépend avant tout de son poids et de sa construction.</p> 
+			<p></p>
+			<p><a href="http://www.laerm.ch/fr/bruit-silence/mobilit-plus-silencieuse/voiture-silencieuse/voiture-silencieuse.html">Véhicules silencieux</a></p>
+	        <p><a href="http://www.macrofocus.com/infoscope/Auto-Umweltliste%20VCS%202013-10-29.html">Liste EcoMobiliste ATE</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>7.077172808,46.105733427,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Mesure 9 - Promotion des transports publics</strong></name>
+    <description><![CDATA[
+
+			
+			<p>Moins de circulation, moins de bruit.</p> 
+			<p></p>
+			<p><a href="http://www.laerm.ch/de/laerm-ruhe/leiser-mobil-sein/mobilitaetsmanagement/mobilitaetsmanagement.html">Gestion de la mobilité</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>7.619012231,46.760779867,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Mesure 10 - Parois antibruit</strong></name>
+    <description><![CDATA[
+
+			<p>Les parois antibruit interrompent la propagation directe des ondes sonores entre les véhicules et les habitations.</p> 
+			<p></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10529/10531/index.html?lang=fr">Parois antibruit</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>9.026545956,45.839108882,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Mesure 11 - Mise en tunnel</strong></name>
+    <description><![CDATA[
+
+			
+			<p>La mise en tunnel des routes est très efficace mais également très coûteuse.</p> 
+			<p></p>
+			<p><a href="http://www.laermorama.ch/m7_laermschutz/einsperren_v.html">Enfermer les sources de bruit</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>8.571352510,47.434309517,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

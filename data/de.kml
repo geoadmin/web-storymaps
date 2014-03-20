@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Massnahmen gegen Lärmquellen</name>
+  <description><![CDATA[lalalala]]></description>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name><strong>Massnahme 1 - Leise Strassenbeläge</strong></name>
+	
+	 <description><![CDATA[
+
+		
+		<div><iframe width="300" height="200" src=" http://www.youtube.com/watch?v=KlVPVIcUjSE" frameborder="0" allowfullscreen></iframe></div>
+		<div>
+			
+			<p>Leise Strassenbeläge können den Lärm flächendeckend markant reduzieren.</p> 
+			<p></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10947/10956/index.html?lang=de">Lärmarme Strassenbeläge</a></p>
+			
+		</div>
+		
+		]]></description>	
+	
+   	
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>6.138475627,46.159581486,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Massnahme 2 - Leise Strassenbeläge</strong></name>
+    <description><![CDATA[
+
+		
+		<div><iframe width="300" height="200" src="http://www.youtube.com/watch?v=quLPdNNb-T4" frameborder="0" allowfullscreen></iframe></div>
+		<div>
+			
+			<p>Leise Strassenbeläge können den Lärm flächendeckend markant reduzieren.</p> 
+			<p></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10947/10956/index.html?lang=de&download=NHzLpZeg7t,lnp6I0NTU042l2Z6ln1acy4Zn4Z2qZpnO2Yuq2Z6gpJCGenx7fGym162epYbg2c_JjKbNoKSn6A-">Best Practice Liste</a></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10947/10956/index.html?lang=de">Lärmarme Strassenbeläge</a></p
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>7.565278842,47.554759807,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Massnahme 3 - Leise Reifen</strong></name>
+    <description><![CDATA[
+
+		
+		<div><iframe width="300" height="200" src="https://www.youtube.com/watch?feature=player_detailpage&v=quLPdNNb-T4#t=101" frameborder="0" allowfullscreen></iframe></div>
+		<div>
+			
+			<p>Mit leiseren Reifen lässt sich der Lärm reduzieren und zwar direkt an der Quelle.</p> 
+			<p></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10947/10955/index.html?lang=de">Leise Reifen</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>9.902912374,46.559825391,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Massnahme 4 - Leise Reifen</strong></name>
+    <description><![CDATA[
+
+		
+			
+			<p>Mit dem Kauf von leisen Reifen kann jeder mithelfen den Lärm zu reduzieren.</p> 
+			<p></p>
+			<p><a href="http://www.reifenetikette.ch">Reifenetikette</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>6.932327853,47.128565357,0.000000</coordinates>
+    </Point>
+  </Placemark>
+   <Placemark>
+    <name><strong>Massnahme 5 - Geschwindigkeitsbegrenzung</strong></name>
+    <description><![CDATA[
+
+			
+			<p>Temporeduktion ist eine der effektivsten und kostengünstigsten Lärmschutzmassnahmen.</p> 
+			<p></p>
+			<p><a href="https://www.stadt-zuerich.ch/tempo30.secure.html">Tempo 30 Stadt Zürich</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>8.635331710,47.378974466,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Massnahme 6 - Geschwindigkeitsbegrenzung</strong></name>
+    <description><![CDATA[
+
+			
+			<p>Auch auf der  Autobahn bringt eine Temporeduktion eine wahrnehmbare Senkung des Lärms.</p> 
+			<p></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>9.203291037,47.432687032,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Massnahme 7 - Leise Fahrweise</strong></name>
+    <description><![CDATA[
+
+		
+		<div><iframe width="300" height="200" src="http://www.ubst.bafu.admin.ch/mov/ecodrive_de.mp4" frameborder="0" allowfullscreen></iframe></div>
+		<div>
+			
+			<p>Mit vorausschauendem, niedertourigem Fahrstil kann der Lärmpegel eines Fahrzeugs um gut 3 Dezibel gesenkt werden.</p> 
+			<p></p>
+			<p><a href="http://www.laerm.ch/de/laerm-ruhe/leiser-mobil-sein/niedertourig-autofahren/niedertourig-autofahren.html">Niedertourig Autofahren (Eco-DRIVE)</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>7.157106024,46.804471534,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Massnahme 8 - Leise Fahrzeuge</strong></name>
+    <description><![CDATA[
+
+			
+			<p>Der Lärmpegel eines Autos wird vor allem vom Gewicht und der Konstruktion des Fahrzeugs beeinflusst.</p> 
+			<p></p>
+			<p><a href="http://www.laerm.ch/de/laerm-ruhe/leiser-mobil-sein/leise-autos/leise-autos.html">Leise Fahrzeuge</a></p>
+	        <p><a href="http://www.macrofocus.com/infoscope/Auto-Umweltliste%20VCS%202013-10-29.html">Auto-Umweltliste VCS</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>7.077172808,46.105733427,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Massnahme 9 - Förderung ÖV</strong></name>
+    <description><![CDATA[
+
+			
+			<p>Weniger Strassenverkehr bedeutet weniger Lärm.</p> 
+			<p></p>
+			<p><a href="http://www.laerm.ch/de/laerm-ruhe/leiser-mobil-sein/mobilitaetsmanagement/mobilitaetsmanagement.html">Mobilitätsmanagement</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>7.619012231,46.760779867,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Massnahme 10 - Lärmschutzwand</strong></name>
+    <description><![CDATA[
+
+			<p>Eine Lärmschutzwand unterbricht die direkte Schallausbreitung von den Fahrzeugen zu Wohnungen.</p> 
+			<p></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10529/10531/index.html?lang=de">Lärmschutzwände</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>9.026545956,45.839108882,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Massnahme 11 - Einhausung</strong></name>
+    <description><![CDATA[
+
+			
+			<p>Das Einhausen einer Strasse ist sehr effektiv gegen Lärm, aber auch sehr teuer.</p> 
+			<p></p>
+			<p><a href="http://www.laermorama.ch/m7_laermschutz/einsperren_v.html">Lärmquellen einsperen</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>8.571352510,47.434309517,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

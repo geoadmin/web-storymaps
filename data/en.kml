@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Measures to combat road noise</name>
+  <description><![CDATA[lalalala]]></description>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name><strong>Measure 1 - Low-noise road surfaces</strong></name>
+	
+	 <description><![CDATA[
+
+		
+		<div><iframe width="300" height="200" src=" http://www.youtube.com/watch?v=KlVPVIcUjSE" frameborder="0" allowfullscreen></iframe></div>
+		<div>
+			
+			<p>Low-noise road surfaces can significantly reduce road noise.</p> 
+			<p></p>
+			<p<p><a href="http://www.bafu.admin.ch/laerm/10526/10947/10956/index.html?lang=de">Low-noise road surfaces</a></p
+		</div>
+			
+		</div>
+		
+		]]></description>	
+	
+   	
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>6.138475627,46.159581486,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Measure 2 - Low-noise road surfaces</strong></name>
+    <description><![CDATA[
+
+		
+		<div><iframe width="300" height="200" src="https://www.youtube.com/watch?feature=player_detailpage&v=quLPdNNb-T4#t=101" frameborder="0" allowfullscreen></iframe></div>
+		<div>
+			
+			<p>Low-noise road surfaces can significantly reduce road noise.</p> 
+			<p></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10947/10956/index.html?lang=de&download=NHzLpZeg7t,lnp6I0NTU042l2Z6ln1acy4Zn4Z2qZpnO2Yuq2Z6gpJCGenx7fGym162epYbg2c_JjKbNoKSn6A--">“Best practices” list</a></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10947/10956/index.html?lang=de">Low-noise road surfaces</a></p
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>7.565278842,47.554759807,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Measure 3 - Low-noise tyres</strong></name>
+    <description><![CDATA[
+
+		
+		<div><iframe width="300" height="200" src="https://www.youtube.com/watch?feature=player_detailpage&v=quLPdNNb-T4#t=101" frameborder="0" allowfullscreen></iframe></div>
+		<div>
+			
+			<p>Noise levels can be reduced directly at source through the use of quieter tyres.</p> 
+			<p></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10947/10955/index.html?lang=de">Low-noise tyres</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>9.902912374,46.559825391,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Measure 4 - Low-noise tyres</strong></name>
+    <description><![CDATA[
+
+		<div><iframe width="300" height="200" src="http://www.youtube.com/watch?v=gjWNHysqDxY" frameborder="0" allowfullscreen></iframe></div>
+		<div>
+			
+			<p>By purchasing low-noise tyres, everyone can help reduce road noise.</p> 
+			<p></p>
+			<p><a href="http://www.reifenetikette.ch/#reifenliste">Label for low-noise tyres</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>6.932327853,47.128565357,0.000000</coordinates>
+    </Point>
+  </Placemark>
+   <Placemark>
+    <name><strong>Measure 5 - Speed limits</strong></name>
+    <description><![CDATA[
+
+			
+			<p>Speed limits are one of the most effective and low-cost noise abatement measures.</p> 
+			<p></p>
+			<p><a href="https://www.stadt-zuerich.ch/tempo30.secure.html">30 km/h speed limit  (city of Zurich)</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>8.635331710,47.378974466,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Measure 6 - Speed limits</strong></name>
+    <description><![CDATA[
+
+			
+			<p>On motorways, a reduction of the speed limit results in significantly lower noise levels.</p> 
+			<p></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>9.203291037,47.432687032,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Measure 7 - Quiet driving behaviour</strong></name>
+    <description><![CDATA[
+
+		
+		<div><iframe width="300" height="200" src="http://www.ubst.bafu.admin.ch/mov/ecodrive_en.mp4" frameborder="0" allowfullscreen></iframe></div>
+		<div>
+			
+			<p>Driving at lower engine speeds can result in the reduction of a vehicle’s engine noise level by around 3 decibels.</p> 
+			<p></p>
+			<p><a href="http://www.laerm.ch/de/laerm-ruhe/leiser-mobil-sein/niedertourig-autofahren/niedertourig-autofahren.html">Quieter Driving programme (Eco-DRIVE)</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>7.157106024,46.804471534,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Measure 8 - Quiet vehicles</strong></name>
+    <description><![CDATA[
+
+			
+			<p>A motor car’s noise level is primarily influenced by the weight and design of the vehicle.</p> 
+			<p></p>
+			<p><a href="http://www.laerm.ch/de/laerm-ruhe/leiser-mobil-sein/leise-autos/leise-autos.html">Quiet vehicles</a></p>
+	        <p><a href="http://www.macrofocus.com/infoscope/Auto-Umweltliste%20VCS%202013-10-29.html">VCS list of quiet motor vehicles</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>7.077172808,46.105733427,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Measure 9 - Promotion of public transport</strong></name>
+    <description><![CDATA[
+
+			
+			<p>Less road traffic means less noise.</p> 
+			<p></p>
+			<p><a href="http://www.laerm.ch/de/laerm-ruhe/leiser-mobil-sein/mobilitaetsmanagement/mobilitaetsmanagement.html">Mobility management</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>7.619012231,46.760779867,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Measure 10 - Noise protection barriers</strong></name>
+    <description><![CDATA[
+
+			<p>A noise protection barrier interrupts the direct dissemination of noise from motor vehicles to dwellings.</p> 
+			<p></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10529/10531/index.html?lang=de">Noise protection barriers</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>9.026545956,45.839108882,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <name><strong>Measure 11 - Road enclosure</strong></name>
+    <description><![CDATA[
+
+			
+			<p>Covering and enclosing roads is a very effective noise abatement measure, but is also extremely costly.</p> 
+			<p></p>
+			<p><a href="http://www.laermorama.ch/m7_laermschutz/einsperren_v.html">Enclosure of noise sources</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>8.571352510,47.434309517,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
