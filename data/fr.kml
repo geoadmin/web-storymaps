@@ -44,7 +44,7 @@
 	 <description><![CDATA[
 
 		
-		<div><iframe width="300" height="200" src=" http://www.youtube.com/watch?v=KlVPVIcUjSE" frameborder="0" allowfullscreen></iframe></div>
+		<div><iframe width="300" height="200" src="//www.youtube.com/embed/KlVPVIcUjSE" frameborder="0" allowfullscreen></iframe></div>
 		<div>
 			
 			<p>Les revêtements silencieux permettent de réduire significativement le bruit.</p> 
@@ -66,7 +66,7 @@
     <description><![CDATA[
 
 		
-		<div><iframe width="300" height="200" src="https://www.youtube.com/watch?feature=player_detailpage&v=p-7odxOf9qU#t=101" frameborder="0" allowfullscreen></iframe></div>
+		<div><iframe width="300" height="200" src="//www.youtube.com/embed/p-7odxOf9qU" frameborder="0" allowfullscreen></iframe></div>
 		<div>
 			
 			<p>Les revêtements silencieux permettent de réduire significativement le bruit.</p> 
@@ -86,7 +86,7 @@
     <description><![CDATA[
 
 		
-		<div><iframe width="300" height="200" src="https://www.youtube.com/watch?feature=player_detailpage&v=p-7odxOf9qU#t=101" frameborder="0" allowfullscreen></iframe></div>
+		<div><iframe width="300" height="200" src="//www.youtube.com/embed/p-7odxOf9qU" frameborder="0" allowfullscreen></iframe></div>
 		<div>
 			
 			<p>Les pneus silencieux permettent de réduire le bruit directement à la source.</p> 
@@ -105,7 +105,8 @@
     <name><strong>Mesure 4 - Pneus silencieux</strong></name>
     <description><![CDATA[
 
-		
+		<div><iframe width="300" height="200" src="//www.youtube.com/embed/USqn70Hmh-I" frameborder="0" allowfullscreen></iframe></div>
+		<div>
 			
 			<p>Chaque personne peut contribuer à réduire le bruit en achetant des pneus silencieux.</p> 
 			<p></p>
@@ -157,7 +158,7 @@
     <description><![CDATA[
 
 		
-		<div><iframe width="300" height="200" src="http://www.ubst.bafu.admin.ch/mov/ecodrive_fr.mp4" frameborder="0" allowfullscreen></iframe></div>
+		<div><iframe width="300" height="200" src="//www.youtube.com/embed/e2NxS7WTU_Q" frameborder="0" allowfullscreen></iframe></div>
 		<div>
 			
 			<p>Rouler à bas régime et anticiper permet de réduire le bruit d’un véhicule de trois bons décibels.</p> 
