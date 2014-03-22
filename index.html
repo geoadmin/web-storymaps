@@ -17,14 +17,16 @@
 <meta itemprop="image" content="http://storymaps.geo.admin.ch/storymaps/storymap6/files/img/preview.jpg">
 
 <!-- js script files -->
-<script type="text/javascript" src="https://api.geo.admin.ch/2407131501/main/wsgi/build/api-light.js"></script>
+<script type="text/javascript" src="http://api3.geo.admin.ch/loader.js"></script>
 <script type="text/javascript" src="js/mustache.js"></script>
+<!-- <script src="//code.jquery.com/jquery-1.10.1.min.js"></script> -->
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="js/i18n.js"></script>
 <script type="text/javascript" src="js/i18next-1.6.3.min.js"></script>
 <script type="text/javascript" src="js/jquery.tipsy.js"></script>
-<script type="text/javascript" src="js/OpenLayers.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script> -->
 <!--
 <![if  (gte IE 9) | (!IE)]> 
 <script type="text/javascript" src="js/d3.v3.min.js"></script>
@@ -38,7 +40,6 @@
 <link rel="stylesheet" type="text/css" href="css/tipsy.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
 <link rel="stylesheet" type="text/css" media="screen and (max-width: 760px)" href="css/storymap-mobile-portrait.css">
-<link rel="stylesheet" type="text/css" href="https://api.geo.admin.ch/2407131501/main/wsgi/build/api-light.css">
 	
 
 </head>
@@ -125,6 +126,10 @@
 
 
 	<div id="map" style="position: absolute; left: 0px; top: 123px; width: 100%; bottom: 0; min-height: 580px;">
+	<div style="display: none;">
+            <!-- Popup -->
+            <div id="popup" title="KML"></div>
+        </div>
 		
 		<div id="infobox">
 			<div id="close_box" style="position: absolute; right: 8px; top: 8px; cursor: pointer;">
@@ -167,7 +172,7 @@
       <div class="colophon">
       	<div class="inner">
 					<ul>
-						<li>{{Realized with}}: <a href="http://api.geo.admin.ch" target="_blank">api.geo.admin.ch</a></br>
+						<li>{{Realized with}}: <a href="http://api3.geo.admin.ch" target="_blank">api3.geo.admin.ch</a></br>
 						<li><a href="http://www.geo.admin.ch/internet/geoportal/en/home/geoadmin/contact.html#copyright" target="_blank">{{Copyright and Data protection}}</a></br>
 					</ul>
       	</div>

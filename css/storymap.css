@@ -377,6 +377,16 @@ h1.tips{
 	max-width: 160px;
 }
 
+.popover {
+        z-index: auto;
+        max-width: 450px;
+}
+.popover-content {
+    max-width: 600px;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
 
 
 
