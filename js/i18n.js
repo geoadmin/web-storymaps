@@ -10,7 +10,7 @@ function toggleLang(lang) {
 
 
 <!-- Warning: always concatenate long text lines -->
-var i18n = {
+var myi18n = {
     'de': {
         "title": "Der Bergsturz von Randa",
 	"Zusammenfassung" : "Am 18. April 1991 stürzten bei Randa im hinteren Mattertal rund 15 Millionen m3 Fels zu Tal. " +
@@ -165,6 +165,18 @@ var i18n = {
 var lang = getURLParameter('lang') || 'de';
 
 
+i18n.init({
+          detectLngQS: 'lang',
+          fallbackLng: 'de',
+          resGetPath: 'locales/__lng__/__ns__.json',
+          //useLocalStorage: true, localStorageExpirationTime: 86400000
+        } , function(t) {
+                $("*[data-i18n]").i18n();
+                // New window all external links
+                $('a[href^="http:"]').attr('target', '_blank');
+});
+
+
 $('#lang').ready(function () {
     $("#lang li").each(function() {
         var li = $(this)[0]; 
@@ -173,46 +185,49 @@ $('#lang').ready(function () {
 });
 
 $('#infobox').ready(function () {
-    document.title = i18n[lang].title;
     var info = $('#infobox');
+    /*document.title = i18n[lang].title;
+    
     var tpl = info.html();
     var html = Mustache.to_html(tpl, i18n[lang]);
-    info.html(html);
+    info.html(html);  */
     info.show(2000);
 });
 
 $('#objectInfo').ready(function () {
-    var Info2 = $('#objectInfo');
+ var Info2 = $('#objectInfo');
+ 
+    /*
     var tpl2 = Info2.html();
     var html2 = Mustache.to_html(tpl2, i18n[lang]);
-	Info2.html(html2);
+	Info2.html(html2); */
 	Info2.delay(800).fadeIn(1);
 	
 });
 
 $('#moreInfo').ready(function () {
     var info3 = $('#moreInfo');
-    var tpl3 = info3.html();
+    /*var tpl3 = info3.html();
     var html3 = Mustache.to_html(tpl3, i18n[lang]);
-    info3.html(html3);
+    info3.html(html3);  */
     info3.show(2000);
 
 });
 
 $('#language').ready(function () {
     var info4 = $('#language');
-    var tpl4 = info4.html();
+ /*   var tpl4 = info4.html();
     var html4 = Mustache.to_html(tpl4, i18n[lang]);
-    info4.html(html4);
+    info4.html(html4);  */
     info4.show(2000);
 
 });
 
 $('#share').ready(function () {
     var info5 = $('#share');
-    var tpl5 = info5.html();
+  /*  var tpl5 = info5.html();
     var html5 = Mustache.to_html(tpl5, i18n[lang]);
-    info5.html(html5);
+    info5.html(html5);  */
     info5.show(2000);
 
 });

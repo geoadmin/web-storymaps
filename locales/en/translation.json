@@ -1,46 +1,38 @@
-
 {
-
-"text": {	
-	"adminch": "Federal Administration admin.ch",
-	"depart": "Department of the Environment, Transport, Energy and Communication",	
-	"FOEN": "Federal Office for the Environment FOEN",
-	
-	"overview": "Overview",
-	"detailview": "Details",
-	"moreInfo": "Information",
-	"share": "Share",	
-	"language": "Language",
-	
-	"infoboxTitle": "The warmest rivers of Switzerland",
-	"abstract": "The Hydrology Division of the Swiss Federal Office for the Environment is operating temperature monitoring stations at more than 80 river sites. In addition to interannual temperature cycles, different diurnal variations can be observed. Water temperature data is displayed in real-time (hourly updates). Therefore the ranking of the stations may change.",
-	"infoboxMoreInfo": "More Information",
-	"dep": "Federal Office for the Environment",
-
-	"station": "Station:",
-	"rank": "Rank:",
-	"temperature": "Temperature:",
-	"date": "Date:",
-	"time": "Time:",
-	"detail": "Details",
-	"stationNumber": "Station number:"
-},
-
-"html": {
-    "infolinks": [
-		"<a href='http://www.bafu.admin.ch/hydrologie/01831/01841/index.html?lang=en' target='_blank'>Water temperature monitoring network</a></br>", 
-		"<a class='infobox' href='http://www.hydrodaten.admin.ch/en/index.html#aktuelle_situation_gewaesser' target='_blank'>Hydrological data</a> <br>",
-		"<a class='infobox'  href='http://s.geo.admin.ch/03826b3d6' target='_blank'>Map of basic monitoring network</a> <br>",
-		"<a class='infobox' href='http://s.geo.admin.ch/f39365243' target='_blank'>Map of water temperature monitoring network</a>"
-	],
-	"disclaimer": [
-		"<ul>",
-		"<li>Realized with: ",
-		"<a href='http://api.geo.admin.ch' target='_blank'>api.geo.admin.ch</a><br></li>",
-		"<li><a href='http://www.geo.admin.ch/internet/geoportal/en/home/geoadmin/contact.html#copyright' target='_blank'>Copyright and Data protection</a><br></li>",
-		"</ul>"
-	]
-}
-
-
+    "text": {
+        "adminch": "Federal Administration admin.ch",
+        "depart": "Department of the Environment, Transport, Energy and Communication",
+        "FOEN": "Federal Office for the Environment FOEN",
+        "overview": "Overview",
+        "detailview": "Details",
+        "moreInfo": "Information",
+        "share": "Share",
+        "language": "Language",
+        "infoboxTitle": "The warmest rivers of Switzerland",
+        "abstract": "The Hydrology Division of the Swiss Federal Office for the Environment is operating temperature monitoring stations at more than 80 river sites. In addition to interannual temperature cycles, different diurnal variations can be observed. Water temperature data is displayed in real-time (hourly updates). Therefore the ranking of the stations may change.",
+        "infoboxMoreInfo": "More Information",
+        "dep": "Federal Office for the Environment",
+        "station": "Station:",
+        "rank": "Rank:",
+        "temperature": "Temperature:",
+        "date": "Date:",
+        "time": "Time:",
+        "detail": "Details",
+        "stationNumber": "Station number:"
+    },
+    "html": {
+        "infolinks": [
+            "<a href='http://www.bafu.admin.ch/hydrologie/01831/01841/index.html?lang=en' target='_blank'>Water temperature monitoring network</a></br>",
+            "<a class='infobox' href='http://www.hydrodaten.admin.ch/en/index.html#aktuelle_situation_gewaesser' target='_blank'>Hydrological data</a> <br>",
+            "<a class='infobox'  href='http://s.geo.admin.ch/03826b3d6' target='_blank'>Map of basic monitoring network</a> <br>",
+            "<a class='infobox' href='http://s.geo.admin.ch/f39365243' target='_blank'>Map of water temperature monitoring network</a>"
+        ],
+        "disclaimer": [
+            "<ul>",
+            "<li>Realized with: ",
+            "<a href='http://api.geo.admin.ch' target='_blank'>api.geo.admin.ch</a><br></li>",
+            "<li><a href='http://www.geo.admin.ch/internet/geoportal/en/home/geoadmin/contact.html#copyright' target='_blank'>Copyright and Data protection</a><br></li>",
+            "</ul>"
+        ]
+    }
 }
