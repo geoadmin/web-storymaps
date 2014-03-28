@@ -182,7 +182,7 @@
 			
 			<p>Le bruit que produit un véhicule dépend avant tout de son poids et de sa construction.</p> 
 			<p>
-			<img  width="300" height="200" src="http://mf0.dev.bgdi.ch/~ltboj/storymap12/htdocs/data/img/8_hybridauto.jpg" />
+			<img  width="300" height="200" src="http://storymaps.geo.admin.ch/storymaps/storymap12/htdocs/data/img/8_hybridauto.jpg" />
 			</p>
 			<p><a href="http://www.laerm.ch/fr/bruit-silence/mobilit-plus-silencieuse/voiture-silencieuse/voiture-silencieuse.html" target="_blank">Véhicules silencieux</a></p>
 	        <p><a href="http://www.macrofocus.com/infoscope/Auto-Umweltliste%20VCS%202013-10-29.html" target="_blank">Liste EcoMobiliste ATE</a></p>
@@ -235,7 +235,8 @@
     <name><strong>Mesure 11 - Mise en tunnel</strong></name>
     <description><![CDATA[
 
-			
+			<div><iframe width="300" height="200" src="//www.youtube.com/embed/EeV3TbVT-Wc" frameborder="0" allowfullscreen></iframe></div>
+			<div>
 			<p>La mise en tunnel des routes est très efficace mais également très coûteuse.</p> 
 			<p></p>
 			<p><a href="http://www.laermorama.ch/m7_laermschutz/einsperren_v.html" target="_blank">Enfermer les sources de bruit</a></p>

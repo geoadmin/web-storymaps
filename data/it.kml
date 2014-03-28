@@ -182,7 +182,7 @@
 			
 			<p>Il livello di rumore prodotto da un veicolo dipende principalmente dal suo peso e da come è stato costruito.</p> 
 			<p>
-			<img  width="300" height="200" src="http://mf0.dev.bgdi.ch/~ltboj/storymap12/htdocs/data/img/8_hybridauto.jpg" />
+			<img  width="300" height="200" src="http://storymaps.geo.admin.ch/storymaps/storymap12/htdocs/data/img/8_hybridauto.jpg" />
 			</p>
 			<p><a href="http://www.laerm.ch/it/rumore-silenzio/mobilit-pi-calma/auto-silenziosa/auto-silenziosa.html" target="_blank">Veicoli silenziosi</a></p>
 	        <p><a href="http://www.macrofocus.com/infoscope/Auto-Umweltliste%20VCS%202013-10-29.html" target="_blank">EcoMobiLista ATA</a></p>
@@ -235,7 +235,8 @@
     <name><strong>Misura 11 - Copertura di tratti stradali</strong></name>
     <description><![CDATA[
 
-			
+			<div><iframe width="300" height="200" src="//www.youtube.com/embed/lt8XM6IwowY" frameborder="0" allowfullscreen></iframe></div>
+			<div>
 			<p>La copertura di tratti stradali è una misura molto efficace contro il rumore, ma anche molto costosa.</p> 
 			<p></p>
 			<p><a href="http://www.laermorama.ch/m7_laermschutz/einsperren_v.html" target="_blank">Isolare la fonte del rumore</a></p>

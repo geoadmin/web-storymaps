@@ -28,6 +28,9 @@ var lyr1 = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
 
 map.addLayer(lyr1);
 
+var lyr2 = ga.layer.create('ch.bafu.laerm-strassenlaerm_tag');
+
+map.addLayer(lyr2);
     
 // Create the KML Layer
 var vector = new ol.layer.Vector({

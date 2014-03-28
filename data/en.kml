@@ -183,7 +183,7 @@
 			
 			<p>A motor car’s noise level is primarily influenced by the weight and design of the vehicle.</p> 
 			<p>
-			<img  width="300" height="200" src="http://mf0.dev.bgdi.ch/~ltboj/storymap12/htdocs/data/img/8_hybridauto.jpg" />
+			<img  width="300" height="200" src="http://storymaps.geo.admin.ch/storymaps/storymap12/htdocs/data/img/8_hybridauto.jpg" />
 			</p>
 			<p><a href="http://www.laerm.ch/de/laerm-ruhe/leiser-mobil-sein/leise-autos/leise-autos.html" target="_blank">Quiet vehicles</a></p>
 	        <p><a href="http://www.macrofocus.com/infoscope/Auto-Umweltliste%20VCS%202013-10-29.html" target="_blank">VCS list of quiet motor vehicles</a></p>
@@ -236,7 +236,8 @@
     <name><strong>Measure 11 - Road enclosure</strong></name>
     <description><![CDATA[
 
-			
+			<div><iframe width="300" height="200" src="//www.youtube.com/embed/QSsdmOKx13M" frameborder="0" allowfullscreen></iframe></div>
+			<div>
 			<p>Covering and enclosing roads is a very effective noise abatement measure, but is also extremely costly.</p> 
 			<p></p>
 			<p><a href="http://www.laermorama.ch/m7_laermschutz/einsperren_v.html" target="_blank">Enclosure of noise sources</a></p>

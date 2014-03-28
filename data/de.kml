@@ -178,7 +178,7 @@
 			
 			<p>Der Lärmpegel eines Autos wird vor allem vom Gewicht und der Konstruktion des Fahrzeugs beeinflusst.</p> 
 			<p>
-			<img  width="300" height="200" src="http://mf0.dev.bgdi.ch/~ltboj/storymap12/htdocs/data/img/8_hybridauto.jpg" />
+			<img  width="300" height="200" src="http://storymaps.geo.admin.ch/storymaps/storymap12/htdocs/data/img/8_hybridauto.jpg" />
 			</p>
 			<p><a href="http://www.laerm.ch/de/laerm-ruhe/leiser-mobil-sein/leise-autos/leise-autos.html" target="_blank">Leise Fahrzeuge</a></p>
 	        <p><a href="http://www.macrofocus.com/infoscope/Auto-Umweltliste%20VCS%202013-10-29.html" target="_blank">Auto-Umweltliste VCS</a></p>
@@ -230,7 +230,8 @@
     <name><strong>Massnahme 11 - Einhausung</strong></name>
     <description><![CDATA[
 
-			
+			<div><iframe width="300" height="200" src="//www.youtube.com/embed/vPvdP_7AvJU" frameborder="0" allowfullscreen></iframe></div>
+			<div>
 			<p>Das Einhausen einer Strasse ist sehr effektiv gegen Lärm, aber auch sehr teuer.</p> 
 			<p></p>
 			<p><a href="http://www.laermorama.ch/m7_laermschutz/einsperren_v.html" target="_blank">Lärmquellen einsperen</a></p>
