@@ -65,8 +65,7 @@
     <name><strong>Mesure 2 - Revêtements silencieux</strong></name>
     <description><![CDATA[
 
-		
-		<div><iframe width="300" height="200" src="//www.youtube.com/embed/p-7odxOf9qU" frameborder="0" allowfullscreen></iframe></div>
+		<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/2_fr.html"><img src="http://mf0.dev.bgdi.ch/~ltboj/storymap12/htdocs/data/files/imgfiles/2_fr_small.gif" border="0" width="300" height="200"></a></div>
 		<div>
 			
 			<p>Les revêtements silencieux permettent de réduire significativement le bruit.</p> 
@@ -124,7 +123,8 @@
     <name><strong>Mesure 5 - Limitation de vitesse</strong></name>
     <description><![CDATA[
 
-			
+		<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/5_fr.html"><img src="http://mf0.dev.bgdi.ch/~ltboj/storymap12/htdocs/data/files/imgfiles/5_fr_small.gif" border="0" width="300" height="200"></a></div>
+		<div>			
 			<p>La limitation de vitesse est l’une des mesures de lutte contre le bruit les plus efficaces et les moins coûteuses.</p> 
 			<p></p>
 			<p><a href="https://www.stadt-zuerich.ch/tempo30.secure.html" target="_blank">Limitation 30 ville de Zurich</a></p>
@@ -141,6 +141,8 @@
     <name><strong>Mesure 6 - Limitation de vitesse</strong></name>
     <description><![CDATA[
 
+			<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/6_fr.html"><img src="http://mf0.dev.bgdi.ch/~ltboj/storymap12/htdocs/data/files/imgfiles/6_fr_small.gif" border="0" width="300" height="200"></a></div>
+		<div>
 			
 			<p>Sur l’autoroute également, une réduction de la limitation de vitesse permet de réduire considérablement le bruit.</p> 
 			<p></p>
@@ -197,7 +199,8 @@
     <name><strong>Mesure 9 - Promotion des transports publics</strong></name>
     <description><![CDATA[
 
-			
+		<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/9_fr.html"><img src="http://mf0.dev.bgdi.ch/~ltboj/storymap12/htdocs/data/files/imgfiles/9_fr_small.gif" border="0" width="300" height="200"></a></div>
+		<div>			
 			<p>Moins de circulation, moins de bruit.</p> 
 			<p></p>
 			<p><a href="http://www.laerm.ch/de/laerm-ruhe/leiser-mobil-sein/mobilitaetsmanagement/mobilitaetsmanagement.html" target="_blank">Gestion de la mobilité</a></p>
@@ -216,7 +219,9 @@
 
 			<p>Les parois antibruit interrompent la propagation directe des ondes sonores entre les véhicules et les habitations.</p> 
 			<p></p>
-			<p><a href="http://www.bafu.admin.ch/laerm/10526/10529/10531/index.html?lang=fr" target="_blank">Parois antibruit</a></p>
+			<iframe width="300" height="200" src="//www.youtube.com/embed/_R8bt07xP6c" frameborder="0" allowfullscreen></iframe>
+			<p></p>
+			<p><a href="http://youtu.be/_R8bt07xP6c" target="_blank">Parois antibruit</a></p>
 			
 		</div>
 		

@@ -66,7 +66,7 @@
     <description><![CDATA[
 
 		
-		<div><iframe width="300" height="200" src="//www.youtube.com/embed/cxv_4luqbbc" frameborder="0" allowfullscreen></iframe></div>
+		<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/2_it.html"><img src="http://mf0.dev.bgdi.ch/~ltboj/storymap12/htdocs/data/files/imgfiles/2_it_small.gif" border="0" width="300" height="200"></a></div>
 		<div>
 			
 			<p>Le pavimentazioni stradali fonoassorbenti consentono di ridurre sensibilmente il rumore alla fonte.</p> 
@@ -124,7 +124,8 @@
     <name><strong>Misura 5 - Riduzione della velocità</strong></name>
     <description><![CDATA[
 
-			
+		<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/5_it.html"><img src="http://mf0.dev.bgdi.ch/~ltboj/storymap12/htdocs/data/files/imgfiles/5_it_small.gif" border="0" width="300" height="200"></a></div>
+		<div>			
 			<p>Ridurre la velocità è una delle misure antirumore più efficaci ed economiche.</p> 
 			<p></p>
 			<p><a href="https://www.stadt-zuerich.ch/tempo30.secure.html" target="_blank">Tempo 30 (città di Zurigo)</a></p>
@@ -141,7 +142,8 @@
     <name><strong>Misura 6 - Riduzione della velocità</strong></name>
     <description><![CDATA[
 
-			
+		<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/6_it.html"><img src="http://mf0.dev.bgdi.ch/~ltboj/storymap12/htdocs/data/files/imgfiles/6_it_small.gif" border="0" width="300" height="200"></a></div>
+		<div>			
 			<p>Anche in autostrada la riduzione della velocità consente di ridurre sensibilmente il rumore.</p> 
 			<p></p>
 			
@@ -197,7 +199,8 @@
     <name><strong>Misura 9 - Promozione dei mezzi di trasporto pubblici</strong></name>
     <description><![CDATA[
 
-			
+		<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/9_it.html"><img src="http://mf0.dev.bgdi.ch/~ltboj/storymap12/htdocs/data/files/imgfiles/9_it_small.gif" border="0" width="300" height="200"></a></div>
+		<div>			
 			<p>Diminuendo il traffico stradale si riduce anche il rumore.</p> 
 			<p></p>
 			<p><a href="http://www.laerm.ch/de/laerm-ruhe/leiser-mobil-sein/mobilitaetsmanagement/mobilitaetsmanagement.html" target="_blank">Gestione della mobilità</a></p>
@@ -210,13 +213,15 @@
       <coordinates>7.619012231,46.760779867,0.000000</coordinates>
     </Point>
   </Placemark>
-    <Placemark>
+    <Placemark>u
     <name><strong>Misura 10 - Pareti antirumore</strong></name>
     <description><![CDATA[
 
 			<p>Le pareti antirumore interrompono la diffusione diretta del suono dal veicolo alle abitazioni.</p> 
 			<p></p>
-			<p><a href="http://www.bafu.admin.ch/laerm/10526/10529/10531/index.html?lang=it" target="_blank">Pareti antirumore</a></p>
+			<iframe width="300" height="200" src="//www.youtube.com/embed/xDws7-thpxE" frameborder="0" allowfullscreen></iframe>
+			<div>
+			<p><a href="http://youtu.be/H_RHe2kYIzo" target="_blank">Pareti antirumore</a></p>
 			
 		</div>
 		

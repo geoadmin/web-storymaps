@@ -64,8 +64,7 @@
     <name><strong>Massnahme 2 - Leise Strassenbeläge</strong></name>
     <description><![CDATA[
 
-		
-		<div><iframe width="300" height="200" src="//www.youtube.com/embed/quLPdNNb-T4" frameborder="0" allowfullscreen></iframe></div>
+			<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/2_de.html"><img src="http://mf0.dev.bgdi.ch/~ltboj/storymap12/htdocs/data/files/imgfiles/2_de_small.gif" border="0" width="300" height="200"></a></div>
 		<div>
 			
 			<p>Leise Strassenbeläge können den Lärm flächendeckend markant reduzieren.</p> 
@@ -122,7 +121,8 @@
     <name><strong>Massnahme 5 - Geschwindigkeitsbegrenzung</strong></name>
     <description><![CDATA[
 
-			
+			<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/5_de.html"><img src="http://mf0.dev.bgdi.ch/~ltboj/storymap12/htdocs/data/files/imgfiles/5_de_small.gif" border="0" width="300" height="200"></a></div>
+		<div>
 			<p>Temporeduktion ist eine der effektivsten und kostengünstigsten Lärmschutzmassnahmen.</p> 
 			<p></p>
 			<p><a href="https://www.stadt-zuerich.ch/tempo30.secure.html" target="_blank">Tempo 30 Stadt Zürich</a></p>
@@ -138,8 +138,8 @@
     <Placemark>
     <name><strong>Massnahme 6 - Geschwindigkeitsbegrenzung</strong></name>
     <description><![CDATA[
-
-			
+			<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/6_de.html"><img src="http://mf0.dev.bgdi.ch/~ltboj/storymap12/htdocs/data/files/imgfiles/6_de_small.gif" border="0" width="300" height="200"></a></div>
+		<div>
 			<p>Auch auf der  Autobahn bringt eine Temporeduktion eine wahrnehmbare Senkung des Lärms.</p> 
 			<p></p>
 			
@@ -194,8 +194,8 @@
     <Placemark>
     <name><strong>Massnahme 9 - Förderung ÖV</strong></name>
     <description><![CDATA[
-
-			
+			<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/9_de.html"><img src="http://mf0.dev.bgdi.ch/~ltboj/storymap12/htdocs/data/files/imgfiles/9_de_small.gif" border="0" width="300" height="200"></a></div>
+		<div>
 			<p>Weniger Strassenverkehr bedeutet weniger Lärm.</p> 
 			<p></p>
 			<p><a href="http://www.laerm.ch/de/laerm-ruhe/leiser-mobil-sein/mobilitaetsmanagement/mobilitaetsmanagement.html" target="_blank">Mobilitätsmanagement</a></p>
@@ -214,7 +214,9 @@
 
 			<p>Eine Lärmschutzwand unterbricht die direkte Schallausbreitung von den Fahrzeugen zu Wohnungen.</p> 
 			<p></p>
-			<p><a href="http://www.bafu.admin.ch/laerm/10526/10529/10531/index.html?lang=de" target="_blank">Lärmschutzwände</a></p>
+			<iframe width="300" height="200" src="//www.youtube.com/embed/H_RHe2kYIzo" frameborder="0" allowfullscreen></iframe>
+			<p></p>
+			<p><a href="http://youtu.be/H_RHe2kYIzo" target="_blank">Lärmschutzwände</a></p>
 			
 		</div>
 		
