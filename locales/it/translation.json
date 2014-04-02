@@ -19,7 +19,14 @@
         "date": "Data:",
         "time": "Ora:",
         "detail": "Dettagli",
-        "stationNumber": "Numero della stazione:"
+        "stationNumber": "Numero della stazione:",
+         "Weitere_Infos": "Weitere Infos",
+        "strassenverkehrslaerm": "Rumore del traffico stradale",
+        "cercle_bruit": "Cercle Bruit",
+        "umweltzustand_laerm": "Stato dell'ambiente: rumore",
+        "Realized_with": "Realizzato con",
+        "Copyright_and_Data_protection": "Copyright e protezione diritti d'autore"
+
     },
     "html": {
         "infolinks": [

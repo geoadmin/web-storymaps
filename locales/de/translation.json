@@ -25,7 +25,13 @@
         "Link Geotope": "Schweizerische Geotope",
         "href Geotope": "http://map.geo.admin.ch/?selectedNode=LT2_18&Y=627708.64414308&X=105790.60700533&zoom=6&bgOpacity=0&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.swisstopo.geologie-geotope&layers_opacity=1&layers_visibility=true&time_current=latest&lang=de",
 
-        "Weitere_Infos": "Weitere Infos"
+        "Weitere_Infos": "Weitere Infos",
+        "strassenverkehrslaerm": "Strassenverkehrslärm",
+        "cercle_bruit": "Cercle Bruit",
+        "umweltzustand_laerm": "Umweltzustand Lärm",
+        "Realized_with": "Umgesetzt mit",
+        "Copyright_and_Data_protection": "Copyright und Dantenschützerklärung"
+
     },
     "html": {
         "infolinks": [

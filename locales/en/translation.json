@@ -19,7 +19,13 @@
         "date": "Date:",
         "time": "Time:",
         "detail": "Details",
-        "stationNumber": "Station number:"
+        "stationNumber": "Station number:",
+        "Weitere_Infos": "Weitere Infos",
+        "strassenverkehrslaerm": "Road traffic noise",
+        "cercle_bruit": "Cercle Bruit",
+        "umweltzustand_laerm": "Environmental state: Noise",
+        "Realized_with": "Realized with",
+        "Copyright_and_Data_protection": "Copyright and Data protection"
     },
     "html": {
         "infolinks": [
