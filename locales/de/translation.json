@@ -1,6 +1,7 @@
 {
     "depart": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
     "text": {
+        "title": "Massnahmen gegen Strassenlärm",
         "adminch": "Bundesverwaltung admin.ch",
         "depart": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
         "FOEN": "Bundesamt für Umwelt BAFU",
@@ -10,7 +11,6 @@
         "share": "Teilen",
         "language": "Sprache",
         "infoboxTitle": "Die wärmsten Fliessgewässer der Schweiz",
-        "abstract": "Die Abteilung Hydrologie des Bundesamt für Umwelt misst an über 80 Standorten die Temperatur verschiedener Fliessgewässer der Schweiz. Neben einem Jahresgang weisen einige Fliessgewässer auch starke Temperaturunterschiede innerhalb eines Tages auf. Die Daten des Wassertemperaturmessnetzes werden in Echtzeit dargestellt (stündliche Nachführung) - die Rangliste ändert sich somit von Stunde zu Stunde.",
         "infoboxMoreInfo": "Weitere Informationen",
         "dep": "Bundesamt für Umwelt",
         "station": "Station:",
@@ -20,7 +20,7 @@
         "time": "Zeit:",
         "detail": "Details",
         "stationNumber": "Stationsnummer:",
-        "Zusammenfassung" : "Am 18. April 1991 stürzten bei Randa im hinteren Mattertal rund 15 Millionen m3 Fels zu Tal. Die Felsblöcke waren teilweise so gross wie Einfamilienhäuser, die Sturzhöhe betrug 600 Meter. Hauptursachen des Bergsturzes waren die Wirkung von Frost- und Tauperioden und von erhöhtem Wasserdruck in Gesteinsklüften. Am 9. Mai des gleichen Jahres ereignete sich erneut ein Bergsturz von einigen Millionen Kubikmeter Gesteinsmaterial. Insgesamt stürzten bei allen Bergstürzen 33 Mio. m3 Gestein ins Tal (Karte: Siegfriedkarte 1881; ",
+        "abstract" : "Jede 5. Person ist in der Schweiz von übermässigem  Strassenlärm betroffen.  Lärm ist nicht nur lästig, sondern auch gesundheitsgefährdend, mindert die Standortqualität der betroffenen Gebiete und verursacht hohe volkswirtschaftliche Kosten (Minderung des Mietzinses von 0.2% pro dB (Dezibel)). Um die Bevölkerung besser zu schützen, fördert der Bund die Umsetzung weiterer Lärmschutzmassnahmen. Besonders effektiv sind dabei Massnahmen an der Lärmquelle.",
         "Link LK25": "http://map.geo.admin.ch/?selectedNode=node_ch.swisstopo.pixelkarte-pk25.metadata1&Y=627542&X=104544&zoom=5&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.swisstopo.pixelkarte-pk25.metadata&layers_opacity=1&layers_visibility=true&time_current=latest&lang=de",
         "Link Geotope": "Schweizerische Geotope",
         "href Geotope": "http://map.geo.admin.ch/?selectedNode=LT2_18&Y=627708.64414308&X=105790.60700533&zoom=6&bgOpacity=0&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.swisstopo.geologie-geotope&layers_opacity=1&layers_visibility=true&time_current=latest&lang=de",
