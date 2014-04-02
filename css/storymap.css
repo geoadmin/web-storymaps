@@ -383,11 +383,13 @@ h1.tips{
 
 .popover {
         z-index: auto;
-        max-width: 450px;
+        /* max-width: 450px; */
+        min-width:325px;
 }
 .popover-content {
     max-width: 600px;
-    max-height: 250px;
+    /* max-height: 250px; */
+    min-height: 250px;
     overflow-y: auto;
 }
 
