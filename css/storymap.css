@@ -169,6 +169,10 @@ p.infobox, a.infobox {
   text-decoration: inherit;
 }
 
+.moreinfo h3 {
+    font-size: 15px;
+}
+
 .abstract {
   border-bottom: solid 2px #FFFFFF;
   text-decoration: inherit;
