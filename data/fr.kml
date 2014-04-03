@@ -65,7 +65,7 @@
     <name><strong>Mesure 2 - Revêtements silencieux</strong></name>
     <description><![CDATA[
 
-		<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/2_fr.html"><img src="http://storymaps.geo.admin.ch/storymap12/data/files/imgfiles/2_fr_small.gif" border="0" width="300" height="200"></a></div>
+        <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/2_fr.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/2_fr_small.gif" border="0" width="300" height="200"></a></div>
 		<div>
 			
 			<p>Les revêtements silencieux permettent de réduire significativement le bruit.</p> 
@@ -182,7 +182,7 @@
 			
 			<p>Le bruit que produit un véhicule dépend avant tout de son poids et de sa construction.</p> 
 			<p>
-			<img  width="300" height="200" src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/img/8_hybridauto.jpg" />
+                <img  width="300" height="200" src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/8_hybridauto.jpg" />
 			</p>
 			<p><a href="http://www.laerm.ch/fr/bruit-silence/mobilit-plus-silencieuse/voiture-silencieuse/voiture-silencieuse.html" target="_blank">Véhicules silencieux</a></p>
 	        <p><a href="http://www.macrofocus.com/infoscope/Auto-Umweltliste%20VCS%202013-10-29.html" target="_blank">Liste EcoMobiliste ATE</a></p>
@@ -199,7 +199,7 @@
     <name><strong>Mesure 9 - Promotion des transports publics</strong></name>
     <description><![CDATA[
 
-		<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/9_fr.html"><img src="http://storymaps.geo.admin.ch/storymap12/data/files/imgfiles/9_fr_small.gif" border="0" width="300" height="200"></a></div>
+        <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/9_fr.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/9_fr_small.gif" border="0" width="300" height="200"></a></div>
 		<div>			
 			<p>Moins de circulation, moins de bruit.</p> 
 			<p></p>
