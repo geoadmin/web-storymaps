@@ -121,48 +121,58 @@
 	
 
 
-	<div id="map" style="position: absolute; left: 0px; top: 123px; width: 100%; bottom: 0; min-height: 580px;">
+    <div id="map" style="position: absolute; left: 0px; top: 123px; width: 100%; bottom: 0; min-height: 580px;"></map>
 	<div style="display: none;">
             <!-- Popup -->
             <div id="popup" title="KML"></div>
         </div>
-		
-		<div id="infobox">
-			<div id="close_box" style="position: absolute; right: 8px; top: 8px; cursor: pointer;">
-				<svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
-					<g>
-						<path id="svg_1" d="m3.13264,16.88795c-3.7922,-3.81782 -3.7922,-10.00817 0,-13.82607c3.79341,-3.81782 9.94103,-3.81782 13.73441,0c3.79223,3.81785 3.79223,10.00824 0,13.82607c-3.79337,3.81839 -9.941,3.81839 -13.73441,0zm12.01788,-12.09795c-2.84504,-2.86366 -7.45632,-2.86366 -10.30019,0c-2.84503,2.86366 -2.84503,7.50617 0,10.36983c2.84386,2.86369 7.45515,2.86369 10.30019,0c2.84393,-2.86373 2.84393,-7.50618 0,-10.36983zm-7.72543,9.50579l-1.71652,-1.72869l2.57476,-2.5922l-2.57476,-2.59216l1.71652,-1.72873l2.57476,2.59277l2.5748,-2.59277l1.71648,1.72873l-2.57476,2.59216l2.57476,2.5922l-1.71648,1.72869l-2.5748,-2.59277l-2.57476,2.59277z" fill="white"/>
-					</g>
-				</svg>
-			</div>
-    	<div class="title"><h1 class="infobox multilang" data-i18n="text.title">{{title}}</h1></div>
-      <div class="abstract">
-      	<div class="inner">
-        	<span data-i18n="text.abstract">{{Zusammenfassung}}</span>
+        <!-- infobox -->	
+
+        <div id="infobox">
+    <div class="title"><h1 data-i18n="text.title"></h1></div>
+        <div class="abstract">
+            <div class="inner" data-i18n="text.abstract">
+            </div>
         </div>
-			</div>
-			<div class="moreinfo">
-				<div class="inner">
-        	<h3 data-i18n="text.FOEN">{{Weitere Infos}}</h3>
-  				<ul>
-                    <li><a href="{{href PLANAT}}" target="_blank"><span data-i18n="text.strassenverkehrslaerm"></span></a></li>
-                    <li><a href="{{href PLANAT}}" target="_blank"><span data-i18n="text.umweltzustand_laerm"></span></a></li>
-  				</ul>
-        	<h3 data-i18n="text.cercle_bruit">{{Weitere Infos}}</h3>
-  				<ul>
-                    <li><a href="{{href PLANAT}}" target="_blank"><span data-i18n="text.strassenverkehrslaerm"></span></a></li>
-  				</ul>
-	  		</div>
-			</div>
-      <div class="colophon">
-      	<div class="inner">
-					<ul>
-                        <li><span data-i18n="text.Realized_with"></span>: <a href="http://api3.geo.admin.ch" target="_blank">api3.geo.admin.ch</a></br>
-                        <li><a href="http://www.geo.admin.ch/internet/geoportal/en/home/geoadmin/contact.html#copyright" target="_blank" data-i18n="text.Copyright_and_Data_protection"></a></br>
-					</ul>
-      	</div>
-			</div>
-		</div>
+        <div class="moreinfo">
+    
+            <div class="inner">
+                <a href="#" target="_blank" class="fancybox fancybox.iframe" data-i18n="[href]text.animation_path"><img src="#" border="0" width="300" height="200" data-i18n="[src]text.animation_image_src"></a>
+            </div>
+
+            <div class="inner">
+                <h2 data-i18n="text.info"></h2></br>  
+
+                <p data-i18n="text.themalinks"></br></br>
+
+                    <p data-i18n="text.link_1"></br>
+                    <ul>
+                        <li><a href="#" target="_blank" data-i18n="[href]text.url_11;text.link_11">{{link 11}}</a></li>
+                        <li><a href="#" target="_blank" data-i18n="[href]text.url_12;text.link_12">{{link 12}}</a></li>
+                    </ul>
+                    </p>
+        
+                    <p data-i18n="text.link_2">{{link 2}}</br>
+                    <ul>
+                        <li><a href="#" target="_blank" data-i18n="[href]text.url_21;text.link_21;">{{link 21}}</a></li>
+                    </ul>
+                    </p>
+                </p>
+            </div>
+        </div>
+    
+   
+    <div class="colophon">
+        <div class="inner">
+            <ul>
+                <li><span data-i18n="text.Realized_with"></span>: <a href="http://api.geo.admin.ch" target="_blank">api.geo.admin.ch</a></br>
+                <li><a href="http://www.geo.admin.ch/internet/geoportal/en/home/geoadmin/contact.html#copyright" target="_blank" data-i18n="text.Copyright_and_Data_protection"></a></br>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <!-- infobox -->
 </div>
 <script type="text/javascript" src="js/storymap.js"></script>
 <script type="text/javascript" src="js/infobox.js"></script>
