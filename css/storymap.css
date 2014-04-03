@@ -394,5 +394,9 @@ h1.tips{
 }
 
 
+#infobox h1, #infobox h2 {
+    font-size: large;
+}
+
 
 
