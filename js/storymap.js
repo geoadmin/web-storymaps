@@ -31,12 +31,18 @@ map.addLayer(lyr1);
 var lyr2 = ga.layer.create('ch.bafu.laerm-strassenlaerm_tag');
 
 map.addLayer(lyr2);
+
+var lang = 'de';
+var requestedLang = i18n.lng();
+if ($.inArray( requestedLang, ['de','fr','it','en'] ) > 0) {
+    lang = requestedLang;
+}
     
 // Create the KML Layer
 var vector = new ol.layer.Vector({
   source: new ol.source.KML({
     projection: 'EPSG:21781',
-    url: 'data/de.kml'
+    url: 'data/' + lang +'.kml'
   })
 });
 
@@ -68,7 +74,8 @@ var displayFeatureInfo = function(pixel, coordinate) {
       'placement': 'top',
       'animation': false,
       'html': true,
-      'content': feature.get('description')
+      'content': feature.get('description'),
+      'title': feature.get('name')
      });
      $(element).popover('show');
   } else {
