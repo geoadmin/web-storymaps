@@ -64,7 +64,7 @@
     <name><strong>Massnahme 2 - Leise Strassenbeläge</strong></name>
     <description><![CDATA[
 
-			<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/2_de.html"><img src="http://storymaps.geo.admin.ch/storymap12/data/files/imgfiles/2_de_small.gif" border="0" width="300" height="200"></a></div>
+        <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/2_de.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/2_de_small.gif" border="0" width="300" height="200"></a></div>
 		<div>
 			
 			<p>Leise Strassenbeläge können den Lärm flächendeckend markant reduzieren.</p> 
@@ -178,7 +178,7 @@
 			
 			<p>Der Lärmpegel eines Autos wird vor allem vom Gewicht und der Konstruktion des Fahrzeugs beeinflusst.</p> 
 			<p>
-			<img  width="300" height="200" src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/img/8_hybridauto.jpg" />
+                <img  width="300" height="200" src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/8_hybridauto.jpg" />
 			</p>
 			<p><a href="http://www.laerm.ch/de/laerm-ruhe/leiser-mobil-sein/leise-autos/leise-autos.html" target="_blank">Leise Fahrzeuge</a></p>
 	        <p><a href="http://www.macrofocus.com/infoscope/Auto-Umweltliste%20VCS%202013-10-29.html" target="_blank">Auto-Umweltliste VCS</a></p>
@@ -194,7 +194,7 @@
     <Placemark>
     <name><strong>Massnahme 9 - Förderung ÖV</strong></name>
     <description><![CDATA[
-        <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/9_de.html"><img src="http://storymaps.geo.admin.ch/storympas/storymap12/data/files/imgfiles/9_de_small.gif" border="0" width="300" height="200"></a></div>
+        <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/9_de.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/9_de_small.gif" border="0" width="300" height="200"></a></div>
 		<div>
 			<p>Weniger Strassenverkehr bedeutet weniger Lärm.</p> 
 			<p></p>

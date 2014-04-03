@@ -66,7 +66,7 @@
     <description><![CDATA[
 
 		
-		<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/2_it.html"><img src="http://storymaps.geo.admin.ch/storymap12/data/files/imgfiles/2_it_small.gif" border="0" width="300" height="200"></a></div>
+        <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/2_it.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/2_it_small.gif" border="0" width="300" height="200"></a></div>
 		<div>
 			
 			<p>Le pavimentazioni stradali fonoassorbenti consentono di ridurre sensibilmente il rumore alla fonte.</p> 
@@ -182,7 +182,7 @@
 			
 			<p>Il livello di rumore prodotto da un veicolo dipende principalmente dal suo peso e da come è stato costruito.</p> 
 			<p>
-			<img  width="300" height="200" src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/img/8_hybridauto.jpg" />
+                <img  width="300" height="200" src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/8_hybridauto.jpg" />
 			</p>
 			<p><a href="http://www.laerm.ch/it/rumore-silenzio/mobilit-pi-calma/auto-silenziosa/auto-silenziosa.html" target="_blank">Veicoli silenziosi</a></p>
 	        <p><a href="http://www.macrofocus.com/infoscope/Auto-Umweltliste%20VCS%202013-10-29.html" target="_blank">EcoMobiLista ATA</a></p>
@@ -199,7 +199,7 @@
     <name><strong>Misura 9 - Promozione dei mezzi di trasporto pubblici</strong></name>
     <description><![CDATA[
 
-		<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/9_it.html"><img src="http://storymaps.geo.admin.ch/storymap12/data/files/imgfiles/9_it_small.gif" border="0" width="300" height="200"></a></div>
+        <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/9_it.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/9_it_small.gif" border="0" width="300" height="200"></a></div>
 		<div>			
 			<p>Diminuendo il traffico stradale si riduce anche il rumore.</p> 
 			<p></p>
