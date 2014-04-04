@@ -4,6 +4,7 @@
         "adminch": "Amministrazione federale admin.ch",
         "depart": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
         "FOEN": "Ufficio federale dell'ambiente UFAM",
+        "FOEN_url": "http://www.bafu.admin.ch/?lang=it",
         "overview": "Vista d'insieme",
         "detailview": "Dettagli",
         "moreInfo": "Informazione",

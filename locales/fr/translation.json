@@ -4,6 +4,7 @@
         "adminch": "Administration fédérale admin.ch",
         "depart": "Département de l'environnement, des transports, de l'énergie et de la communication",
         "FOEN": "Office fédéral de l'environnement OFEV",
+        "FOEN_url": "http://www.bafu.admin.ch/?lang=fr",
         "overview": "Vue d'ensemble",
         "detailview": "Vue détaillé",
         "moreInfo": "Informations",
