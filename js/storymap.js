@@ -50,7 +50,8 @@ map.addLayer(vector);
 
 // Popup showing the position the user clicked
 var popup = new ol.Overlay({
-  element: document.getElementById('popup')
+  element: document.getElementById('popup'),
+  stopEvent: false
 });
 
 map.addOverlay(popup);
@@ -75,31 +76,21 @@ var displayFeatureInfo = function(pixel, coordinate) {
       'animation': false,
       'html': true,
       'content': feature.get('description'),
-      'title': feature.get('name')
+      'title': feature.get('name') + '<a class="close" href="#");">&times;</a>'
      });
      $(element).popover('show');
   } else {
      $(element).popover('destroy');
+     
   }
 };
+
+
+
 
 map.on('singleclick', function(evt) {
   var pixel = evt.pixel;
   var coordinate = evt.coordinate;
   displayFeatureInfo(pixel, coordinate);
 });
-}
-/*
-// adapt bar chart do div size when window is being chaged
-$(window).resize(function(){  //add after resize function
-	$('#rect-' + fid).tipsy('hide');
-	svgWidth = $('#chart').width();	
-	xScale = d3.scale.linear().domain([0, 25]).range([0, svgWidth]);
-	bars.transition()
-		.attr("x", function(datum, index) { return xScale(index);})
-		.attr("width", svgWidth / 25 * 0.6);
-	svg.transition()
-		.attr("width", svgWidth);
-//	$('#rect-' + fid).tipsy('show');
-
-});  */
+} 

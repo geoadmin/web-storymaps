@@ -399,4 +399,8 @@ h1.tips{
 }
 
 
-
+.popover-title a.close {
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+}
