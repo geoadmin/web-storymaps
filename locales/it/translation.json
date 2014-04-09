@@ -17,7 +17,7 @@
         "info": "Ulteriori informazioni",
         "themalinks": "Links sul tema",
         "animation_path": "imgfiles/animation_fr.html",
-        "animation_image_src": "imgfiles/small_bafu_laerm_fr.gif",
+        "animation_image_src": "imgfiles/small_bafu_laerm_it.gif",
         "link_1": "Ufficio federale dell'ambiente",
         "link_11": "Rumore del traffico stradale",
         "url_11": "http://www.bafu.admin.ch/laerm/10519/10949/index.html?lang=it",
@@ -39,7 +39,9 @@
         "cercle_bruit": "Cercle Bruit",
         "umweltzustand_laerm": "Stato dell'ambiente: rumore",
         "Realized_with": "Realizzato con",
-        "Copyright_and_Data_protection": "Copyright e protezione diritti d'autore"
+        "Copyright_and_Data_protection": "Copyright e protezione diritti d'autore",
+        "copyright_url": "http://www.geo.admin.ch/internet/geoportal/it/home/geoadmin/contact.html#copyright"
+
 
     },
     "html": {

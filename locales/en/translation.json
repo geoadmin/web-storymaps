@@ -53,6 +53,8 @@
         "umweltzustand_laerm": "Environmental state: Noise", 
         "url_11": "http://www.bafu.admin.ch/laerm/10519/10949/index.html?lang=en", 
         "url_12": "http://www.bafu.admin.ch/umwelt/12492/12675/index.html?lang=en", 
-        "url_21": "http://www.laerm.ch/en/laermsorgen/verkehrslaerm/strassenverkehr/strassenlaerm.html"
+        "url_21": "http://www.laerm.ch/de/laermsorgen/verkehrslaerm/strassenverkehr/strassenlaerm.html" ,
+        "copyright_url": "http://www.geo.admin.ch/internet/geoportal/en/home/geoadmin/contact.html#copyright"
+
     }
 }

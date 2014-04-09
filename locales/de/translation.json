@@ -15,7 +15,7 @@
         "infoboxMoreInfo": "Weitere Informationen",
         "dep": "Bundesamt für Umwelt",
         "title": "Massnahmen gegen Strassenlärm",
-       "abstract" : "Jede 5. Person ist in der Schweiz von übermässigem  Strassenlärm betroffen. Lärm ist nicht nur lästig, sondern auch gesundheitsgefährdend, mindert die Standortqualität der betroffenen Gebiete und verursacht hohe volkswirtschaftliche Kosten (Minderung des Mietzinses von 0.2% pro dB (Dezibel)). Um die Bevölkerung besser zu schützen, fördert der Bund die Umsetzung weiterer Lärmschutzmassnahmen. Besonders effektiv sind dabei Massnahmen an der Lärmquelle (Karte: Landeskarte Farbe)",
+       "abstract" : "Jede 5. Person ist in der Schweiz von übermässigem  Strassenlärm betroffen. Lärm ist nicht nur lästig, sondern auch gesundheitsgefährdend, mindert die Standortqualität der betroffenen Gebiete und verursacht hohe volkswirtschaftliche Kosten (Minderung des Mietzinses von 0.2% pro dB (Dezibel)). Um die Bevölkerung besser zu schützen, fördert der Bund die Umsetzung weiterer Lärmschutzmassnahmen. Besonders effektiv sind dabei Massnahmen an der Lärmquelle.",
         
         "info": "Weitere Infos",
 
@@ -36,12 +36,13 @@
     
     "Realized_with": "Umgesetzt mit",
     "Copyright_and_Data protection": "Copyright und Datenschutzerklärung",
+    "copyright_url": "http://www.geo.admin.ch/internet/geoportal/en/home/geoadmin/contact.html#copyright",
         "Weitere_Infos": "Weitere Infos",
         "strassenverkehrslaerm": "Strassenverkehrslärm",
         "cercle_bruit": "Cercle Bruit",
         "umweltzustand_laerm": "Umweltzustand Lärm",
         "Realized_with": "Umgesetzt mit",
-        "Copyright_and_Data_protection": "Copyright und Dantenschützerklärung"
+        "Copyright_and_Data_protection": "Copyright und Datenschutzerklärung"
 
     },
     "html": {

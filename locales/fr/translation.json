@@ -21,7 +21,7 @@
         "link_1": "Office fédéral de l'environnement",
         "link_11": "Bruit de la circulation routière",
         "url_11": "http://www.bafu.admin.ch/laerm/10519/10949/index.html?lang=fr",
-        "link_12": "Bruit de la circulation routière",
+        "link_12": "Etat de l'environnement: Bruit",
         "url_12": "http://www.bafu.admin.ch/umwelt/12492/12675/index.html?lang=fr",
         "link_2": "Cercle Bruit",
         "link_21": "Bruit de la circulation routière",
@@ -38,7 +38,9 @@
         "cercle_bruit": "Cercle Bruit",
         "umweltzustand_laerm": "Etat de l'environnement: Bruit",
         "Realized_with": "Réalisé avec",
-        "Copyright_and_Data_protection": "Copyright protection des données"
+        "Copyright_and_Data_protection": "Copyright protection des données",
+        "copyright_url": "http://www.geo.admin.ch/internet/geoportal/fr/home/geoadmin/contact.html#copyright"
+
 
     },
     "html": {
