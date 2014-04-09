@@ -23,6 +23,17 @@ function init() {
   })
 });
 
+// remove touch rotate
+var interactions = map.getInteractions();
+
+for (var i=0; i< interactions.getLength(); i++) { 
+    var interaction = interactions.getAt(i);
+    if (interaction instanceof ol.interaction.TouchRotate) {
+        interactions.removeAt(i);
+        break;
+    }
+}
+
 // Create a background layer
 var lyr1 = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
 
