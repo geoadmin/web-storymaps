@@ -11,7 +11,7 @@
         "share": "Condividere",
         "language": "Lingua",
         "infoboxTitle": "I fiumi “più caldi” della Svizzera",
-        "abstract": "In Svizzera una persona su cinque è vittima dell’eccessivo rumore stradale. Oltre ad arrecare disturbo, il rumore è dannoso per la salute, riduce la qualità di vita nelle zone interessate e provoca costi economici elevati (riduzione del canone di affitto pari allo 0,2 % per dB (decibel)). Per meglio tutelare la popolazione la Confederazione intende promuovere l’attuazione di ulteriori misure antirumore. Le più efficaci sono quelle che intervengono sulla fonte stessa del rumore.",
+        "abstract": "In Svizzera una persona su cinque è vittima dell’eccessivo rumore stradale. Oltre ad arrecare disturbo, il rumore è dannoso per la salute, riduce la qualità di vita nelle zone interessate e provoca costi economici elevati (Costi esterni dovuti al traffico stradale superiori a 1 Mia. CHF/anno). Per meglio tutelare la popolazione la Confederazione intende promuovere l’attuazione di ulteriori misure antirumore. Le più efficaci sono quelle che intervengono sulla fonte stessa del rumore.",
         "infoboxMoreInfo": "Ulteriori informazioni",
         "dep": "Ufficio Federale dell’Ambiente",
         "info": "Ulteriori informazioni",
@@ -26,7 +26,8 @@
         "link_2": "Cercle Bruit",
         "link_21": "Rumore del traffico stradale",
         "url_21": "http://www.laerm.ch/it/problemi-di-rumore/rumore-del-traffico/strassenverkehr/strassenlaerm.html",
-
+        "link_13": "Carta - Rumore stradale di giorno",
+        "url_13": "http://s.geo.admin.ch/890d73ba9",
         "station": "Stazione:",
         "rank": "Rango:",
         "temperature": "Temperatura:",
