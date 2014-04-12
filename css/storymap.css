@@ -407,6 +407,7 @@ h1.tips{
     font-weight: bold;
 }
 #feature-info-body > p > img,
+  #feature-info-body div img,
   #feature-info-body div iframe {
     display: block;
     margin: auto auto;
