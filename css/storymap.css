@@ -396,6 +396,8 @@ h1.tips{
 
 #infobox h1, #infobox h2 {
     font-size: large;
+    padding: 0 25px 0 10px;
+    line-height: 20px;
 }
 
 
