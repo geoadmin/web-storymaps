@@ -83,13 +83,16 @@ var displayFeatureInfo = function(pixel, coordinate) {
      $(element).popover('destroy');
      popup.setPosition(coordinate);
      $(element).popover({
-      'placement': 'top',
+      'placement': 'auto top',
       'animation': false,
       'html': true,
       'content': feature.get('description'),
       'title': feature.get('name') + '<a class="close" href="#");">&times;</a>'
      });
-     $(element).popover('show');
+     //$(element).popover('show');
+     $('#feature-info-title').text(feature.get('name'));
+     $('#feature-info-body').html(feature.get('description'));
+     $('#feature-info').modal('show')
   } else {
      $(element).popover('destroy');
      

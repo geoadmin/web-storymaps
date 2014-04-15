@@ -396,6 +396,8 @@ h1.tips{
 
 #infobox h1, #infobox h2 {
     font-size: large;
+    padding: 0 25px 0 10px;
+    line-height: 20px;
 }
 
 
@@ -403,4 +405,10 @@ h1.tips{
     font-size: 20px;
     color: #000000;
     font-weight: bold;
+}
+#feature-info-body > p > img,
+  #feature-info-body div img,
+  #feature-info-body div iframe {
+    display: block;
+    margin: auto auto;
 }

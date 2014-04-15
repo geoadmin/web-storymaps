@@ -1,7 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"  itemscope itemtype="http://schema.org/BlogPosting">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--[if !HTML5]>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<![endif]-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+<link href="http://www.swisstopo.admin.ch/internet/swisstopo.ConfigFavicon.ico" type="image/x-icon" rel="Shortcut Icon">
 <meta name="description" content="Jede 5. Person ist in der Schweiz von übermässigem  Strassenlärm betroffen. Lärm ist nicht nur lästig, sondern auch gesundheitsgefährdend, mindert die Standortqualität der betroffenen Gebiete und verursacht hohe volkswirtschaftliche Kosten (Externe Kosten Strassenverkehr über 1 Mia. CHF/Jahr). Um die Bevölkerung besser zu schützen, fördert der Bund die Umsetzung weiterer Lärmschutzmassnahmen. Besonders effektiv sind dabei Massnahmen an der Lärmquelle (Karte: Landeskarte Farbe)" />
 <link rel="image_src" href="http://storymaps.geo.admin.ch/storymaps/storymap12/img/snapshot.jpeg" />
 <link href="http://www.swisstopo.admin.ch/internet/swisstopo.ConfigFavicon.ico" type="image/x-icon" rel="Shortcut Icon"> 
@@ -30,13 +35,14 @@
 <title data-i18n="text.title">Massnahmen gegen Strassenlärm</title>
 
 <!-- css files -->
-<link rel="stylesheet" type="text/css" href="css/styles_amt.css">
-<link rel="stylesheet" type="text/css" href="css/styles_text.css">
-<link rel="stylesheet" type="text/css" href="css/storymap.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+<link rel="stylesheet" type="text/css" href="css/styles_text.css">
+<link rel="stylesheet" type="text/css" href="./css/styles_layout.css">
+<link rel="stylesheet" type="text/css" href="css/styles_amt.css">
+<link rel="stylesheet" type="text/css" href="css/storymap.css">
 <link rel="stylesheet" type="text/css" media="screen and (max-width: 760px)" href="css/storymap-mobile-portrait.css">
-	
+
 
 </head>
 
@@ -125,13 +131,29 @@
 	<div style="display: none;">
             <!-- Popup -->
             <div id="popup"></div>
-        </div>
+    </div>
+    <!-- Modal feature info -->
+    <div id="feature-info" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-sm">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                       <h4 class="modal-title" id="feature-info-title">Modal title</h4>
+              </div>
+              <div class="modal-body" id="feature-info-body">
+                  <p>One fine body&hellip;</p>
+              </div>
+          </div>
+    </div>
         <!-- infobox -->	
 
-        <div id="infobox">
-    <div class="title"><h1 data-i18n="text.title"></h1></div>
+        <div class="infobox"  id="infobox">
+             <div id="close_box" style="position: absolute; right: 8px; top: 8px; cursor: pointer;">
+                <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+                    <g><path id="svg_1" d="m3.13264,16.88795c-3.7922,-3.81782 -3.7922,-10.00817 0,-13.82607c3.79341,-3.81782 9.94103,-3.81782 13.73441,0c3.79223,3.81785 3.79223,10.00824 0,13.82607c-3.79337,3.81839 -9.941,3.81839 -13.73441,0zm12.01788,-12.09795c-2.84504,-2.86366 -7.45632,-2.86366 -10.30019,0c-2.84503,2.86366 -2.84503,7.50617 0,10.36983c2.84386,2.86369 7.45515,2.86369 10.30019,0c2.84393,-2.86373 2.84393,-7.50618 0,-10.36983zm-7.72543,9.50579l-1.71652,-1.72869l2.57476,-2.5922l-2.57476,-2.59216l1.71652,-1.72873l2.57476,2.59277l2.5748,-2.59277l1.71648,1.72873l-2.57476,2.59216l2.57476,2.5922l-1.71648,1.72869l-2.5748,-2.59277l-2.57476,2.59277z" fill="white"></path></g></svg>
+            </div>
+            <div class="infobox multilang"><h1 data-i18n="text.title"></h1> <a class="close" href="#">&times;</a></div>
         <div class="abstract">
-            <div class="inner" data-i18n="text.abstract">
+            <div class="inner multilang" data-i18n="text.abstract">
             </div>
         </div>
         <div class="moreinfo">

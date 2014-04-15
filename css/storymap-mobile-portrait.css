@@ -11,10 +11,6 @@
 /*  main layout */
 /* ************************************* */
 
-#map
-{position: absolute; left: 0px; top: 47px !important; width: 100%; bottom: 0; min-height: 580px;}
-
-
 #header-mobile {
 	display: inline;	
 }
