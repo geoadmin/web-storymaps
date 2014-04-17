@@ -126,8 +126,6 @@ $(function() {
 
     // Figure out and save aspect ratio for each video
     $allVideos.each(function() {
-        console.log(this);
-
         $(this)
             .data('aspectRatio', this.height / this.width)
             
