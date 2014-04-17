@@ -44,8 +44,8 @@
 	 <description><![CDATA[
 
 		
+        <div class="content">
 		<div><iframe width="300" height="200" src="//www.youtube.com/embed/KlVPVIcUjSE" frameborder="0" allowfullscreen></iframe></div>
-		<div>
 			
 			<p>Le pavimentazioni stradali fonoassorbenti consentono di ridurre sensibilmente il rumore alla fonte.</p> 
 			<p></p>
@@ -66,8 +66,8 @@
     <description><![CDATA[
 
 		
+        <div class="content">
         <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/2_it.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/2_it_small.gif" border="0" width="300" height="200"></a></div>
-		<div>
 			
 			<p>Le pavimentazioni stradali fonoassorbenti consentono di ridurre sensibilmente il rumore alla fonte.</p> 
 			<p></p>
@@ -86,8 +86,8 @@
     <description><![CDATA[
 
 		
+        <div class="content">
 		<div><iframe width="300" height="200" src="//www.youtube.com/embed/cxv_4luqbbc?start=101" frameborder="0" allowfullscreen></iframe></div>
-		<div>
 			
 			<p>Gli pneumatici silenziosi consentono di ridurre il rumore direttamente alla fonte. I pneumatici silenziosi hanno le medesime caratteristiche di pneumatici convenzionali per quanto concerne la sicurezza e la resistenza di rotolamento.</p> 
 			<p></p>
@@ -105,8 +105,8 @@
     <name><strong>Misura 4 - Pneumatici silenziosi</strong></name>
     <description><![CDATA[
 
+        <div class="content">
 		<div><iframe width="300" height="200" src="//www.youtube.com/embed/0E9bF-_weV8" frameborder="0" allowfullscreen></iframe></div>
-		<div>
 			
 			<p>Acquistando pneumatici silenziosi tutti possono contribuire a ridurre il rumore.</p> 
 			<p></p>
@@ -124,8 +124,8 @@
     <name><strong>Misura 5 - Riduzione della velocità</strong></name>
     <description><![CDATA[
 
+        <div class="content">
 		<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/5_it.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/5_it_small.gif" border="0" width="300" height="200"></a></div>
-		<div>			
 			<p>La riduzione della velocità è un provvedimento antirumore efficiente e a basso costo. Una migliore sicurezza è un‘ulteriore utilità.</p> 
 			<p></p>
 			<p><a href="https://www.stadt-zuerich.ch/tempo30.secure.html" target="_blank">Tempo 30 (città di Zurigo)</a></p>
@@ -142,8 +142,8 @@
     <name><strong>Misura 6 - Riduzione della velocità</strong></name>
     <description><![CDATA[
 
+        <div class="content">
 		<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/6_it.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/6_it_small.gif" border="0" width="300" height="200"></a></div>
-		<div>			
 			<p>Anche in autostrada la riduzione della velocità consente di ridurre sensibilmente il rumore.</p> 
 			<p></p>
 			
@@ -160,8 +160,8 @@
     <description><![CDATA[
 
 		
+        <div class="content">
 		<div><iframe width="300" height="200" src="//www.youtube.com/embed/OuDbADJ_JpI" frameborder="0" allowfullscreen></iframe></div>
-		<div>
 			
 			<p>Una guida previdente e a basso regime può ridurre di ben 3 dB il rumore prodotto da un veicolo.</p> 
 			<p></p>
@@ -180,6 +180,7 @@
     <description><![CDATA[
 
 			
+        <div class="content">
 			<p>
                 <img  width="300" height="200" src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/8_hybridauto.jpg" />
 			</p>
@@ -199,8 +200,9 @@
     <name><strong>Misura 9 - Promozione dei mezzi di trasporto pubblici</strong></name>
     <description><![CDATA[
 
+        <div class="content">
         <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/9_it.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/9_it_small.gif" border="0" width="300" height="200"></a></div>
-		<div>			
+            <p></p>
 			<p>Diminuendo il traffico stradale si riduce anche il rumore.</p> 
 			<p></p>
 			<p><a href="http://www.laerm.ch/de/laerm-ruhe/leiser-mobil-sein/mobilitaetsmanagement/mobilitaetsmanagement.html" target="_blank">Gestione della mobilità</a></p>
@@ -217,8 +219,9 @@
     <name><strong>Misura 10 - Pareti antirumore</strong></name>
     <description><![CDATA[
 
+        <div class="content">
             <div><iframe width="300" height="200" src="//www.youtube.com/embed/xDws7-thpxE" frameborder="0" allowfullscreen></iframe></div>
-			<div>
+            <p></p>
 			<p>Pareti antirumore possono offrire una buona protezione, nelle zone urbane sono però poco adatte a causa di limitazioni acustiche e di costruzione.</p> 
 			    <p></p>
                 <p><a href="http://www.bafu.admin.ch/laerm/10526/10529/10531/index.html?lang=it" target="_blank">Pareti antirumore</a></p>
@@ -234,9 +237,9 @@
     <Placemark>
     <name><strong>Misura 11 - Copertura di tratti stradali</strong></name>
     <description><![CDATA[
-
+        <div class="content">
 			<div><iframe width="300" height="200" src="//www.youtube.com/embed/lt8XM6IwowY" frameborder="0" allowfullscreen></iframe></div>
-			<div>
+            <p></p>
 			<p>La copertura di tratti stradali è una misura molto efficace contro il rumore, ma anche molto costosa.</p> 
 			<p></p>
             <p><a href="http://www.laermorama.ch/m7_laermschutz/einsperren_w.html" target="_blank">Isolare la fonte del rumore</a></p>

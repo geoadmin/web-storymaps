@@ -51,8 +51,8 @@
 	
 	 <description><![CDATA[
 
+        <div class="content">
 		<div><iframe width="300" height="200" src="//www.youtube.com/embed/KlVPVIcUjSE" frameborder="0" allowfullscreen></iframe></div>
-		<div>
 			
 			<p>Leise Strassenbeläge können den Lärm flächendeckend markant reduzieren.</p> 
 			<p></p>
@@ -83,8 +83,8 @@
     <name><strong>Massnahme 2 - Leise Strassenbeläge</strong></name>
     <description><![CDATA[
 
+        <div class="content">
         <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/2_de.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/2_de_small.gif" border="0" width="300" height="200"></a></div>
-		<div>
 			
 			<p>Leise Strassenbeläge können den Lärm flächendeckend markant reduzieren.</p> 
 			<p></p>
@@ -115,8 +115,8 @@
     <description><![CDATA[
 
 		
+        <div class="content">
 		<div><iframe width="300" height="200" src="//www.youtube.com/embed/quLPdNNb-T4?start=101" frameborder="0" allowfullscreen></iframe></div>
-		<div>
 			
 			<p>Mit leiseren Reifen lässt sich der Lärm reduzieren und zwar direkt an der Quelle. Leise Reifen sind hinsichtlich Sicherheit und Rollwiderstand gleich gut wie herkömmliche Reifen.</p> 
 			<p></p>
@@ -147,6 +147,7 @@
     <name><strong>Massnahme 4 - Leise Reifen</strong></name>
     <description><![CDATA[
 
+        <div class="content">
 		<div><iframe width="300" height="200" src="//www.youtube.com/embed/gjWNHysqDxY" frameborder="0" allowfullscreen></iframe></div>
 			
 			<p>Mit dem Kauf von leisen Reifen kann jeder mithelfen den Lärm zu reduzieren.</p> 
@@ -178,8 +179,8 @@
     <name><strong>Massnahme 5 - Geschwindigkeitsbegrenzung</strong></name>
     <description><![CDATA[
 
+        <div class="content">
         <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/5_de.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/5_de_small.gif" border="0" width="300" height="200"></a></div>
-		<div>
 			<p>Temporeduktion ist eine effiziente und kostengünstige Lärmschutzmassnahme. Zusätzlicher Nutzen ist eine verbesserte Sicherheit.</p> 
 			<p></p>
 			<p><a href="https://www.stadt-zuerich.ch/tempo30.secure.html" target="_blank">Tempo 30 Stadt Zürich</a></p>
@@ -208,8 +209,8 @@
     <Placemark>
     <name><strong>Massnahme 6 - Geschwindigkeitsbegrenzung</strong></name>
     <description><![CDATA[
+        <div class="content">
         <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/6_de.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/6_de_small.gif" border="0" width="300" height="200"></a></div>
-		<div>
 			<p>Auch auf der  Autobahn bringt eine Temporeduktion eine wahrnehmbare Senkung des Lärms.</p> 
 			<p></p>
 			
@@ -239,8 +240,8 @@
     <description><![CDATA[
 
 		
-		<div><iframe width="300" height="200" src="//www.youtube.com/embed/Xre4vFwmE1w" frameborder="0" allowfullscreen></iframe></div>
-		<div>
+        <div class="content">
+		    <div><iframe width="300" height="200" src="//www.youtube.com/embed/Xre4vFwmE1w" frameborder="0" allowfullscreen></iframe></div>
 			
 			<p>Mit vorausschauendem, niedertourigem Fahrstil kann der Lärmpegel eines Fahrzeugs um gut 3 Dezibel gesenkt werden.</p> 
 			<p></p>
@@ -272,6 +273,7 @@
     <description><![CDATA[
 
 			
+        <div class="content">
 			<p>
                 <img  width="300" height="200" src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/8_hybridauto.jpg" />
 			</p>
@@ -303,8 +305,9 @@
     <Placemark>
     <name><strong>Massnahme 9 - Förderung ÖV</strong></name>
     <description><![CDATA[
-        <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/9_de.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/9_de_small.gif" border="0" width="300" height="200"></a></div>
-		<div>
+        <div class="content">
+            <div> <a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/9_de.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/9_de_small.gif" border="0" width="300" height="200"></a></div>
+
 			<p>Weniger Strassenverkehr bedeutet weniger Lärm.</p> 
 			<p></p>
 			<p><a href="http://www.laerm.ch/de/laerm-ruhe/leiser-mobil-sein/mobilitaetsmanagement/mobilitaetsmanagement.html" target="_blank">Mobilitätsmanagement</a></p>
@@ -333,7 +336,7 @@
     <Placemark>
     <name><strong>Massnahme 10 - Lärmschutzwand</strong></name>
     <description><![CDATA[
-
+       <div class="content">
             <div><iframe width="300" height="200" src="//www.youtube.com/embed/H_RHe2kYIzo" frameborder="0" allowfullscreen></iframe></div>
 			<p></p>
 			<p>Lärmschutzwände können guten Schutz bieten, in urbanen Gebieten sind sie aufgrund akustischer und baulicher Einschränkungen ungeeignet.</p> 
@@ -365,6 +368,7 @@
     <name><strong>Massnahme 11 - Einhausung</strong></name>
     <description><![CDATA[
 
+       <div class="content">
 			<div><iframe width="300" height="200" src="//www.youtube.com/embed/vPvdP_7AvJU" frameborder="0" allowfullscreen></iframe></div>
 			<div>
 			<p>Das Einhausen einer Strasse ist sehr effektiv gegen Lärm, aber auch sehr teuer.</p> 

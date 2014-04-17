@@ -44,8 +44,8 @@
 	 <description><![CDATA[
 
 		
+        <div class="content">
 		<div><iframe width="300" height="200" src="//www.youtube.com/embed/KlVPVIcUjSE" frameborder="0" allowfullscreen></iframe></div>
-		<div>
 			
 			<p>Les revêtements silencieux permettent de réduire significativement le bruit.</p> 
 			<p></p>
@@ -65,8 +65,8 @@
     <name><strong>Mesure 2 - Revêtements silencieux</strong></name>
     <description><![CDATA[
 
+        <div class="content">
         <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/2_fr.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/2_fr_small.gif" border="0" width="300" height="200"></a></div>
-		<div>
 			
 			<p>Les revêtements silencieux permettent de réduire significativement le bruit.</p> 
 			<p></p>
@@ -85,8 +85,8 @@
     <description><![CDATA[
 
 		
+        <div class="content">
 		<div><iframe width="300" height="200" src="//www.youtube.com/embed/p-7odxOf9qU?start=101" frameborder="0" allowfullscreen></iframe></div>
-		<div>
 			
 			<p>Pneus silencieux Les pneus silencieux permettent de réduire le bruit directement à la source. Les pneus silencieux sont comparables aux pneux traditionnels en matière de sécurité et de résistance au roulement.</p> 
 			<p></p>
@@ -104,8 +104,8 @@
     <name><strong>Mesure 4 - Pneus silencieux</strong></name>
     <description><![CDATA[
 
+        <div class="content">
 		<div><iframe width="300" height="200" src="//www.youtube.com/embed/USqn70Hmh-I" frameborder="0" allowfullscreen></iframe></div>
-		<div>
 			
 			<p>Chaque personne peut contribuer à réduire le bruit en achetant des pneus silencieux.</p> 
 			<p></p>
@@ -123,8 +123,8 @@
     <name><strong>Mesure 5 - Limitation de vitesse</strong></name>
     <description><![CDATA[
 
+        <div class="content">
         <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/5_fr.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/5_fr_small.gif" border="0" width="300" height="200"></a></div>
-		<div>			
 			<p>La réduction de la vitesse est une mesure de protection contre le bruit efficace et économique et représente une valeur ajoutée pour la sécurité.</p> 
 			<p></p>
 			<p><a href="https://www.stadt-zuerich.ch/tempo30.secure.html" target="_blank">Limitation 30 ville de Zurich</a></p>
@@ -141,8 +141,8 @@
     <name><strong>Mesure 6 - Limitation de vitesse</strong></name>
     <description><![CDATA[
 
+        <div class="content">
         <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/6_fr.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/6_fr_small.gif" border="0" width="300" height="200"></a></div>
-		<div>
 			
 			<p>Sur l’autoroute également, une réduction de la limitation de vitesse permet de réduire considérablement le bruit.</p> 
 			<p></p>
@@ -160,8 +160,8 @@
     <description><![CDATA[
 
 		
+        <div class="content">
 		<div><iframe width="300" height="200" src="//www.youtube.com/embed/ikzWOYXW-Wk" frameborder="0" allowfullscreen></iframe></div>
-		<div>
 			
 			<p>Rouler à bas régime et anticiper permet de réduire le bruit d’un véhicule de trois bons décibels.</p> 
 			<p></p>
@@ -179,6 +179,7 @@
     <name><strong>Mesure 8 - Véhicules silencieux</strong></name>
     <description><![CDATA[
 
+        <div class="content">
 			
 			<p>
                 <img  width="300" height="200" src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/8_hybridauto.jpg" />
@@ -198,9 +199,9 @@
     <Placemark>
     <name><strong>Mesure 9 - Promotion des transports publics</strong></name>
     <description><![CDATA[
-
+        
+        <div class="content">
         <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/9_fr.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/9_fr_small.gif" border="0" width="300" height="200"></a></div>
-		<div>			
 			<p>Moins de circulation, moins de bruit.</p> 
 			<p></p>
 			<p><a href="http://www.laerm.ch/de/laerm-ruhe/leiser-mobil-sein/mobilitaetsmanagement/mobilitaetsmanagement.html" target="_blank">Gestion de la mobilité</a></p>
@@ -217,6 +218,7 @@
     <name><strong>Mesure 10 - Parois antibruit</strong></name>
     <description><![CDATA[
 
+        <div class="content">
             <div><iframe width="300" height="200" src="//www.youtube.com/embed/_R8bt07xP6c" frameborder="0" allowfullscreen></iframe></div>
 			<p></p>
 			<p>Les murs antibruit peuvent représenter une bonne protection, mais sont inadaptés en contexte urbain en raison de restrictions acoustiques et constructives.</p> 
@@ -234,9 +236,8 @@
     <Placemark>
     <name><strong>Mesure 11 - Mise en tunnel</strong></name>
     <description><![CDATA[
-
+        <div class="content">
 			<div><iframe width="300" height="200" src="//www.youtube.com/embed/EeV3TbVT-Wc" frameborder="0" allowfullscreen></iframe></div>
-			<div>
 			<p>La mise en tunnel des routes est très efficace mais également très coûteuse.</p> 
 			<p></p>
             <p><a href="http://www.laermorama.ch/m7_laermschutz/einsperren_w.html" target="_blank">Enfermer les sources de bruit</a></p>
