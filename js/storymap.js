@@ -115,8 +115,8 @@ map.on('singleclick', function(evt) {
  * By Chris Coyier & tweaked by Mathias Bynens
  * See http://css-tricks.com/fluid-width-youtube-videos/
  */
-
-$(function() {
+/*
+$( document ).ready(function() {
 
     // Find all YouTube videos
     var $allVideos = $("iframe[src^='http://www.youtube.com']"),
@@ -126,6 +126,8 @@ $(function() {
 
     // Figure out and save aspect ratio for each video
     $allVideos.each(function() {
+
+        console.log('eraisng');
         $(this)
             .data('aspectRatio', this.height / this.width)
             
@@ -139,7 +141,8 @@ $(function() {
     // (You'll probably want to debounce this)
     $(window).resize(function() {
 
-        var newWidth = $fluidEl.width();
+        var newWidth = $fluidEl.width() - 40 ;
+        console.log('new width',newWidth);
         
         // Resize all videos according to their own aspect ratio
         $allVideos.each(function() {
@@ -147,11 +150,11 @@ $(function() {
             var $el = $(this);
             $el
                 .width(newWidth)
-                .height(newWidth * $el.data('aspectRatio'));
+                .height(newWidth * 3/4);
 
         });
 
     // Kick off one resize to fix all videos on page load
     }).resize();
 
-});
+}); */
