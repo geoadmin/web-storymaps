@@ -40,7 +40,7 @@
   </Style>
   <Placemark>
     <!-- Mesure 1 -->
-    <name><strong>Mesure - Revêtements silencieux</strong></name>
+    <name><strong>Revêtements silencieux</strong></name>
 	
 	 <description><![CDATA[
 
@@ -64,7 +64,7 @@
   </Placemark>
     <Placemark>
     <!-- Mesure 2 -->
-    <name><strong>Mesure - Revêtements silencieux</strong></name>
+    <name><strong>Revêtements silencieux</strong></name>
     <description><![CDATA[
 
         <div class="content">
@@ -84,7 +84,7 @@
   </Placemark>
     <Placemark>
     <!-- Mesure 3 -->
-    <name><strong>Mesure - Pneus silencieux</strong></name>
+    <name><strong>Pneus silencieux</strong></name>
     <description><![CDATA[
 
 		
@@ -105,7 +105,7 @@
   </Placemark>
     <Placemark>
     <!-- Mesure 4 -->
-    <name><strong>Mesure - Pneus silencieux</strong></name>
+    <name><strong>Pneus silencieux</strong></name>
     <description><![CDATA[
 
         <div class="content">
@@ -125,7 +125,7 @@
   </Placemark>
    <Placemark>
     <!-- Mesure 5 -->
-    <name><strong>Mesure - Limitation de vitesse</strong></name>
+    <name><strong>Limitation de vitesse</strong></name>
     <description><![CDATA[
 
         <div class="content">
@@ -144,7 +144,7 @@
   </Placemark>
     <Placemark>
     <!-- Mesure 6 -->
-    <name><strong>Mesure - Limitation de vitesse</strong></name>
+    <name><strong>Limitation de vitesse</strong></name>
     <description><![CDATA[
 
         <div class="content">
@@ -163,7 +163,7 @@
   </Placemark>
     <Placemark>
     <!-- Mesure 7 -->
-    <name><strong>Mesure - Conduire à bas régime</strong></name>
+    <name><strong>Conduire à bas régime</strong></name>
     <description><![CDATA[
 
 		
@@ -184,7 +184,7 @@
   </Placemark>
     <Placemark>
     <!-- Mesure 8 -->
-    <name><strong>Mesure - Véhicules silencieux</strong></name>
+    <name><strong>Véhicules silencieux</strong></name>
     <description><![CDATA[
 
         <div class="content">
@@ -206,7 +206,7 @@
   </Placemark>
     <Placemark>
     <!-- Mesure 9 -->
-    <name><strong>Mesure - Promotion des transports publics</strong></name>
+    <name><strong>Promotion des transports publics</strong></name>
     <description><![CDATA[
         
         <div class="content">
@@ -225,7 +225,7 @@
   </Placemark>
     <Placemark>
     <!-- Mesure 10 -->
-    <name><strong>Mesure - Parois antibruit</strong></name>
+    <name><strong>Parois antibruit</strong></name>
     <description><![CDATA[
 
         <div class="content">
@@ -245,7 +245,7 @@
   </Placemark>
     <Placemark>
     <!-- Mesure 11 -->
-    <name><strong>Mesure - Mise en tunnel</strong></name>
+    <name><strong>Mise en tunnel</strong></name>
     <description><![CDATA[
         <div class="content">
 			<div><iframe width="300" height="200" src="//www.youtube.com/embed/EeV3TbVT-Wc" frameborder="0" allowfullscreen></iframe></div>
