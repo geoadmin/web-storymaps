@@ -39,7 +39,8 @@
     </IconStyle>
   </Style>
   <Placemark>
-    <name><strong>Mesure 1 - Revêtements silencieux</strong></name>
+    <!-- Mesure 1 -->
+    <name><strong>Mesure - Revêtements silencieux</strong></name>
 	
 	 <description><![CDATA[
 
@@ -62,7 +63,8 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Mesure 2 - Revêtements silencieux</strong></name>
+    <!-- Mesure 2 -->
+    <name><strong>Mesure - Revêtements silencieux</strong></name>
     <description><![CDATA[
 
         <div class="content">
@@ -81,7 +83,8 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Mesure 3 - Pneus silencieux</strong></name>
+    <!-- Mesure 3 -->
+    <name><strong>Mesure - Pneus silencieux</strong></name>
     <description><![CDATA[
 
 		
@@ -101,7 +104,8 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Mesure 4 - Pneus silencieux</strong></name>
+    <!-- Mesure 4 -->
+    <name><strong>Mesure - Pneus silencieux</strong></name>
     <description><![CDATA[
 
         <div class="content">
@@ -120,7 +124,8 @@
     </Point>
   </Placemark>
    <Placemark>
-    <name><strong>Mesure 5 - Limitation de vitesse</strong></name>
+    <!-- Mesure 5 -->
+    <name><strong>Mesure - Limitation de vitesse</strong></name>
     <description><![CDATA[
 
         <div class="content">
@@ -138,7 +143,8 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Mesure 6 - Limitation de vitesse</strong></name>
+    <!-- Mesure 6 -->
+    <name><strong>Mesure - Limitation de vitesse</strong></name>
     <description><![CDATA[
 
         <div class="content">
@@ -156,7 +162,8 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Mesure 7 - Conduire à bas régime</strong></name>
+    <!-- Mesure 7 -->
+    <name><strong>Mesure - Conduire à bas régime</strong></name>
     <description><![CDATA[
 
 		
@@ -176,7 +183,8 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Mesure 8 - Véhicules silencieux</strong></name>
+    <!-- Mesure 8 -->
+    <name><strong>Mesure - Véhicules silencieux</strong></name>
     <description><![CDATA[
 
         <div class="content">
@@ -197,7 +205,8 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Mesure 9 - Promotion des transports publics</strong></name>
+    <!-- Mesure 9 -->
+    <name><strong>Mesure - Promotion des transports publics</strong></name>
     <description><![CDATA[
         
         <div class="content">
@@ -215,7 +224,8 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Mesure 10 - Parois antibruit</strong></name>
+    <!-- Mesure 10 -->
+    <name><strong>Mesure - Parois antibruit</strong></name>
     <description><![CDATA[
 
         <div class="content">
@@ -234,7 +244,8 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Mesure 11 - Mise en tunnel</strong></name>
+    <!-- Mesure 11 -->
+    <name><strong>Mesure - Mise en tunnel</strong></name>
     <description><![CDATA[
         <div class="content">
 			<div><iframe width="300" height="200" src="//www.youtube.com/embed/EeV3TbVT-Wc" frameborder="0" allowfullscreen></iframe></div>

@@ -39,7 +39,7 @@
     </IconStyle>
   </Style>
   <Placemark>
-    <name><strong>Measure 1 - Low-noise road surfaces</strong></name>
+    <name><strong>Measure - Low-noise road surfaces</strong></name>
 	
 	 <description><![CDATA[
 
@@ -63,7 +63,7 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Measure 2 - Low-noise road surfaces</strong></name>
+    <name><strong>Measure - Low-noise road surfaces</strong></name>
     <description><![CDATA[
 
 		
@@ -83,7 +83,7 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Measure 3 - Low-noise tyres</strong></name>
+    <name><strong>Measure - Low-noise tyres</strong></name>
     <description><![CDATA[
 
 		
@@ -103,7 +103,7 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Measure 4 - Low-noise tyres</strong></name>
+    <name><strong>Measure - Low-noise tyres</strong></name>
     <description><![CDATA[
 
        <div class="content">
@@ -122,7 +122,7 @@
     </Point>
   </Placemark>
    <Placemark>
-    <name><strong>Measure 5 - Speed limits</strong></name>
+    <name><strong>Measure - Speed limits</strong></name>
     <description><![CDATA[
 
        <div class="content">
@@ -140,7 +140,7 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Measure 6 - Speed limits</strong></name>
+    <name><strong>Measure - Speed limits</strong></name>
     <description><![CDATA[
 
        <div class="content">
@@ -157,7 +157,7 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Measure 7 - Quiet driving behaviour</strong></name>
+    <name><strong>Measure - Quiet driving behaviour</strong></name>
     <description><![CDATA[
 
 		
@@ -177,7 +177,7 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Measure 8 - Quiet vehicles</strong></name>
+    <name><strong>Measure - Quiet vehicles</strong></name>
     <description><![CDATA[
 
 			
@@ -198,7 +198,7 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Measure 9 - Promotion of public transport</strong></name>
+    <name><strong>Measure - Promotion of public transport</strong></name>
     <description><![CDATA[
 
        <div class="content">
@@ -216,7 +216,7 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Measure 10 - Noise protection barriers</strong></name>
+    <name><strong>Measure - Noise protection barriers</strong></name>
     <description><![CDATA[
 
        <div class="content">
@@ -235,7 +235,7 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Measure 11 - Road enclosure</strong></name>
+    <name><strong>Measure - Road enclosure</strong></name>
     <description><![CDATA[
        <div class="content">
 			<div><iframe width="300" height="200" src="//www.youtube.com/embed/QSsdmOKx13M" frameborder="0" allowfullscreen></iframe></div>

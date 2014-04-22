@@ -47,7 +47,8 @@
     </IconStyle>
   </Style>
   <Placemark>
-    <name><strong>Massnahme 1 - Leise Strassenbeläge</strong></name>
+    <!-- Massnahme 1 -->
+    <name><strong>Massnahme - Leise Strassenbeläge</strong></name>
 	
 	 <description><![CDATA[
 
@@ -80,7 +81,8 @@
 
   </Placemark>
     <Placemark>
-    <name><strong>Massnahme 2 - Leise Strassenbeläge</strong></name>
+    <!-- Massnahme 2 -->
+    <name><strong>Massnahme - Leise Strassenbeläge</strong></name>
     <description><![CDATA[
 
         <div class="content">
@@ -111,7 +113,8 @@
       </MultiGeometry>
   </Placemark>
     <Placemark>
-    <name><strong>Massnahme 3 - Leise Reifen</strong></name>
+    <!-- Massnahme 3 -->
+    <name><strong>Massnahme - Leise Reifen</strong></name>
     <description><![CDATA[
 
 		
@@ -144,7 +147,8 @@
 
   </Placemark>
     <Placemark>
-    <name><strong>Massnahme 4 - Leise Reifen</strong></name>
+    <!-- Massnahme 4 -->
+    <name><strong>Massnahme - Leise Reifen</strong></name>
     <description><![CDATA[
 
         <div class="content">
@@ -176,7 +180,8 @@
 
   </Placemark>
    <Placemark>
-    <name><strong>Massnahme 5 - Geschwindigkeitsbegrenzung</strong></name>
+    <!-- Massnahme 5 -->
+    <name><strong>Massnahme - Geschwindigkeitsbegrenzung</strong></name>
     <description><![CDATA[
 
         <div class="content">
@@ -207,7 +212,8 @@
 
   </Placemark>
     <Placemark>
-    <name><strong>Massnahme 6 - Geschwindigkeitsbegrenzung</strong></name>
+    <!-- Massnahme 6 -->
+    <name><strong>Massnahme - Geschwindigkeitsbegrenzung</strong></name>
     <description><![CDATA[
         <div class="content">
         <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/6_de.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/6_de_small.gif" border="0" width="300" height="200"></a></div>
@@ -236,7 +242,8 @@
 
   </Placemark>
     <Placemark>
-    <name><strong>Massnahme 7 - Leise Fahrweise</strong></name>
+    <!-- Massnahme 7 -->
+    <name><strong>Massnahme - Leise Fahrweise</strong></name>
     <description><![CDATA[
 
 		
@@ -269,7 +276,8 @@
 
   </Placemark>
     <Placemark>
-    <name><strong>Massnahme 8 - Leise Fahrzeuge</strong></name>
+    <!-- Massnahme 8 -->
+    <name><strong>Massnahme - Leise Fahrzeuge</strong></name>
     <description><![CDATA[
 
 			
@@ -303,7 +311,8 @@
 
   </Placemark>
     <Placemark>
-    <name><strong>Massnahme 9 - Förderung ÖV</strong></name>
+    <!-- Massnahme 9 -->
+    <name><strong>Massnahme - Förderung ÖV</strong></name>
     <description><![CDATA[
         <div class="content">
             <div> <a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/9_de.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/9_de_small.gif" border="0" width="300" height="200"></a></div>
@@ -334,7 +343,8 @@
 
   </Placemark>
     <Placemark>
-    <name><strong>Massnahme 10 - Lärmschutzwand</strong></name>
+    <!-- Massnahme 10 -->
+    <name><strong>Massnahme - Lärmschutzwand</strong></name>
     <description><![CDATA[
        <div class="content">
             <div><iframe width="300" height="200" src="//www.youtube.com/embed/H_RHe2kYIzo" frameborder="0" allowfullscreen></iframe></div>
@@ -365,7 +375,8 @@
 
   </Placemark>
     <Placemark>
-    <name><strong>Massnahme 11 - Einhausung</strong></name>
+    <!-- Massnahme 11 -->
+    <name><strong>Massnahme - Einhausung</strong></name>
     <description><![CDATA[
 
        <div class="content">

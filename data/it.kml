@@ -39,7 +39,8 @@
     </IconStyle>
   </Style>
   <Placemark>
-    <name><strong>Misura 1 - Pavimentazioni stradali fonoassorbenti</strong></name>
+    <!-- Misura 1 -->
+    <name><strong>Misura - Pavimentazioni stradali fonoassorbenti</strong></name>
 	
 	 <description><![CDATA[
 
@@ -62,7 +63,8 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Misura 2 - Pavimentazioni stradali fonoassorbenti</strong></name>
+    <!-- Misura 2 -->
+    <name><strong>Misura - Pavimentazioni stradali fonoassorbenti</strong></name>
     <description><![CDATA[
 
 		
@@ -82,7 +84,8 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Misura 3 - Pneumatici silenziosi</strong></name>
+    <!-- Misura 3 -->
+    <name><strong>Misura - Pneumatici silenziosi</strong></name>
     <description><![CDATA[
 
 		
@@ -102,7 +105,8 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Misura 4 - Pneumatici silenziosi</strong></name>
+    <!-- Misura 4 -->
+    <name><strong>Misura - Pneumatici silenziosi</strong></name>
     <description><![CDATA[
 
         <div class="content">
@@ -121,7 +125,8 @@
     </Point>
   </Placemark>
    <Placemark>
-    <name><strong>Misura 5 - Riduzione della velocità</strong></name>
+    <!-- Misura 5 -->
+    <name><strong>Misura - Riduzione della velocità</strong></name>
     <description><![CDATA[
 
         <div class="content">
@@ -139,7 +144,8 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Misura 6 - Riduzione della velocità</strong></name>
+    <!-- Misura 6 -->
+    <name><strong>Misura - Riduzione della velocità</strong></name>
     <description><![CDATA[
 
         <div class="content">
@@ -156,7 +162,8 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Misura 7 - Guida silenziosa</strong></name>
+    <!-- Misura 7 -->
+    <name><strong>Misura - Guida silenziosa</strong></name>
     <description><![CDATA[
 
 		
@@ -176,7 +183,8 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Misura 8 - Veicoli silenziosi</strong></name>
+    <!-- Misura 8 -->
+    <name><strong>Misura - Veicoli silenziosi</strong></name>
     <description><![CDATA[
 
 			
@@ -197,7 +205,8 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Misura 9 - Promozione dei mezzi di trasporto pubblici</strong></name>
+    <!-- Misura 9 -->
+    <name><strong>Misura - Promozione dei mezzi di trasporto pubblici</strong></name>
     <description><![CDATA[
 
         <div class="content">
@@ -215,8 +224,9 @@
       <coordinates>7.619012231,46.760779867,0.000000</coordinates>
     </Point>
   </Placemark>
-    <Placemark>u
-    <name><strong>Misura 10 - Pareti antirumore</strong></name>
+    <Placemark>
+    <!-- Misura 10 -->
+    <name><strong>Misura - Pareti antirumore</strong></name>
     <description><![CDATA[
 
         <div class="content">
@@ -235,7 +245,8 @@
     </Point>
   </Placemark>
     <Placemark>
-    <name><strong>Misura 11 - Copertura di tratti stradali</strong></name>
+    <!-- Misura 11 -->
+    <name><strong>Misura - Copertura di tratti stradali</strong></name>
     <description><![CDATA[
         <div class="content">
 			<div><iframe width="300" height="200" src="//www.youtube.com/embed/lt8XM6IwowY" frameborder="0" allowfullscreen></iframe></div>
