@@ -34,6 +34,7 @@
 ,{"type":"Feature","geometry":{"type":"MultiPoint","coordinates":[[486600,112340]]},"properties":{"nr":2174,"name":"Rhône-Chancy, Aux Ripes","url":"2174.html"}}
 ,{"type":"Feature","geometry":{"type":"MultiPoint","coordinates":[[682145,246890]]},"properties":{"nr":2176,"name":"Sihl-Zürich, Sihlhölzli","url":"2176.html"}}
 ,{"type":"Feature","geometry":{"type":"MultiPoint","coordinates":[[593350,193020]]},"properties":{"nr":2179,"name":"Sense-Thörishaus, Sensematt","url":"2179.html"}}
+,{"type":"Feature","geometry":{"type":"MultiPoint","coordinates":[[733560,263180]]},"properties":{"nr":2181,"name":"Thur - Halden","url":"2181.html"}}
 ,{"type":"Feature","geometry":{"type":"MultiPoint","coordinates":[[659970,263180]]},"properties":{"nr":2205,"name":"Aare-Untersiggenthal, Stilli","url":"2205.html"}}
 ,{"type":"Feature","geometry":{"type":"MultiPoint","coordinates":[[572530,244460]]},"properties":{"nr":2210,"name":"Doubs-Ocourt","url":"2210.html"}}
 ,{"type":"Feature","geometry":{"type":"MultiPoint","coordinates":[[608710,148300]]},"properties":{"nr":2232,"name":"Allenbach-Adelboden","url":"2232.html"}}

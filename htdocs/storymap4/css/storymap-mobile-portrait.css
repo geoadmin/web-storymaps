@@ -24,7 +24,8 @@
 	width: 100%;
 }
 #detailMapContainer { 
-	width: 0%;
+	width: 100%;
+        visibility: hidden;
 }
 
 #barChartContainer { 
