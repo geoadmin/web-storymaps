@@ -28,11 +28,10 @@
 }
 
 #webHeaderDiv {
-	width:100%;
 	padding:0;
 	margin:0 0 1px 0;
 	height:103px;
-	background-image: url(../img/background_header_4b.jpg);
+	background-image: url(../img/background_header_4.jpg);
 	background-repeat: no-repeat;
 	background-position: right;
 }
