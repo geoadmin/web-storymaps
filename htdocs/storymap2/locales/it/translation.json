@@ -1,0 +1,37 @@
+{
+    "text": {
+        "adminch": "Amministrazione federale admin.ch",
+        "depart": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+        "FOEN": "Ufficio federale dell'ambiente UFAM",
+        "overview": "Vista d'insieme",
+        "detailview": "Dettagli",
+        "moreInfo": "Informazione",
+        "share": "Condividere",
+        "language": "Lingua",
+        "infoboxTitle": "Città: Le dieci più grandi in accelerata",
+        "abstract": "Il 75% della popolazione residente in Svizzera vive in città e negli agglomerati; circa quattro posti di lavoro su cinque sono situati in queste aree urbane. La cosiddetta penetrazione urbana è fortemente aumentata tra il 1935 e il 2002, con una fase di massima crescita tra il 1960 e il 1980. Le regioni in cui il fenomeno è stato più marcato sono l'Altipiano, seguito dal Giura. (cartina: carta nazionale colore)",
+        "infoboxMoreInfo": "Ulteriori informazioni",
+        "dep": "Ufficio Federale dell’Ambiente",
+        "station": "Stazione:",
+        "rank": "Rango:",
+        "temperature": "Temperatura:",
+        "date": "Data:",
+        "time": "Ora:",
+        "detail": "Dettagli",
+        "stationNumber": "Numero della stazione:"
+    },
+
+    "html": {
+        "infolinks": [
+            "<iframe width='300' height='225' src='http://www.youtube.com/embed/kSPdCR7uTBo?rel=0' frameborder='0' allowfullscreen=''></iframe>"
+
+        ],
+        "disclaimer": [
+            "<ul>",
+            "<li>Realizzato con: ",
+            "<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a><br></li>",
+            "<li><a href='http://www.geo.admin.ch/internet/geoportal/it/home/geoadmin/contact.html#copyright' target='_blank'>Copyright e protezione dei diritti d'autore</a><br></li>",
+            "</ul>"
+        ]
+    }
+}

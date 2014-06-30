@@ -1,0 +1,54 @@
+{
+    "text": {
+        "adminch": "Bundesverwaltung admin.ch",
+        "depart": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+        "FOEN": "Bundesamt für Umwelt BAFU",
+        "overview": "Übersicht",
+        "detailview": "Detailansicht",
+        "moreInfo": "Informationen",
+        "share": "Teilen",
+        "language": "Sprache",
+        "infoboxTitle": "Städte: die zehn grössten im Zeitraffer",
+        "abstract": "Rund drei Viertel der Schweizer Bevölkerung leben heute in Städten und Agglomerationen. Etwa vier von fünf Arbeitsplätzen befinden sich in diesen urbanen Gebieten. Die Zersiedelung hat daher zwischen 1935 und 2002 stark zugenommen. Der stärkste Anstieg war zwischen 1960 und 1980 zu verzeichnen. Der Anstieg fiel am stärksten im Mittelland aus, gefolgt vom Jura. (Karte: Landeskarte Farbe)",
+        "infoboxMoreInfo": "Weitere Informationen",
+        "dep": "Bundesamt für Umwelt",
+        "station": "Station:",
+        "rank": "Rang:",
+        "temperature": "Temperatur:",
+        "date": "Datum:",
+        "time": "Zeit:",
+        "detail": "Details",
+        "stationNumber": "Stationsnummer:"
+    },
+
+    "html": {
+        "infolinks": [
+            "<iframe width='300' height='225' src='http://www.youtube.com/embed/kSPdCR7uTBo?rel=0' frameborder='0' allowfullscreen=''></iframe>",
+            "<h3>Links zu Karten</h3>",
+            "<ul><li><a href='http://s.geo.admin.ch/0e7e5e7a' target='_blank'>Agglomerationen und isolierte Städte 2000</a></li>",
+            "<li><a href='http://s.geo.admin.ch/e50b6c10' target='_blank'>Gemeindetypologie ARE</a></li>",
+            "<li><a href='http://map.swisstopo.admin.ch' target='_blank'>swisstopo Zeitreise</a></li></ul>",
+            "<h3>Links zum Thema</h3>",
+            "<p>Forschungsanstalt für Wald, Schnee und Landschaft WSL<br>",
+            "<ul><li><a href='http://www.wsl.ch/info/fokus/zersiedelung/index_DE' target='_blank'>Zersiedelung</a></li></ul>",
+            "<h3>Bundesamt für Umwelt</h3>",
+            "<ul><li><a href='http://www.bafu.admin.ch/zustand-landschaft' target='_blank'>Umweltzustand: Landschaft</a></li>",
+            "<li><a href='http://www.bafu.admin.ch/umwelt/indikatoren/08614/08699/index.html?lang=de' target='_blank'>Indikator Landschaftszersiedelung</a></li></ul>",
+            " <h3>Bundesamt für Raumentwicklung</h3>",
+            "<ul><li><a href='http://www.are.admin.ch/themen/raumplanung/00246/03637/index.html' target='_blank'>Landschaft unter Druck</a></li>",
+            "<li><a href='http://www.are.admin.ch/themen/agglomeration/index.html?lang=de' target='_blank'>Städte und Agglomerationen</a></li></ul>",
+            "<h3>Bundesamt für Statistik</h3>",
+            "<ul><li><a href='http://www.bfs.admin.ch/bfs/portal/de/index/regionen/11/geo/analyse_regionen/04.html' target='_blank'>Agglomerationen und Metropolräume</a></li>",
+            "<li><a href='http://www.bfs.admin.ch/bfs/portal/de/index/themen/01/02/blank/key/raeumliche_verteilung/agglomerationen.html' target='_blank'>Bevölkerungsstand und -struktur – Indikatoren</a></li>",
+            "<li><a href='http://www.bfs.admin.ch/bfs/portal/de/index/themen/02/06/ind13.indicator.130702.136.html' target='_blank'>Umwelt - Indikatoren Zersiedelung</a></li></ul>"
+
+        ],
+        "disclaimer": [
+            "<ul>",
+            "<li>Umgesetzt mit: ",
+            "<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a><br></li>",
+            "<li><a href='http://www.geo.admin.ch/internet/geoportal/de/home/geoadmin/contact.html#copyright' target='_blank'>Copyright und Datenschutzerklärung</a><br></li>",
+            "</ul>"
+        ]
+    }
+}
