@@ -88,8 +88,6 @@ function initMaps() {
         return [nodataStyle];
       } else {
         return defaultStyle[feature.getGeometry().getType()];
-
-
       }
     }
   };
@@ -169,7 +167,8 @@ function initMaps() {
     });
     if (feature) {
       selectedFeature = feature;
-      selectedId = selectedFeature.get('nr');
+      selectedId = selectedFeature.get('reservoir_stabil_id');
+      selectedIdx = getIndexFromId(selectedId);
       var center = selectedFeature.getGeometry().getExtent();
       flyTo(ol.extent.getCenter(center));
       updateChart(selectedId);
@@ -181,10 +180,10 @@ function initMaps() {
 
   };
 
-
-  overView.on('singleclick', function(evt) {
-    console.log(evt.coordinate);
-  });
+  $(overView.getViewport()).on('mousemove', function(evt) {
+        var pixel = overView.getEventPixel(evt.originalEvent);
+        $.debounce(250, displayFeatureInfo(pixel));
+    });
 
 }
 
@@ -193,15 +192,9 @@ function initMaps() {
 function zoomToFeature(selectedId) {
 
   var feature = getDetailFeatureFromId(selectedId);
-
   var extent = feature.getGeometry().getExtent();
-
   var extent = [extent[0] - 50, extent[1] - 50, extent[2] + 50, extent[3] + 50];
-
   detailedMap.getView().fitExtent(extent, [50, 50]);
-
-
-
 }
 
 function filteringOutLayer(ids, layer) {
