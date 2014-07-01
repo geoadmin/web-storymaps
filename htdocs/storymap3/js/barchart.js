@@ -133,14 +133,14 @@ function loadChart(data) {
 function updateChart(selectedId) {
 
   $('.tipsy').remove();
-  if ($('#barChartContainer').width() != 0) {
-    $('#rect-' + selectedId).tipsy('show');
-  }
   unHighlightBar();
   highlightBar(selectedId);
   selectOverviewFeatureFromId(selectedId);
   selectDetailFeatureFromId(selectedId);
   displayObjectData(selectedId);
+  if ($('#barChartContainer').width() != 0) {
+    $('#rect-' + selectedId).tipsy('show');
+  }
 
 }
 
