@@ -1,0 +1,481 @@
+{
+    "mesPar": [
+        {
+            "Wert": {
+                "m24": 16.04, 
+                "min24": 15.58, 
+                "-24h": 16.21, 
+                "current": 16.63, 
+                "max24": 16.78, 
+                "delta24": 0.42
+            }, 
+            "strnr": 2167, 
+            "name": "Tresa - Ponte Tresa,Rocchetta", 
+            "DH": "HBCHa", 
+            "Zeit": "17:40", 
+            "Datum": "14.05.2014", 
+            "Current": 16.63, 
+            "temp": 16.63, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 13.32, 
+                "min24": 11.2, 
+                "-24h": 14.46, 
+                "current": 16.31, 
+                "max24": 16.32, 
+                "delta24": 1.85
+            }, 
+            "strnr": 2034, 
+            "name": "Broye - Payerne, Caserne d'av", 
+            "DH": "HBCHa", 
+            "Zeit": "18:50", 
+            "Datum": "18.05.2014", 
+            "Current": 16.31, 
+            "temp": 16.31, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 14.34, 
+                "min24": 13.13, 
+                "-24h": 14.71, 
+                "current": 16.31, 
+                "max24": 16.36, 
+                "delta24": 1.6
+            }, 
+            "strnr": 2415, 
+            "name": "Glatt - Rheinsfelden", 
+            "DH": "HBCHa", 
+            "Zeit": "18:50", 
+            "Datum": "18.05.2014", 
+            "Current": 16.31, 
+            "temp": 16.31, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 12.2, 
+                "min24": 9.63, 
+                "-24h": 13.94, 
+                "current": 16.09, 
+                "max24": 16.09, 
+                "delta24": 2.15
+            }, 
+            "strnr": 2176, 
+            "name": "Sihl - Z\u00fcrich, Sihlh\u00f6lzli", 
+            "DH": "HBCHa", 
+            "Zeit": "18:50", 
+            "Datum": "18.05.2014", 
+            "Current": 16.09, 
+            "temp": 16.09, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 12.28, 
+                "min24": 10.69, 
+                "-24h": 12.39, 
+                "current": 15.31, 
+                "max24": 15.4, 
+                "delta24": 2.92
+            }, 
+            "strnr": 2044, 
+            "name": "Thur - Andelfingen", 
+            "DH": "HBCHa", 
+            "Zeit": "19:00", 
+            "Datum": "18.05.2014", 
+            "Current": 15.31, 
+            "temp": 15.31, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 11.01, 
+                "min24": 8.36, 
+                "-24h": 13.09, 
+                "current": 14.58, 
+                "max24": 14.7, 
+                "delta24": 1.49
+            }, 
+            "strnr": 2159, 
+            "name": "G\u00fcrbe - Belp, M\u00fclimatt", 
+            "DH": "HBCHa", 
+            "Zeit": "19:00", 
+            "Datum": "18.05.2014", 
+            "Current": 14.58, 
+            "temp": 14.58, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 12.62, 
+                "min24": 11.27, 
+                "-24h": 12.8, 
+                "current": 14.53, 
+                "max24": 14.85, 
+                "delta24": 1.73
+            }, 
+            "strnr": 2485, 
+            "name": "Allaine - Boncourt, Fronti\u00e8re", 
+            "DH": "HBCHa", 
+            "Zeit": "18:50", 
+            "Datum": "18.05.2014", 
+            "Current": 14.53, 
+            "temp": 14.53, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 11.97, 
+                "min24": 10.23, 
+                "-24h": 12.81, 
+                "current": 14.5, 
+                "max24": 14.51, 
+                "delta24": 1.69
+            }, 
+            "strnr": 2386, 
+            "name": "Murg - Frauenfeld", 
+            "DH": "HBCHa", 
+            "Zeit": "19:00", 
+            "Datum": "18.05.2014", 
+            "Current": 14.5, 
+            "temp": 14.5, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 11.02, 
+                "min24": 8.32, 
+                "-24h": 12.93, 
+                "current": 14.29, 
+                "max24": 14.96, 
+                "delta24": 1.36
+            }, 
+            "strnr": 2308, 
+            "name": "Goldach - Goldach, Bleiche", 
+            "DH": "HBCHa", 
+            "Zeit": "18:50", 
+            "Datum": "18.05.2014", 
+            "Current": 14.29, 
+            "temp": 14.29, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 11.25, 
+                "min24": 9.34, 
+                "-24h": 12.02, 
+                "current": 14.25, 
+                "max24": 14.25, 
+                "delta24": 2.23
+            }, 
+            "strnr": 2181, 
+            "name": "Thur - Halden", 
+            "DH": "HBCHa", 
+            "Zeit": "19:20", 
+            "Datum": "18.05.2014", 
+            "Current": 14.25, 
+            "temp": 14.25, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 11.3, 
+                "min24": 9.28, 
+                "-24h": 13.15, 
+                "current": 14.23, 
+                "max24": 14.23, 
+                "delta24": 1.08
+            }, 
+            "strnr": 2500, 
+            "name": "Worble - Ittigen", 
+            "DH": "HBCHa", 
+            "Zeit": "19:30", 
+            "Datum": "18.05.2014", 
+            "Current": 14.23, 
+            "temp": 14.23, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 12.88, 
+                "min24": 11.98, 
+                "-24h": 13.19, 
+                "current": 14.12, 
+                "max24": 14.12, 
+                "delta24": 0.93
+            }, 
+            "strnr": 2432, 
+            "name": "Venoge - Ecublens, Les Bois", 
+            "DH": "HBCHa", 
+            "Zeit": "18:50", 
+            "Datum": "18.05.2014", 
+            "Current": 14.12, 
+            "temp": 14.12, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 12.88, 
+                "min24": 11.81, 
+                "-24h": 12.82, 
+                "current": 14.02, 
+                "max24": 14.1, 
+                "delta24": 1.2
+            }, 
+            "strnr": 2085, 
+            "name": "Aare - Hagneck", 
+            "DH": "HBCHa", 
+            "Zeit": "19:20", 
+            "Datum": "18.05.2014", 
+            "Current": 14.02, 
+            "temp": 14.02, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 10.88, 
+                "min24": 8.53, 
+                "-24h": 11.96, 
+                "current": 13.99, 
+                "max24": 14.46, 
+                "delta24": 2.03
+            }, 
+            "strnr": 2608, 
+            "name": "Sellenbodenbach - Neuenkirch", 
+            "DH": "HBCHa", 
+            "Zeit": "19:00", 
+            "Datum": "18.05.2014", 
+            "Current": 13.99, 
+            "temp": 13.99, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 13.03, 
+                "min24": 12.42, 
+                "-24h": 13.44, 
+                "current": 13.98, 
+                "max24": 13.98, 
+                "delta24": 0.54
+            }, 
+            "strnr": 2288, 
+            "name": "Rhein - Neuhausen, Flurl.Br.", 
+            "DH": "HBCHa", 
+            "Zeit": "19:00", 
+            "Datum": "18.05.2014", 
+            "Current": 13.98, 
+            "temp": 13.98, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 11.585, 
+                "min24": 9.2, 
+                "-24h": 13.24, 
+                "current": 13.98, 
+                "max24": 14.16, 
+                "delta24": 0.74
+            }, 
+            "strnr": 2369, 
+            "name": "Mentue - Yvonand, La Mauguetta", 
+            "DH": "HBCHa", 
+            "Zeit": "18:50", 
+            "Datum": "18.05.2014", 
+            "Current": 13.98, 
+            "temp": 13.98, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 13.27, 
+                "min24": 12.92, 
+                "-24h": 13.35, 
+                "current": 13.95, 
+                "max24": 14.03, 
+                "delta24": 0.6
+            }, 
+            "strnr": 2113, 
+            "name": "Aare - Felsenau, KW Klingnau", 
+            "DH": "HBCHa", 
+            "Zeit": "19:10", 
+            "Datum": "18.05.2014", 
+            "Current": 13.95, 
+            "temp": 13.95, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 10.48, 
+                "min24": 8.04, 
+                "-24h": 11.69, 
+                "current": 13.86, 
+                "max24": 14.03, 
+                "delta24": 2.17
+            }, 
+            "strnr": 520, 
+            "name": "T\u00f6ss - R\u00e4mism\u00fchle, Zell", 
+            "DH": "HBZHa", 
+            "Zeit": "18:45", 
+            "Datum": "18.05.2014", 
+            "Current": 13.86, 
+            "temp": 13.86, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 12.93, 
+                "min24": 12.54, 
+                "-24h": 12.94, 
+                "current": 13.83, 
+                "max24": 13.83, 
+                "delta24": 0.89
+            }, 
+            "strnr": 2130, 
+            "name": "Rhein (Oberwasser) - Laufenburg", 
+            "DH": "HBCHa", 
+            "Zeit": "19:20", 
+            "Datum": "18.05.2014", 
+            "Current": 13.83, 
+            "temp": 13.83, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 11.71, 
+                "min24": 10.07, 
+                "-24h": 12.28, 
+                "current": 13.76, 
+                "max24": 14.12, 
+                "delta24": 1.48
+            }, 
+            "strnr": 2126, 
+            "name": "Murg - W\u00e4ngi", 
+            "DH": "HBCHa", 
+            "Zeit": "19:00", 
+            "Datum": "18.05.2014", 
+            "Current": 13.76, 
+            "temp": 13.76, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 13.11, 
+                "min24": 12.85, 
+                "-24h": 12.87, 
+                "current": 13.71, 
+                "max24": 13.71, 
+                "delta24": 0.84
+            }, 
+            "strnr": 2613, 
+            "name": "Rhein - Weil, Palmrainbr\u00fccke", 
+            "DH": "HBCHa", 
+            "Zeit": "19:00", 
+            "Datum": "18.05.2014", 
+            "Current": 13.71, 
+            "temp": 13.71, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 12.85, 
+                "min24": 12.39, 
+                "-24h": 13.04, 
+                "current": 13.51, 
+                "max24": 13.51, 
+                "delta24": 0.47
+            }, 
+            "strnr": 2392, 
+            "name": "Rhein (Oberwasser) - Rheinau", 
+            "DH": "HBCHa", 
+            "Zeit": "19:20", 
+            "Datum": "18.05.2014", 
+            "Current": 13.51, 
+            "temp": 13.51, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 12.7, 
+                "min24": 12.12, 
+                "-24h": 12.51, 
+                "current": 13.42, 
+                "max24": 13.42, 
+                "delta24": 0.91
+            }, 
+            "strnr": 2018, 
+            "name": "Reuss - Mellingen", 
+            "DH": "HBCHa", 
+            "Zeit": "18:50", 
+            "Datum": "18.05.2014", 
+            "Current": 13.42, 
+            "temp": 13.42, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 12.42, 
+                "min24": 11.7, 
+                "-24h": 12.8, 
+                "current": 13.39, 
+                "max24": 13.39, 
+                "delta24": 0.59
+            }, 
+            "strnr": 2152, 
+            "name": "Reuss - Luzern, Geissmattbr.", 
+            "DH": "HBCHa", 
+            "Zeit": "19:20", 
+            "Datum": "18.05.2014", 
+            "Current": 13.39, 
+            "temp": 13.39, 
+            "Var": "00", 
+            "Typ": "03"
+        }, 
+        {
+            "Wert": {
+                "m24": 12.93, 
+                "min24": 12.74, 
+                "-24h": 12.85, 
+                "current": 13.38, 
+                "max24": 13.38, 
+                "delta24": 0.53
+            }, 
+            "strnr": 2091, 
+            "name": "Rhein - Rheinfelden ", 
+            "DH": "HBCHa", 
+            "Zeit": "19:30", 
+            "Datum": "18.05.2014", 
+            "Current": 13.38, 
+            "temp": 13.38, 
+            "Var": "00", 
+            "Typ": "03"
+        }
+    ], 
+    "ID": "SMS-Liste", 
+    "ZeitSt": "18.05.2014 19:35"
+}
