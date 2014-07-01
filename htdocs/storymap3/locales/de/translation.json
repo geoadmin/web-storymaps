@@ -1,0 +1,57 @@
+{
+    "Gravity": "Gewichtsmauer",
+    "Arch": "Bogenmauer",
+    "Hydroelectricity": "Hydroelektrizität",
+    "Rockfill": "Steinschüttdamm",
+    "Earth fill": "Erddamm",
+    "Arch -gravity": "Gewichts-Bogenmauer",
+
+    "text": {
+        "adminch": "Bundesverwaltung admin.ch",
+        "depart": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+        "BFE": "Bundesamt für Energie BFE",
+        "overview": "Übersicht",
+        "detailview": "Detailansicht",
+        "moreInfo": "Informationen",
+        "share": "Teilen",
+        "language": "Sprache",
+        "infoboxTitle": "Die 25 grössten Stauanlagen der Schweiz",
+        "abstract": "Das Bundesamt für Energie übt die direkte Sicherheitsaufsicht über die 206 grössten Stauanlagen der Schweiz aus, von denen drei Viertel der Wasserkraftnutzung dienen. 25 dieser Stauanlagen sind höher als 100 Meter, vier sogar höher als 200 Meter. Mit der 285 Meter hohen Grande Dixence steht in der Schweiz zudem immer noch die höchste Gewichtsstaumauer der Welt",
+        "infoboxMoreInfo": "Weitere Informationen",
+        "dep": "Bundesamt für Energie",
+        "station": "Station:",
+        "rank": "Rang:",
+        "temperature": "Temperatur:",
+        "date": "Datum:",
+        "time": "Zeit:",
+        "detail": "Details",
+        "stationNumber": "Stationsnummer:",
+        "masl": " m. ü. M.",
+        "meter": " Meter",
+        "sperrentyp": "Sperrentyp",
+        "zweck": "Zweck der Anlage",
+        "inbetriebnahme": "Inbetriebnahme der Anlage",
+        "kronenkote": "Kronenkote",
+        "sperrenhoehe": "Sperrenhöhe",
+        "stauanlage": "Stauanlage"
+
+    },
+
+    "html": {
+        "infolinks": [
+           "<a href='http://www.bfe.admin.ch/talsperren' target='_blank'>Tätigkeiten der Aufsichtsbehörde</a> <br>",
+           "<a href='http://www.bfe.admin.ch/geoinformation/05061/05251/05395/index.html?lang=de' target='_blank'>Karte aller Stauanlagen unter Bundesaufsicht</a> <br>",
+            "<a href='http://www.bfe.admin.ch/geoinformation/05061/05251/index.html?lang=de' target='_blank'>Geobasisdaten Stauanlagen</a> <br>",
+            "<a href='http://www.bfe.admin.ch/geoinformation/05403/05570/05571/index.html?lang=de' target='_blank'>Karte Wasserkraftpotentiale</a>"
+        ],
+        "disclaimer": [
+            "<ul>",
+            "<li>Umgesetzt mit: ",
+            "<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a><br></li>",
+            "<li><a href='http://www.geo.admin.ch/internet/geoportal/de/home/geoadmin/contact.html#copyright' target='_blank'>Copyright und Datenschutzerklärung</a><br></li>",
+            "</ul>"
+        ]
+    }
+
+
+}
