@@ -1,0 +1,39 @@
+{
+    "text": {
+        "adminch": "Administration fédérale admin.ch",
+        "depart": "Département de l'environnement, des transports, de l'énergie et de la communication",
+        "FOEN": "Office fédéral de l'environnement OFEV",
+        "overview": "Vue d'ensemble",
+        "detailview": "Vue détaillé",
+        "moreInfo": "Informations",
+        "share": "Partager",
+        "language": "Langue",
+        "infoboxTitle": "Glacier de Morteratsch: Un géant de glace disparait",
+        "abstract": "La longueur du glacier de Morteratsch n'a cessé de diminuer depuis le début des mesures effectuées en 1878. Sa longueur diminue d'environ 16 metres/année. Durant les phases plus chaudes (1935-1965) des diminutions allant jusqu'a 48 metres/année ont été observées. Depuis les années 1990 on a constaté une augmentation du taux de retrait du glacier. (Carte: Carte Siegfried 1875/1876 et Orthophotos 2009)",
+        "infoboxMoreInfo": "Informations détaillées",
+        "dep": "Office fédéral de l'environnement",
+
+        "station": "Station:",
+        "rank": "Rang:",
+        "temperature": "Température",
+        "date": "Date",
+        "time": "Temps:",
+        "detail": "Détails",
+        "stationNumber": "Numéro de la station"
+    },
+
+    "html": {
+        "infolinks": [
+
+        ],
+        "disclaimer": [
+            "<ul>",
+            "<li>Réalisé avec: ",
+            "<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a><br></li>",
+            "<li><a href='http://www.geo.admin.ch/internet/geoportal/fr/home/geoadmin/contact.html#copyright' target='_blank'>Conditions d'utilisation</a><br></li>",
+            "</ul>"
+        ]
+    }
+
+
+}

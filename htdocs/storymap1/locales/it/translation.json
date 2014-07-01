@@ -1,0 +1,41 @@
+{
+
+    "text": {
+        "adminch": "Amministrazione federale admin.ch",
+        "depart": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+        "FOEN": "Ufficio federale dell'ambiente UFAM",
+
+        "overview": "Vista d'insieme",
+        "detailview": "Dettagli",
+        "moreInfo": "Informazione",
+        "share": "Condividere",
+        "language": "Lingua",
+
+        "infoboxTitle": "Ghiacciaio del Morteratsch : un gigante di ghiaccio in declino",
+        "abstract": "Il lungo ghiacciaio del Morteratsch non ha mai cessato, dall'inizio delle misurazioni nel 1878, di ritirarsi. In media la lingua di ghiaccio si e ritirata di 16 metri ogni anno. Nelle fasi piu calde (dal 1935 al 1965) sono state misurate riduzioni di lunghezza sino a 48 metri all'anno. A partire dagli anni '90 si e registrato un'ulteriore crescita del tasso di ritirata del ghiacciaio. (cartina: carta Siegfried 1875/1876 e Ortofoto 2009)",
+        "infoboxMoreInfo": "Ulteriori informazioni",
+        "dep": "Ufficio Federale dell’Ambiente",
+
+        "station": "Stazione:",
+        "rank": "Rango:",
+        "temperature": "Temperatura:",
+        "date": "Data:",
+        "time": "Ora:",
+        "detail": "Dettagli",
+        "stationNumber": "Numero della stazione:"
+    },
+
+    "html": {
+        "infolinks": [
+        ],
+        "disclaimer": [
+            "<ul>",
+            "<li>Realizzato con: ",
+            "<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a><br></li>",
+            "<li><a href='http://www.geo.admin.ch/internet/geoportal/it/home/geoadmin/contact.html#copyright' target='_blank'>Copyright e protezione dei diritti d'autore</a><br></li>",
+            "</ul>"
+        ]
+    }
+
+
+}
