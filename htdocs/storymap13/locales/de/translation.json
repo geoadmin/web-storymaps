@@ -1,0 +1,39 @@
+{
+
+  "text": {
+    "adminch": "Bundesverwaltung admin.ch",
+    "depart": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+    "FOEN": "Bundesamt für Umwelt BAFU",
+    "overview": "Übersicht",
+    "detailview": "Detailansicht",
+    "moreInfo": "Informationen",
+    "share": "Teilen",
+    "language": "Sprache",
+    "infoboxTitle": "Alt wird neu...",
+    "abstract": "Damals, alles war besser und billiger. Die ab den 1950er Jahren entstandene Landeskarte 1:25‘000 entspricht nicht mehr den Möglichkeiten von heute. Sie basiert auf dem damaligen Stand der Technik und den damals zur Verfügung stehenden topografischen Grundlagen. Anforderungen wie flexible Datennutzung für verschiedene Medien, effiziente Prozesse in der Produktion, höhere Genauigkeit und raschere Aktualisierung der Daten lassen sich nur erfüllen, wenn eine umfassende Modernisierung erfolgt und die Landeskarte auf eine neue Basis gestellt wird.",
+    "infoboxMoreInfo": "Weitere Informationen",
+    "dep": "Bundesamt für Umwelt",
+    "station": "Station:",
+    "rank": "Rang:",
+    "temperature": "Temperatur:",
+    "date": "Datum:",
+    "time": "Zeit:",
+    "detail": "Details",
+    "stationNumber": "Stationsnummer:"
+  },
+
+  "html": {
+    "infolinks": [
+
+    ],
+    "disclaimer": [
+      "<ul>",
+      "<li>Umgesetzt mit: ",
+      "<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a><br></li>",
+      "<li><a href='http://www.geo.admin.ch/internet/geoportal/de/home/geoadmin/contact.html#copyright' target='_blank'>Copyright und Datenschutzerklärung</a><br></li>",
+      "</ul>"
+    ]
+  }
+
+
+}

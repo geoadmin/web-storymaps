@@ -1,0 +1,58 @@
+{
+    "Gravity": "Dighe a gravità",
+    "Arch": "Dighe ad arco",
+    "Hydroelectricity": "Idroelettricità",
+    "Earth fill": "Diga a riempimento",
+    "Rockfill": "In terra",
+    "Arch -gravity": "Dighe a gravità e ad arco",
+
+    "text": {
+        "adminch": "Amministrazione federale admin.ch",
+        "depart": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+        "BFE": "Ufficio federale dell'energie UFE",
+
+        "overview": "Vista d'insieme",
+        "detailview": "Dettagli",
+        "moreInfo": "Informazione",
+        "share": "Condividere",
+        "language": "Lingua",
+
+        "infoboxTitle": "I 25 più grandi impianti di accumulazione della Svizzera",
+        "abstract": "L’Ufficio federale dell’energia esercita la vigilanza diretta sulla sicurezza dei 206 maggiori impianti di accumulazione della Svizzera. Il 75 per cento di essi è impiegato nello sfruttamento delle forze idriche, 25 hanno un’altezza superiore a 100 metri e quattro oltrepassano addirittura 200 metri. La diga a gra-vità più alta del mondo è tuttora la diga della Grande Dixence che ha un’altezza di 285 metri.",
+        "dep": "Ufficio Federale dell’energia",
+
+        "station": "Stazione:",
+        "rank": "Rango:",
+        "temperature": "Temperatura:",
+        "date": "Data:",
+        "time": "Ora:",
+        "detail": "Dettagli",
+        "stationNumber": "Numero della stazione:",
+        "masl": " m s.l.m.",
+        "meter": " metri",
+        "sperrentyp": "Tipo dell'opera di sbarramento",
+        "zweck": "Scopo dell'impianto",
+        "inbetriebnahme": "Scopo dell'impianto",
+        "kronenkote": "Livello del coronamento",
+        "sperrenhoehe": "Altezza dell'opera di sbarramento",
+        "stauanlage": "Impianto di accumulazione"
+
+    },
+
+    "html": {
+        "infolinks": ["<a href='http://www.bfe.admin.ch/talsperren' target='_blank'>Attività dell’autorità di vigilanza</a> <br>",
+                        "<a href='http://www.bfe.admin.ch/geoinformation/05061/05251/05395/index.html?lang=de' target='_blank'>Carta di tutti gli impianti di accumulazione sotto la vigilanza della Confederazione</a> <br>",
+                        "<a href='http://www.bfe.admin.ch/geoinformation/05061/05251/index.html?lang=de' target='_blank'>Geodati di base</a> <br>",
+                        "<a href='http://www.bfe.admin.ch/geoinformation/05403/05570/05571/index.html?lang=de' target='_blank'>Carta energia idroelettrica potenziale</a> <br>"
+        ],
+        "disclaimer": [
+            "<ul>",
+            "<li>Realizzato con: ",
+            "<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a><br></li>",
+            "<li><a href='http://www.geo.admin.ch/internet/geoportal/it/home/geoadmin/contact.html#copyright' target='_blank'>Copyright e protezione dei diritti d'autore</a><br></li>",
+            "</ul>"
+        ]
+    }
+
+
+}

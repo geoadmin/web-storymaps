@@ -1,0 +1,57 @@
+{
+    "Gravity": "Poids",
+    "Arch": "Voûte",
+    "Hydroelectricity": "Hydroélectricité",
+    "Earth fill": "Terre",
+    "Rockfill": "Enrochement",
+    "Arch -gravity": "Poids-voûte",
+
+    "text": {
+        "adminch": "Administration fédérale admin.ch",
+        "depart": "Département de l'environnement, des transports, de l'énergie et de la communication",
+        "BFE": "Office fédéral de l'environnement OFEV",
+        "overview": "Vue d'ensemble",
+        "detailview": "Vue détaillé",
+        "moreInfo": "Informations",
+        "share": "Partager",
+        "language": "Langue",
+        "infoboxTitle": "Les 25 plus grands ouvrages d’accumulation de Suisse",
+        "abstract": "L’Office fédéral de l’énergie est chargé de la surveillance directe  de la sécurité des 206 plus grands ouvrages d’accumulation de la Suisse, dont les trois quarts servent à l’utilisation de la force hydrauliques. Vingt-cinq de ces barrages dépassent les 100 m de hauteur, voire les 200m pour quatre d’entre eux. Grâce à la Grande Dixence, qui culmine à 285 m, la Suisse détient même la palme du barrage-poids le plus haut du monde.",
+        "bfe": "Office fédéral de l’énergie",
+        "infoboxMoreInfo": "Informations détaillées",
+        "dep": "Office fédéral de l'énergie",
+        "station": "Station:",
+        "rank": "Rang:",
+        "temperature": "Température",
+        "date": "Date",
+        "time": "Temps:",
+        "detail": "Détails",
+        "stationNumber": "Numéro de la station",
+        "masl": " m.s.m.",
+        "meter": " mètres",
+        "sperrentyp": "Type de l'ouvrage de retenue",
+        "zweck": "But de l'ouvrage d'accumulation",
+        "inbetriebnahme": "Mise en service de l'ouvrage",
+        "kronenkote": "Niveau de couronnement",
+        "sperrenhoehe": "Hauteur de l'ouvrage de retenue",
+        "stauanlage": "Ouvrage de retenue"
+    },
+
+    "html": {
+        "infolinks": [
+            "<a href='http://www.bfe.admin.ch/talsperren' target='_blank'>Activités des autorités de surveillance</a> <br>",
+            "<a href='http://www.bfe.admin.ch/geoinformation/05061/05251/05395/index.html?lang=de' target='_blank'>Carte de tous les ouvrages d’accumulation sous surveillance de la Confédération</a> <br>",
+            "<a href='http://www.bfe.admin.ch/geoinformation/05061/05251/index.html?lang=de' target='_blank'>Géodonnées de base</a> <br>",
+            "<a href='http://www.bfe.admin.ch/geoinformation/05403/05570/05571/index.html?lang=de' target='_blank'></a> <br>"
+        ],
+        "disclaimer": [
+            "<ul>",
+            "<li>Réalisé avec: ",
+            "<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a><br></li>",
+            "<li><a href='http://www.geo.admin.ch/internet/geoportal/fr/home/geoadmin/contact.html#copyright' target='_blank'>Conditions d'utilisation</a><br></li>",
+            "</ul>"
+        ]
+    }
+
+
+}
