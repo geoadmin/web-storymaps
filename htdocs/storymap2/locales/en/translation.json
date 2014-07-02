@@ -1,0 +1,36 @@
+{
+    "text": {
+        "adminch": "Federal Administration admin.ch",
+        "depart": "Department of the Environment, Transport, Energy and Communication",
+        "FOEN": "Federal Office for the Environment FOEN",
+        "overview": "Overview",
+        "detailview": "Details",
+        "moreInfo": "Information",
+        "share": "Share",
+        "language": "Language",
+        "infoboxTitle": "Cities: the ten largest in time lapse",
+        "abstract": "Nearly three-quarters of the Swiss population lives in cities and urban agglomeration. Four out five workplaces are located within urban areas. Urban sprawl increased rapidly in the period from 1935 to 2002, especially between 1960 and 1980. The most rapid increase was in the Central Plateau (Mittelland), followed by the Jura region, while the rates of development in the Central Alps and in the Northern and Southern Alps were considerably slower. (Map: National Map Color)",
+        "infoboxMoreInfo": "More Information",
+        "dep": "Federal Office for the Environment",
+        "station": "Station:",
+        "rank": "Rank:",
+        "temperature": "Temperature:",
+        "date": "Date:",
+        "time": "Time:",
+        "detail": "Details",
+        "stationNumber": "Station number:"
+    },
+
+    "html": {
+        "infolinks": [
+            "<iframe width='300' height='225' src='http://www.youtube.com/embed/kSPdCR7uTBo?rel=0' frameborder='0' allowfullscreen=''></iframe>"
+        ],
+        "disclaimer": [
+            "<ul>",
+            "<li>Realized with: ",
+            "<a href='http://api.geo.admin.ch' target='_blank'>api.geo.admin.ch</a><br></li>",
+            "<li><a href='http://www.geo.admin.ch/internet/geoportal/en/home/geoadmin/contact.html#copyright' target='_blank'>Copyright and Data protection</a><br></li>",
+            "</ul>"
+        ]
+    }
+}

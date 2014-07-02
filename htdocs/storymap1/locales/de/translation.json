@@ -1,0 +1,51 @@
+{
+    "text": {
+        "adminch": "Bundesverwaltung admin.ch",
+        "depart": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
+        "FOEN": "Bundesamt für Umwelt BAFU",
+        "overview": "Übersicht",
+        "detailview": "Detailansicht",
+        "moreInfo": "Informationen",
+        "share": "Teilen",
+        "language": "Sprache",
+        "infoboxTitle": "Morteratschgletscher: Ein Eisriese schwindet",
+        "abstract": "Der lange Morteratschgletscher hat sich seit Beginn der Messungen im Jahre 1878 ununterbrochen zurückgezogen. Im Durchschnitt beträgt der Rückgang 16 Meter/ Jahr. In wärmeren Phasen (1935 bis 1965) wurde ein Rückgang bis zu 48 Meter pro Jahr gemessen. Seit den 1990-er Jahren ist eine Verstärkung des Schwundes zu verzeichnen. (Karte: Siegfriedkarte 1875/1876 und Orthobilder 2009)",
+        "infoboxMoreInfo": "Weitere Informationen",
+        "dep": "Bundesamt für Umwelt",
+        "station": "Station:",
+        "rank": "Rang:",
+        "temperature": "Temperatur:",
+        "date": "Datum:",
+        "time": "Zeit:",
+        "detail": "Details",
+        "stationNumber": "Stationsnummer:"
+    },
+
+    "html": {
+        "infolinks": [
+            "<h3>Weitere Gletscher (Zeitreihe)</h3>",
+            "<ul><li><a href='http://s.geo.admin.ch/19dfcfc50' target='_blank'>Aletschgletscher</a></li>",
+            "<li><a href='http://s.geo.admin.ch/72faae983' target='_blank'>Unterer Grindelwaldgletscher</a></li>",
+            "<li><a href='http://s.geo.admin.ch/73a5c2cf7' target='_blank'>Gornergletscher</a></li></ul>",
+            "<h3>MeteoSchweiz</h3>",
+            "<a href='http://www.meteoschweiz.admin.ch/web/de/meteoschweiz/internationales/gcos/uebersicht_klimabeobachtung/nationales_klimabeobachtungssystem/gletscher.html' target='_blank'>Global Climate Observing System (GCOS)</a>",
+            "<h3>Bundesamt für Umwelt</h3>",
+            "<a href='http://www.bafu.admin.ch/umwelt/indikatoren/08557/08570/index.html?lang=d' target='_blank'>Klima Indikator Gletschwerschwund</a>",
+            "<h3>Bundesamt für Landestopografie swisstopo</h3>",
+            "<a href='https://s.geo.admin.ch/85d82c68' target='_blank'>Die Schweiz während letzteiszeitlichen Maximums</a>",
+            "<h3>Bundesamt für Statistik</h3>",
+            "<ul><li>Karte:<a href='http://s.geo.admin.ch/223c5feb' target='_blank'>Arealstatistik</a></li>",
+            "<li>Nomenklaturen:<a href=' http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/noas04/05/05_42.html' target='_blank'>Arealstatistik: Gletscher</a></li>",
+            "<li><a href='http://s.geo.admin.ch/b4f51a18' target='_blank'>Gletscher der Schweiz</a></li></ul>"
+        ],
+        "disclaimer": [
+            "<ul>",
+            "<li>Umgesetzt mit: ",
+            "<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a><br></li>",
+            "<li><a href='http://www.geo.admin.ch/internet/geoportal/de/home/geoadmin/contact.html#copyright' target='_blank'>Copyright und Datenschutzerklärung</a><br></li>",
+            "</ul>"
+        ]
+    }
+
+
+}

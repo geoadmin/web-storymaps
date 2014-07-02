@@ -1,0 +1,38 @@
+{
+
+    "text": {
+        "adminch": "Federal Administration admin.ch",
+        "depart": "Department of the Environment, Transport, Energy and Communication",
+        "FOEN": "Federal Office for the Environment FOEN",
+        "overview": "Overview",
+        "detailview": "Details",
+        "moreInfo": "Information",
+        "share": "Share",
+        "language": "Language",
+        "infoboxTitle": "Morteratsch glacier: An ice giant is shrinking",
+        "abstract": "Since beginning of the monitoring in 1878, the Morteratsch glacier is retreating steadily with an average recession rate of 16 meter/year. During warmer phases (1935 - 1965) shrinking rates of up to 48 meter/year have been observed. Since the 1990s, an increase of the recession is the case. (Map: Siegfriedkarte 1875/1876 and aerial imagery 2009)",
+        "infoboxMoreInfo": "More Information",
+        "dep": "Federal Office for the Environment",
+        "station": "Station:",
+        "rank": "Rank:",
+        "temperature": "Temperature:",
+        "date": "Date:",
+        "time": "Time:",
+        "detail": "Details",
+        "stationNumber": "Station number:"
+    },
+
+    "html": {
+        "infolinks": [
+        ],
+        "disclaimer": [
+            "<ul>",
+            "<li>Realized with: ",
+            "<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a><br></li>",
+            "<li><a href='http://www.geo.admin.ch/internet/geoportal/en/home/geoadmin/contact.html#copyright' target='_blank'>Copyright and Data protection</a><br></li>",
+            "</ul>"
+        ]
+    }
+
+
+}

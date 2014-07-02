@@ -1,0 +1,290 @@
+
+<html xmlns="http://ww.w3.org/1999/xhtml"  itemscope itemtype="http://schema.org/BlogPosting">
+
+
+<head>
+
+	<!-- metadata -->
+	<meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; E=8; IE=EDGE" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Die Abteilung Hydrologie des Bundesamt für Umwelt misst an über 80 Standorten die Temperatur verschiedener Fliessgewässer der Schweiz. Neben einem Jahresgang weisen einige Fliessgewässer auch starke Temperaturunterschiede innerhalb eines Tages auf. Die Daten des Wassertemperaturmessnetzes werden in Echtzeit dargestellt (stündliche Nachführung) - die Rangliste ändert sich somit von Stunde zu Stunde."/>
+	<link rel="image_src" href="http://storymaps.geo.admin.ch/storymaps/storymap3/img/preview.png" />
+	<title>Die wärmsten Fliessgewässer der Schweiz</title>
+	<link href="http://www.swisstopo.admin.ch/internet/swisstopo.ConfigFavicon.ico" type="image/x-icon" rel="Shortcut Icon">
+	
+    <!-- Facebook-like meta tags -->
+	<meta property="og:site_name" content="geo.admin.ch's storymaps"/>
+	<!-- <meta property="og:url" content="http://storymaps.geo.admin.ch/storymaps/storymap3/"/>  -->
+	<meta property="og:image" content="http://storymaps.geo.admin.ch/storymaps/storymap3/img/preview.png" />
+	<meta property="og:title" content="Die wärmsten Fliessgewässer der Schweiz" /> 
+	<meta property="og:description" content="Die Abteilung Hydrologie des Bundesamt für Umwelt misst an über 80 Standorten die Temperatur verschiedener Fliessgewässer der Schweiz. Neben einem Jahresgang weisen einige Fliessgewässer auch starke Temperaturunterschiede innerhalb eines Tages auf.">
+
+	<!-- google+ tags -->
+	<meta itemprop="name" content="Die wärmsten Fliessgewässer der Schweiz">
+	<meta itemprop="description" content="Die Abteilung Hydrologie des Bundesamt für Umwelt misst an über 80 Standorten die Temperatur verschiedener Fliessgewässer der Schweiz. Neben einem Jahresgang weisen einige Fliessgewässer auch starke Temperaturunterschiede innerhalb eines Tages auf.">
+	<meta itemprop="image" content="http://storymaps.geo.admin.ch/storymaps/storymap3/img/preview.png">
+
+	<!-- js script files -->
+	<script type="text/javascript" src="http://api3.geo.admin.ch/loader.js?mode=debug"></script>
+
+	<script type="text/javascript" src="./lib/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="./lib/jquery.tipsy.js"></script>
+      	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
+	<script type="text/javascript" src="./lib/i18next-1.6.3.min.js"></script>
+	<![if  (gte IE 9) | (!IE)]> 
+	<script type="text/javascript" src="./lib/d3.v3.min.js"></script>
+	<![endif]>
+	<script type="text/javascript" src="./lib/bootstrap.min.js"></script>
+	
+	<!-- css files -->
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap-responsive.css">
+	<link rel="stylesheet" type="text/css" href="./css/styles_text.css">
+	<link rel="stylesheet" type="text/css" href="./css/styles_layout.css">
+	<link rel="stylesheet" type="text/css" href="./css/styles_amt.css">
+	<link rel="stylesheet" type="text/css" href="./css/tipsy.css">
+	<link rel="stylesheet" type="text/css" href="./css/storymap.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 760px)" href="./css/storymap-mobile-portrait.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://api.geo.admin.ch/2407131501/main/wsgi/build/api-light.css"> -->
+
+</head>
+
+
+<body onload="initiation()">
+<div id="mainContainer">
+
+	<!-- header desktop -->
+	<div id="header-desktop">
+		<div id="webHeaderDiv" style="margin-bottom: 0;">
+			<div id="webLogoDiv" style="float: left;"><img src="./img/logo_ch.jpg" style="margin: 20px;"></div>
+			<div id="webHeaderLinks" style="float: right; top: 0px; right: 0px; position: absolute;">
+				<div id="adminch"><a href="http://www.admin.ch/ch/index.de.html" target="_blank" style="padding-top: 1;" class="multilang" data-i18n="text.adminch"></a></div>
+				<div id="depart" style="line-height: 1.1;"><a href="http://www.uvek.admin.ch/index.html" target="_blank" class="multilang" data-i18n="text.depart"></a></div>
+				<h1 style="margin-top: 0; "><a href="http://www.bfe.admin.ch/index.html" title="Bundesamt für Energie BFE" style="color: white;" class="multilang" data-i18n="text.BFE"></a></h1>
+			</div>		
+
+		</div>
+		<div class="navServiceBackground">
+			<div id="lang" style="float: right">
+				<ul class="inline-list">
+					<li style="cursor: default;"><b>Share:</b></li>
+					<li>&nbsp;</li>
+					<li><a href="http://www.facebook.com/sharer.php?u=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap3/?&t=geo.admin.ch%20Storymaps" title="Facebook" target="_blank"><img src="./img/facebook.gif" alt="Facebook" style="margin-top: 3;"></a></li>
+					<li>&nbsp;</li>
+					<li>&nbsp;</li>
+					<li><a href="http://twitter.com/intent/tweet?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap3&t=geo.admin.ch%20Storymaps" title="Twitter" target="_blank"><img src="./img/twitter.gif" alt="Facebook" style="margin-top: 3;"></a></li>
+					<li>&nbsp;</li>
+					<li>&nbsp;</li>
+					<li><a href="http://google.com/bookmarks/mark?op=edit&bkmk=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap3&t=geo.admin.ch%20Storymaps" title="Google Bookmarks" target="_blank"><img src="./img/google.gif" alt="Google Bookmarks" style="margin-top: 3;"></a></li>
+					<li>&nbsp;</li>
+					<li>&nbsp;</li>
+					<li><a href="https://plus.google.com/share?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap3&t=geo.admin.ch%20Storymaps" title="Google+" target="_blank"><img src="./img/googleplus.gif" alt="Google+" style="margin-top: 3;"></a></li>
+					<li style="cursor: default;"><img src="./img/space.gif"></li>
+					<li id="de" onclick="toggleLang('de');">Deutsch</li>
+					<li class="pipe">&nbsp;</li>
+					<li id="fr" onclick="toggleLang('fr');">Français</li>
+					<li class="pipe">&nbsp;</li>
+					<li id="it" onclick="toggleLang('it');">Italiano</li>
+					<li class="pipe">&nbsp;</li>
+					<li id="en" onclick="toggleLang('en');">English</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- header mobile -->
+	<div id="header-mobile">
+		<div class="navbar">
+  			<div class="navbar-inner">
+    				<div class="container" style="text-align: center;">
+					<a class="brand"  href="http://geo.admin.ch" target="_blank"><img id="ch" src="./img/admin.png" style="height: 25px;"></a>
+      					<a style="text-align: left;" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse" data-original-title="" title="">
+						<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+      					</a>
+      					<div style="text-align: left;" class="btn-group">
+						<button type="button" class="btn btn-default multilang" data-i18n="text.overview" onclick="changeToOverview()"></button>
+						<button type="button" class="btn btn-default multilang " data-i18n="text.detailview" onclick="changeToDetails()"></button>
+					</div>
+      					<div style="text-align: left;" class="nav-collapse collapse" id="spanClasses" style="height: auto;">
+        					<ul class="nav">
+							<li><a id="moreInfo" class="multilang docol" href="#" data-i18n="text.moreInfo"></a></li>  
+							<li class="dropdown open">
+								<a class="dropdown-toggle multilang" role="button" data-target="#" href="#" data-i18n="text.language"></a>	
+								<ul class="dropdown-menu">
+									<li><a href="index.html?lang=de">Deutsch</a></li> 
+									<li><a href="index.html?lang=fr">Français</a></li> 
+									<li><a href="index.html?lang=it">Italiano</a></li> 
+									<li><a href="index.html?lang=en">English</a></li> 
+								</ul>
+							</li>
+							<li class="dropdown open">  
+                				<a class="dropdown-toggle multilang" role="button"  href="#" data-i18n="text.share"></a>  
+                  				<ul class="dropdown-menu">  
+									<li><a href="http://www.facebook.com/sharer.php?u=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap3/?&t=geo.admin.ch%20Storymaps" title="Facebook" target="_blank"><img class="icon" src="./img/facebook_big.png" alt="Facebook">  Facebook</a></li>
+									<li><a href="http://twitter.com/intent/tweet?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap3/&t=geo.admin.ch%20Storymaps" title="Twitter" target="_blank"><img class="icon" src="./img/twitter_big.png" alt="Facebook">  Twitter</a></li>
+									<li><a href="https://plus.google.com/share?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap3&t=geo.admin.ch%20Storymaps" title="Google+" target="_blank"><img class="icon" src="./img/googleplus_big.png" alt="Google+">  Google+</a></li>
+                       						</ul>  
+                					</li>	
+      						</ul>
+					</div>
+   				</div>
+  			</div>
+		</div>	
+	</div>
+
+	<!-- mainContent -->
+	<div id="mainContent">
+
+		<!-- infobox -->
+		<div id="infobox" style="display: block;">
+			<div id="close_box" style="position: absolute; right: 8px; top: 8px; cursor: pointer;">
+				<svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+					<g>
+						<path id="svg_1" d="m3.13264,16.88795c-3.7922,-3.81782 -3.7922,-10.00817 0,-13.82607c3.79341,-3.81782 9.94103,-3.81782 13.73441,0c3.79223,3.81785 3.79223,10.00824 0,13.82607c-3.79337,3.81839 -9.941,3.81839 -13.73441,0zm12.01788,-12.09795c-2.84504,-2.86366 -7.45632,-2.86366 -10.30019,0c-2.84503,2.86366 -2.84503,7.50617 0,10.36983c2.84386,2.86369 7.45515,2.86369 10.30019,0c2.84393,-2.86373 2.84393,-7.50618 0,-10.36983zm-7.72543,9.50579l-1.71652,-1.72869l2.57476,-2.5922l-2.57476,-2.59216l1.71652,-1.72873l2.57476,2.59277l2.5748,-2.59277l1.71648,1.72873l-2.57476,2.59216l2.57476,2.5922l-1.71648,1.72869l-2.5748,-2.59277l-2.57476,2.59277z" fill="white"></path>
+					 </g>
+				</svg>
+			</div>
+			<div class="title">
+				<h1 class="infobox multilang" data-i18n="text.infoboxTitle"></h1>
+	
+			</div>
+			<div class="abstract">
+				<div class="inner multilang" data-i18n="text.abstract"></div>
+			</div>
+			
+			<div class="moreinfo">
+				<div class="inner">
+					<h2 class="infobox multilang" data-i18n="text.infoboxMoreInfo"></h2>
+					<h3 class="infobox multilang" data-i18n="text.dep"></h3>
+					<p class="infobox multilang" data-i18n="[html]html.infolinks;">
+
+					</p>
+				</div>
+			</div>
+			<div class="colophon">
+				<div class="inner">
+					<ul class="multilang" data-i18n="[html]html.disclaimer;" >
+					</ul>
+				</div>
+			</div>
+		</div>
+	
+		<!-- maps -->	
+		<div id="maps">	
+			<div id="overviewMapContainer">
+			<!-- overview map -->
+				<div id="overviewMap"></div>
+			</div>
+			<div id="detailMapContainer">
+			<!-- detail map -->
+				<div id="detailMap"></div>
+			</div>
+		</div>
+
+		<!-- information -->
+		<div id="infos">
+			<div id="objectInfoContainer">
+				<!-- object info -->
+				<div  id="objectInfo">
+					
+					<table class="objectDetails"> 
+						<tr class="objectDetails" id="firstRow">
+							<td class="objectDetails leftcolumn" id="stName">
+								<div class="multilang objectDetails " data-i18n="text.stauanlage"></div>
+								<div id="d-stauanlage" class="objectDetails d-value"></div>
+							</td>
+							<td class="objectDetails objectDetails right column" rowspan="2">
+								<div class="multilang " data-i18n="text.rank"></div>
+								<div id="counter " class="objectDetails">
+									<div class="flash">
+										<svg width="60.00000000000001" height="30.000000000000004" xmlns="http://www.w3.org/2000/svg">
+											<g>
+												<class>countNav</class>
+												<path id="svg_1" d="m0.07216,25.77658l30.12131,-25.68195l29.70567,25.77727" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="null" fill="#000000" cursor="pointer" onclick="moveOneRank('up')" />
+											</g>
+										</svg>
+									</div >
+									<div id="d-rank" class="ranker">
+									</div>
+									<div class="flash">
+										<svg width="60.00000000000001" height="30.000000000000004" xmlns="http://www.w3.org/2000/svg">
+											 <g>
+												<class>countNav</class>
+												<path transform="rotate(179.916 29.9618 19.2887)" id="svg_1" d="m-0.02337,34.23144l30.12131,-25.68195l29.70567,25.77727" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="null" fill="#000000" cursor="pointer" onclick="moveOneRank('down')" />
+											</g>
+										</svg>
+									</div>
+								</div>
+							</td>		
+						</tr>
+						<tr class="objectDetails">
+							<td class="objectDetails leftcolumn">
+								<div class="multilang objectDetails" data-i18n="text.sperrenhoehe"></div>
+								<div style="float: left;"id="d-sperrenhoehe" class="objectDetails d-value"></div>	
+								<!--<div id="celcius" class="objectDetails">&nbsp;°C</div>	-->
+							</td>						
+						</tr>
+						
+						<tr class="objectDetails" >
+							<td class="objectDetails">
+								<div class="multilang objectDetails" data-i18n="text.kronenkote"></div>
+								<div id="d-kronenkote" class="objectDetails d-value"></div>	
+							</td>
+							<td class="objectDetails rightcolumn">
+                                                                <div class="multilang objectDetails" data-i18n="text.zweck"></div>
+                                                                <div id="d-zweck" class="objectDetails d-value"></div>
+                                                        </td>
+						</tr>
+						<tr class="objectDetails">
+							<td class="objectDetails">	
+								<div class="multilang objectDetails" data-i18n="text.inbetriebnahme"></div>
+								<div id="d-inbetriebnahme" class="objectDetails d-value"> </div>
+							</td>
+							<td class="objectDetails rightcolumn">	
+								<div class="multilang objectDetails" data-i18n="text.sperrentyp"></div>
+								<div id="d-sperrentyp"  class="objectDetails d-value"></div>
+							</td>
+						</tr>
+						<tr class="objectDetails lastrow">
+							<td class="objectDetails lastrow " colspan="2">
+								<a href="" target="_blank" id="details" class="multilang" data-i18n="text.detail"></a>
+							</td>
+						</tr>
+					</table> 
+					</table> 
+
+
+				</div>
+			</div>
+			<div id="barChartContainer">
+				<!-- bar chart -->
+				<div id="barChart"> </div>
+			</div>
+		</div>
+	</div> 
+
+
+</div>
+
+	<!-- load js files -->
+    <!-- <script type="text/javascript" src="./js/extentFilterFunction.js"></script> -->
+	<script type="text/javascript" src="./js/handleData.js"></script>
+	<script type="text/javascript" src="./js/displayData.js"></script>
+	<script type="text/javascript" src="./js/infobox.js"></script>
+	<script type="text/javascript" src="./js/toggleLang.js"></script>
+    <script type="text/javascript" src="./js/translate.js"></script> 
+	<script type="text/javascript" src="./js/barchart.js"></script>
+	<script type="text/javascript" src="./js/visibilityFunctions.js"></script>
+    <!-- <script type="text/javascript" src="./js/displayData.js"></script> -->
+    <!-- <script type="text/javascript" src="./js/loadMaps.js"></script>  -->
+	<script type="text/javascript" src="./js/initMaps.js"></script>
+	<script type="text/javascript" src="./js/initiation.js"></script>
+</body>
+
+
+</html>
+
+
