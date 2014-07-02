@@ -13,6 +13,8 @@
     "abstract": "Am 18. April 1991 stürzten bei Randa im hinteren Mattertal rund 15 Millionen m3 Fels zu Tal. Die Felsblöcke waren teilweise so gross wie Einfamilienhäuser, die Sturzhöhe betrug 600 Meter. Hauptursachen des Bergsturzes waren die Wirkung von Frost- und Tauperioden und von erhöhtem Wasserdruck in Gesteinsklüften. Am 9. Mai des gleichen Jahres ereignete sich erneut ein Bergsturz von einigen Millionen Kubikmeter Gesteinsmaterial. Insgesamt stürzten bei allen Bergstürzen 33 Mio. m3 Gestein ins Tal (Karte: Siegfriedkarte 1881",
     "infoboxMoreInfo": "Weitere Informationen",
     "dep": "Bundesamt für Umwelt",
+     "Siegfriedkarte": "Siegfriedkarte",
+
     "station": "Station:",
     "rank": "Rang:",
     "temperature": "Temperatur:",
@@ -27,11 +29,11 @@
 "<h3>Nationale Plattform für Naturgefahren PLANAT</h3>",
 "<ul><li><a href='http://www.planat.ch/de/bilder-detailansicht/datum/2010/09/01/bergsturz-randa-1991/' target='_blank'>Informationen zum Bergsturz von Randa</a></li></ul>",
 "<h3>Bundesamt für Landestopografie swisstopo</h3>",
-"<ul><li><a href='http://www.geologieviewer.ch' target='_blank'>Das Gebiet um Randa im  Geologieviewer</a><br></li>",
-"<li><a href='http://s.geo.admin.ch/1098e1f37' target='_blank'>Das Gebiet um Randa im geologischen Atlas (1:25 000)</a><br></li>",
-"<li><a href='http://www.swisstopo.ch/de/index.html?flyoutPermalink=Y%3D660000%26X%3D190000%26zoom%3D2%26bgOpacity%3D0%26bgLayer%3DvoidLayer%26layers%3Dch.swisstopo.zeitreihen%26layers_opacity%3D1%26layers_visibility%3Dtrue%26timeseries_tab%3DplayTab%26timeseries_current%3D19381231%26timeseries_compareOpacity%3D50%26timeseries_direction%3Dforwards%26timeseries_fadeTime%3D2000%26lang%3Dde' target='_blank'>swisstopo Zeitreise</a><br></li>",
-"<li><a href='http://map.geo.admin.ch/?selectedNode=node_ch.swisstopo.images-swissimage.metadata1&amp;Y=626522.91274611&amp;X=106670&amp;zoom=8&amp;bgOpacity=0&amp;bgLayer=ch.swisstopo.pixelkarte-farbe&amp;time_current=latest&amp;lang=de' target='_blank'>Der Erdrutsch von Randa im Luftbild</a><br></li>",
-"<li><a href='http://map.geo.admin.ch/?selectedNode=LT2_18&amp;Y=627708.64414308&amp;X=105790.60700533&amp;zoom=6&amp;bgOpacity=0&amp;bgLayer=ch.swisstopo.pixelkarte-farbe&amp;layers=ch.swisstopo.geologie-geotope&amp;layers_opacity=1&amp;layers_visibility=true&amp;time_current=latest&amp;lang=de' target='_blank'>Schweizerische Geotope</a><br></li></ul>",
+"<ul><li><a href='http://www.geologieviewer.ch' target='_blank'>Das Gebiet um Randa im  Geologieviewer</a></li>",
+"<li><a href='http://s.geo.admin.ch/1098e1f37' target='_blank'>Das Gebiet um Randa im geologischen Atlas (1:25 000)</a></li>",
+"<li><a href='http://www.swisstopo.ch/de/index.html?flyoutPermalink=Y%3D660000%26X%3D190000%26zoom%3D2%26bgOpacity%3D0%26bgLayer%3DvoidLayer%26layers%3Dch.swisstopo.zeitreihen%26layers_opacity%3D1%26layers_visibility%3Dtrue%26timeseries_tab%3DplayTab%26timeseries_current%3D19381231%26timeseries_compareOpacity%3D50%26timeseries_direction%3Dforwards%26timeseries_fadeTime%3D2000%26lang%3Dde' target='_blank'>swisstopo Zeitreise</a></li>",
+"<li><a href='http://map.geo.admin.ch/?selectedNode=node_ch.swisstopo.images-swissimage.metadata1&amp;Y=626522.91274611&amp;X=106670&amp;zoom=8&amp;bgOpacity=0&amp;bgLayer=ch.swisstopo.pixelkarte-farbe&amp;time_current=latest&amp;lang=de' target='_blank'>Der Erdrutsch von Randa im Luftbild</a></li>",
+"<li><a href='http://map.geo.admin.ch/?selectedNode=LT2_18&amp;Y=627708.64414308&amp;X=105790.60700533&amp;zoom=6&amp;bgOpacity=0&amp;bgLayer=ch.swisstopo.pixelkarte-farbe&amp;layers=ch.swisstopo.geologie-geotope&amp;layers_opacity=1&amp;layers_visibility=true&amp;time_current=latest&amp;lang=de' target='_blank'>Schweizerische Geotope</a></li></ul>",
 "<h3>Bundesamt für Umwelt (BAFU)</h3>",
 "<ul><li><a href='http://s.geo.admin.ch/d02afb36f' target='_blank'>Stand der Naturgefahrenkartierungen Rutschungen</a></li></ul>"
 
@@ -39,8 +41,8 @@
     "disclaimer": [
       "<ul>",
       "<li>Umgesetzt mit: ",
-      "<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a><br></li>",
-      "<li><a href='http://www.geo.admin.ch/internet/geoportal/de/home/geoadmin/contact.html#copyright' target='_blank'>Copyright und Datenschutzerklärung</a><br></li>",
+      "<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a></li>",
+      "<li><a href='http://www.geo.admin.ch/internet/geoportal/de/home/geoadmin/contact.html#copyright' target='_blank'>Copyright und Datenschutzerklärung</a></li>",
       "</ul>"
     ]
   }

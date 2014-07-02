@@ -11,10 +11,11 @@
     "share": "Condividere",
     "language": "Lingua",
 
-    "infoboxTitle": "I fiumi “più caldi” della Svizzera",
-    "abstract": "La Divisione Idrologia dell’Ufficio Federale dell’Ambiente gestisce una rete di circa 80 stazioni di monitoraggio della temperatura dei corsi d’acqua. Oltre alle variazioni annuali della temperatura, è possibile osservare varie fluttuazioni giornaliere. La temperatura dell’acqua è visualizzata in real-time (aggiornamenti ogni ora), per cui la classifica delle stazioni potrebbe cambiare.",
+    "infoboxTitle": "Crollo di una parete di roccia presso Randa",
+    "abstract": "Il 18 aprile 1991, nei pressi di Randa, che si trova nella parte più interna della valle di Zermatt, crollarono circa 15 milioni di m3 di roccia. Alcuni blocchi di roccia, caduti per più di 600 metri, erano grandi quasi quanto delle case unifamiliari. Il 9 maggio dello stesso anno, nuovamente presso Randa si verificò un secondo crollo di alcuni milioni di metri cubi di roccia (Carta Siegfried 1881; VS 1:25 000 + Geotopi svizzeri).",
     "infoboxMoreInfo": "Ulteriori informazioni",
     "dep": "Ufficio Federale dell’Ambiente",
+     "Siegfriedkarte": "Atlante Siegfried",
 
     "station": "Stazione:",
     "rank": "Rango:",
@@ -27,10 +28,16 @@
 
   "html": {
     "infolinks": [
-      "<a href='http://www.bafu.admin.ch/hydrologie/01831/01841/index.html?lang=it' target='_blank'>Rete di misurazione delle temperature</a></br>",
-      "<a class='infobox' href='http://www.hydrodaten.admin.ch/it/index.html#aktuelle_situation_gewaesser' target='_blank'>Dati idrologici attuali</a> <br>",
-      "<a class='infobox'  href='http://s.geo.admin.ch/7d94ba893' target='_blank'>Mappa delle stazioni idrologiche</a> <br>",
-      "<a class='infobox' href='http://s.geo.admin.ch/9a5ce079c' target='_blank'>Mappa delle stazioni di misurazione della temperatura</a>"
+        "<p>Piattaforma nazionale «Pericoli naturali» PLANAT",
+    "<ul><li><a href='http://www.planat.ch/it/immagini-dettagli/datum/2010/09/01/bergsturz-randa-1991/' target='_blank'>Randa</a></li></ul>",
+        "<p>Ufficio federale di topografia swisstopo</p>",
+    "<ul> <li><a href='http://www.geologieviewer.ch/ga.php?lang=fr' target='_blank'>Vissualizzatore Di Dati Geologici: L'area di Randa</a><br></li>",
+    "<li><a href='http://map.geo.admin.ch/?selectedNode=node_ch.swisstopo.geologie-geologischer_atlas1&amp;Y=626465.01944256&amp;X=105802.26517871&amp;zoom=8&amp;bgLayer=ch.swisstopo.pixelkarte-farbe&amp;layers=ch.swisstopo.geologie-geologischer_atlas&amp;layers_opacity=1&amp;layers_visibility=true&amp;time_current=latest&amp;lang=it' target='_blank'>Atlante Geologico (1:25 000): Randa</a><br></li>",
+    "<li><a href='http://www.swisstopo.ch/it/index.html?flyoutPermalink=Y%3D660000%26X%3D190000%26zoom%3D2%26bgOpacity%3D0%26bgLayer%3DvoidLayer%26layers%3Dch.swisstopo.zeitreihen%26layers_opacity%3D1%26layers_visibility%3Dtrue%26timeseries_tab%3DplayTab%26timeseries_current%3D19381231%26timeseries_compareOpacity%3D50%26timeseries_direction%3Dforwards%26timeseries_fadeTime%3D2000%26lang%3Dit' target='_blank'>Visualizzatore di serie temporali</a><br></li>",
+    "<li><a href='http://map.geo.admin.ch/?selectedNode=node_ch.swisstopo.images-swissimage.metadata1&amp;Y=626522.91274611&amp;X=106670&amp;zoom=8&amp;bgOpacity=0&amp;bgLayer=ch.swisstopo.pixelkarte-farbe&amp;time_current=latest&amp;lang=it' target='_blank'>La Frana di Randa in una Foto Area</a><br></li>",
+    "<li><a href='http://map.geo.admin.ch/?selectedNode=LT2_18&amp;Y=627708.64414308&amp;X=105790.60700533&amp;zoom=6&amp;bgOpacity=0&amp;bgLayer=ch.swisstopo.pixelkarte-farbe&amp;layers=ch.swisstopo.geologie-geotope&amp;layers_opacity=1&amp;layers_visibility=true&amp;time_current=latest&amp;lang=it' target='_blank'>Geotopi svizzeri</a><br></li></ul>",
+    "<p>L'Ufficio federale dell'ambiente (UFAM)</p>",
+    "<ul><li><a href='http://map.geo.admin.ch/?selectedNode=node_ch.bafu.showme-gemeinden_rutschungen1&amp;Y=629537&amp;X=113160&amp;zoom=3&amp;bgLayer=ch.swisstopo.pixelkarte-farbe&amp;layers=ch.bafu.showme-gemeinden_rutschungen&amp;layers_opacity=0.63&amp;layers_visibility=true&amp;time_current=latest&amp;lang=it' target='_blank'>Zone a rischio naturale (valanghe)</a></li></ul>"
     ],
     "disclaimer": [
       "<ul>",

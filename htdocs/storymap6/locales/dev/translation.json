@@ -15,6 +15,8 @@
 	"abstract": "Die Abteilung Hydrologie des Bundesamt für Umwelt misst an über 80 Standorten die Temperatur verschiedener Fliessgewässer der Schweiz. Neben einem Jahresgang weisen einige Fliessgewässer auch starke Temperaturunterschiede innerhalb eines Tages auf. Die Daten des Wassertemperaturmessnetzes werden in Echtzeit dargestellt (stündliche Nachführung) - die Rangliste ändert sich somit von Stunde zu Stunde.",
 	"infoboxMoreInfo": "Weitere Informationen",
 	"dep": "Bundesamt für Umwelt",
+    "Siegfriedkarte": "&nbsp;Siegfriedkarte",
+
 
 	"station": "Station:",
 	"rank": "Rang:",
