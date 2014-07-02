@@ -24,6 +24,22 @@
 
     "html": {
         "infolinks": [
+         "<h3>Other glaciers (Time Series)</h3>",
+        "<ul><li><a href='http://s.geo.admin.ch/19dfcfc50' target='_blank'>Aletschgletscher</a></li>",
+        "<li><a href='http://s.geo.admin.ch/72faae983' target='_blank'>Unterer Grindelwaldgletscher</a></li>",
+        "<li><a href='http://s.geo.admin.ch/73a5c2cf7' target='_blank'>Gornergletscher</a></li></ul>",
+        "<h3>MeteoSwiss</h3>",
+        "<a href='http://www.meteoschweiz.admin.ch/web/de/meteoschweiz/internationales/gcos/uebersicht_klimabeobachtung/nationales_klimabeobachtungssystem/gletscher.html' target='_blank'>Global Climate Observing System (GCOS)</a>",
+        "<h3>Federal Office for the Environment</h3>",
+        "<a href='http://www.bafu.admin.ch/umwelt/indikatoren/08557/08570/index.html?lang=d' target='_blank'>Indicator Glacier retreat</a>",
+        "<h3>Federal Office of Topography swisstopo</h3>",
+        "<a href='https://s.geo.admin.ch/85d82c68' target='_blank'>Swiss last glacial maximum</a>",
+        "<h3>Federal Office of Statistics</h3>",
+        "<ul><li>Map:<a href='http://s.geo.admin.ch/223c5feb' target='_blank'>Area Statistics</a></li>",
+        "<li>Nomenclature:<a href=' http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/noas04/05/05_42.html' target='_blank'>Area Statistics: Glacier</a></li>",
+        "<li><a href='http://s.geo.admin.ch/b4f51a18' target='_blank'>Swiss Glaciers</a></li></ul>"
+
+                   
         ],
         "disclaimer": [
             "<ul>",
