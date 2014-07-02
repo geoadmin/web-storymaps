@@ -4,12 +4,12 @@
     "Hydroelectricity": "Hydroelectricity",
     "Earth fill": "Earth fill",
     "Rockfill": "Rockfill",
-    "Arch -gravity": "Arch-gravity",
+    "Arch-gravity": "Arch-gravity",
 
     "text": {
         "adminch": "Federal Administration admin.ch",
         "depart": "Department of the Environment, Transport, Energy and Communication",
-        "FOEN": "Federal Office for the Environment FOEN",
+        "BFE": "Swiss Federal Office of the Energy SFOE",
 
         "overview": "Overview",
         "detailview": "Details",
@@ -17,8 +17,8 @@
         "share": "Share",
         "language": "Language",
 
-        "infoboxTitle": "The warmest rivers of Switzerland",
-        "abstract": "The Hydrology Division of the Swiss Federal Office for the Environment is operating temperature monitoring stations at more than 80 river sites. In addition to interannual temperature cycles, different diurnal variations can be observed. Water temperature data is displayed in real-time (hourly updates). Therefore the ranking of the stations may change.",
+        "infoboxTitle": "The 25 largest dams and reservoirs in Switzerland",
+        "abstract": "The Swiss Federal Office of Energy directly supervises the safety of Switzerland's 206 largest dams and reservoirs, three-quarter of which are used to generate hydropower. Twenty-five of the dams are over 100 metres tall, and four are even higher than 200 metres. Switzerland still has the tallest gravity dam in the world, the 285-metre high Grande Dixence dam.",
         "infoboxMoreInfo": "More Information",
         "dep": "Federal Office for the Environment",
 
@@ -41,10 +41,11 @@
 
     "html": {
         "infolinks": [
-            "<a href='http://www.bafu.admin.ch/hydrologie/01831/01841/index.html?lang=en' target='_blank'>Water temperature monitoring network</a></br>",
-            "<a class='infobox' href='http://www.hydrodaten.admin.ch/en/index.html#aktuelle_situation_gewaesser' target='_blank'>Hydrological data</a> <br>",
-            "<a class='infobox'  href='http://s.geo.admin.ch/03826b3d6' target='_blank'>Map of basic monitoring network</a> <br>",
-            "<a class='infobox' href='http://s.geo.admin.ch/f39365243' target='_blank'>Map of water temperature monitoring network</a>"
+            "<h3>Swiss Federal Office of Energy</h3>",
+        "<ul><li><a href='http://www.bfe.admin.ch/talsperren' target='_blank'>Activities of the supervisory authority</a></li>",
+        "<li><a href='http://www.bfe.admin.ch/geoinformation/05061/05251/05395/index.html?lang=de' target='_blank'>Map showing all the Dams and reservoirs under the supervision of the federal government</a></li>",
+        "<li><a href='http://www.bfe.admin.ch/geoinformation/05061/05251/index.html?lang=de' target='_blank'>Official Geodata</a></li>",
+        "<li><a href='http://www.bfe.admin.ch/geoinformation/05403/05570/05571/index.html?lang=de' target='_blank'>Map showing the water power potential</a></li></ul>"
         ],
         "disclaimer": [
             "<ul>",
