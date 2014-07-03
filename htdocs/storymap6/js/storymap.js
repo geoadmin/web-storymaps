@@ -57,33 +57,31 @@ function initSlider(ratio) {
 
 deBouncer(jQuery, 'smartdrag', 'drag', 350);
 
+function handlePreCompose(event) {
 
-function swipe(layer) {
-  layer.on('precompose', function(event) {
-    var ctx = event.context;
-    var width = ctx.canvas.width * (map.swipe_ratio);
+  var ctx = event.context;
+  var width = ctx.canvas.width * (map.swipe_ratio);
 
-    ctx.save();
-    ctx.beginPath();
-    ctx.rect(width, 0, ctx.canvas.width - width, ctx.canvas.height);
-    ctx.clip();
-  });
-
-  layer.on('postcompose', function(event) {
-    var ctx = event.context;
-    ctx.restore();
-  });
+  ctx.save();
+  ctx.beginPath();
+  ctx.rect(width, 0, ctx.canvas.width - width, ctx.canvas.height);
+  ctx.clip();
 }
 
+function handlePostCompose(event) {
+  var ctx = event.context;
+  ctx.restore();
+}
 
-function swipeLayer(layer) {
+function swipe(layer) {
   if (layer instanceof ol.layer.Group) {
-    var layers = layer.getLayers();
-    layers.forEach(function(lyr) {
-      swipe(lyr);
+    layer.getLayers().forEach(function(olLayer, idx, arr) {
+      olLayer.on('precompose', handlePreCompose);
+      olLayer.on('postcompose', handlePostCompose);
     });
   } else {
-    swipe(layer);
+    layer.on('precompose', handlePreCompose);
+    layer.on('postcompose', handlePostCompose);
   }
 }
 
@@ -104,11 +102,11 @@ function init() {
     layers: [hiks, group],
     tooltip: false,
     view: new ol.View2D({
-            resolution: 8,
+            resolution: 5,
             center: [626400, 106200]
     })
   });
 
-  initSlider(0.4);
-  swipeLayer(layer);
+  initSlider(0.47);
+  swipe(group);
 }

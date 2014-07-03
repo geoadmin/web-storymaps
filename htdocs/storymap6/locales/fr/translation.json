@@ -14,6 +14,7 @@
     "abstract": "Le 18 avril 1991, un éboulement de quelque 15 millions m3 de roche s'est déclenché près de Randa dans la haute vallée de Zermatt. Des blocs de pierre, certains grands comme une maison, ont dévalé la pente sur 600m. Ce sont principalement les périodes de gel et de dégel et la pression élevée de l'eau dans les fissures de la roche qui sont à l'origine de l'éboulement de la montagne. Le 9 mai de la même année, il s'est à nouveau produit près de Randa un éboulement de plusieurs millions de m3 de matériaux rocheux (Carte: Carte Siegfried 1881)",
     "infoboxMoreInfo": "Informations détaillées",
     "dep": "Office fédéral de l'environnement",
+    "Siegfriedkarte": "Carte Siegfried",
 
     "station": "Station:",
     "rank": "Rang:",
@@ -29,11 +30,11 @@
 "<h3>Plate-forme nationale «Dangers naturels» PLANAT</h3>",
                   "<ul><li><a href='http://www.planat.ch/fr/images-details/datum/2010/09/01/bergsturz-randa-1991/' target='_blank'>Eboulement à Randa</a></li></ul>",
                    "<h3>Office fédéral de topographie swisstopo</h3>",
-                  "<ul><li><a href='http://www.geologieviewer.ch/ga.php?lang=fr' target='_blank'>Visualiseur de données géologiques: Randa</a><br></li>",
-                   "<li><a href='http://map.geo.admin.ch/?selectedNode=node_ch.swisstopo.geologie-geologischer_atlas1&amp;Y=626465.01944256&amp;X=105802.26517871&amp;zoom=8&amp;bgLayer=ch.swisstopo.pixelkarte-farbe&amp;layers=ch.swisstopo.geologie-geologischer_atlas&amp;layers_opacity=1&amp;layers_visibility=true&amp;time_current=latest&amp;lang=fr' target='_blank'>Atlas Géologique (1: 25 000): Randa</a><br></li>",
-                   "<li><a href='http://www.swisstopo.ch/fr/index.html?flyoutPermalink=Y%3D660000%26X%3D190000%26zoom%3D2%26bgOpacity%3D0%26bgLayer%3DvoidLayer%26layers%3Dch.swisstopo.zeitreihen%26layers_opacity%3D1%26layers_visibility%3Dtrue%26timeseries_tab%3DplayTab%26timeseries_current%3D19381231%26timeseries_compareOpacity%3D50%26timeseries_direction%3Dforwards%26timeseries_fadeTime%3D2000%26lang%3Dfr' target='_blank'>Visualiseur de séries temporelles</a><br></li>",
-                   "<li><a href='http://map.geo.admin.ch/?selectedNode=node_ch.swisstopo.images-swissimage.metadata1&amp;Y=626522.91274611&amp;X=106670&amp;zoom=8&amp;bgOpacity=0&amp;bgLayer=ch.swisstopo.pixelkarte-farbe&amp;time_current=latest&amp;lang=fr' target='_blank'>L`éboulement à Randa dans la photo aérienne</a><br></li>",
-                    "<li><a href='http://map.geo.admin.ch/?selectedNode=LT2_18&amp;Y=627708.64414308&amp;X=105790.60700533&amp;zoom=6&amp;bgOpacity=0&amp;bgLayer=ch.swisstopo.pixelkarte-farbe&amp;layers=ch.swisstopo.geologie-geotope&amp;layers_opacity=1&amp;layers_visibility=true&amp;time_current=latest&amp;lang=fr' target='_blank'>Géotopes suisses</a><br></li></ul>",
+                  "<ul><li><a href='http://www.geologieviewer.ch/ga.php?lang=fr' target='_blank'>Visualiseur de données géologiques: Randa</a></li>",
+                   "<li><a href='http://map.geo.admin.ch/?selectedNode=node_ch.swisstopo.geologie-geologischer_atlas1&amp;Y=626465.01944256&amp;X=105802.26517871&amp;zoom=8&amp;bgLayer=ch.swisstopo.pixelkarte-farbe&amp;layers=ch.swisstopo.geologie-geologischer_atlas&amp;layers_opacity=1&amp;layers_visibility=true&amp;time_current=latest&amp;lang=fr' target='_blank'>Atlas Géologique (1: 25 000): Randa</a></li>",
+                   "<li><a href='http://www.swisstopo.ch/fr/index.html?flyoutPermalink=Y%3D660000%26X%3D190000%26zoom%3D2%26bgOpacity%3D0%26bgLayer%3DvoidLayer%26layers%3Dch.swisstopo.zeitreihen%26layers_opacity%3D1%26layers_visibility%3Dtrue%26timeseries_tab%3DplayTab%26timeseries_current%3D19381231%26timeseries_compareOpacity%3D50%26timeseries_direction%3Dforwards%26timeseries_fadeTime%3D2000%26lang%3Dfr' target='_blank'>Visualiseur de séries temporelles</a></li>",
+                   "<li><a href='http://map.geo.admin.ch/?selectedNode=node_ch.swisstopo.images-swissimage.metadata1&amp;Y=626522.91274611&amp;X=106670&amp;zoom=8&amp;bgOpacity=0&amp;bgLayer=ch.swisstopo.pixelkarte-farbe&amp;time_current=latest&amp;lang=fr' target='_blank'>L`éboulement à Randa dans la photo aérienne</a></li>",
+                    "<li><a href='http://map.geo.admin.ch/?selectedNode=LT2_18&amp;Y=627708.64414308&amp;X=105790.60700533&amp;zoom=6&amp;bgOpacity=0&amp;bgLayer=ch.swisstopo.pixelkarte-farbe&amp;layers=ch.swisstopo.geologie-geotope&amp;layers_opacity=1&amp;layers_visibility=true&amp;time_current=latest&amp;lang=fr' target='_blank'>Géotopes suisses</a></li></ul>",
                     "<h3>L'Office fédéral de l'environnement (OFEV)</h3>",
                     "<ul> <li><a href='http://map.geo.admin.ch/?selectedNode=node_ch.bafu.showme-gemeinden_rutschungen1&amp;Y=629537&amp;X=113160&amp;zoom=3&amp;bgLayer=ch.swisstopo.pixelkarte-farbe&amp;layers=ch.bafu.showme-gemeinden_rutschungen&amp;layers_opacity=0.63&amp;layers_visibility=true&amp;time_current=latest&amp;lang=fr' target='_blank'>Zones à risque naturel (glissements)</a></li></ul>"
 
@@ -41,8 +42,8 @@
     "disclaimer": [
       "<ul>",
       "<li>Réalisé avec: ",
-      "<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a><br></li>",
-      "<li><a href='http://www.geo.admin.ch/internet/geoportal/fr/home/geoadmin/contact.html#copyright' target='_blank'>Conditions d'utilisation</a><br></li>",
+      "<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a></li>",
+      "<li><a href='http://www.geo.admin.ch/internet/geoportal/fr/home/geoadmin/contact.html#copyright' target='_blank'>Conditions d'utilisation</a></li>",
       "</ul>"
     ]
   }

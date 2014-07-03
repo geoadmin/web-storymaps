@@ -79,7 +79,7 @@ list-style: none;
   right: 0px;
   top: 140px;
   margin-right: 16px;
-  width: 320px;
+  width: 350px;
   background-image: url('img/transparent.png');
   border: solid 2px #FFFFFF;
   margin: 10px;
@@ -148,9 +148,9 @@ list-style: none;
 }
 .ga-swipe-arrows {
   position: absolute;
-  width: 32px;
+  width: 36px;
   height: 32px;
-  left: 0px;
+  left: -3px;
   top: 50%;
   margin-top: -16px;
   background-color: red;
@@ -184,3 +184,20 @@ div.ga-swipe-layer-label > div > i {
     bottom: 20px;
   }
 }
+
+p.infobox.multilang h3 {
+    font-size: 12px;
+    height: 25px;
+}
+#infobox > div.moreinfo ul li, #infobox > div.colophon ul li {
+   list-style: square outside !important;
+    margin-left: 10px;
+    color: #ccc;
+}
+
+div.moreinfo div.inner ul li {
+   height: 1.2em;
+   line-height: 1.2em;
+   font-size: 11px;
+}
+
