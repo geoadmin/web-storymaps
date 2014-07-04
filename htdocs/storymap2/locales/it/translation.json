@@ -23,7 +23,25 @@
 
     "html": {
         "infolinks": [
-            "<iframe width='300' height='225' src='http://www.youtube.com/embed/kSPdCR7uTBo?rel=0' frameborder='0' allowfullscreen=''></iframe>"
+            "<iframe width='300' height='225' src='http://www.youtube.com/embed/kSPdCR7uTBo?rel=0' frameborder='0' allowfullscreen=''></iframe>",
+            "<p>Links alle carte</p>",
+            "<ul><li><a href='http://s.geo.admin.ch/0e7e5e7a' target='_blank'>Agglomerati e cittá isolate 2000</a></li>",
+            "<li><a href='http://s.geo.admin.ch/e50b6c10' target='_blank'>Tipologia dei comuni ARE</a></li>",
+            "<li><a href='http://map.swisstopo.admin.ch' target='_blank'>Viaggio nel tempo di swisstopo</a></li></ul>",
+            "<p>Links sul tema<br>",
+            "<p>Istituto di ricerca per la foresta, la neve e il paesaggio WSL<br>",
+                "<ul><li><a href='http://www.wsl.ch/info/fokus/zersiedelung/index_DE' target='_blank'>Espansione urbana</a></li></ul>",
+            "<p>Ufficio federale dell'ambiente<br>",
+                "<ul><li><a href='http://www.bafu.admin.ch/zustand-landschaft' target='_blank'>Stato dell'ambiente: paesaggio</a></li>",
+            "<li><a href='http://www.bafu.admin.ch/umwelt/indikatoren/08614/08699/index.html?lang=de' target='_blank'>Indicatore Dispersione insediativa</a></li></ul>",
+            "<p>Ufficio federale dello sviluppo territoriale<br>",
+            "<ul><li><a href='http://www.are.admin.ch/themen/raumplanung/00246/03637/index.html' target='_blank'>Il paesaggio sotto pressione</a></li>",
+            "<li><a href='http://www.are.admin.ch/themen/agglomeration/index.html?lang=de' target='_blank'>Città e agglomerati</a></li></ul>",
+            "<p>Ufficio federale di statistica<br>",
+            "<ul><li><a href='http://www.bfs.admin.ch/bfs/portal/de/index/regionen/11/geo/analyse_regionen/04.html' target='_blank'>Città e aree metropolitane</a></li>",
+            "<li><a href='http://www.bfs.admin.ch/bfs/portal/de/index/themen/01/02/blank/key/raeumliche_verteilung/agglomerationen.html' target='_blank'>Stato e struttura della popolazione – Indicatori</a></li>",
+            "<li><a href='http://www.bfs.admin.ch/bfs/portal/de/index/themen/02/06/ind13.indicator.130702.136.html' target='_blank'>Ambiente - Indicatori</a></li></ul>"
+
 
         ],
         "disclaimer": [
