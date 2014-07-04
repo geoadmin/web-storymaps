@@ -392,3 +392,8 @@ p.infobox.multilang h3 {
     min-height: 350px;
     overflow-y: auto;
 }
+
+#feature-info {
+    width: 450px;
+}
+
