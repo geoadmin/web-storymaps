@@ -4,5 +4,7 @@ i18n.init({
 }).done(function(t) {
   $('.multilang').i18n();
   $('title').html(i18n.t('text.infoboxTitle'));
+  populate();
+
 });
 
