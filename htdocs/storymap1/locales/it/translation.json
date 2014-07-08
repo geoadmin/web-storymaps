@@ -27,17 +27,17 @@
 
     "html": {
         "infolinks": [
-        "<h3>Altri ghiacciai</h3>",
+        "<p>Altri ghiacciai</p>",
         "<ul><li><a href='http://s.geo.admin.ch/19dfcfc50' target='_blank'>Aletschgletscher</a></li>",
         "<li><a href='http://s.geo.admin.ch/72faae983' target='_blank'>Unterer Grindelwaldgletscher</a></li>",
         "<li><a href='http://s.geo.admin.ch/73a5c2cf7' target='_blank'>Gornergletscher</a></li></ul>",
-        "<h3>MeteoSvizzera</h3>",
-        "<a href='http://www.meteoschweiz.admin.ch/web/de/meteoschweiz/internationales/gcos/uebersicht_klimabeobachtung/nationales_klimabeobachtungssystem/gletscher.html' target='_blank'>Global Climate Observing System (GCOS)</a>",
-        "<h3>Ufficio federale dell'ambiente</h3>",
-        "<a href='http://www.bafu.admin.ch/umwelt/indikatoren/08557/08570/index.html?lang=d' target='_blank'>Indicatori climatici sul ritiro dei ghiacciai</a>",
-        "<h3>Ufficio federale di topografia swisstopo</h3>",
-        "<a href='https://s.geo.admin.ch/85d82c68' target='_blank'>La Svizzera durante l'ultimo massimo glaciale</a>",
-        "<h3>Ufficio federale di statistica</h3>",
+        "<p>MeteoSvizzera</p>",
+        "<ul><li><a href='http://www.meteoschweiz.admin.ch/web/de/meteoschweiz/internationales/gcos/uebersicht_klimabeobachtung/nationales_klimabeobachtungssystem/gletscher.html' target='_blank'>Global Climate Observing System (GCOS)</a></li></ul>",
+        "<p>Ufficio federale dell'ambiente</p>",
+        "<ul><li><a href='http://www.bafu.admin.ch/umwelt/indikatoren/08557/08570/index.html?lang=d' target='_blank'>Indicatori climatici sul ritiro dei ghiacciai</a></li></ul>",
+        "<p>Ufficio federale di topografia swisstopo</p>",
+        "<ul><li><a href='https://s.geo.admin.ch/85d82c68' target='_blank'>La Svizzera durante l'ultimo massimo glaciale</a></li></ul>",
+        "<p>Ufficio federale di statistica</p>",
         "<ul><li>Cartina:<a href='http://s.geo.admin.ch/223c5feb' target='_blank'>Statistica di superficie</a></li>",
         "<li>Nomenclatura:<a href=' http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/noas04/05/05_42.html' target='_blank'>Statistica di superficie: ghiacciaio</a></li>",
         "<li><a href='http://s.geo.admin.ch/b4f51a18' target='_blank'>Ghiacciai svizzeri</a></li></ul>"
