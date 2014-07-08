@@ -397,3 +397,6 @@ p.infobox.multilang h3 {
     width: 450px;
 }
 
+p.infobox.multilang h3 {
+    line-height: 20px;
+}
