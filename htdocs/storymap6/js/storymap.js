@@ -85,7 +85,16 @@ function swipe(layer) {
   }
 }
 
-
+function swipeLayer(layer) {
+  if (layer instanceof ol.layer.Group) {
+    var layers = layer.getLayers();
+    layers.forEach(function(lyr) {
+      swipe(lyr);
+    });
+  } else {
+    swipe(layer);
+  }
+}
 
 
 function init() {
@@ -108,5 +117,5 @@ function init() {
   });
 
   initSlider(0.47);
-  swipe(group);
+  swipeLayer(group);
 }
