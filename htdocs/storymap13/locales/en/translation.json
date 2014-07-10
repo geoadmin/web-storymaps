@@ -11,8 +11,8 @@
     "share": "Share",
     "language": "Language",
 
-    "infoboxTitle": "The warmest rivers of Switzerland",
-    "abstract": "The Hydrology Division of the Swiss Federal Office for the Environment is operating temperature monitoring stations at more than 80 river sites. In addition to interannual temperature cycles, different diurnal variations can be observed. Water temperature data is displayed in real-time (hourly updates). Therefore the ranking of the stations may change.",
+    "infoboxTitle": "New national maps for Switzerland",
+    "abstract": "Switzerland’s biggest official map series – the 247-sheet 1: 25,000 national map – is being revised in the coming years using a new technique and new graphics. Changes in representation of the new map as compared with the old will bring further improvements, particularly for digital usage. With the new national map, swisstopo will also be providing modern cartographic material for the future – reliable, easy to read and intelligent. Compare yourself and discover the benefits of the new national map using the cursor.",
     "infoboxMoreInfo": "More Information",
     "dep": "Federal Office for the Environment",
 
@@ -27,15 +27,17 @@
 
   "html": {
     "infolinks": [
-      "<a href='http://www.bafu.admin.ch/hydrologie/01831/01841/index.html?lang=en' target='_blank'>Water temperature monitoring network</a></br>",
-      "<a class='infobox' href='http://www.hydrodaten.admin.ch/en/index.html#aktuelle_situation_gewaesser' target='_blank'>Hydrological data</a> <br>",
-      "<a class='infobox'  href='http://s.geo.admin.ch/03826b3d6' target='_blank'>Map of basic monitoring network</a> <br>",
-      "<a class='infobox' href='http://s.geo.admin.ch/f39365243' target='_blank'>Map of water temperature monitoring network</a>"
+      "<p>Federal Office of Topography swisstopo</p>",
+        "<ul><li><a href='http://www.swisstopo.admin.ch/internet/swisstopo/en/home/topics/nlk.html' target='_blank'>New national map of Switzerland/a></li>",
+        "<li><a href='http://www.swisstopo.admin.ch/internet/swisstopo/en/home/topics/nlk.parsysrelated1.45280.downloadList.5857.DownloadFile.tmp/bluebnlk25a42014.pdf' target='_blank'>Map sheet index – New national maps 1:25‘000</a></li>",
+        "<li><a href='http://www.swisstopo.admin.ch/internet/swisstopo/fr/home/products.html' target='_blank'>swisstopo products</a></li></ul>",
+        "<p>Maps on the federal geoportal</p>",
+        "<ul><li><a href='http://map.geo.admin.ch/?lang=en' target='_blank'>map.geo.admin.ch</a></li></ul>"
     ],
     "disclaimer": [
       "<ul>",
       "<li>Realized with: ",
-      "<a href='http://api.geo.admin.ch' target='_blank'>api.geo.admin.ch</a><br></li>",
+      "<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a><br></li>",
       "<li><a href='http://www.geo.admin.ch/internet/geoportal/en/home/geoadmin/contact.html#copyright' target='_blank'>Copyright and Data protection</a><br></li>",
       "</ul>"
     ]
