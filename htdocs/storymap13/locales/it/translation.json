@@ -11,8 +11,8 @@
     "share": "Condividere",
     "language": "Lingua",
 
-    "infoboxTitle": "I fiumi “più caldi” della Svizzera",
-    "abstract": "La Divisione Idrologia dell’Ufficio Federale dell’Ambiente gestisce una rete di circa 80 stazioni di monitoraggio della temperatura dei corsi d’acqua. Oltre alle variazioni annuali della temperatura, è possibile osservare varie fluttuazioni giornaliere. La temperatura dell’acqua è visualizzata in real-time (aggiornamenti ogni ora), per cui la classifica delle stazioni potrebbe cambiare.",
+    "infoboxTitle": "Nuove carte nazionali per la Svizzera",
+    "abstract": "La più grande opera cartografica ufficiale della Svizzera – la carta nazionale 1: 25 000 con 247 fogli – viene rielaborata nei prossimi anni con una nuova tecnica ed una nuova grafica. Gli adeguamenti della rappresentazione dalla vecchia alla nuova carta portano ulteriori miglioramenti, soprattutto per l'utilizzo digitale. Con la nuova carta nazionale, swisstopo fornirà materiale cartografico moderno anche in futuro  – affidabile, facile da leggere e intelligente. Comparate personalmente e scoprite con l’aiuto del cursore i vantaggi della nuova carta nazionale.",
     "infoboxMoreInfo": "Ulteriori informazioni",
     "dep": "Ufficio Federale dell’Ambiente",
 
@@ -27,10 +27,13 @@
 
   "html": {
     "infolinks": [
-      "<a href='http://www.bafu.admin.ch/hydrologie/01831/01841/index.html?lang=it' target='_blank'>Rete di misurazione delle temperature</a></br>",
-      "<a class='infobox' href='http://www.hydrodaten.admin.ch/it/index.html#aktuelle_situation_gewaesser' target='_blank'>Dati idrologici attuali</a> <br>",
-      "<a class='infobox'  href='http://s.geo.admin.ch/7d94ba893' target='_blank'>Mappa delle stazioni idrologiche</a> <br>",
-      "<a class='infobox' href='http://s.geo.admin.ch/9a5ce079c' target='_blank'>Mappa delle stazioni di misurazione della temperatura</a>"
+      "<p>Ufficio federale di topografia swisstopo</p>",
+        "<ul><li><a href='Nuova carta nazionale della Svizzera' target='_blank'>Nuova carta nazionale della Svizzera</a></li>",
+        "<li><a href='http://www.swisstopo.admin.ch/internet/swisstopo/en/home/topics/nlk.parsysrelated1.45280.downloadList.5857.DownloadFile.tmp/bluebnlk25a42014.pdf' target='_blank'>Sommario dei fogli – Nuova carta nazionale 1:25‘000</a></li>",
+        "<li><a href='http://www.swisstopo.admin.ch/internet/swisstopo/it/home/products.html' target='_blank'>Prodotti swisstopo</a></li></ul>",
+        "<p>Carte nel geoportale federale</p>",
+        "<ul><li><a href='http://map.geo.admin.ch/?lang=it' target='_blank'>map.geo.admin.ch</a></li></ul>"
+
     ],
     "disclaimer": [
       "<ul>",

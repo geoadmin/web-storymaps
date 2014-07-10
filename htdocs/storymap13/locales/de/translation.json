@@ -1,5 +1,6 @@
 {
 
+
   "text": {
     "adminch": "Bundesverwaltung admin.ch",
     "depart": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
@@ -9,8 +10,8 @@
     "moreInfo": "Informationen",
     "share": "Teilen",
     "language": "Sprache",
-    "infoboxTitle": "Alt wird neu...",
-    "abstract": "Damals, alles war besser und billiger. Die ab den 1950er Jahren entstandene Landeskarte 1:25‘000 entspricht nicht mehr den Möglichkeiten von heute. Sie basiert auf dem damaligen Stand der Technik und den damals zur Verfügung stehenden topografischen Grundlagen. Anforderungen wie flexible Datennutzung für verschiedene Medien, effiziente Prozesse in der Produktion, höhere Genauigkeit und raschere Aktualisierung der Daten lassen sich nur erfüllen, wenn eine umfassende Modernisierung erfolgt und die Landeskarte auf eine neue Basis gestellt wird.",
+    "infoboxTitle": "Neue Landeskarten für die Schweiz",
+    "abstract": "Das grösste amtliche Kartenwerk der Schweiz – die Landeskarte 1:25‘000 mit 247 Blätter – wird in den nächsten Jahren technisch und grafisch überarbeitet. Die Anpassungen in der Darstellung von der alten zur neuen Karte bringen weitere Verbesserungen vor allem für eine digitale Nutzung mit sich. swisstopo stellt mit der neuen Landeskarte auch künftig modernes Kartenmaterial zur Verfügung – verlässlich, leicht lesbar und intelligent. Vergleichen Sie selber und entdecken Sie mit Hilfe des Schiebers die Vorteile der neuen Landeskarte.",
     "infoboxMoreInfo": "Weitere Informationen",
     "dep": "Bundesamt für Umwelt",
     "station": "Station:",
@@ -24,6 +25,12 @@
 
   "html": {
     "infolinks": [
+        "<p>Bundesamt für Landestopografie swisstopo</p>",
+        "<ul><li><a href='http://www.swisstopo.admin.ch/internet/swisstopo/de/home/topics/nlk.html' target='_blank'>Neue Landeskarte der Schweiz</a></li>",
+        "<li><a href='http://www.swisstopo.admin.ch/internet/swisstopo/de/home/topics/nlk.parsysrelated1.45280.downloadList.5857.DownloadFile.tmp/bluebnlk25a42014.pdf' target='_blank'>Blattübersicht - Neue Landeskarte 1:25'000</a></li>",
+        "<li><a href='http://www.swisstopo.admin.ch/internet/swisstopo/de/home/products.html' target='_blank'>swisstopo Produkte</a></li></ul>",
+        "<p>Karte im Geoportal des Bundes</p>",
+        "<ul><li><a href='http://map.geo.admin.ch/?lang=de' target='_blank'>map.geo.admin.ch</a></li></ul>"
 
     ],
     "disclaimer": [
