@@ -2,7 +2,8 @@
   "text": {
     "adminch": "Administration fédérale admin.ch",
     "depart": "Département de l'environnement, des transports, de l'énergie et de la communication",
-    "FOEN": "Office fédéral de l'environnement OFEV",
+    "amt": "Office fédéral de topographie swisstopo",
+    "alte_landeskarte": "Ancienne carte nationale",
 
     "overview": "Vue d'ensemble",
     "detailview": "Vue détaillé",
@@ -28,8 +29,8 @@
     "infolinks": [
        "<p>Office fédéral de topographie swisstopo</p>",
         "<ul><li><a href='http://www.swisstopo.admin.ch/internet/swisstopo/fr/home/topics/nlk.html' target='_blank'>Nouvelle carte nationale de la Suisse</a></li>",
-        "<li><a href='http://www.swisstopo.admin.ch/internet/swisstopo/de/home/topics/nlk.parsysrelated1.45280.downloadList.5857.DownloadFile.tmp/bluebnlk25a42014.pdf' target='_blank'>Tableau des feuilles – nouvelles cartes nationales 1:25‘000</a></li>",
-        "<li><a href='http://www.swisstopo.admin.ch/internet/swisstopo/fr/home/products.html' target='_blank'>Produits swisstopo</a></li></ul>",
+        "<li><span><a href='http://www.swisstopo.admin.ch/internet/swisstopo/de/home/topics/nlk.parsysrelated1.45280.downloadList.5857.DownloadFile.tmp/bluebnlk25a42014.pdf' target='_blank'>Tableau des feuilles –<br> nouvelles cartes nationales 1:25‘000</a></span></li>",
+        "<li><span><a href='http://www.swisstopo.admin.ch/internet/swisstopo/fr/home/products.html' target='_blank'>Produits swisstopo</a></span></li></ul>",
         "<p>Cartes au géportail fédéral</p>",
         "<ul><li><a href='http://map.geo.admin.ch/?lang=fr' target='_blank'>map.geo.admin.ch</a></li></ul>"
     ],

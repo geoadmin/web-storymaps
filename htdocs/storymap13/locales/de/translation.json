@@ -4,7 +4,8 @@
   "text": {
     "adminch": "Bundesverwaltung admin.ch",
     "depart": "Departement für Umwelt, Verkehr, Energie und Kommunikation",
-    "FOEN": "Bundesamt für Umwelt BAFU",
+    "amt": "Bundesamt für Landestopographie swisstopo",
+    "alte_landeskarte": "Alte Landeskarte",
     "overview": "Übersicht",
     "detailview": "Detailansicht",
     "moreInfo": "Informationen",

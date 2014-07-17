@@ -3,7 +3,8 @@
   "text": {
     "adminch": "Amministrazione federale admin.ch",
     "depart": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
-    "FOEN": "Ufficio federale dell'ambiente UFAM",
+    "amt": "Ufficio federale di topografia swisstopo",
+    "alte_landeskarte": "Vecchia carta",
 
     "overview": "Vista d'insieme",
     "detailview": "Dettagli",
@@ -28,7 +29,7 @@
   "html": {
     "infolinks": [
       "<p>Ufficio federale di topografia swisstopo</p>",
-        "<ul><li><a href='Nuova carta nazionale della Svizzera' target='_blank'>Nuova carta nazionale della Svizzera</a></li>",
+        "<ul><li><a href='http://www.swisstopo.admin.ch/internet/swisstopo/it/home/topics/nlk.html' target='_blank'>Nuova carta nazionale della Svizzera</a></li>",
         "<li><a href='http://www.swisstopo.admin.ch/internet/swisstopo/en/home/topics/nlk.parsysrelated1.45280.downloadList.5857.DownloadFile.tmp/bluebnlk25a42014.pdf' target='_blank'>Sommario dei fogli – Nuova carta nazionale 1:25‘000</a></li>",
         "<li><a href='http://www.swisstopo.admin.ch/internet/swisstopo/it/home/products.html' target='_blank'>Prodotti swisstopo</a></li></ul>",
         "<p>Carte nel geoportale federale</p>",

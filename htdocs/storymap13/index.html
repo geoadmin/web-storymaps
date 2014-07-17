@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <!-- social media stuff -->
     <meta content=
-    "Am 18. April 1991 stürzten bei Randa im hinteren Mattertal rund 15 Millionen m3 Fels zu Tal. Die Felsblöcke waren teilweise so gross wie Einfamilienhäuser, die Sturzhöhe betrug 600 Meter."
+    "Das grösste amtliche Kartenwerk der Schweiz – die Landeskarte 1:25‘000 mit 247 Blätter – wird in den nächsten Jahren technisch und grafisch überarbeite."
     name="description" />
     <link href=
     "http://storymaps.geo.admin.ch/storymaps/storymap13/files/img/preview.jpg"
@@ -18,17 +18,17 @@
     <!-- <meta property="og:url" content="http://storymaps.geo.admin.ch/storymaps/storymap13/"/>  -->
     <meta content=
     "http://storymaps.geo.admin.ch/storymaps/storymap13/files/img/preview.jpg" />
-    <meta content="Der Bergsturz von Randa" />
+    <meta content="Neue Landeskarten für die Schweiz" />
     <meta content=
-    "Am 18. April 1991 stürzten bei Randa im hinteren Mattertal rund 15 Millionen m3 Fels zu Tal. Die Felsblöcke waren teilweise so gross wie Einfamilienhäuser, die Sturzhöhe betrug 600 Meter" />
+    "Das grösste amtliche Kartenwerk der Schweiz – die Landeskarte 1:25‘000 mit 247 Blätter – wird in den nächsten Jahren technisch und grafisch überarbeite" />
     <!-- google+ tags -->
-    <meta content="Der Bergsturz von Randa" />
+    <meta content="Neue Landeskarten für die Schweiz" />
     <meta content=
-    "Am 18. April 1991 stürzten bei Randa im hinteren Mattertal rund 15 Millionen m3 Fels zu Tal. Die Felsblöcke waren teilweise so gross wie Einfamilienhäuser, die Sturzhöhe betrug 600 Meter" />
+    "Das grösste amtliche Kartenwerk der Schweiz – die Landeskarte 1:25‘000 mit 247 Blätter – wird in den nächsten Jahren technisch und grafisch überarbeite" />
     <meta content=
     "http://storymaps.geo.admin.ch/storymaps/storymap13/files/img/preview.jpg" />
 
-    <title>Der Bergsturz von Randa</title>
+    <title>Neue Landeskarten für die Schweiz</title>
 
     <!-- js script files -->
 
@@ -49,91 +49,109 @@
     <link rel="stylesheet" type="text/css" href="css/storymap.css">
 
     <link rel="stylesheet" type="text/css" href="files/storymap.css">
+	
+	<!-- legacy CMS style -->
+	<link rel="stylesheet" type="text/css" href="http://www.swisstopo.ch/files/css/layout.css">
+    <!-- new light style and it's customisation for storyamp -->
+	<link rel="stylesheet" type="text/css" href="css/cdbundlight2014.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/storymap-light2014.css" media="all">
 
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
     <link href="css/storymap-mobile-portrait.css" media="screen and (max-width: 760px)" rel="stylesheet" type="text/css" />
-
-
 </head>
 
 <body onload="init()">
-    <div id="mainContainer">
-        <!-- header desktop -->
 
-        <div class="x-border-panel" id="header-desktop" style=
-        "left: 0px; top: 0px; width: 100%; height: 125px;">
-            <div class="header_sub">
-                <div style="left: 0px; position: absolute; top: 0;">
-                <img height="103" src="files/img/storymaps-banner-left.jpg"
-                width="613" /></div>
 
-                <div style="right: 0px; position: absolute; top: 0;">
-                <img height="103" src="files/img/storymaps-banner-right.jpg"
-                width="549" /></div>
-            </div>
+  <!-- header desktop -->
+<div id="mainContainer">
+     <div id="logo">
+        <!--<img alt="logo" src="../files/img/logo.jpg"> -->
+    </div>
 
-            <div class="navServiceBackground">
-                <div id="lang" style="float: right">
-                    <ul class="inline-list">
-                        <li><b>Share:</b></li>
+    <div id="kopfAmt">
+        <div id="adminCH"><a class="adminCHlink" href="http://www.admin.ch/index.html?lang=it" target="_blank" title=
+        "">Amministrazione federale admin.ch</a> <img alt=
+        "Pagina esterna. Il contenuto è aperto in una nuova finestra" class=
+        "icoExtinternal" src="../files/img/ico_extern.gif"></div>
 
-                        <li>&nbsp;</li>
+        <div id="departement"><a class="departementlink" href="http://www.vbs.admin.ch/internet/vbs/it/home.html" target="_blank"
+        title="">Dipartimento federale della difesa, della protezione della
+        popolazione e dello sport</a> <img alt="Pagina esterna. Il contenuto è aperto in una nuova finestra" class=
+        "icoExtinternal" src="../files/img/ico_extern.gif"></div>
 
-                        <li><a href=
-                        "http://www.facebook.com/sharer.php?u=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap13/?&amp;t=geo.admin.ch%20Storymaps"
-                        target="_blank" title="Facebook"><img alt="Facebook"
-                        src="files/img/facebook.gif" /></a></li>
+        <div class="multilang" data-i18n="text.amt" id="lokalisationAmt">
+            Ufficio federale di topografia swisstopo
+        </div>
+    </div>
+    <!-- *********************    Header: Servicenavigation  ********************************** //-->
+    <!-- NOINDEX START -->
 
-                        <li>&nbsp;</li>
+    <div id="navServiceBackground">
+        <div id="navService">
+            <ul>
+                <li class="navServiceDiv navServiceColor">
+                    <a accesskey="4" class=
+                    "navServiceTxt fa fa-facebook-square fa-2x" href=
+                    "http://www.facebook.com/sharer.php?u=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap13/?&amp;t=geo.admin.ch%20Storymaps"
+                    style="font-style: italic" target="_blank" title="Facebook"></a>
+                </li>
 
-                        <li>&nbsp;</li>
+                <li class="navServiceDiv navServiceColor">
+                    <a accesskey="3" class="navServiceTxt"><a class=
+                    "fa fa-twitter-square" href=
+                    "http://twitter.com/intent/tweet?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap13&amp;t=geo.admin.ch%20Storymaps"
+                    style="font-style: italic" target="_blank" title="Twitter"></a>
+                </li>
 
-                        <li><a href=
-                        "http://twitter.com/intent/tweet?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap13&amp;t=geo.admin.ch%20Storymaps"
-                        target="_blank" title="Twitter"><img alt="Facebook"
-                        src="files/img/twitter.gif" /></a></li>
+                <li class="navServiceDiv navServiceColor">
+                    <a class="navServiceTxt fa fa-google" href=
+                    "http://google.com/bookmarks/mark?op=edit&amp;bkmk=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap13&amp;t=geo.admin.ch%20Storymaps"
+                    style="font-style: italic" target="_blank" title="Google Bookmarks"></a>
+                </li>
 
-                        <li>&nbsp;</li>
+                <li class="navServiceDiv navServiceColor">
+                    <a class="navServiceTxt fa fa-google-plus-square" href=
+                    "https://plus.google.com/share?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap13&amp;t=geo.admin.ch%20Storymaps"
+                    style="font-style: italic" target="_blank" title="Google+"></a>
+                </li>
+            </ul>
+        </div>
+        <!-- **********     Header: Sprachwechsel ********************************************* //-->
 
-                        <li>&nbsp;</li>
+        <div id="langSwitch">
+            <ul>
+                <li class="navServiceDiv">
+                    <a class="lang" href="?lang=de" target="_top" title=
+                    "Deutsch">DE</a>
+                </li>
 
-                        <li><a href=
-                        "http://google.com/bookmarks/mark?op=edit&amp;bkmk=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap13&amp;t=geo.admin.ch%20Storymaps"
-                        target="_blank" title="Google Bookmarks"><img alt=
-                        "Google Bookmarks" src=
-                        "files/img/google.gif" /></a></li>
+                <li class="navServiceDiv">
+                    <a class="lang" href="?lang=fr" target="_top" title=
+                    "Français">FR</a>
+                </li>
 
-                        <li>&nbsp;</li>
+                <li class="navServiceDivEnd">
+                    <a class="lang" href="?lang=it" target="_top" title=
+                    "Ticinese">TI</a>
+                </li>
 
-                        <li>&nbsp;</li>
+                <li class="navServiceDivEnd">
+                    <a class="lang" href="?lang=en" target="_top" title=
+                    "English">EN</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
-                        <li><a href=
-                        "https://plus.google.com/share?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap13&amp;t=geo.admin.ch%20Storymaps"
-                        target="_blank" title="Google+"><img alt="Google+" src=
-                        "files/img/googleplus.gif" /></a></li>
+    <div id="navGlobalBackground"></div>
 
-                        <li><img src="files/img/space.gif" /></li>
-
-                        <li id="de" onclick="toggleLang('de');">Deutsch</li>
-
-                        <li class="pipe">&nbsp;</li>
-
-                        <li id="fr" onclick="toggleLang('fr');">Français</li>
-
-                        <li class="pipe">&nbsp;</li>
-
-                        <li id="it" onclick="toggleLang('it');">Italiano</li>
-
-                        <li class="pipe">&nbsp;</li>
-
-                        <li id="en" onclick="toggleLang('en');">English</li>
-                    </ul>
-                </div>
-            </div>
-        </div> <!-- end header desktop -->
+    <div style="CLEAR: left"></div>
+</div>
+<!--  id="mainContainer" --> <!-- end header desktop -->
                 <!-- header mobile -->
         <div id="header-mobile" >
           <div class="navbar">
@@ -221,18 +239,17 @@
 
         <!-- map -->
         <div id="map" style=
-        "position: absolute; left: 0px; top: 123px; width: 100%; bottom: 0; min-height: 580px;">
+        "position: absolute; left: 0px; top: 158px; width: 100%; bottom: 0; min-height: 580px;">
 
         <div class="ga-swipe draggable">
   <div class="ga-swipe-line"></div>
   <div class="ga-swipe-layer-label">
-      <div><i class="icon-arrow-left"></i>
-          &nbsp;alte LK
+      <div><i class="fa fa-arrow-left fa2x"></i><span class="multilang" data-i18n="text.alte_landeskarte">alte LK</span>
     </div>
   </div>
   <div class="ga-swipe-arrows">
-    <i class="icon-caret-left icon-2x"></i>
-    <i class="icon-caret-right icon-2x"></i>
+    <i class="fa fa-caret-left fa-3x"></i>
+    <i class="fa fa-caret-right fa-3x"></i>
   </div>
 </div>
 </div> 

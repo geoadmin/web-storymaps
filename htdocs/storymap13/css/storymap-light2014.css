@@ -1,0 +1,42 @@
+#kopfAmt {
+	padding-left: 80px\9;  /* IE9 */
+}
+#mainContainer {
+	position: inherit !important;
+}
+	
+#maincontainer #kopfAmt {
+   width: 100%;
+}
+	 
+div#navGlobalBackground {
+position: absolute !important;
+top: 119px;
+width: 100%;
+}
+
+#navGlobalBackground {
+  max-width: none !important;
+  background: none;
+}
+
+#navService .fa {
+   font-size: 24px;
+}
+
+#logo {
+/* IE9 */
+  margin-top: 0px\9 !important;
+}
+
+ul > li.navServiceDiv.navServiceColor {
+   list-style-type: none;
+}
+
+/* no light style cms2014 on mobile */
+@media all and (max-width: 760px){
+    #mainContainer { display: none;}
+}
+
+
+	    
