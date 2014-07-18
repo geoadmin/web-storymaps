@@ -151,7 +151,7 @@ list-style: none;
   width: 40px;
   height: 32px;
   left: -5px;
-  top: 50%;
+  top: 40%;
   margin-top: -16px;
   background-color: red;
   padding: 5px 2px;
@@ -192,7 +192,10 @@ div.ga-swipe-layer-label > div > i {
 
 
 p.infobox  ul, ol { margin-left:1.5em; padding-left:0px; }
-p.infobox li { margin-bottom:0.5em; }
+p.infobox li {
+    margin-bottom:0.5em;
+    height: auto !important;
+}
 
 
 i.fa .fa-arrow-left.fa-2x {
