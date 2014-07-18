@@ -53,9 +53,24 @@ function initSlider(ratio) {
   });
   var left = $(map.getViewport()).width() * map.swipe_ratio;
   $('.ga-swipe').css('left', left + 'px');
+  var top = ($('#map').height() -  $('.ga-swipe-arrows').height()) / 2;
+  $('.ga-swipe-arrows').css('top', top + 'px');
 }
 
 deBouncer(jQuery, 'smartdrag', 'drag', 350);
+deBouncer(jQuery,'smartresize', 'resize', 200);
+
+
+$(window).smartresize(function(e){
+  var viewport_width = $(map.getViewPort()).width();
+  var left = viewport_width * map.swipe_ratio;
+  if (left > viewport_width) {
+      initSlider()
+  } else {
+      var ratio = left/viewport_width;
+      initSlider(ratio);
+  }
+})
 
 
 function swipe(layer) {
@@ -136,7 +151,7 @@ function init() {
     target: 'map',
     layers: [old_wmts, new_wmts],
     view: new ol.View2D({
-      resolution: 7,
+      resolution: 5,
       center: [650051.51, 225225.64]
     })
   });
