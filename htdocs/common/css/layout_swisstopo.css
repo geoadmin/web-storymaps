@@ -1,0 +1,1635 @@
+/*--------------------------------------------------------------------
+Layout Styles CD BUND
+Version: // 06 // 27.07.2006 //          thomas.ruegsegger@bk.admin.ch
+---------------------------------------------------------------------- */
+.clearLeft{clear:left;}
+
+.clearBoth {clear:both;}
+* html .clearBoth{height: 0.1%}		/* IE6 Hack */
+
+.clearRight{clear:right;}
+
+p.clearBoth {
+	height: 0.02em;
+	margin:0;
+}
+
+* html p.clearBoth {
+	line-height: 1px;
+}
+
+p.clearBothWithContent {
+	clear:both;
+	margin:0;
+}
+
+/* ------------------------------------------------------------------- 
+	Kopfbereich // Logo // Lokalisation
+---------------------------------------------------------------------- */
+body,
+div {
+    margin:0;
+    padding:0;
+}
+
+ul#skipnav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: -5em;
+  left: 0;
+}
+#skipnav li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+#skipnav a:hover,
+#skipnav a:focus {
+  background-color:#F00;
+  color:#FFF;
+  font-size:1.2em;
+}
+
+
+#maincontainer {
+  position:relative;
+  float:left;
+  top:0px;
+  width:960px;
+}
+
+#logo {
+  position:relative;
+  float:left;
+  top:0px;
+/*										Update kib 2.11.07
+  background-image:url(/images/logo.jpg);
+  background-repeat:no-repeat;
+*/
+  width:246px; 
+  height:103px;
+  z-index:5;
+}
+
+#kopfPortal {
+  margin-left:246px;
+  width: 714px; 
+  height:103px;
+  background-image:url(/images/bg_head_portal_545.jpg);
+  background-position:right;
+  background-repeat:no-repeat;
+  border-bottom:1px solid #FFF;
+}
+* html #kopfPortal {width: 711px;}								/* IE6 Hack */
+
+#kopfDepartement {
+  margin-left:246px;
+  width: 714px; 
+  height:103px;
+  background-image:url(/images/bg_head_dep_545.jpg);
+  background-position:right;
+  background-repeat:no-repeat;
+  border-bottom:1px solid #FFF;
+}
+
+/* Siehe auch * html #kopfAmt */
+
+#kopfAmt {
+  margin-left:246px;
+  width: 714px; 
+  height:103px;
+  background-image:url(/images/bg_head_amt_545.jpg);
+  background-position:right;
+  background-repeat:no-repeat;
+  border-bottom:1px solid #FFF;
+}
+* html #kopfAmt,
+* html #kopfDepartement {width: 711px;}										/* IE6 Hack */
+
+#kopfNews {
+  max-width: 960px;
+  width: 100%; 
+  height:103px;
+  background-image:url(/images/bg_head_news_545.jpg);
+  background-position:right;
+  background-repeat:no-repeat;
+}
+
+* html #kopfNews {
+	/* width: expression((document.body.clientWidth > 960) ? "960px" : "100%"); */
+}
+
+#kopfAmt img.icoExt,
+#kopfDepartement img.icoExt,
+#kopfNews img.icoExt {display:none;}
+
+#kopfPortal img.icoExtinternal,
+#kopfAmt img.icoExtinternal,
+#kopfNews img.icoExtinternal {display:none;}
+
+a img:hover,
+a img:focus{
+	background-color: #FFF;
+}
+
+#adminCH {
+  background: transparent url(/images/bg_adminlink.jpg) right 0 repeat-y;
+  text-align:right;
+  padding:3px 20px 4px 0;
+}
+*+html #adminCH {padding:2px 20px 2px 0;}									/* IE7 Hack */
+* html #adminCH {padding:1px 20px 3px 0;}									/* IE6 Hack */
+
+#departement,
+#departement2 {
+  background:transparent url(/images/BalkenBlau_545x20.jpg) right 0 repeat-y;
+  text-align:right;
+  padding:3px 20px 4px 0;
+}
+
+#departement2 {
+  background-image:url(/images/BalkenBlau_545x40.jpg);
+  background-repeat:no-repeat;
+  background-position:right;
+  text-align:right;
+  padding:0px 20px 0px 0;
+}
+
+*+html #departement2,
+*+html #departement {padding:2px 20px 2px 0;}						/* IE7 Hack */
+* html #departement2,
+* html #departement {padding:1px 20px 3px 0;}						/* IE6 Hack */
+
+#lokalisationPortal, #lokalisationDepartement, #lokalisationAmt {
+  text-align:right;
+  padding: 8px 20px 0 0;
+  line-height: 1.32em;
+}
+/* ------------------------------------------------------------------- 
+   Servicenavigation
+---------------------------------------------------------------------- */
+#navServiceBackground {
+  max-width: 960px;
+  width: 100%; 
+/*  width: expression((document.body.clientWidth > 960) ? "960px" : "100%");*/
+  background-color:#CCCCCC;
+  text-align:left;
+  border-bottom:1px solid #FFF;
+  float:left;
+}
+
+#navServiceBackground ul {
+	padding: 0px;
+	margin: 0px;
+	margin-top: 0px;
+	list-style:none;
+}
+
+#navServiceBackground li {
+  margin: 0px;
+  float:left;
+}
+
+#navService {
+  margin-top:4px;
+  text-align:left;
+  color:#000;
+  padding:0 0px 0px 15px;
+  height:16px;
+  float:left;
+}
+
+.navServiceDiv {
+  margin-top:0px;
+  text-align:left;
+  color:#000;
+  padding:0px 5px 0px 5px;
+  float:left;
+  border-right:1px solid #000;
+}
+
+.navServiceDivEnd {
+  margin-top:0px;
+  text-align:left;
+  padding:0px 5px 0px 5px;
+  float:left;
+}
+
+.navServiceColor {color:#000;}
+
+.navServiceInactiveColor {
+  color:#333;
+  font-size:0.9em;
+  line-height:1.2em;
+}
+
+/* ------------------------------------------------------------------- 
+	Sprachwahl
+---------------------------------------------------------------------- */
+#langSwitch {
+  margin-left:20px;
+  padding:0;
+  margin-top: 4px;
+  float:right;
+  white-space: nowrap;
+  height: 16px;
+}
+
+/* ------------------------------------------------------------------- 
+	Globalnavigation 
+---------------------------------------------------------------------- */
+#navGlobalBackground{
+  max-width: 960px;
+  width: 100%; 
+/*  width: expression((document.body.clientWidth > 960) ? "960px" : "100%");*/
+  background-color:#CCC;
+  text-align:left;
+  height:28px;
+  float:left;
+}
+
+#navGlobal {
+  padding: 0 0 0 0;
+  margin-top:0;
+  margin-left:0;
+  margin-bottom:0;
+  height:23px;
+}
+
+#navGlobal li {
+  float:left;
+  border-right:1px solid #FFF;
+  /*padding-top:5px; */
+  display:block;
+  voice-family:"\"}\"";  /* Box Model Hack*/
+  voice-family:inherit;
+  /*height:23px;*/
+  height: 28px;
+  padding: 0;
+}
+
+li.navGlobal:hover, li.navGlobalPortal:hover,
+li.navGlobal:focus, li.navGlobalPortal:focus {
+  padding: 0 14px;
+}
+
+li.navGlobalFirst, li.navGlobalFirstPortal {
+  padding: 0 14px 0 22px; 
+  background-color:#333;
+}
+
+li.navGlobal, li.navGlobalPortal {
+  padding: 0 14px 0 14px;
+  background-color:#333;
+}
+
+li.navGlobalFirstAktiv {
+  padding: 0 14px 0 22px;
+  background-color:#006699;
+}
+li.navGlobalAktiv {
+  padding: 0 14px 0 14px;
+  background-color:#006699;
+}
+li.navGlobalFirstAktivPortal {
+  padding: 0 14px 0 22px;
+  background-color:#FF0000;
+}
+li.navGlobalAktivPortal {
+  padding: 0 14px 0 14px;
+  background-color:#FF0000;
+}
+
+/* ------------------------------------------------------------------- 
+	Layoutspalten
+---------------------------------------------------------------------- */
+#spalteNavigation {
+	padding-top:20px;
+	width:210px;
+	min-height:120px;
+	float:left;
+}
+
+#contentContainer {
+	float: left;
+	margin-left: 27px;
+	margin-right: 0;
+}
+
+div.narrow {width: 348px;}
+
+div.norm {
+	width: 531px;
+	margin-right: 9px;
+}
+
+* html div.narrow,
+* html div.norm {							/* IE6 Hack */
+	margin-right: 0;
+	overflow: hidden;
+}
+
+div.wide {width: 723px;}
+
+#PAGECONTROLL {
+	margin-left: 27px;
+	float: left;
+	display: block;
+	width: 723px;
+}
+
+
+#spalteContentHeader {
+	position:absolute;
+	width:531px;
+	padding-top:20px;
+	padding-left:0px;
+	padding-right:0px;
+	margin-left:235px;
+	margin-right:190px;
+	z-index:1;
+}
+
+.spalteContent {
+	padding-left:0;
+	padding-right:0;
+  	float: left;
+  	margin-right: 18px;
+}
+
+.sc {
+	width: 165px;
+	overflow: hidden;
+}
+
+.scLastItem {
+	margin-right:0pt !important;
+	width:165px;
+	float: right;
+}
+* html .scLastItem {overflow: hidden;}		/* IE6 Hack */
+
+.dc {
+	display: block; 
+	float: left;
+	width: 348px;
+}
+
+.dcLastItem {
+	display: block; 
+	float: left;
+	width: 348px;
+	margin-right:0px !important;
+}
+
+.dc50 {
+	width: 256px;
+	margin-right:19px !important;
+}
+* html .dc50 {overflow-x: hidden;}
+
+.dc51 {
+	width: 256px;
+	margin-right:0 !important;
+	float: right;
+}
+* html .dc51 {clear: left;}										/* IE6 Hack */
+
+div.abo {
+	text-indent: -30px;
+	padding-left:30px
+}
+
+.tc {width: 540px;}
+
+.lastItem {
+	margin-right: 0 !important;
+	float: right !important;
+}
+
+#kontextContainer {margin-left: 795px;}
+
+.dk {margin-left: 603px !important;}
+
+#spalteKontext, 
+#spalteKontext2 {
+	width:165px;
+  	float: left;
+}
+
+.lastKontext {margin-left: 27px;}
+
+#contentContainer #spalteKontext,
+#contentContainer #spalteKontext2 {margin-left: 0px !important;}
+
+#spalteSuche {
+	width:165px;
+	float:right;
+}
+
+html>body #spalteContentPlus {  /* wird vom IE ignoriert */
+	float: left;
+	width:720px;
+	padding-left:0px;
+	padding-right:0px;
+	margin-left:237px;
+}
+
+#spalteContentPlus {
+	padding-top:20px;
+	padding-left:0px;
+	padding-right:0px;
+	margin-left:235px;
+	width:720px;
+}
+
+.clear {
+	display: block;
+	clear:both;
+}
+
+/* ------------------------------------------------------------------- 
+	Hauptnavigation
+---------------------------------------------------------------------- */
+#spalteNavigation ul {
+	padding: 0px;
+	margin: 0 0 0 0;
+	list-style:none;
+	clear: both;
+/*	border-bottom:1px solid #ccc;			Update kib 19.11.07 */
+}
+
+#navigationList {
+	border-bottom:1px solid #ccc;
+}
+
+#spalteNavigation ul li span {
+	display: block;
+}
+
+.home #spalteNavigation .text ul {
+	padding: 0px;
+	margin: 0 0 1em 0;
+	list-style:none;
+}
+
+div.relatedNavigation ul,
+div.lexikonNavigation ul,
+div.articleNavigation ul {
+	padding: 0px;
+	margin: 0px;
+	list-style:none;
+}
+
+#spalteNavigation li,
+div.lexikonNavigation li,
+div.relatedNavigation li,
+div.articleNavigation li {
+ 	margin: 0px;
+	line-height:1em;
+	display: block;
+}
+
+.navLevel1div {
+  /*padding:2px 0px 4px 20px;*/
+  margin-top:0px;
+  margin-left:0px;
+  text-align:left;
+  border-top:1px solid #CCC;
+}
+
+.navLevel1divActive{
+  padding:2px 0px 4px 20px;
+  margin-bottom:-1px;
+  margin-top:0px;
+  margin-left:0px;
+  text-align:left;
+  border-top:1px solid #CCC;
+  background-color:#069;
+}
+
+.navLevel1divActivePortal {
+  padding:2px 0px 4px 20px;
+  margin-bottom:-1px;
+  margin-top:0px;
+  margin-left:0px;
+  text-align:left;
+  border-top:1px solid #CCC;
+  background-color:#F00;
+}
+
+.navLevel1divActivePortal {background-color:#FF0000 !important;}	/* berschreibt background von oben .navLevel1divActivePortal */
+
+.navLevel2div {
+  /*padding:2px 0px 4px 34px;*/
+  margin-top:0px;
+  margin-left:0px;
+  text-align:left;
+  border-top:1px solid #CCC;
+}
+
+*+html #spalteNavigation ul li ul li ul {min-height: 20px;}			/* IE7 Hack */
+* html #spalteNavigation ul li ul li ul {height: 20px;}					/* IE6 Hack */
+
+.navLevel2divActive,
+.navLevel2divActivePortal {
+  padding:2px 0px 4px 34px;
+  margin-bottom:-1px;
+  margin-top:0px;
+  margin-left:0px;
+  text-align:left;
+  border-top:1px solid #CCC;
+  background-color:#006699;
+}
+
+.navLevel2divActivePortal {background-color:#FF0000 !important;}	/* berschreibt background von oben .navLevel2divActivePortal */
+
+.navLevel3div {
+  margin-top:0px;
+  margin-left:0px;
+  text-align:left;
+  border-top:1px solid #CCC;
+}
+
+.navLevel3divActive,
+.navLevel3divActivePortal {
+  padding:2px 0px 4px 48px;
+  margin-bottom:-1px;
+  margin-top:0px;
+  margin-left:0px;
+  text-align:left;
+  border-top:1px solid #CCC;
+  background-color:#006699;
+}
+
+.navLevel3divActivePortal {background-color:#FF0000 !important;}	/* berschreibt background von oben .navLevel3divActivePortal */
+
+.navLevel4div {
+  margin-top:0px;
+  margin-left:0px;
+  text-align:left;
+  border-top:1px solid #CCC;
+}
+.navLevel4divActive,
+.navLevel4divActivePortal {
+  padding:1px 0px 4px 62px;
+  margin-bottom:-1px;
+  margin-top:0px;
+  margin-left:0px;
+  text-align:left;
+  border-top:1px solid #CCC;
+  background-color:#006699;
+}
+
+.navLevel4divActivePortal {background-color:#FF0000 !important;}	/* berschreibt background von oben .navLevel4divActivePortal */
+
+.navLevel5div {
+  margin-top:0px;
+  margin-left:0px;
+  text-align:left;
+  border-top:1px solid #CCC;
+}
+
+.navLevel5divActive,
+.navLevel5divActivePortal {
+  padding:2px 0px 4px 76px;
+  margin-bottom:-1px;
+  margin-top:0px;
+  margin-left:0px;
+  text-align:left;
+  border-top:1px solid #CCC;
+  background-color:#006699;
+}
+
+.navLevel5divActivePortal {background-color:#FF0000 !important;}	/* berschreibt background von oben .navLevel5divActivePortal */
+
+/*										Update kib 19.11.07
+.navEnddiv {								
+  border-top:1px solid #CCC;
+  padding:1px 0 0px 48px;
+  height:19px;
+}
+*/
+/* ------------------------------------------------------------------- 
+   Breadcrumbtrail
+---------------------------------------------------------------------- */
+#breadcrumb {
+  background-color:#CCCCCC;
+  text-align:left;	
+  padding:2px 0px 2px 10px;
+  voice-family:"\"}\"";  /* Box Model Hack*/
+  voice-family:inherit;
+  width: 521px;
+  margin-top: 20px;
+}
+
+/* start changed by Karin */
+/* ------------------------------------------------------------------- 
+   Seitenfunktionen
+---------------------------------------------------------------------- */
+#erweiterteFunktionen {
+  text-align:right;
+  width: 521px;
+  height:31px;
+  margin-top:4px;
+  padding:1px 0 0 8px;
+}
+* html #erweiterteFunktionen {margin-top:5px;}
+#erweiterteFunktionen .firstItem {border-left: none;}
+#erweiterteFunktionen .lastItem {padding-right: 0; border-left:none;}
+#erweiterteFunktionen .noBorder {padding-right: 0; border-left:none;}
+
+#erweiterteFunktionen .rss {padding-left: 21px; background:url(/images/icons/ico_rss.gif) 5px 0px no-repeat;}
+#erweiterteFunktionen .share {display:none; padding-left: 21px;}
+#erweiterteFunktionen .shareBox {display:none; float:right;}
+#erweiterteFunktionen img.icoExtinternal {display:none;}
+#erweiterteFunktionen li img.icoExt {display:none;}
+#erweiterteFunktionen .shareBoxNoScript {float:right;}
+#erweiterteFunktionen .funcBox {float:right}
+#erweiterteFunktionen  ul {padding:0px; margin:0px;}
+#erweiterteFunktionen  li {margin:0px; padding:0 5px 0 5px; list-style:none; height:13px; float:left;border-left: 1px solid #000;} 
+/* end added by Karin */
+/* ------------------------------------------------------------------- 
+   Inhaltsdefinitionen
+---------------------------------------------------------------------- */
+/* Fachkontakt
+---------------------------------------------------------------------- */
+#fachkontakt {
+  margin:0px 0px 0 0px;
+  clear:both;
+  text-align:left;
+  margin-top:1.3em;
+  margin-bottom:1.3em;
+  border:0px solid #000;
+  margin-right: 19px;
+}
+
+/* ------------------------------------------------------------------- 
+   Content - Footer
+---------------------------------------------------------------------- */
+#footer {
+  clear:both;
+  border-width:1px 0px 1px 0px;
+  border-style:solid;
+  border-color:#000;
+  padding:5px 0 5px 0;
+  font-size:0.9em;
+  margin-bottom:1.3em;
+  margin-right: 0;
+}
+
+/* ------------------------------------------------------------------- 
+   Content - Sitemap (bersicht)
+---------------------------------------------------------------------- */
+.sitemap {
+  font-size:1em;
+  line-height:1.3em;
+  list-style-type:square;
+  width:auto;
+  border-bottom:1px solid #000;
+}
+
+.sitemapLevel00,
+.sitemapLevel02 {
+  font-size:1em;
+  line-height:1.3em;
+  font-weight:bold;
+  list-style-type:none;
+  width:auto;
+}
+
+.sitemapLevel00 {font-weight:bold;}
+
+.sitemapLevel01 {
+  font-size:1em;
+  line-height:1.3em;
+  margin-left:150px;
+  margin-top:-1.3em;
+  list-style-type:square;
+  width:auto;
+}
+
+/***** Eintrag original style_layout.css webSiteMapDiv *****/
+#webSitemapDiv ul {
+  list-style-type:none;
+  margin:0pt;
+  padding:0pt;
+}
+
+#webSitemapDiv li.firstLevelClass {border-top: none;}
+
+#webSitemapDiv ul ul ul {
+	margin-top: -1.3em;
+	list-style-type:square;
+}
+
+#webSitemapDiv ul ul ul ul {
+	list-style-type:none!important;
+	margin-top: 0px;
+}
+
+#webSitemapDiv li {
+  border-top:1px solid #000000;
+  margin-top:10px;
+}
+
+
+#webSitemapDiv li li li {
+	border-top:0px solid #000000;
+	margin-left:183px;
+	margin-top:0pt;
+	voice-family:inherit;
+}
+
+  html > body #webSitemapDiv li li li {margin-top:0pt;}
+
+#webSitemapDiv li li li li {margin-left:20px;}
+
+#webSitemapDiv a {
+  color:#006699;
+  text-decoration:underline;
+}
+
+#webSitemapDiv a:hover,
+#webSitemapDiv a:focus {
+  color:#FFF;
+  background-color:#069;
+}
+
+.webSitemapBox {
+  float:right;
+  margin-top:-17px;
+  voice-family:inherit;
+}
+
+html > body .webSitemapBox {margin-top:-12px;}
+
+#webSitemapDiv li div {
+  clear:right;
+  padding:1px 0px 3px;
+}
+
+.webSitemapLevelOneDiv,
+.webSitemapLevelTwoDiv,
+.webSitemapLevelThreeDiv,
+.webSitemapLevelFourDiv {display:inline;}
+
+.webSitemapLevelZero:link,
+.webSitemapLevelZero:active,
+.webSitemapLevelZero:visited,
+.webSitemapLevelZero:hover {
+	color:#006699;
+	font-size:1em;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.webSitemapLevelOne:link,
+.webSitemapLevelOne:active,
+.webSitemapLevelOne:visited,
+.webSitemapLevelOne:hover {
+	color:#000 !important;
+	font-size:1em;
+	font-weight:bold;
+	text-decoration:none !important;
+}
+
+.webSitemapLevelTwo:link,
+.webSitemapLevelTwo:active,
+.webSitemapLevelTwo:visited,
+.webSitemapLevelTwo:hover,
+.webSitemapLevelThree:link,
+.webSitemapLevelThree:active,
+.webSitemapLevelThree:visited,
+.webSitemapLevelThree:hover,
+.webSitemapLevelFour:link,
+.webSitemapLevelFour:active,
+.webSitemapLevelFour:visited,
+.webSitemapLevelFour:hover {
+	color:#006699;
+	font-size:1em;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+/* ------------------------------------------------------------------- 
+   Content - Resultate
+---------------------------------------------------------------------- */
+.contentNavigationResultate {
+  margin-top:1.45em;
+  margin-bottom:1.3em;
+  width:auto;
+  border-top:1px solid #000;
+  border-bottom:1px solid #000;
+  height:18px;
+  clear: both;
+}
+
+.lexikonNavigationResultate {
+  height:18px;
+  clear: both;
+  margin-right: 0 !important;
+}
+
+.anzahlSeitenPaging {font-size: 0.925em;}
+
+.contentSuchtext, .contentPromoLinks {
+  margin-top:2px;
+  margin-bottom:1.3em;
+  width:auto;
+  border-top:1px solid #000;
+  border-bottom:1px solid #000;
+}
+
+.contentSuchtext h2 {
+	margin-top:0.125em;
+	font-size:1.1em;
+}
+
+.AnzahlSeiten {
+  font-size:1em;
+  line-height:1.3em;
+  width:auto;
+  clear: both;
+}
+
+.AnzahlTreffer {
+  margin-top:-1.3em;
+  font-size:0.9em;
+  line-height:1.2em;
+  width:auto;
+  float:right;
+}
+
+.resultat {
+  font-size:1em;
+  line-height:1.3em;
+  width:auto;
+  margin-bottom:1.3em;
+}
+
+.quelle em.pfad {
+	font-style:normal;
+	color:#666666;
+}
+
+/* ------------------------------------------------------------------- 
+   Kontext - Schnellsuche
+---------------------------------------------------------------------- */
+#searchBox {
+	width: 165px;
+	float: right;
+}
+
+#schnellSucheTitel{
+  height:19px;
+  padding:1px 0px 0 0px;
+  voice-family:"\"}\"";  /* Box Model Hack*/
+  voice-family:inherit;
+}
+
+#schnellSucheInput{
+  width: 100%;
+  height:10px;
+  padding:0;
+  voice-family:"\"}\"";  /* Box Model Hack*/
+  voice-family:inherit;
+}
+
+.inputSchnellsuche{
+  width:53%;
+  float:left; 
+}
+
+#erweiterteSuche {
+  margin-top:6px;
+  text-align:left;
+  padding:0px 8px 0 0px;
+}
+* html #erweiterteSuche {margin-top:3px;}				/* IE6 Hack */
+*+html #erweiterteSuche {margin-top:13px;}				/* IE7 Hack */
+
+.buttonSchnellSuche {
+  margin-top:0px;
+  width: 6em;
+  float:right;
+  text-align:center;
+  font-size:0.918em;
+  height: 2em;
+}
+
+* html .buttonSchnellSuche {
+	height: 1.8em;
+	font-size:1em;										/* IE6 Hack */
+}
+
+*+html .buttonSchnellSuche {
+	height: 1.8em;
+	font-size:1em;										/* IE7 Hack */
+}
+/* ------------------------------------------------------------------- 
+   Kontext - Rechte Box
+---------------------------------------------------------------------- */
+#boxright,
+#boxright2 {
+  text-align:left;
+  margin-bottom:10px;
+  border:0px solid #FA0;
+}
+
+/* ------------------------------------------------------------------- 
+   Content - Main
+---------------------------------------------------------------------- */
+#content {
+  max-width: 960px;
+/*  width: expression((document.body.clientWidth > 960) ? "960px" : "100%"); */
+}
+
+/* ------------------------------------------------------------------- 
+   Content - Navigation
+---------------------------------------------------------------------- */
+#contentNavigation {
+  margin-top:2px;
+  margin-bottom:1.3em;
+  margin-right: 19px;
+  border-top:1px solid #CCCCCC;
+  border-bottom:1px solid #CCC;
+  min-height:18px;
+}
+* html #contentNavigation {height:18px;}			/* IE6 Hack */
+
+.wide #contentNavigation {margin-right: 0px;}
+/* ------------------------------------------------------------------- 
+   Content - Formulare
+---------------------------------------------------------------------- */
+.spacerTop {padding-top: 0.1em; margin-bottom: 1em;}
+.noSpacerTop {margin-bottom: 1em;}
+* html .spacerTop {margin-bottom: 0.6em;}
+*+html .spacerTop {min-height: 0.5em;}
+
+.infoblock {width:auto;}
+
+.infoblock ul {
+  padding-left: 15px;
+  margin: 0;
+  margin-left:0;
+  margin-top: 0;
+}
+
+div.downloadPar {
+	margin-bottom: 14px;
+}
+
+ul.download {
+	padding-left: 10px;
+	margin: 0;
+	margin-left:0;
+	margin-top: 0;
+	list-style:none;
+}
+
+ul.download li {
+	margin:0 0 5px 16px;
+    padding-left: 0;
+	padding-bottom:0px;
+}
+* html ul.download li {					/* IE6 Hack */
+	margin:0 0 5px 6px;
+  	padding-left: 9px;
+}
+*+html ul.download li {					/* IE7 Hack */
+	margin:0 0 5px 6px;
+  padding-left: 9px;
+}
+
+.tender ul.tenderDownload li {
+	margin-top:1.2em;
+	margin-bottom:5px;
+	padding-bottom:0px;
+}
+* html ul.tenderDownload li {					/* IE6 Hack */
+  margin:1.2em 0 5px 0px;
+  padding-left: 9px;
+}
+*+html ul.tenderDownload li {					/* IE7 Hack */
+  margin:1.2em 0 5px 0px;
+  padding-left: 9px;
+}
+
+* html #spalteKontext ul.download li,
+* html #spalteKontext2 ul.download li {padding-left: 10px;}										/* IE6 Hack */
+
+ul.download li p strong {display: block;}
+*+html ul.download li p strong {margin-bottom: 0.5em; line-height: 1.8em;}		/* IE7 Hack */
+* html ul.download li p strong {margin-bottom: 0.5em; line-height: 1.8em;}		/* IE6 Hack */
+
+.infoblock li.extern {
+  list-style-image:url(/images/ico_extern.gif);
+  margin:0px 0px 0px 5px;
+  padding-left: 5px;
+}
+
+.infoblock li.intern {
+  margin:0px 0px 0px 5px;
+  padding-left: 5px;
+}
+
+.infoblock li.doku {
+  list-style-image:url(/images/ico_doku.gif);
+  margin:0px 0px 0px 5px;
+  padding-left: 5px;
+}
+
+.infoblock li.top {
+  list-style-image:url(/images/ico_top.gif);
+  margin:0px 0px 0px 5px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  margin-top:1.3em;
+}
+
+.infoblock li.externLinie {
+  list-style-image:url(/images/ico_extern.gif);
+  margin:0px 0px 0px 5px;
+  padding-left: 5px;
+  border-bottom:1px solid #CCC;
+  padding-bottom:5px;
+  margin-bottom: 5px;
+}
+
+.infoblock li.internLinie {
+  margin:0px 0px 0px 5px;
+  padding-left: 5px;
+  border-bottom:1px solid #CCC;
+  padding-bottom:5px;
+  margin-bottom: 5px;
+}
+
+.infoblock li.dokuLinie {
+  list-style-image:url(/images/ico_doku.gif);
+  margin:0px 0px 0px 5px;
+  padding-left: 5px;
+  border-bottom:1px solid #CCC;
+  padding-bottom:5px;
+  margin-bottom: 5px;
+}
+
+li.edit_redir {
+  list-style-image:url(/images/icons/ico_edit_redir.gif);
+  margin:0px 0px 0px 5px;
+  padding-left: 5px;
+  padding-bottom:5px;
+  margin-bottom: 5px;
+}
+
+li.acrobat,
+.infoblock li.acrobat {list-style-image: url(/images/icons/ico_acrobat.gif);}
+  
+li.avi,
+.infoblock li.avi {list-style-image:url(/images/icons/ico_avi.gif);}
+
+li.director,
+.infoblock li.director {list-style-image:url(/images/icons/ico_director.gif);}
+
+li.doc,
+.infoblock li.doc {list-style-image:url(/images/icons/ico_doc.gif);}
+
+li.doku,
+.infoblock li.doku {list-style-image:url(/images/icons/ico_doku.gif);}
+
+.infoblock li.edit_redir {list-style-image:url(/images/icons/ico_edit_redir.gif);}
+
+li.excel,
+.infoblock li.excel {list-style-image:url(/images/icons/ico_excel.gif);}
+
+li.flash,
+.infoblock li.flash {list-style-image:url(/images/icons/ico_flash.gif);}
+
+li.html,
+.infoblock li.html {list-style-image:url(/images/icons/ico_html.gif);}
+
+li.media,
+.infoblock li.media {list-style-image:url(/images/icons/ico_media.gif);}
+
+li.movie,
+.infoblock li.movie {list-style-image:url(/images/icons/ico_movie.gif);}
+
+li.movie2,
+.infoblock li.movie2 {list-style-image:url(/images/icons/ico_movie2.gif);}
+
+li.mp3,
+.infoblock li.mp3 {list-style-image:url(/images/icons/ico_mp3.gif);}
+
+li.mpg,
+.infoblock li.mpg {list-style-image:url(/images/icons/ico_mpg.gif);}
+
+li.pdf,
+.infoblock li.pdf {list-style-image:url(/images/icons/ico_pdf.gif);}
+
+li.powerpoint,
+.infoblock li.powerpoint {list-style-image:url(/images/icons/ico_powerpoint.gif);}
+
+li.ppt,
+.infoblock li.ppt {list-style-image:url(/images/icons/ico_ppt.gif);}
+
+li.premiere,
+.infoblock li.premiere {list-style-image:url(/images/icons/ico_premiere.gif);}
+
+li.quicktime,
+.infoblock li.quicktime {list-style-image:url(/images/icons/ico_quicktime.gif);}
+
+li.realaudio,
+.infoblock li.realaudio {list-style-image:url(/images/icons/ico_realaudio.gif);}
+
+li.realvideo,
+.infoblock li.realvideo {list-style-image:url(/images/icons/ico_realvideo.gif);}
+
+li.restricted,
+.infoblock li.restricted {list-style-image:url(/images/icons/ico_restricted.gif);}
+
+li.rss,
+.infoblock li.rss {list-style-image:url(/images/icons/ico_rss.gif);}
+
+li.rtf,
+.infoblock li.rtf {list-style-image:url(/images/icons/ico_rtf.gif);}
+
+li.text,
+.infoblock li.text {list-style-image:url(/images/icons/ico_text.gif);}
+
+li.vdo,
+.infoblock li.vdo {list-style-image:url(/images/icons/ico_vdo.gif);}
+
+li.wav,
+.infoblock li.wav {list-style-image:url(/images/icons/ico_wav.gif);}
+
+li.word,
+.infoblock li.word {list-style-image:url(/images/icons/ico_word.gif);}
+
+li.wstrm,
+.infoblock li.wstrm {list-style-image:url(/images/icons/ico_wstrm.gif);}
+
+li.xls,
+.infoblock li.xls {list-style-image:url(/images/icons/ico_xls.gif);}
+
+li.zip,
+.infoblock li.zip {list-style-image:url(/images/icons/ico_zip.gif);}
+
+li.psd,
+.infoblock li.psd {list-style-image:url(/images/icons/ico_psd.gif);}
+
+li.def,
+.infoblock li.def {list-style-image:url(/images/icons/ico_def.gif);}
+
+li.zipexe,
+.infoblock li.zipexe {list-style-image:url(/images/icons/ico_zipexe.gif);}
+
+li.exe,
+.infoblock li.exe {list-style-image:url(/images/icons/ico_exe.gif);}
+
+li.xml,
+.infoblock li.xml {list-style-image:url(/images/icons/ico_xml.gif);}
+
+li.csv,
+.infoblock li.csv {list-style-image:url(/images/icons/ico_csv.gif);}
+
+li.unknown {list-style-image:url(/images/icons/ico_unknown.gif);}
+
+.infoblock li.acrobat,
+.infoblock li.avi,
+.infoblock li.director,
+.infoblock li.avi,
+.infoblock li.director,
+.infoblock li.doc,
+.infoblock li.doku,
+.infoblock li.edit_redir,
+.infoblock li.excel,
+.infoblock li.flash,
+.infoblock li.html,
+.infoblock li.media,
+.infoblock li.movie,
+.infoblock li.movie2,
+.infoblock li.mp3,
+.infoblock li.mpg,
+.infoblock li.pdf,
+.infoblock li.powerpoint,
+.infoblock li.ppt,
+.infoblock li.premiere,
+.infoblock li.quicktime,
+.infoblock li.realaudio,
+.infoblock li.realvideo,
+.infoblock li.restricted,
+.infoblock li.rss,
+.infoblock li.rtf,
+.infoblock li.text,
+.infoblock li.vdo,
+.infoblock li.wav,
+.infoblock li.word,
+.infoblock li.wstrm,
+.infoblock li.xls,
+.infoblock li.zip,
+.infoblock li.psd,
+.infoblock li.zipexe,
+.infoblock li.exe,
+.infoblock li.xml,
+.infoblock li.csv {
+  margin:0px 0px 0px 5px;
+  padding-left: 5px;
+  border-bottom:1px solid #CCC;
+  padding-bottom:5px;
+  margin-bottom: 5px;
+}
+
+* html .infoblock li.acrobat,
+* html .infoblock li.avi,
+* html .infoblock li.director,
+* html .infoblock li.avi,
+* html .infoblock li.director,
+* html .infoblock li.doc,
+* html .infoblock li.doku,
+* html .infoblock li.edit_redir,
+* html .infoblock li.excel,
+* html .infoblock li.flash,
+* html .infoblock li.html,
+* html .infoblock li.media,
+* html .infoblock li.movie,
+* html .infoblock li.movie2,
+* html .infoblock li.mp3,
+* html .infoblock li.mpg,
+* html .infoblock li.pdf,
+* html .infoblock li.powerpoint,
+* html .infoblock li.ppt,
+* html .infoblock li.premiere,
+* html .infoblock li.quicktime,
+* html .infoblock li.realaudio,
+* html .infoblock li.realvideo,
+* html .infoblock li.restricted,
+* html .infoblock li.rtf,
+* html .infoblock li.text,
+* html .infoblock li.vdo,
+* html .infoblock li.wav,
+* html .infoblock li.word,
+* html .infoblock li.wstrm,
+* html .infoblock li.xls,
+* html .infoblock li.zip,
+* html .infoblock li.psd,
+* html .infoblock li.zipexe,
+* html .infoblock li.exe,
+* html .infoblock li.xml,
+* html .infoblock li.csv {margin-left:0px;}			 /* Hack for IE */
+
+* html .infoblock li.extern,
+* html .infoblock li.intern,
+* html .infoblock li.doku,
+* html .infoblock li.top,
+* html .infoblock li.externLinie,
+* html .infoblock li.internLinie,
+* html .infoblock li.dokuLinie,
+* html li.edit_redir {margin-left:0px;} /* IE6 Hack */
+
+.formular {width:100%;}
+
+.formularSpalte1 {
+  font-size:1em;
+  line-height:1.3em;
+  list-style-type:none;
+  width:150px;
+  float:left;
+  height:auto;
+}
+
+.formularSpalte2 {
+  font-size:1em;
+  line-height:1.3em;
+  font-weight:normal;
+  list-style-type:none;
+  width:auto;
+  float:left;
+  height:auto;
+}
+
+.formularZeile {
+ width:100%;
+ border-bottom:1px solid #FFF;
+ margin-bottom:5px;
+}
+
+.formularzeileZusatzinfos {
+ padding:5px 5px 5px 5px;
+ margin-top:15px;
+ margin-bottom:15px;
+ width:100%;
+}
+
+/* ------------------------------------------------------------------- 
+   Content - Bilder
+---------------------------------------------------------------------- */
+/* Fix floating problem */
+div.imageClear {clear: both;}			/* Update kib 07.03.08 */
+
+
+dl {									/* Update kib 12.11.07*/
+	clear: both;
+	float: none;
+}
+
+dl.imgLeft {
+  float: left;
+  clear: none;		/* Update kib 19.11.07 img > text float */				
+  margin: 0px 10px 1.3em 0px; /* Update 11.02.07 margin-bottom: 0*/
+  padding-right: 0;
+}
+
+* html dl.imgLeft {margin-bottom:0.65em;} /* Update 11.02.07 margin-bottom: 0*/
+
+* html dl.oversized {
+	margin-right: -10px;
+  	padding-right: 0;
+}
+
+* html dl.oversized img {
+	width: 723px;
+}
+
+* html dl.w723 {						/* IE6 Hack */
+  padding-right: 0;
+  margin-right: -10px;
+}
+
+dl.w90 {
+    width: 90px;           /* Update abonelli 14.07.09 | min-widht: 90px */
+}
+* html dl.w90 {
+    margin-right: 10px;                 /* IE6 Hack */
+    width: 90px;           
+}
+
+dl.w165 {
+	width: 165px;			/* Update kib 19.11.07 | min-widht: 165px */
+}
+* html dl.w165 {
+	margin-right: 10px;					/* IE6 Hack */
+	width: 165px;			
+}
+
+dl.w256 {
+	width: 256px;			/* Update kib 19.11.07 | min-widht: 165px */
+}
+
+dl.w348 {
+	width: 348px;			/* Update kib 19.11.07 | min-widht: 165px */
+}
+
+dl.imgRight {
+  margin: 0px 0px 0px 10px;
+  padding-left: 10px;
+  float: right;							/* Update kib 23.10.07 */
+}
+
+dl.imgRight dt.img {text-align: right;}
+
+dl.noSpacing {
+	margin-right:0px;
+	margin-left:0px;
+	padding-right:0px !important;
+	padding-left:0px !important;
+}
+
+dt.img { margin: 0;}			/* Update kib 13.11.07 */
+
+dt.img a:hover,
+dt.img a:focus,
+a.img_link:hover,
+a.img_link:focus {
+	background-color: transparent;
+}
+
+
+dd.img {
+  margin: 0;
+  padding: 3px 3px 3px 0px;
+  border-bottom: 1px solid #000;
+  font-size:0.9em;
+  color:#000;
+}
+
+#spalteNavigation img.legende {max-width:210px;}
+* html #spalteNavigation {						/* IE6 Hack */
+	overflow-x: hidden;
+}
+
+#spalteNavigation dl {
+	background: #faf7ff;
+	width:210px;
+}
+
+img.legende {
+	margin: 0;
+}
+
+#printBackTop,
+#printBackBottom {display:none;}
+
+.img a img.icoExt {display:none;}
+
+/* ------------------------------------------------------------------- 
+   Cartoclient
+---------------------------------------------------------------------- */
+#cartoclientMapLinks {
+	margin-bottom: 1em;
+	width: 22em;
+}
+
+#navmaptoolbar {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+#cartoclientMapLinks ul {
+	list-style-type: none;
+	padding-left: 0;
+	width: 22em;
+	margin-bottom: 0;
+	border-bottom: 1px solid #CCCCCC;
+	margin-top: 0;
+}
+
+#toolbar {
+	bottom:-3pt !important;
+	position:absolute !important;
+	right:15pt !important;
+	left:auto !important;
+	top:auto !important;
+	
+}
+
+*+html #toolbar {bottom:5pt !important;}
+* html #toolbar {position: relative !important; top:-27pt !important; float: right; margin-bottom: -27px !important;}
+
+#map-container {
+	position:relative;
+	top: 0;
+	left: 0;
+}
+
+*+html #cartoclientMapLinks ul {margin: 0;}		/* IE6 Hack */
+* html #cartoclientMapLinks ul {margin: 0;}		/* IE7 Hack */
+
+#mapDiv {
+	padding: 0em 1em 1em 0 !important;
+	margin-bottom: 1.5em;
+}
+
+#cartoclientMapLinks ul li span {
+	display: block;
+	padding-left:1em;
+}
+
+#legendContainer {
+	position: absolute !important;
+	bottom: 0.2em !important;
+	left: 0 !important;
+}
+
+#mainDHTMLDiv {
+	position: absolute !important;
+	top: 0;
+	left: 0;
+}
+
+td.viewer_mainmap {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.floatswitcher {
+	top:auto !important;
+	right: auto !important;
+}
+
+#floatlegend {
+	left:-1px !important;
+	top:-63px !important;
+}
+
+*+html #floatlegend {top:-64px !important;}
+* html #floatlegend {top:-64px !important;}
+
+#floatkeymap {
+	right: -1px !important;
+	top: -1px !important;
+}
+
+/* ------------------------------------------------------------------- 
+   ChartApplication
+---------------------------------------------------------------------- */
+div.chartAppPar {
+	margin-bottom: 1.8em;
+}
+
+div.chartAppParDataTable {
+	margin-left: 1.8em;
+}
+
+* html div.chartAppPar img,				/* IE6 Hack */
+* html div.chartAppPar a{
+	margin: 0;
+}
+
+/* ------------------------------------------------------------------- 
+   Media Paragraph
+---------------------------------------------------------------------- */
+
+div.mediaPar {margin-bottom: 1.8em;}
+
+/* ------------------------------------------------------------------- 
+   NSB
+---------------------------------------------------------------------- */
+.nsbComponent {margin-top: -4px;}
+* html .nsbComponent {margin-top: -5px;}
+*+html .nsbComponent {margin-top: -5px;}
+
+
+/* ------------------------------------------------------------------- 
+   Google Search Results
+---------------------------------------------------------------------- */
+
+ul.search-results {
+		list-style: none;
+		padding-left: 0px;
+	}
+
+ul.search-results li {
+ 	border-bottom: 1px solid #D4D4D4;
+   	margin-bottom: 10px;
+    padding-bottom: 5px;
+	}	
+
+ul.search-results li a.title{
+		font-weight: bold;
+	}	
+	
+ul.search-results li p{
+		margin-top: 0px;
+	}	
+	
+div.number-of-results {
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	background: #E9E9E9;
+	padding: 5px 5px;
+	margin-bottom: 10px;
+	}
+	
+div.search-result-paging {
+	border-bottom: 1px solid black;
+    overflow: hidden;
+    padding-bottom: 10px;
+    position: relative;
+	}	
+	
+div.search-result-paging a {
+	padding: 2px 3px;
+	color: #000;
+	}
+	
+div.search-result-paging a.active {
+	font-weight: bold;
+	}
+	
+div.search-result-paging a.back-link {
+    float: left;
+    background: #D4D4D4;
+    border: 1px solid #6A6969;
+    color: black;
+    display: block;
+    font-weight: bold;
+    padding: 2px 10px;
+    text-decoration: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+	}
+	
+div.search-result-paging a.next-link {
+	float: right;
+	background: #D4D4D4;
+    border: 1px solid #6A6969;
+    color: black;
+    display: block;
+    font-weight: bold;
+    padding: 2px 10px;
+    text-decoration: none;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+	}
+	
+div.page-numbers {
+	margin: 0px 85px;
+	text-align: center;
+	padding: 3px 0;
+	}	
