@@ -2,12 +2,13 @@ var api, map;
 
 var vectorSource;
 
-function createFeature(coords, title, html) {
+function createFeature(coords, title, youtube, link) {
 
   return new ol.Feature({
     geometry: new ol.geom.Point(coords),
     title: title,
-    html: html
+    youtube: youtube,
+	link: link
   });
 }
 
@@ -73,8 +74,13 @@ function init() {
     var feature = features[0];
     if (feature) {
       $('#feature-info-title').text(feature.get('title'));
-      $('#feature-info-body').html(feature.get('html'));
+      var youtube = feature.get('youtube');
+      var link = feature.get('link');
+	  var iframe = '<iframe width="420" height="315" src="http://www.youtube.com/embed/'+ youtube +'?rel=0" frameborder="0"></iframe>';
+      $('#feature-info-body').find('.flex-video.widescreen').html(iframe);
+	  $('.zeitreise').html('<a href="'+link+'" target="_blank" class="multilang" data-i18n="text.link_zur_zeitreisen"></a></div>')
       $('#feature-info').modal('show')
+      $('a.multilang').i18n();
     } 
   };
 
@@ -84,30 +90,31 @@ function init() {
     displayFeatureInfo(pixel, coordinate);
   });
   populate();
-
 }
+
 
 function populate() {
-  vectorSource.addFeature(createFeature([680000, 250000], 'Zürich', '<iframe width="420" height="315" src="http://www.youtube.com/embed/kSPdCR7uTBo?rel=0" frameborder="0"></iframe><br><br><div align="right"><a href="http://s.geo.admin.ch/173ca3f98" target="_blank">' +   i18n.t('text.link_zur_zeitreisen')  + '</a></div><br>'));
+  vectorSource.addFeature(createFeature([680000, 250000], 'Zürich', 'kSPdCR7uTBo', 'http://s.geo.admin.ch/173ca3f98'));
 
 
-  vectorSource.addFeature(createFeature([499800, 117900], 'Genève', '<iframe width="420" height="315" src="http://www.youtube.com/embed/HN67CI57Ufo?rel=0" frameborder="0"></iframe><br><br><div align="right"><a href="http://s.geo.admin.ch/5512cc170" target="_blank">' + i18n.t('text.link_zur_zeitreisen') + '</a></div><br>'));
+  vectorSource.addFeature(createFeature([499800, 117900], 'Genève', 'HN67CI57Ufo','http://s.geo.admin.ch/5512cc170'));
 
 
-  vectorSource.addFeature(createFeature([612022, 267408], 'Basel', '<iframe width="420" height="315" src="http://www.youtube.com/embed/BDoUtHYW-nk?rel=0" frameborder="0"></iframe><br><br><div align="right"><a href="http://s.geo.admin.ch/e968baadc" target="_blank">' + i18n.t('text.link_zur_zeitreisen') + '</a></div><br>'));
+  vectorSource.addFeature(createFeature([612022, 267408], 'Basel', 'BDoUtHYW-nk','http://s.geo.admin.ch/e968baadc'));
 
-  vectorSource.addFeature(createFeature([538688, 153161], 'Lausanne', '<iframe width="420" height="315" src="http://www.youtube.com/embed/zSdauWdHMhM?rel=0" frameborder="0"></iframe><br><br><div align="right"><a href="http://s.geo.admin.ch/81fe856dc" target="_blank">' + i18n.t('text.link_zur_zeitreisen') + '</a></div><br>'));
+  vectorSource.addFeature(createFeature([538688, 153161], 'Lausanne', 'zSdauWdHMhM','http://s.geo.admin.ch/81fe856dc'));
 
-  vectorSource.addFeature(createFeature([600801, 199848], 'Bern','<iframe width="420" height="315" src="http://www.youtube.com/embed/dnLuWVxzvok?rel=0" frameborder="0"></iframe><br><br><div align="right"><a href="http://s.geo.admin.ch/a53fd2808" target="_blank">' + i18n.t('text.link_zur_zeitreisen') + '</a></div><br>'));
+  vectorSource.addFeature(createFeature([600801, 199848], 'Bern','dnLuWVxzvok','http://s.geo.admin.ch/a53fd2808'));
 
-  vectorSource.addFeature(createFeature([697607, 262057], 'Winterthur','<iframe width="420" height="315" src="http://www.youtube.com/embed/gspikUmYM7E?rel=0" frameborder="0"></iframe><br><br><div align="right"><a href="http://s.geo.admin.ch/ae3496fab" target="_blank">' + i18n.t('text.link_zur_zeitreisen') + '</a></div><br>'));
+  vectorSource.addFeature(createFeature([697607, 262057], 'Winterthur','gspikUmYM7E','http://s.geo.admin.ch/ae3496fab'));
 
-  vectorSource.addFeature(createFeature([664526, 210307], 'Luzern-Kriens','<iframe width="420" height="315" src="http://www.youtube.com/embed/ZEPEY_3umgk?rel=0" frameborder="0"></iframe><br><br><div align="right"><a href="http://s.geo.admin.ch/1d385eea4" target="_blank">' + i18n.t('text.link_zur_zeitreisen') + '</a></div><br>'));
+  vectorSource.addFeature(createFeature([664526, 210307], 'Luzern-Kriens','ZEPEY_3umgk','http://s.geo.admin.ch/1d385eea4'));
 
-  vectorSource.addFeature(createFeature([747135, 255268], 'St. Gallen','<iframe width="420" height="315" src="http://www.youtube.com/embed/qhBAMgqnlI4?rel=0" frameborder="0"></iframe><br><br><div align="right"><a href="http://s.geo.admin.ch/1d557019" target="_blank">' + i18n.t('text.link_zur_zeitreisen') + '</a></div><br>'));
+  vectorSource.addFeature(createFeature([747135, 255268], 'St. Gallen','qhBAMgqnlI4','http://s.geo.admin.ch/1d557019'));
 
-  vectorSource.addFeature(createFeature([717122, 96845], 'Lugano','<iframe width="420" height="315" src="http://www.youtube.com/embed/DpQvFK8FTms?rel=0" frameborder="0"></iframe><br><br><div align="right"><a href="http://s.geo.admin.ch/9b6498216" target="_blank">' + i18n.t('text.link_zur_zeitreisen') + '</a></div><br>'));
+  vectorSource.addFeature(createFeature([717122, 96845], 'Lugano','DpQvFK8FTms','http://s.geo.admin.ch/9b6498216'));
 
-  vectorSource.addFeature(createFeature([586376, 221071], 'Biel-Bienne','<iframe width="420" height="315" src="http://www.youtube.com/embed/WN9F6EQHVxo?rel=0" frameborder="0"></iframe><br><br><div align="right"><a href="http://s.geo.admin.ch/b52660105" target="_blank">' + i18n.t('text.link_zur_zeitreisen') + '</a></div><br>'));
+  vectorSource.addFeature(createFeature([586376, 221071], 'Biel-Bienne','WN9F6EQHVxo','http://s.geo.admin.ch/b52660105'));
 
 }
+;

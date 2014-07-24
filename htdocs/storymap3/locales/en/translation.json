@@ -20,7 +20,7 @@
         "infoboxTitle": "The 25 largest dams and reservoirs in Switzerland",
         "abstract": "The Swiss Federal Office of Energy directly supervises the safety of Switzerland's 206 largest dams and reservoirs, three-quarter of which are used to generate hydropower. Twenty-five of the dams are over 100 metres tall, and four are even higher than 200 metres. Switzerland still has the tallest gravity dam in the world, the 285-metre high Grande Dixence dam.",
         "infoboxMoreInfo": "More Information",
-        "dep": "Federal Office for the Environment",
+        "dep": "Federal Office of Energy",
 
         "station": "Station:",
         "rank": "Rank:",
@@ -41,7 +41,6 @@
 
     "html": {
         "infolinks": [
-            "<h3>Swiss Federal Office of Energy</h3>",
         "<ul><li><a href='http://www.bfe.admin.ch/talsperren' target='_blank'>Activities of the supervisory authority</a></li>",
         "<li><a href='http://www.bfe.admin.ch/geoinformation/05061/05251/05395/index.html?lang=de' target='_blank'>Map showing all the Dams and reservoirs under the supervision of the federal government</a></li>",
         "<li><a href='http://www.bfe.admin.ch/geoinformation/05061/05251/index.html?lang=de' target='_blank'>Official Geodata</a></li>",

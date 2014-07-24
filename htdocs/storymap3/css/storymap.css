@@ -389,3 +389,8 @@ h1.tips{
 }
 
 
+div.moreinfo div.inner ul li {
+    height: auto !important;
+    line-height: 1.2em;
+    font-size: 11px;
+}

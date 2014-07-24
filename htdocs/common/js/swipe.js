@@ -73,23 +73,33 @@ $(window).smartresize(function(e){
 })
 
 
-function swipe(layer) {
-  layer.on('precompose', function(event) {
-    var ctx = event.context;
-    var width = ctx.canvas.width * (map.swipe_ratio);
+function handlePreCompose(event) {
 
-    ctx.save();
-    ctx.beginPath();
-    ctx.rect(width, 0, ctx.canvas.width - width, ctx.canvas.height);
-    ctx.clip();
-  });
+  var ctx = event.context;
+  var width = ctx.canvas.width * (map.swipe_ratio);
 
-  layer.on('postcompose', function(event) {
-    var ctx = event.context;
-    ctx.restore();
-  });
+  ctx.save();
+  ctx.beginPath();
+  ctx.rect(width, 0, ctx.canvas.width - width, ctx.canvas.height);
+  ctx.clip();
 }
 
+function handlePostCompose(event) {
+  var ctx = event.context;
+  ctx.restore();
+}
+
+function swipe(layer) {
+  if (layer instanceof ol.layer.Group) {
+    layer.getLayers().forEach(function(olLayer, idx, arr) {
+      olLayer.on('precompose', handlePreCompose);
+      olLayer.on('postcompose', handlePostCompose);
+    });
+  } else {
+    layer.on('precompose', handlePreCompose);
+    layer.on('postcompose', handlePostCompose);
+  }
+}
 
 function swipeLayer(layer) {
   if (layer instanceof ol.layer.Group) {
@@ -101,5 +111,6 @@ function swipeLayer(layer) {
     swipe(layer);
   }
 }
+
 
 
