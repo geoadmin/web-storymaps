@@ -83,6 +83,7 @@ function init() {
     var coordinate = evt.coordinate;
     displayFeatureInfo(pixel, coordinate);
   });
+  populate();
 
 }
 
