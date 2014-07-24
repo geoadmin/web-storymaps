@@ -1,0 +1,910 @@
+/* *************************************************************************** */
+/* TEXT-STYLES FÜR WEBSEITE UND CMS                                            */
+/* *************************************************************************** */
+
+/* schriftgroesse / -stil global setzten */
+body {
+    font-family: arial, helvetica, verdana, sans-serif;
+    color: #000000;
+    letter-spacing: 0px;
+    text-decoration: none;
+    font-size: 0.75em;
+}
+
+html,body {
+    height: 100%;
+}
+
+.bold, .bold:visited, .bold:link, .bold:active {
+  font-weight:bold;
+}
+
+div,form {
+    padding: 0px;
+    margin: 0px;
+}
+table { font-size:1em; }
+.webText th, .webText td    { text-align:left; }
+.webTable th, .webTable td  { text-align:left; }
+form br { clear: both; }
+form { clear:left; }
+a:link, a:active, a:visited {
+    margin:0px 0px 0px 0px;
+    font-size: 1em;
+    font-weight: normal;
+    color: #006699;
+    text-decoration: underline;
+}
+
+a:hover {
+    margin:0px 0px 0px 0px;
+    font-size: 1em;
+    font-weight: normal;
+    color: #006699;
+    text-decoration: underline;
+}
+
+/* HR-TAG */
+.webHrBlack {
+  color: #000;
+  background-color: #000;
+  height: 1px;
+  border: 0px;
+  width: 100%;
+}
+.webHrGrey {
+  color: #cccccc;
+  background-color: #cccccc;
+  height: 1px;
+  border: 0px;
+  width: 100%;
+}
+
+/* *************************************************************************** */
+/* TEXTE, ÜBERSCHRIFTEN ETC.                                                   */
+/* *************************************************************************** */
+
+/* CONTENT */
+.webTextOnlyComment {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+/* TITLE */
+.webTitle{
+    margin:0px 0px 12px 0px;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height:30px;
+}
+
+.webTitle a, .webTitle a:link, .webTitle a:active, .webTitle a:visited, .webTitle a:hover {
+    margin:0px 0px 12px 0px;
+    font-weight: bold;
+    line-height:30px;
+    text-decoration:none;
+    color:#000000;
+    cursor:text;
+}
+
+/* Subsite Titel */
+#webSubsiteTitle{
+  margin:20px 0px 0px 20px;
+}
+.webStartSubsiteTitle {
+  color:#000;
+  font-weight:bold;
+  font-size: 1.1em;
+  font-weight:bold;
+  text-decoration:none;
+  padding:0 0 10px 0;
+}
+
+#webSubsiteTitle a:link, #webSubsiteTitle a:active, #webSubsiteTitle a:visited, #webSubsiteTitle a:hover{
+    color:#006699;
+    font-weight:bold;
+    font-size: 1.2em;
+    font-weight:bold;
+  text-decoration:none;
+}
+/* Headerbereich */
+#webHeaderLinks a{
+  font-weight:bold;
+  text-decoration:none;
+  color:#000000;
+}
+
+
+#webHeaderLinks h1 {
+  display:block;
+  margin:30px 20px 0px 0px;
+  font-size:1.2em;
+  font-weight:bold;
+  color:#000;
+}
+
+#webHeaderLinks h1 a {
+  color:#000;
+}
+
+/* ZWISCHENUEBERSCHRIFT */
+.webSubTitle{
+  margin: 0px 0px 0px 0px;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+h1, .webTitleH1{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+h2, .webTitleH2{
+  font-size: 1.4em;
+  font-weight: bold;
+}
+h3, .webTitleH3{
+  font-size: 1.3em;
+  font-weight: bold;
+}
+h4, .webTitleH4{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+h5, .webTitleH5{
+  font-size: 1.1em;
+  font-weight: bold;
+  margin:15px 0px 2px 0px;
+}
+h6, .webTitleH6{
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* LEADTEXT */
+
+.webLead{
+  font-size:1em;
+  font-weight: bold;
+}
+
+/* FLIESSTEXT (font-family, font-weight, font-size auf jeden Fall mitangeben, da WordModul es benötigt als "FONTBASE") */
+.webText{
+  margin:0px 0px 0px 0px;
+  font-size: 1em;
+  font-weight: normal;
+  line-height:1.4em;
+  font-family: arial, helvetica, verdana, sans-serif;
+}
+.webTextDms{
+  margin:0px 0px 0px 25px;
+  font-size: 1em;
+  font-weight: normal;
+  line-height:1.4em;
+  font-family: arial, helvetica, verdana, sans-serif;
+  clear:both;
+}
+
+/* LEGENDE */
+.webLegende{
+    margin:0px 0px 0px 0px;
+    font-size: 0.9em;
+    font-weight: normal;
+}
+/* LEGENDE unter den Bildern ohne Rand (wegen Wordmodul) */
+span.webLegende{
+
+}
+/* LEGENDE unter den Bildern mit Rand */
+div.webLegende{
+    margin:0px 0px 5px 0px;
+    padding:5px 0;
+    font-size: 0.9em;
+    font-weight: normal;
+    display:block;
+    border-bottom:1px solid #000;
+}
+
+/* Spitzmarke */
+.webSpitzmarke {
+    margin: 0px 0px 10px 0px;
+    color:#006699;
+    font-size: 1.2em;
+    line-height:1.1em;
+    font-weight: bold;
+}
+
+/* zusätzliche Uvek Wordmodul Styles */
+.webWmTextBold{
+    margin:0px 0px 0px 0px;
+    font-size: 1em;
+    font-weight: bold;
+    line-height:1.4em;
+    font-family: arial, helvetica, verdana, sans-serif;
+}
+
+.webWmTextItalic{
+    margin:0px 0px 0px 0px;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+    line-height:1.4em;
+    font-family: arial, helvetica, verdana, sans-serif;
+}
+
+/* *************************************************************************** */
+/* STANDARD LINKS                                                              */
+/* *************************************************************************** */
+
+/* Dieser Style wird für die Link-Darstellung im Wordmodul benötigt! */
+.webTextLink {
+    margin:0px 0px 0px 0px;
+    font-size: 1em;
+    font-weight: normal;
+    color: #006699;
+    text-decoration: underline;
+}
+.webTextLink:link, .webTextLink:active, .webTextLink:visited {
+    margin:0px 0px 0px 0px;
+    font-size: 1em;
+    font-weight: normal;
+    color: #006699;
+    text-decoration: underline;
+}
+
+.webTextLink:hover {
+    margin:0px 0px 0px 0px;
+    font-size: 1em;
+    font-weight: normal;
+    color: #006699;
+    text-decoration: underline;
+}
+
+.webUnterseiteClass {
+}
+
+.webTableLink:link, .webTableLink:active, .webTableLink:visited {
+    margin:0px 0px 0px 0px;
+    font-weight: normal;
+    color: #006699;
+    text-decoration: underline;
+}
+
+.webTableLink:hover {
+    margin:0px 0px 0px 0px;
+    font-weight: normal;
+    color: #006699;
+    text-decoration: underline;
+}
+
+.webTextLinkBold:link, .webTextLinkBold:active, .webTextLinkBold:visited {
+    margin:0px 0px 0px 0px;
+    font-weight: bold;
+    color: #006699;
+    text-decoration: none;
+}
+.webTextLinkBold:hover {
+    margin:0px 0px 0px 0px;
+    font-weight: bold;
+    color: #006699;
+    text-decoration: underline;
+}
+
+.teaserTitleStart, .teaserTitleStart:link, .teaserTitleStart:active, .teaserTitleStart:visited, .teaserTitleStart:hover {
+  font-weight:bold;
+  text-decoration:none;
+  padding:0 0 5px 0;
+}
+
+/* *************************************************************************** */
+/* HEADER                                                                      */
+/* *************************************************************************** */
+
+.webHeadTitle {
+  margin:0px 0px 0px 0px;
+  padding:0px 0px 0px 0px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color:#000;
+}
+
+.webHeadTitle1 {
+  margin:0px 0px 0px 13px;
+  padding:0px 0px 0px 0px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.webHeadTitle2 {
+  margin:0px 0px 0px 26px;
+  padding:0px 0px 0px 0px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.webHeadTitle3 {
+  margin:0px 0px 0px 39px;
+  padding:0px 0px 0px 0px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.webHeadLink:link, .webHeadLink:visited,.webHeadLink:hover, .webHeadLink:active {
+  font-weight: bold;
+  color:#000;
+}
+
+/* *************************************************************************** */
+/* SERVICE NAVIGATION                                                          */
+/* *************************************************************************** */
+
+.webServiceContent {
+  font-size: 0.9em;
+  font-weight: normal;
+  color: #000;
+  vertical-align:middle;
+  margin:0px 15px 0px 5px;
+  text-decoration: none;
+}
+
+.webServiceContent:link, .webServiceContent:active, .webServiceContent:visited, .webServiceContent:hover {
+  font-size: 0.9em;
+  font-weight: normal;
+  color: #000;
+  text-decoration: none;
+}
+
+a.webServiceContent:hover {
+  text-decoration:none;
+}
+
+.webServiceLink:link, .webServiceLink:active,.webServiceLink:visited {
+  color: #006699;
+  font-size: 0.9em;
+  font-weight:normal;
+  text-decoration:underline;
+}
+.webServiceLink:hover {
+  text-decoration:underline;
+  font-size: 0.9em;
+  font-weight:normal;
+}
+
+/* *************************************************************************** */
+/* Global NAVIGATION                                                          */
+/* *************************************************************************** */
+
+.webGlobalContent {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #FFFFFF;
+  vertical-align:middle;
+  padding:0px 15px 0px 0px;
+  display:block;
+  padding:6px 10px 6px 10px;
+
+}
+
+
+
+.webGlobalContent:link, .webGlobalContent:active, .webGlobalContent:visited {
+  font-size: 1.2em;
+  font-weight: bold;
+  background:#333;
+  border-right:1px solid white;
+  color: #FFFFFF;
+  text-decoration: none;
+  display:block;
+
+}
+
+.webGlobalContent:hover {
+  text-decoration:none;
+  display:block;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+
+.webGlobalContentAktiv {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FFF;
+    background:#FF0000;
+    vertical-align:middle;
+    margin:0px 15px 0px 0px;
+    border-right:1px solid white;
+    display:block;
+    padding:6px 10px 6px 10px;
+}
+
+.webGlobalContentAktiv:link, .webGlobalContentAktiv:active, .webGlobalContentAktiv:visited {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FFF;
+    background:#FF0000;
+    text-decoration: none;
+}
+
+.webGlobalContentAktiv:hover {
+    text-decoration:none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.webGlobalContentFirst  {
+padding-left:20px;
+}
+
+/* *************************************************************************** */
+/* LINKE NAVIGATION                                                            */
+/* *************************************************************************** */
+
+.webNaviEbene1:link, .webNaviEbene1:active, .webNaviEbene1:visited {
+    font-size: 0.9em;
+    color: #000;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.webNaviEbene1:hover {
+    font-size: 0.9em;
+    color: #000;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.webNaviEbene2:link, .webNaviEbene2:active, .webNaviEbene2:visited {
+    font-size: 0.9em;
+    color: #000;
+    text-decoration:none;
+    font-weight:normal;
+}
+
+.webNaviEbene2:hover {
+    font-weight:normal;
+    color:#000;
+    text-decoration:none;
+}
+
+.webNaviEbene3:link, .webNaviEbene3:active, .webNaviEbene3:visited {
+    font-size: 0.9em;
+    color: #000;
+    text-decoration:none;
+}
+
+.webNaviEbene3:hover {
+    font-size: 0.9em;
+    color: #000;
+    text-decoration:none;
+    font-weight:normal;
+}
+
+
+.webNavigationAktuell {
+    background:#ff0000;
+    color:#FFFFFF;
+    display:block;
+    margin:0;
+}
+
+.webNavigationAktuell .webNaviEbene1:link, .webNavigationAktuell .webNaviEbene1:active, .webNavigationAktuell .webNaviEbene1:visited  {
+  color:#FFFFFF;
+  font-weight:bold;
+}
+
+.webNavigationAktuell .webNaviEbene1:hover{
+  color:#FFFFFF;
+  font-weight:bold;
+}
+
+.webNavigationAktuell .webNaviEbene2:link, .webNavigationAktuell .webNaviEbene2:active, .webNavigationAktuell .webNaviEbene2:visited  {
+  color:#FFFFFF;
+  font-weight:bold;
+}
+
+.webNavigationAktuell .webNaviEbene2:hover{
+  color:#FF0000;
+  font-weight:bold;
+}
+
+
+.webNavigationAktuell .webNaviEbene3:link, .webNavigationAktuell .webNaviEbene3:active, .webNavigationAktuell .webNaviEbene3:visited  {
+  color:#FFFFFF;
+  font-weight:bold;
+}
+
+.webNavigationAktuell .webNaviEbene3:hover{
+  font-weight:bold;
+  color:#FFFFFF;
+}
+
+
+.webNavigationAktiv .webNaviEbene1:link, .webNavigationAktiv .webNaviEbene1:active, .webNavigationAktiv .webNaviEbene1:visited  {
+    color:#FF0000;
+}
+
+.webNavigationAktiv .webNaviEbene1:hover{
+    color:#FF0000;
+}
+
+.webNavigationAktiv .webNaviEbene2:link, .webNavigationAktiv .webNaviEbene2:active, .webNavigationAktiv .webNaviEbene2:visited  {
+    color:#FF0000;
+    font-weight:bold;
+}
+
+.webNavigationAktiv .webNaviEbene2:hover{
+    color:#FF0000;
+    font-weight:bold;
+}
+
+
+.webNavigationAktiv .webNaviEbene3:link, .webNavigationAktiv .webNaviEbene3:active, .webNavigationAktiv .webNaviEbene3:visited  {
+    color:#FF0000;
+    font-weight:bold;
+}
+
+.webNavigationAktiv .webNaviEbene3:hover{
+    color:#FF0000;
+    font-weight:normal;
+    font-weight:bold;
+}
+
+
+/* *************************************************************************** */
+/* NAVIGATOR                                                                   */
+/* *************************************************************************** */
+
+.webNavigator{
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #333;
+}
+
+a.webNavigator:link, a.webNavigator:active, a.webNavigator:visited, a.webNavigator:hover {
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #333;
+    text-decoration:none;
+}
+
+/* *************************************************************************** */
+/* CONTEXT SPALTE                                                              */
+/* *************************************************************************** */
+
+.webTeaserTitle{
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #000;
+}
+
+.webTeaserSucheDiv .webTeaserTitle {
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #333;
+}
+
+.webTeaserSubTitle{
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.webTeaserText{
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.webTeaserLink:link, .webTeaserLink:active, .webTeaserLink:visited, .webTeaserLink:hover {
+    font-size: 0.9em;
+    color: #006699;
+    text-decoration: underline;
+}
+
+/* *************************************************************************** */
+/* UMSCHALTUNG SPRACHE                                                         */
+/* *************************************************************************** */
+
+.webSpracheAktiv {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    display:block;
+    padding: 0px 0px;
+    line-height:1.5em;
+}
+
+.webSpracheAktiv:link, .webSpracheAktiv:active, .webSpracheAktiv:visited, .webSpracheAktiv:hover {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    line-height:1.5em;
+}
+
+.webSpracheInaktiv {
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #000;
+    text-decoration: none;
+    display:block;
+    padding: 0px 0px;
+    line-height:1.5em;
+}
+.webSpracheInaktiv:link, .webSpracheInaktiv:active, .webSpracheInaktiv:visited, .webSpracheInaktiv:hover {
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #000;
+    text-decoration: none;
+    line-height:1.5em;
+}
+
+.webSpracheInaktiv:hover, .webSpracheAktiv:hover {
+  text-decoration: none;
+}
+
+.webSpracheDeaktiv {
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #333;
+    text-decoration: none;
+  display:block;
+  padding: 0px 0px;
+    line-height:1.5em;
+}
+
+/* *************************************************************************** */
+/* SITEMAP                                                                     */
+/* *************************************************************************** */
+
+.webSitemapLevelZero:link, .webSitemapLevelZero:active, .webSitemapLevelZero:visited, .webSitemapLevelZero:hover {
+    font-size: 1em;
+    font-weight: bold;
+    color: #006699;
+    text-decoration: underline;
+}
+
+.webSitemapLevelOne:link, .webSitemapLevelOne:active, .webSitemapLevelOne:visited, .webSitemapLevelOne:hover {
+    font-size: 1em;
+    font-weight: bold;
+    color: #006699;
+    text-decoration: underline;
+}
+
+.webSitemapLevelTwo:link, .webSitemapLevelTwo:active, .webSitemapLevelTwo:visited, .webSitemapLevelTwo:hover {
+    font-size: 1em;
+    font-weight: normal;
+    color: #006699;
+    text-decoration: underline;
+}
+
+.webSitemapLevelThree:link, .webSitemapLevelThree:active, .webSitemapLevelThree:visited, .webSitemapLevelThree:hover {
+    font-size: 1em;
+    font-weight: normal;
+    color: #006699;
+    text-decoration: underline;
+}
+
+.webSitemapLevelFour:link, .webSitemapLevelFour:active, .webSitemapLevelFour:visited, .webSitemapLevelFour:hover {
+    font-size: 1em;
+    font-weight: normal;
+    color: #006699;
+    text-decoration: underline;
+}
+
+/* *************************************************************************** */
+/* GLOSSAR                                                                     */
+/* *************************************************************************** */
+
+/* Anfangsbuchstabe linksbündig */
+
+.webGlossar h2{
+    font-size: 1em;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    border-top:1px solid #333;
+}
+
+/* *************************************************************************** */
+/* SHOP                                                                        */
+/* *************************************************************************** */
+
+.webShopCatLink:link, .webShopCatLink:active, .webShopCatLink:visited, .webShopCatLink:hover {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #006699;
+    text-decoration: underline;
+}
+
+/* *************************************************************************** */
+/* SONSTIGES                                                                   */
+/* *************************************************************************** */
+
+address {
+    font-style: normal;
+}
+
+/* FEHLERMELDUNG */
+
+.webFehler {
+      font-size: 1em;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 5px 5px 5px 0px;
+}
+
+.webFehlerListe {
+    list-style: none;
+    padding-left: 7px;
+}
+
+/* ENDE FEHLERMELDUNG */
+
+
+/* EVENTS-TABELLE */
+
+.webTableEventsPreview  .webLabelLeft{
+    font-weight: normal;
+}
+
+.webTableEventsPreview  .pflichtfeld{
+    color:#000;
+}
+
+.webTableEventsPreview  .webTableData{
+    font-weight: normal;
+}
+
+.webTableEvents th a, .webTableEvents th a:link, .webTableEvents th a:visited, .webTableEvents th a:active, .webTableEvents th a:hover{
+    color:#000000;
+    text-decoration: underline;
+}
+
+
+/* EVENTS-TABELLE ENDE */
+
+/* TABELLEN ENDE */
+
+.webLabel {
+    cursor:pointer;
+    font-weight: bold;
+    text-align: left;
+    margin-right: 5px;
+}
+
+.webLabelLeft {
+    cursor:pointer;
+    font-weight: bold;
+    float: left;
+    text-align: left;
+    width: 140px;
+    margin-right: 5px;
+}
+
+.webFormInput {
+    float: left;
+}
+
+.webFieldset {
+    font-size: 12px;
+    padding-top: 14px;
+    padding-left: 14px;
+    padding-bottom: 14px;
+}
+
+/* LEGEND */
+.webLegend {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+#shopCustomerData .webFieldset,#shopSubmitOrder .webFieldset {
+    padding: 0px;
+    border: 0px solid #fff;
+}
+
+/* LEGEND */
+#shopCustomerData .webLegend,#shopSubmitOrder .webLegend {
+    display:none;
+}
+
+#event_registration .webFieldset {
+    padding: 0px;
+    border: 0px solid #fff;
+}
+
+/* LEGEND */
+#event_registration .webLegend {
+    display:none;
+}
+
+.pflichtfeld {
+    color: #FF0000;
+}
+/* Error des Linkchecks (all_functions.php) */
+.linkerrorbold{
+  color:#F00;
+  font-weight:bold;
+}
+.linkerror{
+  color:#F00;
+  font-weight:normal;
+}
+
+ul.webListNavigation{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+}
+
+/**** URL in der Suche ***/
+.searchUrl {
+  color:#999;
+}
+
+.webSucheDatei{
+    margin:0px 0px 0px 0px;
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+/*** RSS und XML Styles aus dem NSB /Abo ***/
+#xmlWrapper h2{
+    margin:0px 0px 12px 0px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#xmlWrapper h3{
+    margin:0px 0px 12px 0px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+#xmlWrapper .nsbtextkasten{
+    border:1px solid #BBB;
+    padding: 5px;
+    background-color:#EEE;
+}
+#xmlWrapper h4{   /* Für die Footer der Nachrichten */
+    margin:0px 0px 12px 0px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-top:1px solid #000;
+}
+
+
+/****** Mail to friend ****/
+
+.webMailtoMargin a {
+  color:#000;
+  padding:0px 5px;
+  text-decoration:none;
+  font-size:0.9em;
+}
+
+/* Energiekalender */
+div#ekSuche em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+div#ekSucheTextDiv {
+  margin-bottom: 5px;
+}
+
+.webHrEkSuche {
+  color: #CCC;
+  background-color: #CCC;
+  height: 1px;
+  border: 0px;
+  width: 100%;
+}
+
+.unsichtbar {
+  font-size: 10px;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-decoration: none;
+}

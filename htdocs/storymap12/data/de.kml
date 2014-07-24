@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Massnahmen gegen Lärmquellen</name>
+  <description><![CDATA[lalalala]]></description>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+       <hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>    <!-- kml:vec2 -->
+    </IconStyle>
+    <LineStyle>
+      <color>000000ff</color>
+    </LineStyle>
+    <PolyStyle>
+      <color>000000cc</color>
+      <colorMode>random</colorMode>
+    </PolyStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <!-- Massnahme 1 -->
+    <name><strong>Leise Strassenbeläge</strong></name>
+	
+	 <description><![CDATA[
+
+        <div class="content">
+		<div><iframe width="300" height="200" src="//www.youtube.com/embed/KlVPVIcUjSE" frameborder="0" allowfullscreen></iframe></div>
+			
+			<p>Leise Strassenbeläge können den Lärm flächendeckend markant reduzieren.</p> 
+			<p></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10947/10956/index.html?lang=de" target="_blank">Lärmarme Strassenbeläge</a></p>
+			
+		</div>
+		
+		]]></description>	
+    <styleUrl>#style1</styleUrl>
+    <MultiGeometry>
+    <Point>
+      <coordinates>6.138475627,46.159581486,0.000000</coordinates>
+    </Point>
+    <Polygon>
+       <tessellate>1</tessellate>
+      <outerBoundaryIs>
+         <LinearRing>
+          <coordinates>
+               6.288475627,46.159581486,0 6.25982817616,46.2477492738,0 6.18482817616,46.3022399634,0 6.09212307784,46.3022399634,0 6.01712307784,46.2477492738,0 5.988475627,46.159581486,0 6.01712307784,46.0714136982,0 6.09212307784,46.0169230086,0 6.18482817616,46.0169230086,0 6.25982817616,46.0714136982,0 6.288475627,46.159581486,0
+          </coordinates>
+         </LinearRing>
+       </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+
+  </Placemark>
+    <Placemark>
+    <!-- Massnahme 2 -->
+    <name><strong>Leise Strassenbeläge</strong></name>
+    <description><![CDATA[
+
+        <div class="content">
+        <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/2_de.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/2_de_small.gif" border="0" width="300" height="200"></a></div>
+			
+			<p>Leise Strassenbeläge können den Lärm flächendeckend markant reduzieren.</p> 
+			<p></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10947/10956/index.html?lang=de&download=NHzLpZeg7t,lnp6I0NTU042l2Z6ln1acy4Zn4Z2qZpnO2Yuq2Z6gpJCGenx7fGym162epYbg2c_JjKbNoKSn6A-" target="_blank">Best Practice Liste</a></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10947/10956/index.html?lang=de" target="_blank">Lärmarme Strassenbeläge</a></p
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <MultiGeometry>
+    <Point>
+      <coordinates>7.565278842,47.554759807,0.000000</coordinates>
+    </Point>
+    <Polygon>
+       <tessellate>1</tessellate>
+      <outerBoundaryIs>
+         <LinearRing>
+          <coordinates>
+               7.715278842,47.554759807,0 7.68663139116,47.6429275948,0 7.61163139116,47.6974182844,0 7.51892629284,47.6974182844,0 7.44392629284,47.6429275948,0 7.415278842,47.554759807,0 7.44392629284,47.4665920192,0 7.51892629284,47.4121013296,0 7.61163139116,47.4121013296,0 7.68663139116,47.4665920192,0 7.715278842,47.554759807,0
+          </coordinates>
+         </LinearRing>
+       </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+  </Placemark>
+    <Placemark>
+    <!-- Massnahme 3 -->
+    <name><strong>Leise Reifen</strong></name>
+    <description><![CDATA[
+
+		
+        <div class="content">
+		<div><iframe width="300" height="200" src="//www.youtube.com/embed/quLPdNNb-T4?start=101" frameborder="0" allowfullscreen></iframe></div>
+			
+			<p>Mit leiseren Reifen lässt sich der Lärm reduzieren und zwar direkt an der Quelle. Leise Reifen sind hinsichtlich Sicherheit und Rollwiderstand gleich gut wie herkömmliche Reifen.</p> 
+			<p></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10947/10955/index.html?lang=de" target="_blank">Leise Reifen</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <MultiGeometry>
+    <Point>
+      <coordinates>9.902912374,46.559825391,0.000000</coordinates>
+    </Point>
+    <Polygon>
+       <tessellate>1</tessellate>
+      <outerBoundaryIs>
+         <LinearRing>
+          <coordinates>
+               10.052912374,46.559825391,0 10.0242649232,46.6479931788,0 9.94926492316,46.7024838684,0 9.85655982484,46.7024838684,0 9.78155982484,46.6479931788,0 9.752912374,46.559825391,0 9.78155982484,46.4716576032,0 9.85655982484,46.4171669136,0 9.94926492316,46.4171669136,0 10.0242649232,46.4716576032,0 10.052912374,46.559825391,0
+          </coordinates>
+         </LinearRing>
+       </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+
+  </Placemark>
+    <Placemark>
+    <!-- Massnahme 4 -->
+    <name><strong>Leise Reifen</strong></name>
+    <description><![CDATA[
+
+        <div class="content">
+		<div><iframe width="300" height="200" src="//www.youtube.com/embed/gjWNHysqDxY" frameborder="0" allowfullscreen></iframe></div>
+			
+			<p>Mit dem Kauf von leisen Reifen kann jeder mithelfen den Lärm zu reduzieren.</p> 
+			<p></p>
+            <p><a href="http://www.reifenetikette.ch/#reifenliste" target="_blank">Reifenetikette</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <MultiGeometry>
+    <Point>
+      <coordinates>6.932327853,47.128565357,0.000000</coordinates>
+    </Point>
+    <Polygon>
+       <tessellate>1</tessellate>
+      <outerBoundaryIs>
+         <LinearRing>
+          <coordinates>
+               7.082327853,47.128565357,0 7.05368040216,47.2167331448,0 6.97868040216,47.2712238344,0 6.88597530384,47.2712238344,0 6.81097530384,47.2167331448,0 6.782327853,47.128565357,0 6.81097530384,47.0403975692,0 6.88597530384,46.9859068796,0 6.97868040216,46.9859068796,0 7.05368040216,47.0403975692,0 7.082327853,47.128565357,0
+          </coordinates>
+         </LinearRing>
+       </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+
+  </Placemark>
+   <Placemark>
+    <!-- Massnahme 5 -->
+    <name><strong>Geschwindigkeitsbegrenzung</strong></name>
+    <description><![CDATA[
+
+        <div class="content">
+        <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/5_de.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/5_de_small.gif" border="0" width="300" height="200"></a></div>
+			<p>Temporeduktion ist eine effiziente und kostengünstige Lärmschutzmassnahme. Zusätzlicher Nutzen ist eine verbesserte Sicherheit.</p> 
+			<p></p>
+			<p><a href="https://www.stadt-zuerich.ch/tempo30.secure.html" target="_blank">Tempo 30 Stadt Zürich</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <MultiGeometry>
+    <Point>
+      <coordinates>8.63533171,47.378974466,0.000000</coordinates>
+    </Point>
+    <Polygon>
+       <tessellate>1</tessellate>
+      <outerBoundaryIs>
+         <LinearRing>
+          <coordinates>
+               8.78533171,47.378974466,0 8.75668425916,47.4671422538,0 8.68168425916,47.5216329434,0 8.58897916084,47.5216329434,0 8.51397916084,47.4671422538,0 8.48533171,47.378974466,0 8.51397916084,47.2908066782,0 8.58897916084,47.2363159886,0 8.68168425916,47.2363159886,0 8.75668425916,47.2908066782,0 8.78533171,47.378974466,0
+          </coordinates>
+         </LinearRing>
+       </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+
+  </Placemark>
+    <Placemark>
+    <!-- Massnahme 6 -->
+    <name><strong>Geschwindigkeitsbegrenzung</strong></name>
+    <description><![CDATA[
+        <div class="content">
+        <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/6_de.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/6_de_small.gif" border="0" width="300" height="200"></a></div>
+			<p>Auch auf der  Autobahn bringt eine Temporeduktion eine wahrnehmbare Senkung des Lärms.</p> 
+			<p></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <MultiGeometry>
+    <Point>
+      <coordinates>9.203291037,47.432687032,0.000000</coordinates>
+    </Point>
+    <Polygon>
+       <tessellate>1</tessellate>
+      <outerBoundaryIs>
+         <LinearRing>
+          <coordinates>
+               9.353291037,47.432687032,0 9.32464358616,47.5208548198,0 9.24964358616,47.5753455094,0 9.15693848784,47.5753455094,0 9.08193848784,47.5208548198,0 9.053291037,47.432687032,0 9.08193848784,47.3445192442,0 9.15693848784,47.2900285546,0 9.24964358616,47.2900285546,0 9.32464358616,47.3445192442,0 9.353291037,47.432687032,0
+          </coordinates>
+         </LinearRing>
+       </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+
+  </Placemark>
+    <Placemark>
+    <!-- Massnahme 7 -->
+    <name><strong>Leise Fahrweise</strong></name>
+    <description><![CDATA[
+
+		
+        <div class="content">
+		    <div><iframe width="300" height="200" src="//www.youtube.com/embed/Xre4vFwmE1w" frameborder="0" allowfullscreen></iframe></div>
+			
+			<p>Mit vorausschauendem, niedertourigem Fahrstil kann der Lärmpegel eines Fahrzeugs um gut 3 Dezibel gesenkt werden.</p> 
+			<p></p>
+			<p><a href="http://www.laerm.ch/de/laerm-ruhe/leiser-mobil-sein/niedertourig-autofahren/niedertourig-autofahren.html" target="_blank">Niedertourig Autofahren (Eco-DRIVE)</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <MultiGeometry>
+    <Point>
+      <coordinates>7.157106024,46.804471534,0.000000</coordinates>
+    </Point>
+    <Polygon>
+       <tessellate>1</tessellate>
+      <outerBoundaryIs>
+         <LinearRing>
+          <coordinates>
+               7.307106024,46.804471534,0 7.27845857316,46.8926393218,0 7.20345857316,46.9471300114,0 7.11075347484,46.9471300114,0 7.03575347484,46.8926393218,0 7.007106024,46.804471534,0 7.03575347484,46.7163037462,0 7.11075347484,46.6618130566,0 7.20345857316,46.6618130566,0 7.27845857316,46.7163037462,0 7.307106024,46.804471534,0
+          </coordinates>
+         </LinearRing>
+       </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+
+  </Placemark>
+    <Placemark>
+    <!-- Massnahme 8 -->
+    <name><strong>Leise Fahrzeuge</strong></name>
+    <description><![CDATA[
+
+			
+        <div class="content">
+			<p>
+                <img  width="300" height="200" src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/8_hybridauto.jpg" />
+			</p>
+			<p>Der Lärmpegel eines Autos wird vor allem vom Gewicht und der Konstruktion des Fahrzeugs beeinflusst.</p> 
+			<p><a href="http://www.laerm.ch/de/laerm-ruhe/leiser-mobil-sein/leise-autos/leise-autos.html" target="_blank">Leise Fahrzeuge</a></p>
+	        <p><a href="http://www.macrofocus.com/infoscope/Auto-Umweltliste%20VCS%202013-10-29.html" target="_blank">Auto-Umweltliste VCS</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <MultiGeometry>
+    <Point>
+      <coordinates>7.077172808,46.105733427,0.000000</coordinates>
+    </Point>
+    <Polygon>
+       <tessellate>1</tessellate>
+      <outerBoundaryIs>
+         <LinearRing>
+          <coordinates>
+               7.227172808,46.105733427,0 7.19852535716,46.1939012148,0 7.12352535716,46.2483919044,0 7.03082025884,46.2483919044,0 6.95582025884,46.1939012148,0 6.927172808,46.105733427,0 6.95582025884,46.0175656392,0 7.03082025884,45.9630749496,0 7.12352535716,45.9630749496,0 7.19852535716,46.0175656392,0 7.227172808,46.105733427,0
+          </coordinates>
+         </LinearRing>
+       </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+
+  </Placemark>
+    <Placemark>
+    <!-- Massnahme 9 -->
+    <name><strong>Förderung ÖV</strong></name>
+    <description><![CDATA[
+        <div class="content">
+            <div> <a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/9_de.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/9_de_small.gif" border="0" width="300" height="200"></a></div>
+
+			<p>Weniger Strassenverkehr bedeutet weniger Lärm.</p> 
+			<p></p>
+			<p><a href="http://www.laerm.ch/de/laerm-ruhe/leiser-mobil-sein/mobilitaetsmanagement/mobilitaetsmanagement.html" target="_blank">Mobilitätsmanagement</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <MultiGeometry>
+    <Point>
+      <coordinates>7.619012231,46.760779867,0.000000</coordinates>
+    </Point>
+    <Polygon>
+       <tessellate>1</tessellate>
+      <outerBoundaryIs>
+         <LinearRing>
+          <coordinates>
+               7.769012231,46.760779867,0 7.74036478016,46.8489476548,0 7.66536478016,46.9034383444,0 7.57265968184,46.9034383444,0 7.49765968184,46.8489476548,0 7.469012231,46.760779867,0 7.49765968184,46.6726120792,0 7.57265968184,46.6181213896,0 7.66536478016,46.6181213896,0 7.74036478016,46.6726120792,0 7.769012231,46.760779867,0
+          </coordinates>
+         </LinearRing>
+       </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+
+  </Placemark>
+    <Placemark>
+    <!-- Massnahme 10 -->
+    <name><strong>Lärmschutzwand</strong></name>
+    <description><![CDATA[
+       <div class="content">
+            <div><iframe width="300" height="200" src="//www.youtube.com/embed/H_RHe2kYIzo" frameborder="0" allowfullscreen></iframe></div>
+			<p></p>
+			<p>Lärmschutzwände können guten Schutz bieten, in urbanen Gebieten sind sie aufgrund akustischer und baulicher Einschränkungen ungeeignet.</p> 
+			<p></p>
+            <p><a href="http://www.bafu.admin.ch/laerm/10526/10529/10531/index.html?lang=de" target="_blank">Lärmschutzwände</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <MultiGeometry>
+    <Point>
+      <coordinates>9.026545956,45.839108882,0.000000</coordinates>
+    </Point>
+    <Polygon>
+       <tessellate>1</tessellate>
+      <outerBoundaryIs>
+         <LinearRing>
+          <coordinates>
+               9.176545956,45.839108882,0 9.14789850516,45.9272766698,0 9.07289850516,45.9817673594,0 8.98019340684,45.9817673594,0 8.90519340684,45.9272766698,0 8.876545956,45.839108882,0 8.90519340684,45.7509410942,0 8.98019340684,45.6964504046,0 9.07289850516,45.6964504046,0 9.14789850516,45.7509410942,0 9.176545956,45.839108882,0
+          </coordinates>
+         </LinearRing>
+       </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+
+  </Placemark>
+    <Placemark>
+    <!-- Massnahme 11 -->
+    <name><strong>Einhausung</strong></name>
+    <description><![CDATA[
+
+       <div class="content">
+			<div><iframe width="300" height="200" src="//www.youtube.com/embed/vPvdP_7AvJU" frameborder="0" allowfullscreen></iframe></div>
+			<div>
+			<p>Das Einhausen einer Strasse ist sehr effektiv gegen Lärm, aber auch sehr teuer.</p> 
+			<p></p>
+            <p><a href="http://www.laermorama.ch/m7_laermschutz/einsperren_w.html" target="_blank">Lärmquellen einsperren</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <MultiGeometry>
+    <Point>
+      <coordinates>8.57135251,47.434309517,0.000000</coordinates>
+    </Point>
+    <Polygon>
+       <tessellate>1</tessellate>
+      <outerBoundaryIs>
+         <LinearRing>
+          <coordinates>
+               8.72135251,47.434309517,0 8.69270505916,47.5224773048,0 8.61770505916,47.5769679944,0 8.52499996084,47.5769679944,0 8.44999996084,47.5224773048,0 8.42135251,47.434309517,0 8.44999996084,47.3461417292,0 8.52499996084,47.2916510396,0 8.61770505916,47.2916510396,0 8.69270505916,47.3461417292,0 8.72135251,47.434309517,0
+          </coordinates>
+         </LinearRing>
+       </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+
+
+
+  </Placemark>
+</Document>
+</kml>

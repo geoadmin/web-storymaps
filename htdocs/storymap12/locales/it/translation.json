@@ -1,0 +1,63 @@
+{
+    "text": {
+        "title": "Misure contro il rumore stradale",
+        "adminch": "Amministrazione federale admin.ch",
+        "depart": "Dipartimento dell'ambiente, dei trasporti, dell'energia e delle comunicazioni",
+        "FOEN": "Ufficio federale dell'ambiente UFAM",
+        "FOEN_url": "http://www.bafu.admin.ch/?lang=it",
+        "overview": "Vista d'insieme",
+        "detailview": "Dettagli",
+        "moreInfo": "Informazione",
+        "share": "Condividere",
+        "language": "Lingua",
+        "infoboxTitle": "I fiumi “più caldi” della Svizzera",
+        "abstract": "In Svizzera una persona su cinque è vittima dell’eccessivo rumore stradale. Oltre ad arrecare disturbo, il rumore è dannoso per la salute, riduce la qualità di vita nelle zone interessate e provoca costi economici elevati (Costi esterni dovuti al traffico stradale superiori a 1 Mia. CHF/anno). Per meglio tutelare la popolazione la Confederazione intende promuovere l’attuazione di ulteriori misure antirumore. Le più efficaci sono quelle che intervengono sulla fonte stessa del rumore.",
+        "infoboxMoreInfo": "Ulteriori informazioni",
+        "dep": "Ufficio Federale dell’Ambiente",
+        "info": "Ulteriori informazioni",
+        "themalinks": "Links sul tema",
+        "animation_path": "imgfiles/animation_fr.html",
+        "animation_image_src": "imgfiles/small_bafu_laerm_it.gif",
+        "link_1": "Ufficio federale dell'ambiente",
+        "link_11": "Rumore del traffico stradale",
+        "url_11": "http://www.bafu.admin.ch/laerm/10519/10949/index.html?lang=it",
+        "link_12": "Stato dell'ambiente: rumore",
+        "url_12": "http://www.bafu.admin.ch/umwelt/12492/12675/index.html?lang=it",
+        "link_2": "Cercle Bruit",
+        "link_21": "Rumore del traffico stradale",
+        "url_21": "http://www.laerm.ch/it/problemi-di-rumore/rumore-del-traffico/strassenverkehr/strassenlaerm.html",
+        "link_13": "Carta - Rumore stradale di giorno",
+        "url_13": "http://s.geo.admin.ch/890d73ba9",
+        "station": "Stazione:",
+        "rank": "Rango:",
+        "temperature": "Temperatura:",
+        "date": "Data:",
+        "time": "Ora:",
+        "detail": "Dettagli",
+        "stationNumber": "Numero della stazione:",
+         "Weitere_Infos": "Weitere Infos",
+        "strassenverkehrslaerm": "Rumore del traffico stradale",
+        "cercle_bruit": "Cercle Bruit",
+        "umweltzustand_laerm": "Stato dell'ambiente: rumore",
+        "Realized_with": "Realizzato con",
+        "Copyright_and_Data_protection": "Copyright e protezione diritti d'autore",
+        "copyright_url": "http://www.geo.admin.ch/internet/geoportal/it/home/geoadmin/contact.html#copyright"
+
+
+    },
+    "html": {
+        "infolinks": [
+            "<a href='http://www.bafu.admin.ch/hydrologie/01831/01841/index.html?lang=it' target='_blank'>Rete di misurazione delle temperature</a></br>",
+            "<a class='infobox' href='http://www.hydrodaten.admin.ch/it/index.html#aktuelle_situation_gewaesser' target='_blank'>Dati idrologici attuali</a> <br>",
+            "<a class='infobox'  href='http://s.geo.admin.ch/7d94ba893' target='_blank'>Mappa delle stazioni idrologiche</a> <br>",
+            "<a class='infobox' href='http://s.geo.admin.ch/9a5ce079c' target='_blank'>Mappa delle stazioni di misurazione della temperatura</a>"
+        ],
+        "disclaimer": [
+            "<ul>",
+            "<li>Realizzato con: ",
+            "<a href='http://api.geo.admin.ch' target='_blank'>api.geo.admin.ch</a><br></li>",
+            "<li><a href='http://www.geo.admin.ch/internet/geoportal/it/home/geoadmin/contact.html#copyright' target='_blank'>Copyright e protezione dei diritti d'autore</a><br></li>",
+            "</ul>"
+        ]
+    }
+}
