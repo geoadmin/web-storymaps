@@ -1,0 +1,117 @@
+#CHLogo {
+	position: absolute;
+	left: 0;
+}
+
+#adminch {
+    height:20px;
+    width:525px;
+    padding:0;
+    margin:0;
+}
+
+#adminch a {
+  display:block;
+  margin-right:20px;
+  padding:0;
+  padding-top:2px;
+  font-size:0.9em;
+  font-weight:bold;
+}
+
+#depart a {
+  margin:0px 20px 0px 0px;
+  padding-top:4px;
+  display:block;
+  color:#FFFFFF;
+  font-size:0.9em;
+}
+
+#webHeaderDiv {
+	padding:0;
+	margin:0 0 1px 0;
+	height:103px;
+	background-image: url(../img/background_header_4b.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#webHeaderLinks h1 {
+    display:block;
+    margin:10px 20px 0px 0px;
+    font-size:1.2em;
+    font-weight:bold;
+    color:#FFF;
+}
+
+#webHeaderLinks h1 a {
+  color:#000;
+}
+
+.webGlobalContentAktiv {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #FFF;
+  background:#006699;
+	vertical-align:middle;
+	margin:0px 15px 0px 0px;
+  border-right:1px solid white;
+  display:block;
+  padding:6px 10px 6px 10px;
+}
+
+.webGlobalContentAktiv:link, .webGlobalContentAktiv:active, .webGlobalContentAktiv:visited {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #FFF;
+  	background:#006699;
+	text-decoration: none;
+}
+
+.webGlobalContentAktiv:hover {
+  text-decoration:none;
+}
+
+.webGlobalContentFirst  {
+	padding-left:20px;
+}
+
+
+.webNavigationAktuell {
+    background:#006699;
+    color:#FFFFFF;
+    display:block;
+    margin:0;
+}
+
+.webNavigationAktiv .webNaviEbene1:link, .webNavigationAktiv .webNaviEbene1:active, .webNavigationAktiv .webNaviEbene1:visited  {
+    color:#006699;
+}
+
+.webNavigationAktiv .webNaviEbene2:link, .webNavigationAktiv .webNaviEbene2:active, .webNavigationAktiv .webNaviEbene2:visited  {
+    color:#006699;
+}
+
+.webNaviEbene2:hover {
+    font-size: 0.9em;
+    color: #000;
+    font-weight:normal;
+    text-decoration:none;
+}
+
+.webNavigationAktuell .webNaviEbene2:hover{
+    color:#FFF;
+}
+
+.webNavigationAktiv .webNaviEbene2:hover{
+    color:#006699;
+}
+
+.webNavigationAktiv .webNaviEbene3:link, .webNavigationAktiv .webNaviEbene3:active, .webNavigationAktiv .webNaviEbene3:visited  {
+    color:#006699;
+    font-weight:normal;
+}
+
+.webNavigationAktiv .webNaviEbene3:hover{
+    color:#006699;
+}

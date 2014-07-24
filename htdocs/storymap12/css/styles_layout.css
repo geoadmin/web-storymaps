@@ -1,0 +1,1783 @@
+/* *************************************************************************** */
+/* LAYOUT-STYLES FÜR WEBSEITE UND CMS                                          */
+/* *************************************************************************** */
+
+/* *************************************************************************** */
+/* ALLGEMEINE STYLES                                                           */
+/* *************************************************************************** */
+
+.floatRight {
+  float:right;
+  text-align:right;
+}
+.floatLeft  { float:left; }
+.textLeft   { text-align:left; }
+.textCenter { text-align:center; }
+.textRight  { text-align:right; }
+.clearBoth {
+  clear:both;
+  line-height:1px;
+}
+.marginLeft   { margin-left:10px; }
+.marginRight  { margin-right:10px; }
+.marginRightSmall { margin-right:2px; }
+
+/* *************************************************************************** */
+/* BODY                                                                        */
+/* *************************************************************************** */
+img { border:0px; }
+/* BODY-BEREICH */
+.webBody {
+  margin:0;
+  padding:0;
+}
+#webBodyDiv {
+  margin:0;
+  width:960px;
+  text-align:left;
+}
+#webFooter {
+  border-top:1px solid #000;
+  border-bottom:1px solid #000;
+  margin:0px 0 20px 235px;
+  padding:5px 0;
+  width:530px;
+  text-align:left;
+  font-size:0.9em;
+}
+#webFooterBroad {
+  border-top:1px solid #000;
+  border-bottom:1px solid #000;
+  margin:0px 0 20px 235px;
+  padding:5px 0;
+  width:725px;
+  text-align:left;
+  font-size:0.9em;
+}
+
+/* *************************************************************************** */
+/* HEADER                                                                      */
+/* *************************************************************************** */
+#webHeaderDiv {
+  width:100%;
+  padding:0;
+  margin:0 0 1px 0;
+  height:103px;
+  background-image:url(../images/background_header_2.jpg);
+  background-repeat:no-repeat;
+}
+.webHeadTitleDiv {
+  display:none;
+  float:left;
+  margin:0;
+  padding:13px 0 0 10px;
+}
+#webLogoDiv {
+  height:80px;
+  float:left;
+}
+#webLogoDiv h1 {
+  text-indent:-9999px;
+  margin:0;
+  padding:0;
+}
+#webLogoDiv h1 a {
+  display:block;
+  text-decoration:none;
+  height:80px;
+}
+#webHeaderLinks {
+  width:525px;
+  float:right;
+  text-align:right;
+}
+
+/* *************************************************************************** */
+/* SERVICE NAVIGATION                                                          */
+/* *************************************************************************** */
+#webServiceNavigationDiv{
+  height:35px;
+  background:#CCC;
+  padding-left:4px;
+  margin:0;
+  border-bottom:1px solid #FFF;
+}
+#webServiceContentDiv {
+  margin:0px 0px 0px 0px;
+  padding:0px 0px 0px 0px;
+  float:left;
+  height:30px;
+  width:730px; /* wichtig fuer Opera */
+}
+#webServiceContentDiv ul {
+  padding:0px;
+  margin:0px;
+  margin-left:18px;
+  list-style-type:none;
+}
+#webServiceContentDiv li {
+  float:left;
+  margin:0px;
+  margin-right:5px;
+  padding-right:5px;
+  background-image:url(/images/pipe.gif);
+  background-repeat: no-repeat;
+  background-position:right 5px;
+  voice-family:"\"}\"";
+  voice-family:inherit;
+}
+html>body #webServiceContentDiv li { background-position:right bottom; }
+#webServiceContentDiv .last {
+  float:left;
+  margin:0px;
+  margin-right:5px;
+  padding-right:5px;
+  background:none;
+}
+#webServiceContentDiv li a {
+  display:block;
+  margin-top:5px;
+}
+.WebCmsContentDiv {
+  margin:0;
+  padding:0;
+}
+
+/* *************************************************************************** */
+/* GLOBAL NAVIGATION                                                          */
+/* *************************************************************************** */
+#webGlobalNavigationDiv{
+  height:28px;
+  background:#CCC;
+  border-bottom:0px solid #FFF;
+  padding-left:1px;
+  margin:0px;
+}
+#webGlobalContentDiv {
+  float:left;
+  width:958px;
+}
+#webGlobalContentDiv ul {
+  padding:0;
+  margin:0;
+  list-style-type:none;
+}
+#webGlobalContentDiv li {
+  padding:0;
+  margin:0;
+  float:left;
+  display:block;
+}
+#webGlobalContentDiv li a { display:block; }
+.WebCmsContentDiv {
+  margin:0;
+  padding:0;
+}
+
+/* *************************************************************************** */
+/* NAVIGATION LINKS                                                            */
+/* *************************************************************************** */
+#webNavigationDiv{
+  float:left;
+  background:#FFF;
+  width:210px;
+  overflow:hidden;
+}
+.webNavigationDiv {
+  float:left;
+  background:#FFF;
+  width:210px;
+  overflow:hidden;
+  margin:0px;
+}
+#webNavigationDiv ul, .webNavigationDiv ul{
+  list-style-type:none;
+  padding:0px;
+  margin:20px 0 0 0;
+  border-top:1px solid #CCC;
+}
+#webNavigationDiv li, .webNavigationDiv li {
+  margin:0;
+  padding:0;
+}
+#webNavigationDiv ul ul, .webNavigationDiv ul ul {
+  margin:0;
+  padding:0;
+  border-top:none;
+}
+/* Ebene 1*/
+.webNavigationEbene1Div{
+  padding:0px 0px 2px 0px;
+  display:block;
+  border-bottom:1px solid #CCC;
+}
+.webNavigationEbene1TextDiv{
+  margin:0px 0px 0px 20px;
+  padding:4px 0px 0px 0px;
+}
+/* Ebene 2*/
+.webNavigationEbene2Div{
+  border-bottom:1px solid #CCC;
+  padding:0px 0px 4px 0px;
+  margin:0px 0px 0px 0px;
+}
+li div.webNavigationAktuell{ /* für IE 5 alles ein bisschen annersch */
+  margin-top:-3px;
+  voice-family:"\"}\"";
+  voice-family:inherit;
+  margin-top:0;
+}
+html>body li div.webNavigationAktuell { margin-top:0; }
+li div.webNavigationAktiv{ /* für IE 5 alles ein bisschen annersch */
+  margin-top:-3px;
+  voice-family:"\"}\"";
+  voice-family:inherit;
+  margin-top:0;
+}
+html>body li div.webNavigationAktiv { margin-top:0; }
+.webNavigationEbene2TextDiv{
+  margin:0px 0px 0px 34px;
+  padding:2px 0px 0px 0px;
+}
+/* Ebene 3*/
+.webNavigationEbene3Div{
+  border-bottom:1px solid #CCC;
+  padding:0px 0px 4px 0px;
+  margin:0px 0px 0px 0px;
+}
+.webNavigationEbene3TextDiv{
+  margin:0px 0px 0px 48px;
+  padding:2px 0px 0px 0px;
+}
+
+/* Ebene 4*/
+.webNavigationEbene4Div{
+  border-bottom:1px solid #CCC;
+  padding:0px 0px 4px 0px;
+  margin:0px 0px 0px 0px;
+}
+.webNavigationEbene4TextDiv{
+  margin:0px 0px 0px 62px;
+  padding:2px 0px 0px 0px;
+}
+
+/* *************************************************************************** */
+/* NAVIGATOR                                                                   */
+/* *************************************************************************** */
+#webNavigatorDiv {
+  background:#ccc;
+  margin:0px 0px 5px 0px;
+  padding:2px 10px 3px 13px;
+}
+#webNavigatorDiv ul {
+  margin-left:0;
+  padding-left:0;
+  display:inline;
+  border:none;
+}
+#webNavigatorDiv ul li {
+  margin-left:0;
+  padding-left:3px;
+  border:none;
+  list-style-type:none;
+  display:inline;
+}
+
+/* *************************************************************************** */
+/* INHALTSBEREICH                                                              */
+/* *************************************************************************** */
+/* CONTENT-BEREICH AUSSEN (NORMAL) */
+#webContentDiv { width: 965px; }
+#webContentDivBroad { width: 973px; }
+
+/* CONTENT-BEREICH INNEN (NORMAL) */
+#webInnerContentSmall{
+  float:left;
+  width:565px;
+  padding:20px 30px 0px 25px;
+  voice-family:"\"}\"";
+  voice-family:inherit;
+  width:530px;
+}
+html>body #webInnerContentSmall {
+    width: 530px;
+}
+
+/* CONTENT-BEREICH INNEN (BREIT) */
+#webInnerContentBroad{
+  float: left;
+  width:700px;
+  padding: 20px 0px 0px 25px;
+  voice-family:"\"}\"";
+  voice-family:inherit;
+  width:725px;
+}
+html>body #webInnerContentBroad {
+    width: 725px;
+}
+
+/* CONTENT-SPALTE TOP*/
+.webTopInfo{
+  margin:4px 0px 9px 0px;
+  text-align:left;
+}
+
+.webTopInfo fieldset {
+  margin:0;
+  padding:0;
+  border:0px solid #fff; /* nicht rausnehmen - braucht irrsinnigerweise der Opera*/
+}
+
+.webTopContentNavigator{
+  margin:0 0 -12px 0;
+  width:530px;
+  padding:0;
+  voice-family:"\"}\"";
+  voice-family:inherit;
+  margin:0;
+}
+html>body .webTopContentNavigator { margin:0; }
+.webTopContentNavigatorBroad{
+  margin:0px 21px -12px 0;
+  width:530px;
+  padding:0;
+  voice-family:"\"}\"";
+  voice-family:inherit;
+  margin:0px;
+}
+html>body .webTopContentNavigatorBroad
+{
+margin:0px;
+}
+
+.webTopContentPrint{ text-align:right; }
+.webTopContentLine { }
+
+/* SERVICE-LINKS */
+.webInfoServiceDiv{ }
+
+.webPrintBr{
+    display:none;
+}
+
+/* ** Startseite ** */
+.startDivOuter {
+  background-image:url(/images/background_start.gif);
+  background-repeat:repeat-y;
+}
+.startDiv1 {
+  width:240px;
+  float:left;
+  margin-right:15px;
+  font-size:0.9em;
+}
+.startDiv2 {
+  float:left;
+  width:250px;
+  padding-left:5px;
+  font-size:0.9em;
+}
+
+
+/* ** Subsite Startseite ** */
+.subStartDivOuter {
+  background-image:url(/images/bg_linie.gif);
+  background-repeat:repeat-y;
+  background-position:center top;
+}
+.subStartDiv1 {
+  width:47%;
+  float:left;
+  font-size:0.9em;
+}
+.subStartDiv2 {
+  width:47%;
+  float:right;
+  font-size:0.9em;
+}
+
+
+/* *************************************************************************** */
+/* CONTEXT SPALTE                                                              */
+/* *************************************************************************** */
+/* INFO-SPALTE DE */
+#webInfoDivDe {
+  display:block;
+  float:left;
+  width:165px;
+  text-align:left;
+  overflow:hidden;
+}
+/* INFO-SPALTE FR */
+#webInfoDivFr {
+  display:block;
+  float:left;
+  width:165px;
+  text-align:left;
+  overflow:hidden;
+}
+/* INFO-SPALTE IT */
+#webInfoDivIt {
+  display:block;
+  float:left;
+  width:165px;
+  text-align:left;
+  overflow:hidden;
+}
+/* INFO-SPALTE EN */
+#webInfoDivEn {
+  display:block;
+  float:left;
+  width:165px;
+  text-align:left;
+  overflow:hidden;
+}
+/* INFO-BOX */
+.webTeaserDiv{
+  width:145px;
+  text-align:left;
+  margin:0px;
+  padding:0px;
+  /* Mozilla benötigt Border */
+  border: 1px solid #fff;
+
+}
+.webTeaserSucheDiv{
+  width:165px;
+  margin-bottom:-5px;
+  padding:0px 0px 0px 0px;
+  voice-family:"\"}\"";
+  voice-family:inherit;
+  margin-bottom:8px;
+}
+html>body .webTeaserSucheDiv { margin-bottom:8px; }
+
+#webSucheBroadDiv{
+  width:165px;
+  float:right;
+  margin: -44px 0px 0px 560px;
+  voice-family:"\"}\"";
+  voice-family:inherit;
+  margin: -56px 0px 0px 0px;
+}
+html>body .webSucheBroadDiv
+{
+    margin: -56px 0px 0px 0px;
+}
+
+.webSucheLinkDiv{
+    clear:both;
+    margin-top: -1px;
+}
+
+.webTeaserSucheErweitertDiv{
+  width:190px;
+  text-align:right;
+}
+.webTeaserAbstandDiv{
+  margin:0px 0px 10px 0px;
+  padding:0px 0px 0px 0px;
+}
+/* WARENKORB + KATEGORIEN */
+.webTeaserDivComplete {
+  padding:2px 0px 2px 0px;
+  border-top:1px solid #000;
+  background-color:#FFFFFF;
+}
+.webTeaserDivComplete .webSitemapLevelOneDiv,
+.webTeaserDivComplete .webSitemapLevelTwoDiv,
+.webTeaserDivComplete .webSitemapLevelThreeDiv {
+  display: inline;
+}
+
+.StartNaviBildDiv {
+  margin:20px 0 0 20px;
+  width:185px;
+  clear:both;
+}
+
+/* *************************************************************************** */
+/* UMSCHALTUNG SPRACHE                                                         */
+/* *************************************************************************** */
+ul.webSpracheDiv{
+  margin:0px;
+  padding:0px;
+  list-style-type:none;
+  float:right;
+  width:165px;
+}
+ul.webSpracheDiv li{
+  margin:0px 0px 0px 0px;
+  padding:0px 0px 0px 0px;
+  float:left;
+  background:url(/images/pipe.gif) no-repeat;
+  background-position:left 2px;
+}
+
+.webSpracheDiv .last{
+  margin:0px 0px 0px 4px;
+  padding:0px 0px 0px 6px;
+}
+.webSpracheDiv .first{
+  float:left;
+  background:none;
+}
+
+.webSpracheInaktivDiv{ vertical-align:bottom; }
+.webSpracheAktivDiv{ vertical-align:bottom; }
+.webFlexAbstandDiv {  }
+
+/* *************************************************************************** */
+/* DYNAMISCHE ÜBERSICHTSLISTEN                                                 */
+/* *************************************************************************** */
+.webTeaserausgabeBildDivLeft {
+  margin: 0px 10px 5px 0px;
+  text-align:left;
+  float:left;
+  width:100px;
+}
+.webTitleDynDiv{ margin-bottom: 3px; }
+.webBlaetternDiv{
+  width:510px;
+  border-bottom:1px solid #CCC;
+  border-top:1px solid #CCC;
+}
+.webListPageShow{   margin:0; }
+
+/* *************************************************************************** */
+/* FLEX-MODULE                                                                 */
+/* *************************************************************************** */
+.linkInternDiv {
+  background-image:url(/images/icons/ico_intern.gif);
+  background-repeat:no-repeat;
+  padding:0 0 0 23px;
+}
+.linkExternDiv {
+  background-image:url(/images/icons/ico_extern.gif);
+  background-repeat:no-repeat;
+  padding:0 0 0 23px;
+}
+
+.webToTop {
+  background-image:url(/images/icons/ico_top.gif);
+  background-repeat:no-repeat;
+  padding:0 0 0 23px;
+}
+
+/* FLEXMODULE INFOBOXEN */
+.webFlexTopDiv{
+  display:block;
+  border-top:1px solid #000;
+  margin:11px 0px 5px 0px;
+  background:#CCC;
+  padding:3px 5px 3px 10px;
+}
+.webFlexBothDiv{
+  display:block;
+  padding:5px 10px 4px 10px;
+  /* einzelne Schreibweise für ältere Mozilla*/
+  background-image:url(/images/bullet.gif);
+  background-repeat:no-repeat;
+  background-position:left 0.3em;
+  voice-family:"\"}\"";
+  voice-family:inherit;
+}
+html>body .webFlexBothDiv {
+  background-position:0 0.3em; /* Opera kann keine Kombinationen von Schlüsselwort + Längenangabe */
+}
+.webFlexBothDivSubTitle {
+  display:block;
+  padding:5px 10px 4px 10px;
+}
+
+label.webFlexBothDivSubTitle {
+  padding: 0px;
+  margin:0px;
+}
+
+.webFlexBottomDiv{
+  display:block;
+  height:25px;
+}
+.webFlexAbstandDiv{ padding:5px 0px 0px 0px; }
+
+/* EINGABEFELD DIV */
+.webTextareaBildDivLeft {
+  margin:0px 10px 5px 0px;
+  text-align:left;
+  float:left;
+  width:150px;
+}
+/* EINGABEFELD DIV */
+.webTextareaBildDivRight {
+  margin:0px 0px 5px 10px;
+  text-align:left;
+  float:right;
+  width:150px;
+}
+
+/* Außergewöhnliche Bildgrößen für Uvek */
+.webTextareaBildDiv2
+{
+    width:250px;
+}
+.webTextareaBildDiv3
+{
+    width:167px;
+}
+.webTextareaBildDiv4
+{
+    width:125px;
+}
+
+/* Abstand nach oben bei Bildmodulen mit Text */
+.webImgLineHeight{
+      margin-top: 0.3em;
+}
+.webImgLineHeightSmall{
+      margin-top: 0.4em;
+}
+
+
+/* POPUP-BILD DIV */
+.webPopupBildDiv {
+  padding:0px 10px 5px 0px;
+  margin:0px;
+  text-align:left;
+  float:left;
+  width:167px;
+}
+
+/* POPUP-BILD TEXT DIV */
+.webPopupBildTextDiv { width:150px; }
+
+/* FLEXMODUL ABSTÄNDE */
+.webFlexAbstand0 { margin-bottom:0px; }
+.webFlexAbstand1 { margin-bottom:9px; }
+.webFlexAbstand2 { margin-bottom:18px; }
+.webFlexAbstand3 { margin-bottom:27px; }
+.webFlexAbstand4 { margin-bottom:36px; }
+
+/* FLEXMODUL UMBRUCH */
+.webFlexBr {
+  clear:both;
+  font-size:0px;
+}
+
+/* ** Flexmodul teaser bildlinks ** */
+.flexBildStart1 { float:left; }
+.flexBildStart2 { margin-left:105px; }
+.flexBildStart3 { margin-left:110px; }
+
+
+/* Abstand nach oben bei Bildmodulen mit Text */
+.webImgLineHeight{
+      margin-top: 0.3em;
+}
+
+/* *************************************************************************** */
+/* DRUCKVERSION                                                                */
+/* *************************************************************************** */
+
+/* DRUCKVERSION */
+#printHeader{ display:none; }
+#printBack  { display:none; }
+#printUrl   { display:none; }
+
+/* *************************************************************************** */
+/* INDEX                                                                       */
+/* *************************************************************************** */
+
+/* Anfangsbuchstabe linksbündig */
+.webIndex {
+  display:block;
+  width:350px;
+}
+
+.webIndexSubTitle {
+   padding:0px;
+   background:url(/images/bullet.gif) no-repeat top left;
+   padding-left:10px;
+   font-weight:bold;
+}
+
+.webIndexLetter {
+  float:left;
+  display:block;
+  width:40px;
+}
+.webIndexWords {
+  float:right;
+  display:block;
+  width:302px;
+}
+
+.webIndexTitle {
+   font-weight:bold;
+}
+
+/* *************************************************************************** */
+/* SITEMAP                                                                     */
+/* *************************************************************************** */
+
+#webSitemapDiv ul { /* IE 5 macht zu viel Abstand nach unten */
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+
+#webSitemapDiv ul ul ul     { list-style-type:square; }
+#webSitemapDiv ul ul ul ul  { list-style-type:none; }
+#webSitemapDiv li{
+  border-top:1px solid #000;
+  margin-top:10px;
+  clear:both;
+}
+
+#webSitemapDiv li li li{
+  border-top:0px solid #000;
+  margin-left:140px;
+  margin-top:-1px;
+  voice-family:"\"}\"";
+  voice-family:inherit;
+  margin-top:0;
+}
+html>body #webSitemapDiv li li li { margin-top:0; }
+#webSitemapDiv li li li li { margin-left:50px; }
+#webSitemapDiv a{
+  text-decoration:none;
+  color:#000;
+}
+#webSitemapDiv a{
+  text-decoration:underline;
+  color:#069;
+}
+.webSitemapBox {
+  margin-top:-17px;
+  float:right;
+  voice-family:"\"}\"";
+  voice-family:inherit;
+}
+html>body .webSitemapBox { margin-top:-12px; }
+
+#webSitemapDiv li div{
+    padding:2px 0 2px 0;
+    clear:right;
+}
+
+/* *************************************************************************** */
+/* MAIL TO A FRIEND                                                            */
+/* *************************************************************************** */
+.webMailtoafriendBody { margin:0px; }
+.webMailtoafriendDiv{
+  text-align:left;
+  border:1px solid #CCC;
+  padding:9px 9px 9px 9px;
+  background-color:#FFFFFF;
+  margin:10px;
+}
+.webMailtoafriendDivLeft{}
+.webMailtoafriendDivRight{}
+.webMailtoafriendMargin{
+    margin-top:9px;
+}
+
+/* *************************************************************************** */
+/* FACHKONTAKT                                                                 */
+/* *************************************************************************** */
+
+#cleanBody{
+    padding:0px;
+    margin:0px;
+}
+
+#cleanBody .webMailtoafriendDivLeft{
+    width: 140px;
+    float:left;
+}
+
+/* *************************************************************************** */
+/* SONSTIGES                                                                   */
+/* *************************************************************************** */
+
+/* TEXT-KOMMENTARE */
+.webTextOnlyComment{ display:none; }
+
+/* TextOnly */
+.textOnlyLeft {
+  float:left;
+  width:205px;
+  margin-top:2px;
+}
+.documentenInfo {
+  margin-bottom:1.7em;
+  padding-top:1.7em;
+}
+.webHrBlau { display: none; }
+.printHr   { display: none; }
+#printLogo { display: none; }
+
+/* *************************************************************************** */
+/* TABELLEN                                                                    */
+/* *************************************************************************** */
+.webTable {
+  font-size:1em;
+  padding:0px;
+  border-width:0px 0px 1px 1px;
+  border-style:solid;
+  border-color:#ADAEAD;
+}
+.webTable td {
+  padding:5px;
+  vertical-align:top;
+}
+.webTableCaption {
+  font-weight:bold;
+  background:#DDDDDD;
+  text-align:left;
+  padding:5px;
+  border-width:0 1px 1px 1px;
+  border-style:solid;
+  border-color:#ADAEAD;
+}
+.webTableHeaderRight {
+  width:100px;
+  font-weight:bold;
+  vertical-align:top;
+  border-width:1px 1px 0px 0px;
+  border-style:solid;
+  border-color:#ADAEAD;
+  padding:5px;
+}
+.webTableHeader {
+  font-weight:bold;
+  border-width:0px 1px 1px 0px;
+  border-style:solid;
+  border-color:#ADAEAD;
+  padding:0px;
+  background:#DDDDDD;
+  vertical-align:top;
+}
+.webTable .webTableHeader {
+  border-width:1px 1px 0px 0px;
+  border-style:solid;
+  border-color:#ADAEAD;
+  padding:5px;
+}
+.webTableFooter {
+  width: 100%;
+  font-weight: bold;
+  border-width: 1px 1px 0px 0px;
+  border-style: solid;
+  border-color: #ADAEAD;
+  padding: 2px;
+}
+.webTableData {
+  border-width: 1px 1px 0px 0px;
+  border-style: solid;
+  border-color: #ADAEAD;
+}
+
+/* *************************************************************************** */
+/* SHOP                                                                        */
+/* *************************************************************************** */
+
+/* Bestellformular */
+#shopCustomerData td{
+  padding:8px 4px 8px 4px;
+  border-width: 0 1px 1px 0;
+  border-style:solid;
+  border-color:#999999;
+  vertical-align:top;
+}
+#shopCustomerData .webTableHeaderRight{
+  padding:8px 8px 8px 5px;
+  border-width: 0 1px 1px 0;
+  border-style:solid;
+  border-color:#999999;
+  vertical-align:top;
+  width:175px;
+  text-align:left;
+  background-color:#fff;
+}
+#shopCustomerData table {
+  width:100%;
+  border-width:1px 0 0 1px;
+  border-style:solid;
+  border-color:#999999;
+}
+#shopCustomerData th{
+  padding:8px 2px 8px 2px;
+  border-width: 0 1px 1px 0;
+  border-style:solid;
+  border-color:#999999;
+  vertical-align:top;
+  background-color:#E4E4E4;
+}
+/* Übersicht */
+#shopSubmitOrder td{
+  padding:8px 4px 8px 4px;
+  border-width: 0 1px 1px 0;
+  border-style:solid;
+  border-color:#999999;
+  vertical-align:top;
+}
+#shopSubmitOrder .webTableHeaderRight{
+  padding:8px 8px 8px 5px;
+  border-width: 0 1px 1px 0;
+  border-style:solid;
+  border-color:#999999;
+  vertical-align:top;
+  width:175px;
+  text-align:left;
+  background-color:#fff;
+}
+#shopSubmitOrder table {
+  width:100%;
+  border-width:1px 0 0 1px;
+  border-style:solid;
+  border-color:#999999;
+}
+#shopSubmitOrder th{
+  padding:8px 2px 8px 2px;
+  border-width: 0 1px 1px 0;
+  border-style:solid;
+  border-color:#999999;
+  vertical-align:top;
+  background-color:#E4E4E4;
+}
+
+/* *************************************************************************** */
+/* VOLLTEXTSUCHE                                                               */
+/* *************************************************************************** */
+#volltextsuche .webSearchLeft{
+    width: 150px;
+    float:left;
+}
+/* EVENTS                                                                      */
+/* *************************************************************************** */
+.webTableEvents {
+  width:100%;
+  border-width:1px 0 0 1px;
+  border-style:solid;
+  border-color:#999999;
+}
+.webTableEvents th{
+  padding:8px 2px 8px 2px;
+  border-width: 0 1px 1px 0;
+  border-style:solid;
+  border-color:#999999;
+  vertical-align:top;
+  background-color:#E4E4E4;
+}
+.webTableEvents td{
+  padding:8px 4px 8px 4px;
+  border-width: 0 1px 1px 0;
+  border-style:solid;
+  border-color:#999999;
+  vertical-align:top;
+}
+.webTableDataDotted {
+  border-width: 1px 1px 0px 0px;
+  border-style: solid;
+  border-color: #ADAEAD;
+  border-top:1px dotted #ADAEAD;
+}
+.webTableDataRed {
+  border-width: 1px 1px 0px 0px;
+  border-style: solid;
+  border-color: #ADAEAD;
+  background: #FF9A9C;
+  border-top:1px dotted #ADAEAD;
+}
+
+/* Veranstaltungsdetails: */
+.webTableEventsDetail {
+  width:100%;
+  border-width:1px 0 0 1px;
+  border-style:solid;
+  border-color:#999999;
+}
+.webTableEventsDetail caption{
+  font-weight: bold;
+  background: #DDDDDD;
+  text-align: left;
+  padding: 5px;
+  border-left: 1px solid;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 0px solid;
+  border-color: #ADAEAD;
+}
+.webTableEventsDetail th{
+  padding:8px 8px 8px 5px;
+  border-width: 0 1px 1px 0;
+  border-style:solid;
+  border-color:#999999;
+  vertical-align:top;
+  width:175px;
+  text-align:left;
+}
+.webTableEventsDetail td{
+  padding:8px 8px 8px 5px;
+  border-width: 0 1px 1px 0;
+  border-style:solid;
+  border-color:#999999;
+  vertical-align:top;
+}
+.webTableCaptionSmall { font-size: 1em; }
+
+/* Veranstaltungen Vorschau */
+.webTableEventsPreview {
+  width:100%;
+  border-width:1px 0 0 1px;
+  border-style:solid;
+  border-color:#999999;
+}
+.webTableEventsPreview caption{
+  font-weight: bold;
+  background: #DDDDDD;
+  text-align: left;
+  padding: 5px;
+  border-left: 1px solid;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 0px solid;
+  border-color: #ADAEAD;
+}
+.webTableEventsPreview th{
+  padding:8px 8px 8px 5px;
+  border-width: 0 1px 1px 0;
+  border-style:solid;
+  border-color:#999999;
+  vertical-align:top;
+  width:175px;
+  text-align:left;
+}
+.webTableEventsPreview td{
+  padding:8px 8px 8px 5px;
+  border-width: 0 1px 1px 0;
+  border-style:solid;
+  border-color:#999999;
+  vertical-align:top;
+}
+
+/*** RSS und XML Styles aus dem NSB /Abo ***/
+#xmlWrapper h2{ }
+#xmlWrapper h3{ }
+#xmlWrapper .nsbtextkasten{ }
+#xmlWrapper h4{   /* Für die Footer der Nachrichten */
+  margin:25px 0px 12px 0px;
+}
+#xmlWrapper #messageredirect a{   /* Für die Footer der Nachrichten */
+  display:block;
+  margin:5px 0px 10px 0px;
+}
+#xmlWrapper #originator dd{
+  display:block;
+  margin: 2px 0 10px 0;
+  padding:0;
+}
+#xmlWrapper #originator dt{
+  margin-top:5px;
+  display:block;
+  padding:0;
+}
+
+#webRssFeed hr{
+    display:none;
+}
+
+/*********************** DEBUG **********************/
+pre.debug{
+  font-size: 13px;
+  color:red;
+  background-color:#CCC;
+  width:100%;
+  overflow:auto;
+  height:200px;
+}
+/*********************** SEITENANFANG **********************/
+ul.webToTop {
+
+    margin: 0px 0px 0px 16px;
+}
+
+ul.webToTop li{
+    list-style-image:url(/images/icons/ico_top.gif);
+    padding:0px;
+    margin: 10px 0px 10px 0px;
+}
+
+
+/* *************************************************************************** */
+/* GALERIE                                                                     */
+/* *************************************************************************** */
+
+.galerieDiv {
+    width:120px;
+    float:left;
+    margin-right:10px;
+}
+html>body .galerieDiv {
+    margin-right:7px;
+}
+.galerieLineDiv { border-bottom:1px solid black; }
+.galerieKontextDiv {
+    width:38px;
+    float:left;
+    margin-left:2px;
+    voice-family:"\"}\"";
+    voice-family:inherit;
+    width:35px;
+}
+html>body .galerieKontextDiv{
+    width:35px;
+}
+
+.galerieKontextDivLast {
+  width:38px;
+  float:left;
+}
+
+.galerieNoBorder {
+    border-width:0;
+}
+
+#activimg{
+    margin:0;
+    padding:0;
+    width:36px;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg.png',sizingMethod='scale');
+}
+
+html>body #activimg{ /*firefox*/
+    background:url('/images/bg.png');
+}
+
+/* *************************************************************************** */
+/* GLOSSAR                                                                     */
+/* *************************************************************************** */
+
+/* Anfangsbuchstabe linksbündig */
+
+.webGlossar {
+    margin-top: 10px;
+}
+
+.webGlossarLetter {
+    float: left;
+    display:block;
+    width: 40px;
+}
+
+.webGlossarWords {
+}
+
+.webGlossar dl, .webGlossar ul {
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    margin-bottom: 20px;
+}
+
+.webGlossar dt, .webGlossar li {
+   margin:0px 0px 0px 142px;
+   padding:0px;
+   background:url(/images/bullet.gif) no-repeat top left;
+   padding-left:10px;
+   font-weight:bold;
+}
+
+.webGlossar dd{
+   margin:0px 0px 10px 140px;
+   padding:0px;
+}
+
+.webGlossar fieldset{
+    border: 1px solid #ccc;
+    padding: 10px 10px 10px 10px;
+}
+
+.webGlossar legend{
+    margin-bottom: 10px;
+}
+
+.webGlossar .webGlossarSuche{
+    margin-left: 8px;
+}
+
+.webGlossarDetail dt{
+    clear:both;
+}
+
+.webGlossarDetail dt{
+    margin:0px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    border-top:1px solid #333;
+}
+
+.webGlossarDetail dd{
+   margin-left:142px;
+   margin-top:10px;
+}
+
+.webGlossarLeft{
+    width:122px;
+    float:left;
+}
+
+/* *************************************************************************** */
+/* FAQ                                                                     */
+/* *************************************************************************** */
+
+.webFAQDiv dl, .webFAQDiv ul {
+    list-style-type:none;
+    margin:0px 0px 10px 0px;
+    padding:0px;
+}
+
+.webFAQDiv dt {
+   font-weight:bold;
+}
+
+.webFAQDiv dd, .webFAQDiv li{
+   margin:0px;
+   padding:0px;
+}
+
+.webFAQDiv .backLink {
+   text-align:right;
+}
+
+
+.webFAQLeft{
+    margin-right:30px;
+    float:left;
+    width:60px;
+}
+
+.webFAQSelect{
+    margin-right:30px;
+}
+
+.webFAQDiv dt.webFAQDetail{
+    color:#006699;
+}
+
+.webFAQPopupBody { margin:0px; }
+.webFAQPopupDiv{
+  text-align:left;
+  border:1px solid #CCC;
+  padding:9px 9px 9px 9px;
+  background-color:#FFFFFF;
+  margin:10px;
+}
+
+/* *************************************************************************** */
+/* GALERIE                                                                     */
+/* *************************************************************************** */
+
+.galerieDiv {
+  width:122px;
+  float:left;
+  margin-right:14px;
+}
+html>body .galerieDiv {
+  margin-right:11px;
+}
+
+.galerieDivLast {
+  margin-right:0px;
+}
+html>body .galerieDivLast {
+  margin-right:0px;
+}
+.galerieLineDiv { border-bottom:1px solid black; }
+.galerieKontextDiv {
+  width:34px;
+  float:left;
+  margin-right:3px;
+  voice-family:"\"}\"";
+  voice-family:inherit;
+  width:34px;
+}
+html>body .galerieKontextDiv{
+  width:34px;
+}
+.galerieKontextDivLast {
+  width:34px;
+  float:left;
+}
+.galerieNoBorder {
+  border-width:0;
+}
+#activimg{
+  margin:0;
+  padding:0;
+  width:34px;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/bg.png',sizingMethod='scale');
+}
+html>body #activimg{ /*firefox*/
+  background:url('/images/bg.png');
+}
+
+/* *************************************************************************** */
+/* PUBLIKATIONS-SUCHE                                                          */
+/* *************************************************************************** */
+
+#pubSearch input, textarea, select{
+  font-size:1em;
+}
+html>body #pubSearch textarea{
+  font-size:1.1em;
+}
+#pubSearch textarea{
+  width:100%;
+  margin-bottom:10px;
+}
+#pubSearch h3 {
+  margin:5px 0 5px 0;
+}
+.pubSearchShow {
+  float:right;
+  padding:4px 240px 0 0;
+}
+.pubSearchShow label{
+  padding:0 20px 0 0;
+}
+
+/* ** 2 Spalten ** */
+.pubSearchCol2C1 {
+  float:left;
+  width:440px;
+}
+.pubSearchCol2C1 label{
+  width:120px;
+  display:block;
+  float:left;
+}
+.pubSearchCol2C1 input{
+  width:170px;
+}
+html>body .pubSearchCol2C1 input{
+  width:180px;
+}
+.pubSearchMonth {
+  width:75px;
+}
+.pubSearchCol2C2 {
+  float:left;
+}
+.pubSearchCol2C2 label{
+  width:60px;
+  display:block;
+  float:left;
+}
+.pubSearchCol2C2 input{
+  width:170px;
+}
+html>body .pubSearchCol2C2 input{
+  width:180px;
+}
+
+/* ** 3 Spalten ** */
+.pubSearchCol3C1 {
+  float:left;
+  width:280px;
+}
+.pubSearchCol3C2 {
+  float:left;
+  width:300px;
+}
+.pubSearchCol3C3 {
+  float:left;
+}
+
+/* ** 4 Spalten ** */
+.pubSearchCol4C1 {
+  float:left;
+  width:220px;
+}
+.pubSearchCol4C1 input {
+  float:left;
+}
+.pubSearchCol4C1 label {
+  width:180px;
+  display:block;
+  float:left;
+  padding:2px 10px 0 5px;
+}
+
+.pubSearchCol4C2 {
+  float:left;
+  width:235px;
+}
+.pubSearchCol4C2 input {
+  float:left;
+}
+.pubSearchCol4C2 label {
+  width:200px;
+  display:block;
+  float:left;
+  padding:2px 10px 0 5px;
+}
+
+.pubSearchCol4C3 {
+  float:left;
+  width:210px;
+}
+.pubSearchCol4C3 input {
+  float:left;
+}
+.pubSearchCol4C3 label {
+  width:170px;
+  display:block;
+  float:left;
+  padding:2px 10px 0 5px;
+}
+
+.pubSearchCol4C4 {
+  float:left;
+}
+
+
+/* ** Ausgabe ** */
+.pubImgDiv {
+  margin:0px 10px 5px 0px;
+  text-align:left;
+  float:left;
+  width:100px;
+}
+
+.pubBlaetternDiv{
+  width:725px;
+  border-bottom:1px solid #CCC;
+  border-top:1px solid #CCC;
+  overflow:hidden;
+}
+.pubWebText {
+  margin:0px 0px 0px 0px;
+  font-size: 1em;
+  font-weight: normal;
+  line-height:1.4em;
+  font-family: arial, helvetica, verdana, sans-serif;
+  width:614px;
+  padding:0 0 0 1px;
+}
+img.pubImg {
+  width:100px;
+}
+.pubTeaserCol1Div {
+  float:left;
+  width:300px;
+  margin-right:10px;
+}
+.pubTeaserCol2Div {
+  float:left;
+  width:300px;
+}
+
+.pubWebTextSmall {
+  margin:0px 0px 0px 0px;
+  font-size: 1em;
+  font-weight: normal;
+  line-height:1.4em;
+  font-family: arial, helvetica, verdana, sans-serif;
+  width:419px;
+}
+.pubTeaserCol1DivSmall {
+  float:left;
+  width:190px;
+  margin-right:10px;
+}
+.pubTeaserCol2DivSmall {
+  float:left;
+  width:215px;
+}
+/* ** EXTRA für cms_tools ** */
+.pubSearchCol2C1DivExtra {
+  float:left;
+  width:400px;
+}
+.pubSearchCol2C1DivExtra label{
+  width:130px;
+  display:block;
+  float:left;
+}
+.pubSearchCol2C1DivExtra input{
+  width:170px;
+}
+html>body .pubSearchCol2C1DivExtra input{
+  width:180px;
+}
+.pubSearchMonth {
+  width:75px;
+}
+.pubSearchCol2C2DivExtra {
+  float:left;
+}
+.pubSearchCol2C2DivExtra label{
+  width:72px;
+  display:block;
+  float:left;
+}
+.pubSearchCol2C2DivExtra input{
+  width:170px;
+}
+html>body .pubSearchCol2C2DivExtra input{
+  width:180px;
+}
+
+/* *************************************************************************** */
+/* Energiekalender                                                             */
+/* *************************************************************************** */
+table.ekSucheErgebnisDetail {
+    width: 100%;
+}
+
+table.ekSucheErgebnisDetail caption {
+    width: 100%;
+}
+
+table.ekSucheErgebnisDetail th {
+    width: 10%;
+    font-weight: normal;
+    vertical-align: top;
+}
+
+div.ekSucheErgebnisKurz, table.ekSucheErgebnisDetail {
+    margin-bottom: 1.2em;
+    padding-bottom: .5em;
+}
+
+hr.ekSucheHr {
+    size: 1px;
+    margin-bottom: .5em;
+}
+
+div.ekSucheErgebnisKurz span.terminTitel,
+table.ekSucheErgebnisDetail span.terminTitel {
+    float: left;
+    font-weight: bold;
+    margin-bottom: .5em;
+    text-align: left;
+}
+
+div.ekSucheErgebnisKurz span.terminId,
+table.ekSucheErgebnisDetail span.terminId {
+    float: right;
+    font-size: 85%;
+}
+
+div.ekSucheErgebnisKurz span.terminKategorien {
+    float: left;
+}
+
+div.ekSucheErgebnisKurz span.terminDaten {
+    float: left;
+    margin-bottom: .5em;
+}
+
+div.ekSucheErgebnisKurz form input.ekSucheAddToCart {
+    float: right;
+    padding: 0;
+}
+/* ** FORMULAR / SUCHMASKE ** */
+.ekSucheDateDiv {
+  float:left;
+  margin-left:65px;
+}
+.ekSucheDateDiv2 {
+  float:left;
+  margin-left:63px;
+}
+
+.ekSucheDateDiv2 label{
+  padding:0 15px 0 5px;
+}
+#ekSucheKategoriewahl {
+  margin:10px 0 0 0;
+}
+.ekSucheCol3Div{
+  float:left;
+  width:240px;
+  padding:5px 0 0 0;
+}
+
+div#ekSucheWarenkorb {
+    float: right;
+    margin-top: .1em;
+}
+
+/* *************************************************************************** */
+/* ENET-Suche                                                                  */
+/* *************************************************************************** */
+.enetMarginButtonsDiv {
+  margin: 0 0 0 259px;
+  padding:10px 0 0 0;
+}
+
+/* ** 2 Spalten ** */
+.enetSearchCol2C1 {
+  float:left;
+  width:259px;
+  font-weight:bold;
+  margin:2px 0 0 0;
+}
+.enetSearchCol2C2 {
+  float:left;
+  margin:2px 0 0 0;
+}
+
+
+/* ** 3 Spalten ** */
+.enetSearchCol3C1 {
+  float:left;
+  width:238px;
+}
+.enetSearchCol3C2 {
+  float:left;
+  width:238px;
+}
+.enetSearchCol3C3 {
+  float:left;
+  width:238px;
+}
+
+/* ** 5 Spalten ** */
+.enetSearchCol5C1 {
+  float:left;
+  width:175px;
+  font-weight:bold;
+}
+.enetSearchCol5C2 {
+  float:left;
+  width:80px;
+  text-align:right;
+  padding:1px 5px 0 0;
+}
+.enetSearchCol5C3 {
+  float:left;
+  width:191px;
+}
+.enetSearchCol5C4 {
+  float:left;
+  width:85px;
+  text-align:right;
+  padding:1px 5px 0 0;
+}
+.enetSearchCol5C5 {
+  float:left;
+  width:183px;
+}
+
+.enetResultHeaderDiv {
+  padding:5px;
+  background:#ccc;
+  font-weight:bold;
+  color:#333;
+  margin:0 0 5px 0;
+}
+.enetResultContentDiv {
+  padding:0 0 0 30px;
+}
+/* *************************************************************************** */
+/* NSB ROLLOUT                                                        */
+/* *************************************************************************** */
+
+/* NSB Veranstaltungen: */
+.webTableEventsDetail .displaynone{
+  display:none;
+}
+ul.tableList {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+ul.tableList ul{
+  list-style-type:disc;
+}
+
+/* RSS Auflistung */
+#webRssFeed hr.webHrGrey {
+  display:block;
+}
+.flexRss label{
+  font-weight:bold;
+}
+.webNSBButton{
+  background-color:#CCCCCC;
+  border:1px solid #333333;
+  color:#333333;
+  font-family:arial,helvetica,verdana,sans-serif;
+  font-size:0.9em;
+  width:67px;
+}
+/* zweispaltiges Layout der RssMitteilungen */
+#webRssFeed .rssColumnRight, #webSingleNews .rssColumnRight{
+  margin-left:70px;
+}
+#webRssFeed .rssColumnLeft, #webSingleNews .rssColumnLeft{
+  width:70px;
+  float:left;
+}
+
+
+.dossierPubLeft{
+    float: left;
+    text-align: left;
+    width: 160px;
+    margin-right: 5px;
+    padding-top: 5px;
+}
+
+.dossierPubRight{
+    float: left;
+    text-align: left;
+    margin-right: 5px;
+    padding-top: 5px;
+    width: 550px;
+    /*border: 1px solid red;*/
+}
+/*****************************/
+/* Tabellen Styles fürs Tiny */
+
+.flexTinymceDiv table{
+    margin:0px;
+    padding: 0px 0.3em 0px 0.3em;
+}
+
+.flexTinymceDiv table td, .flexTinymceDiv table th {
+    padding: 0px 0.3em 0px 0.3em;
+}
+
+/* Rahmen: schwarz */
+.flexTinymceDiv table.tinyBorder1{
+    border-top:1px solid #000000;
+    border-right:1px solid #000000
+}
+
+.flexTinymceDiv table.tinyBorder1 td, .flexTinymceDiv table.tinyBorder1 th {
+    border-left:1px solid #000000;
+    border-bottom:1px solid #000000;
+}
+
+/* Rahmen: grau */
+.flexTinymceDiv table.tinyBorder2{
+    border-top:1px solid #cccccc;
+    border-right:1px solid #cccccc;
+}
+
+.flexTinymceDiv table.tinyBorder2 td, .flexTinymceDiv table.tinyBorder2 th {
+    border-left:1px solid #cccccc;
+    border-bottom:1px solid #cccccc;
+}
+
+/* Subsites Navi Logo Default */
+.webNaviLogoImg{
+    margin: 25px 0px 0px 20px;
+}

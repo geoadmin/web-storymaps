@@ -1,0 +1,63 @@
+{
+    "text": {
+        "title": "Mesures de lutte contre le bruit routier",
+        "adminch": "Administration fédérale admin.ch",
+        "depart": "Département de l'environnement, des transports, de l'énergie et de la communication",
+        "FOEN": "Office fédéral de l'environnement OFEV",
+        "FOEN_url": "http://www.bafu.admin.ch/?lang=fr",
+        "overview": "Vue d'ensemble",
+        "detailview": "Vue détaillé",
+        "moreInfo": "Informations",
+        "share": "Partager",
+        "language": "Langue",
+        "infoboxTitle": "Les cours d’eau les “plus chauds“ de Suisse",
+        "abstract": "En Suisse, une personne sur cinq est exposée à un bruit routier excessif. En plus d’être incommodant, le bruit est dangereux pour la santé, il nuit à la qualité de vie dans les régions concernées et génère des coûts importants pour la société (Les coûts externes dus au bruit du trafic routier sont supérieurs à 1 mia CHF/an). Afin de mieux protéger la population, la Confédération encourage la mise en œuvre de mesures supplémentaires contre le bruit. Les mesures prises à la source du bruit sont particulièrement efficaces.",
+        "info": "Informations détaillées",
+        "themalinks": "Liens sur le thème",
+        "infoboxMoreInfo": "Informations détaillées",
+        "dep": "Office fédéral de l'environnement",
+        "animation_path": "imgfiles/animation_fr.html",
+        "animation_image_src": "imgfiles/small_bafu_laerm_fr.gif",
+        "link_1": "Office fédéral de l'environnement",
+        "link_11": "Bruit de la circulation routière",
+        "url_11": "http://www.bafu.admin.ch/laerm/10519/10949/index.html?lang=fr",
+        "link_12": "Etat de l'environnement: Bruit",
+        "url_12": "http://www.bafu.admin.ch/umwelt/12492/12675/index.html?lang=fr",
+        "link_2": "Cercle Bruit",
+        "link_21": "Bruit de la circulation routière",
+        "url_21": "http://www.laerm.ch/fr/soucis-de-bruit/bruit-du-trafic/strassenverkehr/strassenlaerm.html",
+        "link_13": "Carte - Bruit routier en journée",
+        "url_13": "http://s.geo.admin.ch/cddd943d4",
+        "station": "Station:",
+        "rank": "Rang:",
+        "temperature": "Température",
+        "date": "Date",
+        "time": "Temps:",
+        "detail": "Détails",
+        "stationNumber": "Numéro de la station",
+        "Weitere_Infos": "Weitere Infos",
+        "strassenverkehrslaerm": "Bruit de la circulation routière",
+        "cercle_bruit": "Cercle Bruit",
+        "umweltzustand_laerm": "Etat de l'environnement: Bruit",
+        "Realized_with": "Réalisé avec",
+        "Copyright_and_Data_protection": "Copyright protection des données",
+        "copyright_url": "http://www.geo.admin.ch/internet/geoportal/fr/home/geoadmin/contact.html#copyright"
+
+
+    },
+    "html": {
+        "infolinks": [
+            "<a href='http://www.bafu.admin.ch/hydrologie/01831/01841/index.html?lang=fr' target='_blank'>Réseau de mesure</a></br>",
+            "<a class='infobox' href='http://www.hydrodaten.admin.ch/fr/index.html#aktuelle_situation_gewaesser' target='_blank'>Données hydrologiques actuelles</a> <br>",
+            "<a class='infobox'  href='http://s.geo.admin.ch/88308d2d7' target='_blank'>Carte des stations hydrométriques</a> <br>",
+            "<a class='infobox' href='http://s.geo.admin.ch/da07a2c16' target='_blank'>Carte des stations de mesure de la température de l’eau</a>"
+        ],
+        "disclaimer": [
+            "<ul>",
+            "<li>Réalisé avec: ",
+            "<a href='http://api.geo.admin.ch' target='_blank'>api.geo.admin.ch</a><br></li>",
+            "<li><a href='http://www.geo.admin.ch/internet/geoportal/fr/home/geoadmin/contact.html#copyright' target='_blank'>Conditions d'utilisation</a><br></li>",
+            "</ul>"
+        ]
+    }
+}

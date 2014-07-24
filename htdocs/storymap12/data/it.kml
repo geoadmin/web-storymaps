@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Misure contro il rumore stradale</name>
+  <description><![CDATA[lalalala]]></description>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/cabs.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <!-- Misura 1 -->
+    <name><strong>Pavimentazioni stradali fonoassorbenti</strong></name>
+	
+	 <description><![CDATA[
+
+		
+        <div class="content">
+		<div><iframe width="300" height="200" src="//www.youtube.com/embed/KlVPVIcUjSE" frameborder="0" allowfullscreen></iframe></div>
+			
+			<p>Le pavimentazioni stradali fonoassorbenti consentono di ridurre sensibilmente il rumore alla fonte.</p> 
+			<p></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10947/10956/index.html?lang=it" target="_blank">Pavimentazioni stradali fonoassorbenti</a></p>
+			
+		</div>
+		
+		]]></description>	
+	
+   	
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>6.138475627,46.159581486,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <!-- Misura 2 -->
+    <name><strong>Pavimentazioni stradali fonoassorbenti</strong></name>
+    <description><![CDATA[
+
+		
+        <div class="content">
+        <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/2_it.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/2_it_small.gif" border="0" width="300" height="200"></a></div>
+			
+			<p>Le pavimentazioni stradali fonoassorbenti consentono di ridurre sensibilmente il rumore alla fonte.</p> 
+			<p></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10947/10956/index.html?lang=de&download=NHzLpZeg7t,lnp6I0NTU042l2Z6ln1acy4Zn4Z2qZpnO2Yuq2Z6gpJCGenx7fGym162epYbg2c_JjKbNoKSn6A--" target="_blank">Elenco della migliore pratica</a></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10947/10956/index.html?lang=it" target="_blank">Pavimentazioni stradali fonoassorbenti</a></p
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>7.565278842,47.554759807,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <!-- Misura 3 -->
+    <name><strong>Pneumatici silenziosi</strong></name>
+    <description><![CDATA[
+
+		
+        <div class="content">
+		<div><iframe width="300" height="200" src="//www.youtube.com/embed/cxv_4luqbbc?start=101" frameborder="0" allowfullscreen></iframe></div>
+			
+			<p>Gli pneumatici silenziosi consentono di ridurre il rumore direttamente alla fonte. I pneumatici silenziosi hanno le medesime caratteristiche di pneumatici convenzionali per quanto concerne la sicurezza e la resistenza di rotolamento.</p> 
+			<p></p>
+			<p><a href="http://www.bafu.admin.ch/laerm/10526/10947/10955/index.html?lang=it" target="_blank">Pneumatici silenziosi</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>9.902912374,46.559825391,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <!-- Misura 4 -->
+    <name><strong>Pneumatici silenziosi</strong></name>
+    <description><![CDATA[
+
+        <div class="content">
+		<div><iframe width="300" height="200" src="//www.youtube.com/embed/0E9bF-_weV8" frameborder="0" allowfullscreen></iframe></div>
+			
+			<p>Acquistando pneumatici silenziosi tutti possono contribuire a ridurre il rumore.</p> 
+			<p></p>
+			<p><a href="http://www.etichetta-pneumatici.ch/#reifenliste" target="_blank">Etichetta sugli pneumatici</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>6.932327853,47.128565357,0.000000</coordinates>
+    </Point>
+  </Placemark>
+   <Placemark>
+    <!-- Misura 5 -->
+    <name><strong>Riduzione della velocità</strong></name>
+    <description><![CDATA[
+
+        <div class="content">
+		<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/5_it.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/5_it_small.gif" border="0" width="300" height="200"></a></div>
+			<p>La riduzione della velocità è un provvedimento antirumore efficiente e a basso costo. Una migliore sicurezza è un‘ulteriore utilità.</p> 
+			<p></p>
+			<p><a href="https://www.stadt-zuerich.ch/tempo30.secure.html" target="_blank">Tempo 30 (città di Zurigo)</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>8.635331710,47.378974466,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <!-- Misura 6 -->
+    <name><strong>Riduzione della velocità</strong></name>
+    <description><![CDATA[
+
+        <div class="content">
+		<div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/6_it.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/6_it_small.gif" border="0" width="300" height="200"></a></div>
+			<p>Anche in autostrada la riduzione della velocità consente di ridurre sensibilmente il rumore.</p> 
+			<p></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>9.203291037,47.432687032,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <!-- Misura 7 -->
+    <name><strong>Guida silenziosa</strong></name>
+    <description><![CDATA[
+
+		
+        <div class="content">
+		<div><iframe width="300" height="200" src="//www.youtube.com/embed/OuDbADJ_JpI" frameborder="0" allowfullscreen></iframe></div>
+			
+			<p>Una guida previdente e a basso regime può ridurre di ben 3 dB il rumore prodotto da un veicolo.</p> 
+			<p></p>
+			<p><a href="http://www.laerm.ch/it/rumore-silenzio/mobilit-pi-calma/numero-di-giri-basso/numero-di-giri-basso.html" target="_blank">Circolare a basso regime (Eco-DRIVE)</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>7.157106024,46.804471534,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <!-- Misura 8 -->
+    <name><strong>Veicoli silenziosi</strong></name>
+    <description><![CDATA[
+
+			
+        <div class="content">
+			<p>
+                <img  width="300" height="200" src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/8_hybridauto.jpg" />
+			</p>
+			<p>Il livello di rumore prodotto da un veicolo dipende principalmente dal suo peso e da come è stato costruito.</p> 
+			<p><a href="http://www.laerm.ch/it/rumore-silenzio/mobilit-pi-calma/auto-silenziosa/auto-silenziosa.html" target="_blank">Veicoli silenziosi</a></p>
+	        <p><a href="http://www.macrofocus.com/infoscope/Auto-Umweltliste%20VCS%202013-10-29.html" target="_blank">EcoMobiLista ATA</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>7.077172808,46.105733427,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <!-- Misura 9 -->
+    <name><strong>Promozione dei mezzi di trasporto pubblici</strong></name>
+    <description><![CDATA[
+
+        <div class="content">
+        <div><a href="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/9_it.html"><img src="http://storymaps.geo.admin.ch/storymaps/storymap12/data/files/imgfiles/9_it_small.gif" border="0" width="300" height="200"></a></div>
+            <p></p>
+			<p>Diminuendo il traffico stradale si riduce anche il rumore.</p> 
+			<p></p>
+			<p><a href="http://www.laerm.ch/de/laerm-ruhe/leiser-mobil-sein/mobilitaetsmanagement/mobilitaetsmanagement.html" target="_blank">Gestione della mobilità</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>7.619012231,46.760779867,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <!-- Misura 10 -->
+    <name><strong>Pareti antirumore</strong></name>
+    <description><![CDATA[
+
+        <div class="content">
+            <div><iframe width="300" height="200" src="//www.youtube.com/embed/xDws7-thpxE" frameborder="0" allowfullscreen></iframe></div>
+            <p></p>
+			<p>Pareti antirumore possono offrire una buona protezione, nelle zone urbane sono però poco adatte a causa di limitazioni acustiche e di costruzione.</p> 
+			    <p></p>
+                <p><a href="http://www.bafu.admin.ch/laerm/10526/10529/10531/index.html?lang=it" target="_blank">Pareti antirumore</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>9.026545956,45.839108882,0.000000</coordinates>
+    </Point>
+  </Placemark>
+    <Placemark>
+    <!-- Misura 11 -->
+    <name><strong>Copertura di tratti stradali</strong></name>
+    <description><![CDATA[
+        <div class="content">
+			<div><iframe width="300" height="200" src="//www.youtube.com/embed/lt8XM6IwowY" frameborder="0" allowfullscreen></iframe></div>
+            <p></p>
+			<p>La copertura di tratti stradali è una misura molto efficace contro il rumore, ma anche molto costosa.</p> 
+			<p></p>
+            <p><a href="http://www.laermorama.ch/m7_laermschutz/einsperren_w.html" target="_blank">Isolare la fonte del rumore</a></p>
+			
+		</div>
+		
+		]]></description>			
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>8.571352510,47.434309517,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
