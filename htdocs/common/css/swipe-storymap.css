@@ -568,3 +568,11 @@ div.ga-swipe-layer-label > div > i {
     bottom: 20px;
   }
 }
+
+
+
+div.moreinfo div.inner ul li {
+   height: auto !important;
+   line-height: 1.2em;
+   font-size: 11px;
+}
