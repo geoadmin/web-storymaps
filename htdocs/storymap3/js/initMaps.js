@@ -1,6 +1,7 @@
 // define colors
 var fillColor = '#2d578b';
 var highlightColor = 'red';
+var pointRadius = 10;
 
 var selectedId = 100;
 var selectedIdx = 0;
@@ -17,12 +18,12 @@ function initMaps() {
     'Point': [new ol.style.Style({
       image: new ol.style.Circle({
         fill: new ol.style.Fill({
-                    color: 'rgba(255,255,0,0.5)'
+          color: 'rgba(255,153,0,0.5)'
         }),
-        radius: 5,
+        radius: pointRadius,
         stroke: new ol.style.Stroke({
-                    color: '#ff0',
-                    width: 1
+          color: '#f90',
+          width: 2
         })
       })
     })],
@@ -31,9 +32,9 @@ function initMaps() {
         fill: new ol.style.Fill({
           color: 'rgba(45,87,139,0.4)'
         }),
-        radius: 8,
+        radius: pointRadius,
         stroke: new ol.style.Stroke({
-          color: '#2d578b',
+          color: fillColor,
           width: 2
         })
       })
@@ -42,7 +43,7 @@ function initMaps() {
 
   var selectStroke = new ol.style.Stroke({
     color: [255, 0, 0, 1],
-    width: 3
+    width: 2
   });
 
   var selectFill = new ol.style.Fill({
@@ -53,7 +54,7 @@ function initMaps() {
     fill: selectFill,
     stroke: selectStroke,
     image: new ol.style.Circle({
-      radius: 10,
+      radius: pointRadius,
       fill: selectFill,
       stroke: selectStroke
     })
@@ -103,8 +104,6 @@ function initMaps() {
   overviewLayer = vectorLayer;
 
 
-  //detailedLayer = goog.object.clone(overviewLayer);
-
   detailedLayer = new ol.layer.Vector({
     source: new ol.source.GeoJSON({
       //projection: 'EPSG:21781',
@@ -115,8 +114,8 @@ function initMaps() {
 
 
 
-  var layer = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
-  var img = ga.layer.create('ch.swisstopo.swissimage');
+  var pixelkarteLayer = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
+  var swissimageLayer = ga.layer.create('ch.swisstopo.swissimage');
 
 
   select = new ol.interaction.Select({
@@ -127,7 +126,7 @@ function initMaps() {
   var overView = new ga.Map({
     target: 'overviewMap',
     interactions: ol.interaction.defaults().extend([select]),
-    layers: [layer, vectorLayer],
+    layers: [pixelkarteLayer, vectorLayer],
     view: new ol.View2D({
       resolution: 500,
       center: [670000, 160000]
@@ -138,7 +137,7 @@ function initMaps() {
 
   detailedMap = new ga.Map({
     target: 'detailMap',
-    layers: [img, detailedLayer],
+    layers: [swissimageLayer, detailedLayer],
     view: new ol.View2D({
       resolution: 20,
       center: [670000, 160000]
@@ -147,24 +146,16 @@ function initMaps() {
 
 
   var flyTo = function(center) {
-    var duration = 2000;
-    var start = +new Date();
-    var pan = ol.animation.pan({
-      duration: duration,
-      source: /** @type {ol.Coordinate} */ (detailedMap.getView().getCenter())
-    });
-    // detailedMap.beforeRender(pan);
     detailedMap.getView().setCenter(center);
   };
 
 
   var displayFeatureInfo = function(pixel) {
 
-
-
-    var feature = overView.forEachFeatureAtPixel(pixel, function(feature, layer) {
-      return feature;
-    });
+    var feature = overView.forEachFeatureAtPixel(pixel,
+        function(feature, layer) {
+          return feature;
+        });
     if (feature) {
       selectedFeature = feature;
       selectedId = selectedFeature.get('reservoir_stabil_id');
@@ -177,17 +168,22 @@ function initMaps() {
     $('#' + overView.getTarget()).css({
       cursor: (feature) ? 'pointer' : ''
     });
-
   };
 
-  $(overView.getViewport()).on('mousemove', function(evt) {
-        var pixel = overView.getEventPixel(evt.originalEvent);
-        $.debounce(250, displayFeatureInfo(pixel));
-    });
+  deBouncer(jQuery, 'smartmousemove', 'mousemove', 200);
+
+  $(window).smartmousemove(function(e) {
+    var pixel = overView.getEventPixel(e.originalEvent);
+    displayFeatureInfo(pixel);
+  });
+
+
+  $(overView.getViewport()).on('touchstart', function(evt) {
+    var pixel = overView.getEventPixel(evt.originalEvent);
+    $.debounce(250, displayFeatureInfo(pixel));
+  });
 
 }
-
-// TODO
 
 function zoomToFeature(selectedId) {
 
@@ -229,6 +225,6 @@ function loadData() {
     updateChart(selectedId);
 
   }).fail(function() {
-    console.log('error');
+    console.log('loadData: fail to load data error');
   });
 }

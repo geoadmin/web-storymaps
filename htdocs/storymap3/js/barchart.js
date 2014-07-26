@@ -11,12 +11,6 @@ function loadChart(data) {
       domain([0, data.length]).range([0, histoWidth]);
 
   // define scale of y-axis
-  var yScale2 = d3.scale.linear().domain([0, d3.max(data, function(datum) {
-    return datum.damheight;
-  })])
-        .range([histoHeight, 0]);
-
-
   var yScale = d3.scale.linear().domain([0, d3.max(data, function(datum) {
     return 1000;
   })])
@@ -180,7 +174,8 @@ function unHighlightBar() {
 
 
 $(window).resize(function() {
-  if ($('#barChartContainer').width() > 10 && $('#barChartContainer').height() > 10) {
+  if ($('#barChartContainer').width() > 10 &&
+      $('#barChartContainer').height() > 10) {
     $('#rect-' + selectedId).tipsy('hide');
     $('#svgChart').remove();
     //loadChart();

@@ -4,8 +4,8 @@ function loadChart(data) {
 
     var svgWidth = $('#barChart').width() - 40;
     var svgHeight = $('#barChart').height() - 40;
-    var histoWidth = svgWidth - 80;
-    var histoHeight = svgHeight - 60;
+    var histoWidth = svgWidth - 20;
+    var histoHeight = svgHeight - 10;
 
 
     // define scale of x-axis
