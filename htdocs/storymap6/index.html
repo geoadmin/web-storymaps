@@ -44,6 +44,12 @@
 
     <!-- css files -->
     <link rel="stylesheet" type="text/css" href="../common/css/swipe-storymap.css">
+     <!-- legacy CMS style -->
+    <link rel="stylesheet" type="text/css" href="../common/css/layout_swisstopo.css">
+    <!-- new light style and it's customisation for storyamp -->
+    <link rel="stylesheet" type="text/css" href="../common/css/cdbundlight2014.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../common/css/storymap-light2014.css" media="all">
+
     <!-- custom css for the project -->
     <link rel="stylesheet" type="text/css" href="css/storymap.css">
 
@@ -58,80 +64,93 @@
 </head>
 
 <body onload="init()">
-    <div id="mainContainer">
-        <!-- header desktop -->
 
-        <div class="x-border-panel" id="header-desktop" style=
-        "left: 0px; top: 0px; width: 100%; height: 125px;">
-            <div class="header_sub">
-                <div style="left: 0px; position: absolute; top: 0;">
-                <img height="103" src="../common/img/storymaps-banner-left.jpg"
-                width="613" /></div>
+       <!-- header desktop -->
+<div id="mainContainer">
+     <div id="logo">
+        <!--<img alt="logo" src="../files/img/logo.jpg"> -->
+    </div>
 
-                <div style="right: 0px; position: absolute; top: 0;">
-                <img height="103" src="../common/img/storymaps-banner-right.jpg"
-                width="549" /></div>
-            </div>
+    <div id="kopfAmt">
+        <div id="adminCH"><a class="adminCHlink" href="http://www.admin.ch/index.html?lang=it" target="_blank" title=
+        "">Amministrazione federale admin.ch</a> <img alt=
+        "Pagina esterna. Il contenuto è aperto in una nuova finestra" class=
+        "icoExtinternal" src="../files/img/ico_extern.gif"></div>
 
-            <div class="navServiceBackground">
-                <div id="lang" style="float: right">
-                    <ul class="inline-list">
-                        <li><b>Share:</b></li>
+        <div id="departement"><a class="departementlink" href="http://www.vbs.admin.ch/internet/vbs/it/home.html" target="_blank"
+        title="">Dipartimento federale della difesa, della protezione della
+        popolazione e dello sport</a> <img alt="Pagina esterna. Il contenuto è aperto in una nuova finestra" class=
+        "icoExtinternal" src="../files/img/ico_extern.gif"></div>
 
-                        <li>&nbsp;</li>
+        <div class="multilang" data-i18n="text.amt" id="lokalisationAmt">
+            Ufficio federale di topografia swisstopo
+        </div>
+    </div>
+    <!-- *********************    Header: Servicenavigation  ********************************** //-->
+    <!-- NOINDEX START -->
 
-                        <li><a href=
-                        "http://www.facebook.com/sharer.php?u=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap6/?&amp;t=geo.admin.ch%20Storymaps"
-                        target="_blank" title="Facebook"><img alt="Facebook"
-                        src="../common/img/facebook.gif" /></a></li>
+    <div id="navServiceBackground">
+        <div id="navService">
+            <ul>
+                <li class="navServiceDiv navServiceColor">
+                    <a accesskey="4" class=
+                    "navServiceTxt" href=
+                    "http://www.facebook.com/sharer.php?u=http://storymaps.geo.admin.ch/storymaps/storymap6&t=geo.admin.ch Storymaps"
+                     target="_blank" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
+                </li>
 
-                        <li>&nbsp;</li>
+                <li class="navServiceDiv navServiceColor">
+                    <a class="navServiceTxt" href=
+                    "http://twitter.com/intent/tweet?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap6&amp;t=geo.admin.ch%20Storymaps"
+                     target="_blank" title="Twitter"><i class="fa fa-twitter-square"></i></a>
+                </li>
 
-                        <li>&nbsp;</li>
+                <li class="navServiceDiv navServiceColor">
+                    <a class="navServiceTxt" href=
+                    "http://google.com/bookmarks/mark?op=edit&amp;bkmk=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap6&amp;t=geo.admin.ch%20Storymaps"
+                     target="_blank" title="Google Bookmarks"><i class="fa fa-google"></i></a>
+                </li>
 
-                        <li><a href=
-                        "http://twitter.com/intent/tweet?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap6&amp;t=geo.admin.ch%20Storymaps"
-                        target="_blank" title="Twitter"><img alt="Facebook"
-                        src="../common/img/twitter.gif" /></a></li>
+                <li class="navServiceDiv navServiceColor">
+                    <a class="navServiceTxt" href=
+                    "https://plus.google.com/share?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap6&amp;t=geo.admin.ch%20Storymaps"
+                     target="_blank" title="Google+"><i class="fa fa-google-plus-square"></i></a>
+                </li>
+            </ul>
+        </div>
+        <!-- **********     Header: Sprachwechsel ********************************************* //-->
 
-                        <li>&nbsp;</li>
+        <div id="langSwitch">
+            <ul>
+                <li class="navServiceDiv">
+                    <a class="lang" href="?lang=de" target="_top" title=
+                    "Deutsch">DE</a>
+                </li>
 
-                        <li>&nbsp;</li>
+                <li class="navServiceDiv">
+                    <a class="lang" href="?lang=fr" target="_top" title=
+                    "Français">FR</a>
+                </li>
 
-                        <li><a href=
-                        "http://google.com/bookmarks/mark?op=edit&amp;bkmk=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap6&amp;t=geo.admin.ch%20Storymaps"
-                        target="_blank" title="Google Bookmarks"><img alt=
-                        "Google Bookmarks" src=
-                        "../common/img/google.gif" /></a></li>
+                <li class="navServiceDivEnd">
+                    <a class="lang" href="?lang=it" target="_top" title=
+                    "Italiano">IT</a>
+                </li>
 
-                        <li>&nbsp;</li>
+                <li class="navServiceDivEnd">
+                    <a class="lang" href="?lang=en" target="_top" title=
+                    "English">EN</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
-                        <li>&nbsp;</li>
+    <div id="navGlobalBackground"></div>
 
-                        <li><a href=
-                        "https://plus.google.com/share?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap6&amp;t=geo.admin.ch%20Storymaps"
-                        target="_blank" title="Google+"><img alt="Google+" src=
-                        "../common/img/googleplus.gif" /></a></li>
+    <div style="CLEAR: left"></div>
+</div>
+<!--  id="mainContainer" --> <!-- end header desktop -->
 
-                        <li><img src="../common/img/space.gif" /></li>
-
-                        <li id="de" onclick="toggleLang('de');">Deutsch</li>
-
-                        <li class="pipe">&nbsp;</li>
-
-                        <li id="fr" onclick="toggleLang('fr');">Français</li>
-
-                        <li class="pipe">&nbsp;</li>
-
-                        <li id="it" onclick="toggleLang('it');">Italiano</li>
-
-                        <li class="pipe">&nbsp;</li>
-
-                        <li id="en" onclick="toggleLang('en');">English</li>
-                    </ul>
-                </div>
-            </div>
-        </div> <!-- end header desktop -->
 
         <!-- header mobile -->
         <div id="header-mobile" >
@@ -217,8 +236,7 @@
         </div>
         <!-- end mobile -->
         <!-- map -->
-        <div id="map" style=
-        "position: absolute; left: 0px; top: 123px; width: 100%; bottom: 0; min-height: 580px;">
+        <div id="map">
 
         <div class="ga-swipe draggable">
   <div class="ga-swipe-line"></div>
