@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # variables set here:
 #   $TARGET: name of the symbolic remote host key (see remote_hosts 
@@ -15,5 +15,19 @@ CGI_DIR=$CODE_DIR/../../cgi-bin
 if [ -d $CGI_DIR ]; then
     cp scripts/hydro.cgi $CGI_DIR
 fi
+
+
+# Default case
+ONLINERESOURCE=storymaps.geo.admin.ch
+
+if [[ $TARGET != *prod* ]]
+   then
+       ONLINERESOURCE=web-storymaps.$TARGET.bgdi.ch
+fi
+
+echo "TARGET=$TARGET"
+echo "Replacing through $ONLINERESOURCE"
+find htdocs   -name "index.html"  -exec sed -i.bak s/web-storymaps.dev.bgdi.ch/${ONLINERESOURCE}/g   {} \;
+
 
 exit $?
