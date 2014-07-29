@@ -6,11 +6,21 @@ Story maps are lightweight, open-source web apps (ESRI definition).
 
 1/ Install
 
-cd /var/www/vhosts/web-storymaps/private
+Go to the storymaps directory:
 
-git clone git@github.com:geoadmin/web-storymaps.git storymaps
+    cd /var/www/vhosts/web-storymaps/private
 
-sudo apache2ctl graceful
+Clone the code:
+
+    git clone git@github.com:geoadmin/web-storymaps.git storymaps
+
+Run the `Makefile`:
+
+    make all
+
+Restart apache:
+
+    sudo apache2ctl graceful
 
 2/ Deploy
 
@@ -112,13 +122,4 @@ Storymap13
 Neue Landeskarten für die Schweiz
 
 http://storymaps.geo.admin.ch/storymaps/storymap13
-
-
-
-
-
-
-
-
-
 
