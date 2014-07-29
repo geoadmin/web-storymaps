@@ -1,14 +1,7 @@
-<!--[if HTML5]><![endif]-->
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"  itemscope itemtype="http://schema.org/BlogPosting">
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-<!--[if !HTML5]>
-   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<![endif]-->
+<html xmlns="http://ww.w3.org/1999/xhtml"  itemscope itemtype="http://schema.org/BlogPosting">
+    <head>
+    <!-- metadata -->
+    <meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; E=8; IE=EDGE" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
 <link href="http://www.swisstopo.admin.ch/internet/swisstopo.ConfigFavicon.ico" type="image/x-icon" rel="Shortcut Icon">
@@ -42,55 +35,110 @@
 <!-- css files -->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+<!--
 <link rel="stylesheet" type="text/css" href="css/styles_text.css">
 <link rel="stylesheet" type="text/css" href="./css/styles_layout.css">
-<link rel="stylesheet" type="text/css" href="css/styles_amt.css">
+<link rel="stylesheet" type="text/css" href="css/styles_amt.css">  -->
 <link rel="stylesheet" type="text/css" href="css/storymap.css">
+
+<!-- legacy CMS style -->
+<link rel="stylesheet" type="text/css" href="../common/css/layout_swisstopo.css">
+<!-- new light style and it's customisation for storyamp -->
+<link rel="stylesheet" type="text/css" href="../common/css/cdbundlight2014.css" media="all">
+<link rel="stylesheet" type="text/css" href="../common/css/storymap-light2014.css" media="all">
+        
+<link href="../assets/font-awesome-4.1.0/css/font-awesome.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" media="screen and (max-width: 760px)" href="css/storymap-mobile-portrait.css">
 
 
 </head>
 
 <body onload="init()">
+  <!-- header desktop -->
 <div id="mainContainer">
-
-	<!-- header desktop -->
-	<div id="header-desktop" style="left: 0px; top: 0px; width: 100%; height: 125px;" class=" x-border-panel">
-    <div id="webHeaderDiv" style="margin-bottom: 0;">
-        <div id="webLogoDiv" style="float: left;"><img src="./img/logo_ch.jpg" style="margin: 20px;"></div>
-        <div id="webHeaderLinks" style="float: right; top: 0px; right: 0px; position: absolute;">
-            <div id="adminch"><a href="http://www.admin.ch/ch/index.de.html" target="_blank" style="padding-top: 1;" class="multilang" data-i18n="text.adminch"></a></div>
-            <div id="depart" style="line-height: 1.1;"><a href="http://www.uvek.admin.ch/index.html" target="_blank" class="multilang" data-i18n="text.depart"></a></div>
-            <h1 style="margin-top: 0; "><a href="http://www.bafu.admin.ch" title="Bundesamt für Umwelt" style="color: white;" class="multilang" data-i18n="[href]text.FOEN_url;text.FOEN"></a></h1>
-        </div>      
+     <div id="logo">
+        <!--<img alt="logo" src="../files/img/logo.jpg"> -->
     </div>
-  	<div class="navServiceBackground">
-    	<div id="lang" style="float: right">
-      	<ul class="inline-list">
-        	<li><b>Share:</b></li>
-        	<li>&nbsp;</li>
-        	<li><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fstorymaps.geo.admin.ch%2Fstorymaps%2Fstorymap12%3F%26t%3Dgeo.admin.ch%20storymaps" title="Facebook" target="_blank"><img src="files/img/facebook.gif" alt="Facebook"></a></li>
-        	<li>&nbsp;</li>
-        	<li>&nbsp;</li>
-        	<li><a href="http://twitter.com/intent/tweet?url=http%3A%2F%2Fstorymaps.geo.admin.ch%2Fstorymaps%2Fstorymap12&text=geo.admin.ch%20Storymaps%20L%C3%A4rm" title="Twitter" target="_blank"><img src="files/img/twitter.gif" alt="Facebook"></a></li>
-        	<li>&nbsp;</li>
-        	<li>&nbsp;</li>
-        	<li><a href="http://google.com/bookmarks/mark?op=edit&bkmk=http%3A%2F%2Fstorymaps.geo.admin.ch%2Fstorymaps%2Fstorymap12%3F%26t%3Dgeo.admin.ch%20storymaps" title="Google Bookmarks" target="_blank"><img src="files/img/google.gif" alt="Google Bookmarks"></a></li>
-        	<li>&nbsp;</li>
-        	<li>&nbsp;</li>
-        	<li><a href="https://plus.google.com/share?url=http%3A%2F%2Fstorymaps.geo.admin.ch%2Fstorymaps%2Fstorymap12%3F%26t%3Dgeo.admin.ch%20storymaps" title="Google+" target="_blank"><img src="files/img/googleplus.gif" alt="Google+"></a></li>      
-					<li><img src="files/img/space.gif"></li>
-        	<li id="de" onclick="toggleLang('de');">Deutsch</li>
-        	<li class="pipe">&nbsp;</li>
-        	<li id="fr" onclick="toggleLang('fr');">Français</li>
-        	<li class="pipe">&nbsp;</li>
-        	<li id="it" onclick="toggleLang('it');">Italiano</li>
-        	<li class="pipe">&nbsp;</li>
-        	<li id="en" onclick="toggleLang('en');">English</li>
-      	</ul>
-    	</div>
-  	</div>
-	</div>
+
+    <div id="kopfAmt">
+        <div id="adminCH"><a class="adminCHlink" href="http://www.admin.ch/index.html?lang=it" target="_blank" title=
+        "">Amministrazione federale admin.ch</a> <img alt=
+        "Pagina esterna. Il contenuto è aperto in una nuova finestra" class=
+        "icoExtinternal" src="../files/img/ico_extern.gif"></div>
+
+        <div id="departement"><a class="departementlink" href="http://www.vbs.admin.ch/internet/vbs/it/home.html" target="_blank"
+        title="">Dipartimento federale della difesa, della protezione della
+        popolazione e dello sport</a> <img alt="Pagina esterna. Il contenuto è aperto in una nuova finestra" class=
+        "icoExtinternal" src="../files/img/ico_extern.gif"></div>
+
+        <div class="multilang" data-i18n="text.FOEN" id="lokalisationAmt">
+            Ufficio federale di topografia swisstopo
+        </div>
+    </div>
+    <!-- *********************    Header: Servicenavigation  ********************************** //-->
+    <!-- NOINDEX START -->
+
+    <div id="navServiceBackground">
+        <div id="navService">
+            <ul>
+                <li class="navServiceDiv navServiceColor">
+                    <a accesskey="4" class=
+                    "navServiceTxt" href=
+                    "http://www.facebook.com/sharer.php?u=http://storymaps.geo.admin.ch/storymaps/storymap12&t=geo.admin.ch Storymaps"
+                     target="_blank" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
+                </li>
+
+                <li class="navServiceDiv navServiceColor">
+                    <a class="navServiceTxt" href=
+                    "http://twitter.com/intent/tweet?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap12&amp;t=geo.admin.ch%20Storymaps"
+                     target="_blank" title="Twitter"><i class="fa fa-twitter-square"></i></a>
+                </li>
+
+                <li class="navServiceDiv navServiceColor">
+                    <a class="navServiceTxt" href=
+                    "http://google.com/bookmarks/mark?op=edit&amp;bkmk=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap12&amp;t=geo.admin.ch%20Storymaps"
+                     target="_blank" title="Google Bookmarks"><i class="fa fa-google"></i></a>
+                </li>
+
+                <li class="navServiceDiv navServiceColor">
+                    <a class="navServiceTxt" href=
+                    "https://plus.google.com/share?url=http%3a%2f%2fstorymaps.geo.admin.ch/storymaps/storymap12&amp;t=geo.admin.ch%20Storymaps"
+                     target="_blank" title="Google+"><i class="fa fa-google-plus-square"></i></a>
+                </li>
+            </ul>
+        </div>
+        <!-- **********     Header: Sprachwechsel ********************************************* //-->
+
+        <div id="langSwitch">
+            <ul>
+                <li class="navServiceDiv">
+                    <a class="lang" href="?lang=de" target="_top" title=
+                    "Deutsch">DE</a>
+                </li>
+
+                <li class="navServiceDiv">
+                    <a class="lang" href="?lang=fr" target="_top" title=
+                    "Français">FR</a>
+                </li>
+
+                <li class="navServiceDivEnd">
+                    <a class="lang" href="?lang=it" target="_top" title=
+                    "Italiano">IT</a>
+                </li>
+
+                <li class="navServiceDivEnd">
+                    <a class="lang" href="?lang=en" target="_top" title=
+                    "English">EN</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="navGlobalBackground"></div>
+
+    <div style="CLEAR: left"></div>
+</div>
+<!--  id="mainContainer" --> <!-- end header desktop -->
 
 	<!-- header mobile -->
 	<div id="header-mobile" >

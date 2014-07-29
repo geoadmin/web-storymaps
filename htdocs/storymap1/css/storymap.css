@@ -1,0 +1,21 @@
+
+/* for cms2014 light */
+#mainContent{
+    overflow: hidden;
+    display: inline;
+    position: absolute;
+    top: 159px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#map {
+    position: absolute; 
+    left: 0px; 
+    top: 159px; 
+    width: 100%; 
+    bottom: 0; 
+    min-height: 580px;
+}
+

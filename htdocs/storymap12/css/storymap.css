@@ -200,7 +200,7 @@ p.infobox, a.infobox {
 	overflow: hidden;
 	display: inline;	
 	position: absolute;
-	top: 125px;
+	top: 0px;
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
@@ -211,7 +211,7 @@ p.infobox, a.infobox {
 
 #maps{
 	position: absolute;
-	top: 0px;
+	top: 159px;
 	bottom:300px;
 	left: 0px; 
 	right: 0px;
@@ -417,7 +417,7 @@ h1.tips{
     #map {
         position: absolute; 
         left: 0px; 
-        top: 123px; 
+        top: 159px; 
         width: 100%; 
         bottom: 0; 
         min-height: 580px;
