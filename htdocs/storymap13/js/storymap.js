@@ -48,7 +48,7 @@ function init() {
     target: 'map',
     layers: [old_wmts, new_wmts],
     view: new ol.View2D({
-      resolution: 5,
+      resolution: 2.5,
       center: [626456.6, 198890.8]
     })
   });
