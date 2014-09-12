@@ -49,11 +49,11 @@ function init() {
     layers: [old_wmts, new_wmts],
     view: new ol.View2D({
       resolution: 2.5,
-      center: [626456.6, 198890.8]
+      center: [626400.0, 198890.8]
     })
   });
 
 
-  initSlider(0.4);
+  initSlider(0.5);
   swipeLayer(new_wmts);
 }
