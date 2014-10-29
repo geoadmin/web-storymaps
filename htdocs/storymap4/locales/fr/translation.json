@@ -37,7 +37,7 @@
 	"disclaimer": [
 		"<ul>",
 		"<li>Réalisé avec: ",
-		"<a href='http://api.geo.admin.ch' target='_blank'>api.geo.admin.ch</a><br></li>",
+		"<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a><br></li>",
 		"<li><a href='http://www.geo.admin.ch/internet/geoportal/fr/home/geoadmin/contact.html#copyright' target='_blank'>Conditions d'utilisation</a><br></li>",
 		"</ul>"
 	]
