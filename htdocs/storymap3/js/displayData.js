@@ -109,9 +109,8 @@ function updateObjectinfo(object) {
       damt = it_damtype;
       break;
   }
-  var link = 'http://api.geo.admin.ch/main/wsgi/feature/' + object.dam_stabil_id +
-      '.html?layer=ch.bfe.stauanlagen-bundesaufsicht&lang=' +
-      lang + '&baseUrl=http://map.geo.admin.ch/';
+  var link = 'http://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfe.stauanlagen-bundesaufsicht/'
+      + object.dam_stabil_id + '/htmlPopup';
   var details;
   switch (lang) {
     case 'de':
