@@ -27,7 +27,7 @@ function displayObjectData(id) {
   var feature = getDetailFeatureFromId(selectedId);
   if (feature) {
     var featureData = feature.getProperties();
-    //updateObjectinfo(featureData);
+    updateObjectinfo(featureData);
     $('#d-stauanlage').html(featureData.damname);
     $('#d-stationNumber').html(featureData.nr);
     $('#d-kronenkote').html(featureData.crestlevel + i18n.t('text.masl'));

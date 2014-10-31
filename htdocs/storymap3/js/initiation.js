@@ -15,7 +15,7 @@ function afterAddName() {
 function afterLoadDetailMap() {
   displayObjectData(selectedId);
   afterLoadChart();
-
+  updateChart(selectedId);
 }
 
 
@@ -37,7 +37,6 @@ function initiation() {
   } else {
     initMaps();
     loadData();
-    //loadXmlData(afterDataLoad);
   }
 
 }
