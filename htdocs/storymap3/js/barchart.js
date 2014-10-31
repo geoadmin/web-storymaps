@@ -89,7 +89,7 @@ function loadChart(data) {
             .attr('class', 'bar')
             .attr('cursor', 'pointer')
             .on('click', function(d, i) {
-          var selectedId = dataset[i].reservoir_stabil_id;
+          selectedId = dataset[i].reservoir_stabil_id;
           ii = i;
           selectedIdx = i;
           //      previousId = selectedId;
