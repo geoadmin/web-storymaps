@@ -110,7 +110,7 @@ function updateObjectinfo(object) {
       break;
   }
   var link = 'http://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfe.stauanlagen-bundesaufsicht/'
-      + object.dam_stabil_id + '/htmlPopup';
+      + object.dam_stabil_id + '/extendedHtmlPopup?lang=' + lang;
   var details;
   switch (lang) {
     case 'de':
