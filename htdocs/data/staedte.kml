@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Verstädterung</name>
+  <description><![CDATA[lalalala]]></description>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://storymaps.geo.admin.ch/storymaps/storymap2/img/vision.png</href>
+      </Icon>
+       <hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>    <!-- kml:vec2 -->
+    </IconStyle>
+    
+  </Style>
+
+
+
+  <Placemark>
+    <!-- Massnahme 1 -->
+  
+	
+	 <description><![CDATA[
+
+        <div class="content">
+		<div><iframe width="300" height="200" src="//www.youtube.com/embed/HN67CI57Ufo" frameborder="0" allowfullscreen></iframe></div>
+			
+			<p>Bern</p> 
+			<p></p>
+			<p><a href="http://s.geo.admin.ch/60f2b0c5bf" target="_blank">Link zur Zeitreise</a></p>
+			
+		</div>
+		
+		]]></description>	
+    <styleUrl>#style1</styleUrl>
+    <MultiGeometry>
+    <Point>
+      <coordinates>6.17869, 46.15838,0.000000</coordinates>
+    </Point>
+    
+      </MultiGeometry>
+
+  </Placemark>
+  
+   <Placemark>
+    <!-- Massnahme 1 -->
+  
+	
+	 <description><![CDATA[
+
+        <div class="content">
+		<div><iframe width="300" height="200" src="//www.youtube.com/embed/HN67CI57Ufo" frameborder="0" allowfullscreen></iframe></div>
+			
+			<p>Genf</p> 
+			<p></p>
+			<p><a href="http://s.geo.admin.ch/60f2b0c5bf" target="_blank">Link zur Zeitreise</a></p>
+			
+		</div>
+		
+		]]></description>	
+    <styleUrl>#style1</styleUrl>
+    <MultiGeometry>
+    <Point>
+      <coordinates>7.9, 47.15838,0.000000</coordinates>
+    </Point>
+    
+      </MultiGeometry>
+
+  </Placemark>
+  
+   
+</Document>
+</kml>
