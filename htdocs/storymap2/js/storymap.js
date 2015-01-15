@@ -49,7 +49,7 @@ function init() {
   // Create a GeoAdmin Map
   var map = new ga.Map({
     target: 'map',
-    view: new ol.View2D({
+    view: new ol.View({
       resolution: 500,
       center: [670000, 160000]
     })

@@ -134,7 +134,7 @@ function initMaps() {
     target: 'overviewMap',
     interactions: ol.interaction.defaults().extend([select]),
     layers: [backgroundLayer, vectorLayer],
-    view: new ol.View2D({
+    view: new ol.View({
       resolution: 500,
       center: [670000, 160000]
     })
@@ -144,7 +144,7 @@ function initMaps() {
   detailedMap = new ga.Map({
     target: 'detailMap',
     layers: [img, detailedLayer],
-    view: new ol.View2D({
+    view: new ol.View({
       resolution: 20,
       center: [670000, 160000]
     })

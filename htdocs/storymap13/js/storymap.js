@@ -47,7 +47,7 @@ function init() {
   map = new ga.Map({
     target: 'map',
     layers: [old_wmts, new_wmts],
-    view: new ol.View2D({
+    view: new ol.View({
       resolution: 2.5,
       center: [626400.0, 198890.8]
     })
