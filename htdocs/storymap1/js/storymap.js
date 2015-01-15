@@ -10,7 +10,7 @@ function init() {
         target: 'map',
         layers: [hiks, layer],
         tooltip: false,
-        view: new ol.View2D({
+        view: new ol.View({
             resolution: 10,
             center: [790000, 145000]
         })

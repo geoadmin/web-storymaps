@@ -16,7 +16,7 @@ function init() {
     target: 'map',
     layers: [hiks, group],
     tooltip: false,
-    view: new ol.View2D({
+    view: new ol.View({
             resolution: 5,
             center: [626400, 106200]
     })
