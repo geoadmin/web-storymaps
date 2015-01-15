@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
 <Document>
+  <Folder><name>StoryMap – Cities: the ten largest in time lapse</name>
   <Style id="style1">
 	<IconStyle>
       <Icon>
@@ -199,6 +200,6 @@
       </Point>
     </MultiGeometry>
   </Placemark>
-  
+  </Folder>  
   </Document>
 </kml>
