@@ -1,0 +1,62 @@
+{
+    "text": {
+        "title": "The colours of Switzerland<br>swissNAMES<sup>3D</sup>",
+        "adminch": "Administration fédérale admin.ch",
+        "FOEN": "Federal Office of Topography swisstopo",
+        "FOEN_url": "http://www.swisstopo.admin.ch/?lang=en",
+        "overview": "Overview",
+        "detailview": "Detailansicht",
+        "moreInfo": "Informationen",
+        "share": "Share",
+        "language": "Language",
+        "de": "German",
+        "fr": "French",
+        "it": "Italian",
+        "rm": "Rhaeto-Romance",
+        "en": "English",
+        "colour": "Colour",
+        "b": "blue",
+        "r": "red",
+        "ge": "yellow",
+        "s": "black",
+        "gr": "green",
+        "w": "white",
+        "infoboxTitle": "Les cours d’eau les “plus chauds“ de Suisse",
+        "abstract": "<h4>The naming of well known places in Switzerland has led to a rich collection of about 300 000 names in swissNAMES<sup>3D</sup>, the most extensive collection of geo-referenced names in Switzerland.</h4>120 000 are names of hills and mountains and some of them refer to the colour of the rocks, but not only …<br>Sex Rouge 2 971m,  summit in the commune of Ormont-Dessus in the mountain range of LES DIABLERETS (swissNAMES<sup>3D</sup> shows 30 terms with Sex and 7 with Sex Rouge)<h4>What does the name Sex Rouge mean?</h4>“What erotic fantasies did our ancestors have?”, you might think when you read this mountain name. But a glance in the dictionary of place names tells us that the term Sex, where the final “x” remains silent, originates from the latin word “saxum” that simply means rock. Quite generally red as a word in location names refers to places that stand out for their reddish colour (rock, soil, dry soil with brownish-red grass, etc.) The rock of the above mentioned Sex Rouge consists of reddish siliceous limestone and therefore has a reddish appearance.<br><br>For touristic reasons, the mountain railway company has renamed the summit in their brochures in Scex Rouge.<br><b>Sex Rouge </b> in <a href='http://s.geo.admin.ch/623c6c9a54'>map.geo.admin.ch</a><br><b>Scex Rouge </b> on a touristic map of <a href='http://www.infosnow.ch/~apgmontagne/?lang=de&id=104&tab=map-wi'>Glacier3000</a><br>",
+		"info": "More information",
+        "themalinks": "More information",
+        "Weitere_Infos": "More information",
+        "Realized_with": "Realized with: ",
+        "Copyright_and_Data_protection": "Copyright and Data protection",
+        "copyright_url": "http://www.geo.admin.ch/internet/geoportal/en/home/geoadmin/contact.html#copyright",
+	    "legend": "Legend"
+    },
+    "html": {
+        "infolinks": [
+            "<h3>swisstopo</h3>",
+            "<ul><li><a class='infobox' href='http://www.swisstopo.admin.ch/internet/swisstopo/en/home/products/landscape/toponymy.html'>The product swissNAMES<sup>3D</sup></a></li>",
+            "<li><a class='infobox' href='http://map.geo.admin.ch/?X=190000.00&Y=660000.00&zoom=1&lang=en&topic=swisstopo&bgLayer=ch.swisstopo.pixelkarte-farbe&catalogNodes=1476&layers=ch.swisstopo-vd.ortschaftenverzeichnis_plz&layers_opacity=0.75'>swissNAMES<sup>3D</sup> in map.geo.admin.ch</a><br></li>",
+            "<li><a class='infobox'href='http://www.swisstopo.admin.ch/internet/swisstopo/en/home/products/freeproducts.html'>swissNAMES<sup>3D</sup> is free</li></ul>"
+           
+        ],
+        "disclaimer": [
+            "<ul>",
+            "<li>Realized with: ",
+            "<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a><br></li>",
+            "<li><a href='http://www.geo.admin.ch/internet/geoportal/en/home/geoadmin/contact.html#copyright' target='_blank'>Copyright and Data protection</a><br></li>",
+            "</ul>"
+        ]
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
