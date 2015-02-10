@@ -1,0 +1,60 @@
+{
+    "text": {
+        "title": "La Svizzera a colori<br> swissNAMES<sup>3D</sup>",
+        "adminch": "Administration fédérale admin.ch",
+        "FOEN": "Ufficio federale di topografia swisstopo",
+        "FOEN_url": "http://www.swisstopo.admin.ch/?lang=de",
+        "overview": "Übersicht",
+        "detailview": "Detailansicht",
+        "moreInfo": "Informationen",
+        "share": "Partager",
+        "language": "Lingua",
+        "de": "Tedesco",
+        "fr": "Francese",
+        "it": "Italiano",
+        "rm": "Retoromanze",
+        "en": "Inglese",
+        "colour": "Colore",
+        "b": "blu",
+        "r": "rosso",
+        "ge": "giallo",
+        "s": "nero",
+        "gr": "verde",
+        "w": "bianco",
+        "infoboxTitle": "Les cours d’eau les “plus chauds“ de Suisse",
+        "abstract": "<h4>L’appellazione dei luoghi conosciuti in Svizzera conduce a una geografia dei nomi che conta attualmente 300'000 registrazioni raggruppate in swissNAMES<sup>3D</sup>, la più completa collezione di nomi georeferenziati della Svizzera.</h4>120'000 nomi che fanno riferimento a monti e montagne e alcuni di essi si riferiscono ai colori delle rocce. Ma non solamente….<br>Sex Rouge 2971m la cui cima si trova nel territorio del comune di Ormont-Dessus, ai piedi del massiccio di LES DIABLERETS (in swissNAMES<sup>3D</sup>, si trovano 30 nomi che contengono il termine “Sex” e 7 con il termine “Sex Rouge”)<h4>Ma cosa significa “Sex Rouge”?</h4>‘Quali fantasmi erotici avevano i nostri antenati per dare questo nome a una montagna?’ Si potrebbe facilmente pensare leggendo questo nome. Cercando nel dizionario dei nomi dei luoghi si scopre però che il termine “Sex”, la cui ‘x’ è muta e di conseguenza non viene pronunciata, deriva dalla parola “saxum” che significa semplicemente pietra. Per quel che concerne la denominazione “Rouge”, essa si applica in generale a dei luoghi che si distinguono per i colori rossastri dell’ambiente circostante (suolo, rocce, suolo secco con delle erbe rosso-marrone, ecc). La roccia del Sex Rouge del massiccio di Les Diablerets è infatti composta da calcare siliceo rossastro che ha un aspetto rossiccio.<br><br>La società degli impianti di risalita della regione, nelle brochures turistiche, ha rinominato in maniera molto pragmatica la cima “Scex Rouge”.<br><b>Sex Rouge </b> in <a href='http://s.geo.admin.ch/6232d22f3c'>map.geo.admin.ch</a><br><b>Scex Rouge </b> su una carta turistica di <a href='http://www.infosnow.ch/~apgmontagne/?lang=de&id=104&tab=map-wi'>Glacier3000</a><br>",
+		"info": "Informations détaillées",
+        "themalinks": "Ulteriori informazioni",
+        "Weitere_Infos": "Ulteriori informazioni",
+        "Realized_with": "Realizzato con : ",
+        "Copyright_and_Data_protection": "Copyright e protezione dei diritti d'autore",
+        "copyright_url": "http://www.geo.admin.ch/internet/geoportal/it/home/geoadmin/contact.html#copyright",
+		"legend": "Legenda"
+    },
+    "html": {
+        "infolinks": [
+            "<h3>swisstopo</h3>",
+            "<ul><li><a class='infobox' href='http://www.swisstopo.admin.ch/internet/swisstopo/it/home/products/landscape/toponymy.html'>Il prodotto swissNAMES<sup>3D</sup></a></li>",
+            "<li><a class='infobox' href='http://map.geo.admin.ch/?X=190000.00&Y=660000.00&zoom=1&lang=it&topic=swisstopo&bgLayer=ch.swisstopo.pixelkarte-farbe&catalogNodes=1476&layers=ch.swisstopo-vd.ortschaftenverzeichnis_plz&layers_opacity=0.75'>swissNAMES<sup>3D</sup> in map.geo.admin.ch</a><br></li>",
+            "<li><a class='infobox'href='http://www.swisstopo.admin.ch/internet/swisstopo/it/home/products/freeproducts.html'>swissNAMES<sup>3D</sup> è gratuito</li></ul>"
+           
+        ],
+        "disclaimer": [
+            "<ul>",
+            "<li>Realizzato con : ",
+            "<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a><br></li>",
+            "<li><a href='http://www.geo.admin.ch/internet/geoportal/it/home/geoadmin/contact.html#copyright' target='_blank'>Copyright e protezione dei diritti d'autore</a><br></li>",
+            "</ul>"
+        ]
+    }
+}
+
+
+
+
+
+
+
+
+
+

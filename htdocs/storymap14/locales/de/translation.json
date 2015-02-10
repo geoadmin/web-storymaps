@@ -1,0 +1,53 @@
+{
+    "text": {
+        "title": "Die Schweiz in Farben swissNAMES<sup>3D</sup>",
+        "adminch": "Administration fédérale admin.ch",
+        "FOEN": "Bundesamt für Landestopographie swisstopo",
+        "FOEN_url": "http://www.swisstopo.admin.ch/?lang=de",
+        "overview": "Übersicht",
+        "detailview": "Detailansicht",
+        "moreInfo": "Informationen",
+        "share": "Teilen",
+        "language": "Sprache",
+        "de": "Deutsch",
+        "fr": "Französich",
+        "it": "Italienisch",
+        "rm": "Rätoromanisch",
+        "en": "Englisch",
+        "colour": "Farbe",
+        "b": "blau",
+        "r": "rot",
+        "ge": "gelb",
+        "s": "schwarz",
+        "gr": "grün",
+        "w": "weiss", 
+        "infoboxTitle": "Les cours d’eau les “plus chauds“ de Suisse",
+        "abstract": "<h4> Die Benennung der bekannten Orte der Schweiz führte zu einer reichhaltigen Namengeografie von gegenwärtig rund 300'000 Namen in swissNAMES<sup>3D</sup>, der umfassendsten Sammlung von georeferenzierten Namen der Schweiz.</h4>120'000 sind Hügel- und Bergnamen und davon beziehen sich einige auf die Farbe des  Gesteins. Aber nicht nur … <br>Sex Rouge 2971m Gipfel in der Gemeinde Ormont-Dessus im Massiv LES DIABLERETS (Es gibt 30 Begriffe mit Sex und 7 Begriffe mit Sex Rouge in swissNAMES<sup>3D</sup>)<br><h4>Was bedeutet der Name Sex Rouge?</h4>„Was für eine erotische Fantasie hatten doch unsere Vorfahren“ denkt man beim Lesen dieses Bergnamens. Ein neugieriger Blick ins Wörterbuch der Ortsnamen zeigt hingegen, dass der Begriff Sex, bei dem das „x“ stumm bleibt und nicht ausgesprochen wird, aus dem Lateinischen „saxum“ entstanden ist und einfach „Fels“ bedeutet. Ganz allgemein weist Rot als Bestimmungswort auf Stellen, die sich durch ihre rötliche Färbung von der Umgebung abheben (Gestein, Erdreich, trockener Boden mit bräunlich-rotem Gras). Der Fels dieses Sex Rouge besteht aus rötlichem Kieselkalk und hat daher eine rötliche Erscheinung. <br><br>Aus touristischen Gründen hat die Bergbahngesellschaft pragmatisch den Gipfel in ihren Broschüren in Scex Rouge umbenannt. <br><b>Sex Rouge </b> in <a href='http://s.geo.admin.ch/6232d22f3c'>map.geo.admin.ch</a><br><b>Scex Rouge </b> auf der touristischen Karte von <a href='http://www.infosnow.ch/~apgmontagne/?lang=de&id=104&tab=map-wi '>Glacier3000</a><br>",
+        "info": "Informations détaillées",
+        "themalinks": "Weitere Links",
+        "Weitere_Infos": "Weitere Infos",
+        "Realized_with": "Umgesetzt mit: ",
+        "Copyright_and_Data_protection": "Copyright und Datenschutzerklärung",
+        "copyright_url": "http://www.geo.admin.ch/internet/geoportal/fr/home/geoadmin/contact.html#copyright",
+		"legend": "Legende"
+
+
+    },
+    "html": {
+        "infolinks": [
+            "<h3>swisstopo</h3>",
+            "<ul><li><a class='infobox' href='http://www.swisstopo.admin.ch/internet/swisstopo/de/home/products/landscape/toponymy.html'>Das Produkt swissNAMES<sup>3D</sup><br></a></li>",
+            "<li><a class='infobox' href='http://map.geo.admin.ch/?X=190000.00&Y=660000.00&zoom=1&lang=de&topic=swisstopo&bgLayer=ch.swisstopo.pixelkarte-farbe&catalogNodes=1476&layers=ch.swisstopo-vd.ortschaftenverzeichnis_plz&layers_opacity=0.75'>swissNAMES<sup>3D</sup> in map.geo.admin.ch</a><br></li>",
+            "<li><a class='infobox'href='http://www.swisstopo.admin.ch/internet/swisstopo/de/home/products/freeproducts.html'>swissNAMES<sup>3D</sup> ist gratis</a><br></li></ul>",
+            "<h3>Weitere Informationen</h3>",
+            "<a  class='infobox' href='http://www.ortsnamen.ch'>Ortsnamen</a>"
+        ],
+        "disclaimer": [
+            "<ul>",
+            "<li>Umgesetzt mit: ",
+            "<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a><br></li>",
+            "<li><a href='http://www.geo.admin.ch/internet/geoportal/de/home/geoadmin/contact.html#copyright' target='_blank'>Copyright und Datenschutzerklärung</a><br></li>",
+            "</ul>"
+        ]
+    }
+}

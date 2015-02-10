@@ -1,0 +1,54 @@
+{
+    "text": {
+        "title": "La Suisse en couleurs<br>swissNAMES<sup>3D</sup>",
+        "adminch": "Administration fédérale admin.ch",
+        "FOEN": "Office fédéral de topographie swisstopo",
+        "FOEN_url": "http://www.swisstopo.admin.ch/?lang=de",
+        "overview": "Übersicht",
+        "detailview": "Detailansicht",
+        "moreInfo": "Informationen",
+        "share": "Partager",
+        "language": "Langue",
+        "de": "Allemand",
+        "fr": "Français",
+        "it": "Italien",
+        "rm": "Rhéto-romanes",
+        "en": "Anglais",
+        "colour": "Couleur",
+        "b": "bleu",
+        "r": "rouge",
+        "ge": "jaune",
+        "s": "noir",
+        "gr": "vert",
+        "w": "blanc",
+        "infoboxTitle": "Les cours d’eau les “plus chauds“ de Suisse",
+        "abstract": "<h4>L’appelation des lieux connus de Suisse a conduit à une géographie des noms actuellement riche de plus de 300'000 enregistrements saisis dans swissNAMES<sup>3D</sup>, la collection des noms géoréférencés de Suisse la plus complète.</h4>120‘000 noms désignent des collines ou des montagnes et certains se réfèrent à la couleur des roches. Mais pas seulement … <br>Sex Rouge 2971m Sommet dans la commune d’Ormont-Dessus dans le Massif LES DIABLERETS (dans swissNAMES<sup>3D</sup>, on trouve 30 noms avec le terme ‚Sex’ et 7 avec le terme ‘Sex Rouge’)<br><h4>Que signifie le nom Sex Rouge?</h4>‘Mais quel fantasme érotique avaient donc nos ancêtres pour nommer ainsi cette montagne ?’ pense-t-on à la lecture de ce nom. En jetant un coup d’œil curieux dans le dictionnaire des noms de lieux, on apprend toutefois que le terme ‘Sex’, dont le ‘x’ est muet et ne se prononce par conséquent pas, est originaire du mot latin « saxum » qui signifie simplement ‘rocher’. Quant à la dénomination ‘Rouge’, elle s’applique en général aux lieux qui se distinguent par une couleur rougeâtre de leur environnement (sol, roche, sol sec avec une herbe rouge brunâtre, etc.) Le rocher du Sex Rouge du Massif des Diablerets se compose d’un calcaire siliceux rougeâtre qui lui donne justement un aspect rougeâtre. <br><br>La société des remontées mécaniques de la région a, dans ses brochures touristiques, renommé de manière pragmatique le sommet ‘Scex rouge’. <br><b>Sex Rouge </b> dans <a href='http://s.geo.admin.ch/623c6c49a5'>map.geo.admin.ch</a><br><b>Scex Rouge </b> sur une carte touristique de <a href='http://www.infosnow.ch/~apgmontagne/?lang=de&id=104&tab=map-wi'>Glacier3000</a><br>",
+        "info": "Informations détaillées",
+        "themalinks": "Plus amples informations",
+        "Weitere_Infos": "Weitere Infos",
+        "Realized_with": "Réalisé avec : ",
+        "Copyright_and_Data_protection": "Copyright und Datenschutzerklärung",
+        "copyright_url": "http://www.geo.admin.ch/internet/geoportal/fr/home/geoadmin/contact.html#copyright",
+		"legend": "Légende"
+    },
+    "html": {
+        "infolinks": [
+            "<h3>swisstopo</h3>",
+            "<ul><li><a class='infobox' href='http://www.swisstopo.admin.ch/internet/swisstopo/fr/home/products/landscape/toponymy.html'>Le produit swissNAMES<sup>3D</sup></a></li>",
+            "<li><a class='infobox' href='http://map.geo.admin.ch/?X=190000.00&Y=660000.00&zoom=1&lang=de&topic=swisstopo&bgLayer=ch.swisstopo.pixelkarte-farbe&catalogNodes=1476&layers=ch.swisstopo-vd.ortschaftenverzeichnis_plz&layers_opacity=0.75'>swissNAMES<sup>3D</sup> in map.geo.admin.ch</a><br></li>",
+            "<li><a class='infobox'href='http://www.swisstopo.admin.ch/internet/swisstopo/fr/home/products/freeproducts.html'>swissNAMES<sup>3D</sup> est gratuit</a><br></li></ul>",
+            "<h3>De plus amples informations</h3>",
+            "<a  class='infobox' href='http://henrysuter.ch/glossaires/toponymes.html'>Noms de lieux de Suiss romande, Savoie et environs</a>"
+        ],
+        "disclaimer": [
+            "<ul>",
+            "<li>Résalisé avec : ",
+            "<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a><br></li>",
+            "<li><a href='http://www.geo.admin.ch/internet/geoportal/de/home/geoadmin/contact.html#copyright' target='_blank'>Copyright und Datenschutzerklärung</a><br></li>",
+            "</ul>"
+        ]
+    }
+}
+
+
+
