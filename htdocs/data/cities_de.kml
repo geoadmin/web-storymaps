@@ -5,7 +5,7 @@
   <Style id="style1">
 	<IconStyle>
       <Icon>
-        <href>http://storymaps.geo.admin.ch/storymaps/storymap2/img/vision.png</href>
+          <href>http://storymaps.geo.admin.ch/storymaps/data/vision.png</href>
       </Icon>
       <hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>    <!-- kml:vec2 -->
     </IconStyle>
