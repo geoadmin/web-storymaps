@@ -42,47 +42,6 @@ function init() {
         lang = requestedLang;
     }
 
-   /* var selectStroke = new ol.style.Stroke({
-        color: [153, 0, 153, 1],
-        width: 3
-    });
-    var selectFill = new ol.style.Fill({
-        color: [102, 0, 102, 0.75]
-    });
-    var selectStyle = new ol.style.Style({
-        fill: selectFill,
-        stroke: selectStroke,
-        image: new ol.style.Circle({
-            radius: 10,
-            fill: selectFill,
-            stroke: selectStroke
-        })
-    });
-
-
-
-    var style = new ol.style.Style({
-
-        image: new ol.style.Circle({
-            radius: 10,
-            fill: selectFill,
-            stroke: selectStroke
-        }),
-        text: new ol.style.Text({
-            font: '12px Calibri,sans-serif',
-            offsetX: 10,
-            offsetY: -20,
-            fill: new ol.style.Fill({
-                color: '#000'
-            }),
-            stroke: new ol.style.Stroke({
-                color: '#fff',
-                width: 3
-            })
-        })
-    });
-    var styles = [style];  */
-
 
     var styleCache = {};
     var styleFunction = function(feature, resolution) {
@@ -132,7 +91,7 @@ function init() {
         });
 
         var styles = {
-            'fr': [new ol.style.Style({
+            'de': [new ol.style.Style({
                 text: text,
                 image: new ol.style.RegularShape(
                     ({
@@ -143,7 +102,7 @@ function init() {
                         angle: Math.PI / 4
                     }))
             })],
-            'de': [new ol.style.Style({
+            'fr': [new ol.style.Style({
                 text: text,
                 image: new ol.style.RegularShape(
                     ({
@@ -151,7 +110,6 @@ function init() {
                         stroke: stroke,
                         points: 3,
                         radius: radius,
-                        rotation: Math.PI / 4,
                         angle: 0
                     }))
             })],
@@ -163,7 +121,6 @@ function init() {
                         stroke: stroke,
                         points: 5,
                         radius: radius - 2,
-                        rotation: Math.PI / 4,
                         angle: 0
                     }))
             })],
