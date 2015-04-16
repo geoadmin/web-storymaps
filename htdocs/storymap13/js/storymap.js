@@ -4,6 +4,9 @@ var map;
 
 function init() {
 
+  var easting = parseFloat(getURLParameter('easting')) || 632250.62;
+  var northing = parseFloat(getURLParameter('northing')) || 170615.85;
+
   var resolutions = [4000, 3750, 3500, 3250, 3000, 2750, 2500, 2250, 2000, 1750, 1500, 1250, 1000, 750, 650.0, 500.0, 250.0, 100.0, 50.0, 20.0, 10.0, 5.0, 2.5, 2.0, 1.5, 1.0, 0.5];
   var matrixIds = [
     0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26
@@ -49,7 +52,7 @@ function init() {
     layers: [old_wmts, new_wmts],
     view: new ol.View({
       resolution: 2.5,
-      center: [632250.62, 170615.85]
+      center: [ easting, northing]
     })
   });
 
