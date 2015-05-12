@@ -230,7 +230,7 @@ p.infobox, a.infobox {
 
 
 .popover {
-        z-index: auto;
+        z-index: 4000;
         /* max-width: 450px; */
         min-width:325px;
 }
@@ -326,4 +326,7 @@ div.legend    h2 {
     }
  }
 
+ .linkExternDiv {
+     background-image:none !important;
+}
 
