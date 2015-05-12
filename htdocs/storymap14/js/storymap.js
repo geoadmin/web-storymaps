@@ -2,17 +2,6 @@ var map;
 
 
 
-var getText = function(feature, resolution) {
-
-    var maxResolution = 50;
-    var text = feature.get('name');
-
-    if (resolution > maxResolution) {
-        text = '';
-    }
-    return text;
-};
-
 
 
 function init() {
@@ -44,6 +33,48 @@ function init() {
 
 
     var styleCache = {};
+
+    var textStyleFunction = function(feature, resolution) {
+
+        var style = null;
+
+        if (resolution < 50) {
+
+	    var lang_code = feature.get('lang');
+        var label = feature.get('name');
+
+        var text = new ol.style.Text({
+            font: '12px Calibri,sans-serif',
+            text: label,
+            baseline: 'ideographic',
+            align: 'right',
+            offsetX: 40,
+            fill: new ol.style.Fill({
+                color: '#000'
+            }),
+            stroke: new ol.style.Stroke({
+                color: '#fff',
+                width: 3
+            })
+        });
+
+
+        var styles = {
+            'de': [new ol.style.Style({
+                text: text
+            })]
+        };
+
+
+        var style = styles['de'];
+
+        }
+
+        return style;
+    };
+
+	
+	
     var styleFunction = function(feature, resolution) {
 	
 	    var lang_code = feature.get('lang');
@@ -66,7 +97,7 @@ function init() {
         });  */
 
 
-        var text = new ol.style.Text({
+        /* var text = new ol.style.Text({
             font: '12px Calibri,sans-serif',
             text: getText(feature, resolution),
             baseline: 'ideographic',
@@ -79,7 +110,7 @@ function init() {
                 color: '#fff',
                 width: 3
             })
-        });
+        }); */
 
 
         var stroke = new ol.style.Stroke({
@@ -92,7 +123,7 @@ function init() {
 
         var styles = {
             'de': [new ol.style.Style({
-                text: text,
+                //text: text,
                 image: new ol.style.RegularShape(
                     ({
                         fill: fill,
@@ -103,7 +134,7 @@ function init() {
                     }))
             })],
             'fr': [new ol.style.Style({
-                text: text,
+                //text: text,
                 image: new ol.style.RegularShape(
                     ({
                         fill: fill,
@@ -114,7 +145,7 @@ function init() {
                     }))
             })],
             'rm': [new ol.style.Style({
-                text: text,
+                //text: text,
                 image: new ol.style.RegularShape(
                     ({
                         fill: fill,
@@ -125,7 +156,7 @@ function init() {
                     }))
             })],
             'it': [new ol.style.Style({
-                text: text,
+                //text: text,
                 image: new ol.style.Circle({
                     radius: radius - 2,
                     fill: new ol.style.Fill({
@@ -139,6 +170,7 @@ function init() {
 
         var style = null;
         if (!style) {
+
             style = [new ol.style.Style({
                 image: new ol.style.Circle({
                     radius: 7,
@@ -175,6 +207,11 @@ function init() {
     });
 
     map.addLayer(vector);
+    var vector2 = new ol.layer.Vector({
+        source: source,
+        style: textStyleFunction
+    });
+    map.addLayer(vector2);
 
     // Popup showing the position the user clicked
     var popup = new ol.Overlay({

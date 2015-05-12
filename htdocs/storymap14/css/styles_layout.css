@@ -553,7 +553,7 @@ ul.webSpracheDiv li{
   padding:0 0 0 23px;
 }
 .linkExternDiv {
-  background-image:url(/images/icons/ico_extern.gif);
+  /* background-image:url(/images/icons/ico_extern.gif); */
   background-repeat:no-repeat;
   padding:0 0 0 23px;
 }
