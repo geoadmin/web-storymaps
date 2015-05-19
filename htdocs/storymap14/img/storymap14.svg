@@ -28,7 +28,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="526.18109"
+     inkscape:cx="268.08711"
      inkscape:cy="385.78477"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -466,7 +466,7 @@
        sodipodi:cx="-837.14288"
        sodipodi:sides="3"
        id="path3084"
-       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:36.47015431;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#000000;fill-opacity:1;stroke:#696969;stroke-width:18.23507715999999945;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:type="star" />
     <rect
        inkscape:export-ydpi="26"
@@ -477,7 +477,7 @@
        height="44.516129"
        width="44.516129"
        id="rect3086"
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#696969;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <path
        inkscape:export-ydpi="26"
        inkscape:export-xdpi="26"
@@ -497,7 +497,7 @@
        sodipodi:cx="68.571426"
        sodipodi:sides="5"
        id="path3088"
-       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:39.4857761;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#000000;fill-opacity:1;stroke:#696969;stroke-width:19.74288805;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:type="star" />
     <path
        inkscape:export-ydpi="26"
@@ -510,7 +510,7 @@
        sodipodi:cy="533.79077"
        sodipodi:cx="-728.57141"
        id="path3090"
-       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:22.91969316;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#000000;fill-opacity:1;stroke:#696969;stroke-width:11.45984658;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:type="arc" />
     <rect
        style="fill:none;stroke:none;stroke-opacity:1"
