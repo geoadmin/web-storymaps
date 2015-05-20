@@ -105,9 +105,9 @@ function init() {
         };
 
         var shapes = {
-            'de': 'square',
-            'fr': 'circle',
-            'it': 'triangle',
+            'de': 'triangle',
+            'fr': 'square',
+            'it': 'circle',
             'rm': 'pentagon'
         };
 
