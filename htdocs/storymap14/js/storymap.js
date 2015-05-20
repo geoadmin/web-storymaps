@@ -73,31 +73,18 @@ function init() {
         return style;
     };
 
-    var iconStyle = new ol.style.Style({
-        image: new ol.style.Icon(({
-            anchor: [0.5, 46],
-            anchorXUnits: 'fraction',
-            anchorYUnits: 'pixels',
-            opacity: 1.0,
-            scale: 0.4,
-            src: 'img/square_000000_14.png'
-        }))
-    });
 
     var newStyleFunction = function(feature, resolution) {
 
 
-
         // if (resolution > 25) return false;
-
-
 
         var lang_code = feature.get('lang');
         var colour_code = feature.get('colour');
 
         var colours = {
             "b": '3e00ff', //blau
-            "gr": '006c00', //green
+            "gr": '009c00', //green
             "s": '000000', //schwarz
             "r": 'ff2a2a', //red
             "w": 'ffffff', //weiss
@@ -118,7 +105,7 @@ function init() {
                 anchorXUnits: 'pixels',
                 anchorYUnits: 'pixels',
                 opacity: 1.0,
-                scale: 1.0,
+                scale: 1.0, //lang_code == 'fr' ? 0.8: 1.0,
                 src: 'img/' + shapes[lang_code] + '_' + colours[colour_code] + '_14.png'
             }))
         })]
