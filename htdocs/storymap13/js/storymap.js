@@ -49,7 +49,7 @@ function init() {
     layers: [old_wmts, new_wmts],
     view: new ol.View({
       resolution: 2.5,
-      center: [626400.0, 198890.8]
+      center: [632250.62, 170615.85]
     })
   });
 
