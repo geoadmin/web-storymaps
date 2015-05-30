@@ -2,18 +2,6 @@ var map;
 
 
 
-var getText = function(feature, resolution) {
-
-    var maxResolution = 50;
-    var text = feature.get('name');
-
-    if (resolution > maxResolution) {
-        text = '';
-    }
-    return text;
-};
-
-
 
 function init() {
 
@@ -28,6 +16,7 @@ function init() {
 
     // Create a background layer
     var tlm = ga.layer.create('ch.swisstopo.swisstlm3d-karte-grau');
+    //var tlm = ga.layer.create('ch.swisstopo.swissimage');
     var boundaries = ga.layer.create('ch.swisstopo.swissboundaries3d-land-flaeche.fill');
 
 
@@ -44,124 +33,88 @@ function init() {
 
 
     var styleCache = {};
-    var styleFunction = function(feature, resolution) {
-	
-	    var lang_code = feature.get('lang');
-        var radius = 7;
-        var colours = {
-            "b": 'rgba(0,0,250,0.7)',
-            "gr": 'rgba(102,204,102,0.8)',
-            "s": 'rgba(0,0,0,1.0)',
-            "r": 'rgba(255,0,51,0.7)',
-            "w": 'rgba(255, 255,255,1.0)',
-            "ge": 'rgba(255,204,0,0.8)'
-        };
 
-        var colour_code = feature.get('colour');
-        var colour = colours[colour_code];
-        var fill = colour;
-        /*var stroke = new ol.style.Stroke({
-            color: 'rgba(0,0,0.0.5)',
-            width: 1
-        });  */
-
-
-        var text = new ol.style.Text({
-            font: '12px Calibri,sans-serif',
-            text: getText(feature, resolution),
-            baseline: 'ideographic',
-            align: 'right',
-            offsetX: 40,
-            fill: new ol.style.Fill({
-                color: '#000'
-            }),
-            stroke: new ol.style.Stroke({
-                color: '#fff',
-                width: 3
-            })
-        });
-
-
-        var stroke = new ol.style.Stroke({
-            color: '#aaa',
-            width: 1
-        });
-        var fill = new ol.style.Fill({
-            color: colour
-        });
-
-        var styles = {
-            'de': [new ol.style.Style({
-                text: text,
-                image: new ol.style.RegularShape(
-                    ({
-                        fill: fill,
-                        stroke: stroke,
-                        points: 4,
-                        radius: radius,
-                        angle: Math.PI / 4
-                    }))
-            })],
-            'fr': [new ol.style.Style({
-                text: text,
-                image: new ol.style.RegularShape(
-                    ({
-                        fill: fill,
-                        stroke: stroke,
-                        points: 3,
-                        radius: radius,
-                        angle: 0
-                    }))
-            })],
-            'rm': [new ol.style.Style({
-                text: text,
-                image: new ol.style.RegularShape(
-                    ({
-                        fill: fill,
-                        stroke: stroke,
-                        points: 5,
-                        radius: radius - 2,
-                        angle: 0
-                    }))
-            })],
-            'it': [new ol.style.Style({
-                text: text,
-                image: new ol.style.Circle({
-                    radius: radius - 2,
-                    fill: new ol.style.Fill({
-                        color: colour
-                    }),
-                    stroke: stroke
-                })
-            })]
-        };
-
+    var textStyleFunction = function(feature, resolution) {
 
         var style = null;
-        if (!style) {
-            style = [new ol.style.Style({
-                image: new ol.style.Circle({
-                    radius: 7,
-                    fill: new ol.style.Fill({
-                        color: colour
-                    }),
-                    stroke: new ol.style.Stroke({
-                        color: '#000',
-                        width: 1
-                    })
+
+        if (resolution < 50) {
+
+            var lang_code = feature.get('lang');
+            var label = feature.get('name');
+
+            var text = new ol.style.Text({
+                font: '12px Calibri,sans-serif',
+                text: label,
+                baseline: 'ideographic',
+                align: 'right',
+                offsetX: 40,
+                fill: new ol.style.Fill({
+                    color: '#000'
+                }),
+                stroke: new ol.style.Stroke({
+                    color: '#fff',
+                    width: 3
                 })
+            });
 
 
-            })];
-            // styleCache[radius] = style;
+            var styles = {
+                'de': [new ol.style.Style({
+                    text: text
+                })]
+            };
+
+
+            var style = styles['de'];
+
         }
-
-
-
-        var style = styles[lang_code];
 
         return style;
     };
+
+
+    var newStyleFunction = function(feature, resolution) {
+
+
+        // if (resolution > 25) return false;
+
+        var lang_code = feature.get('lang');
+        var colour_code = feature.get('colour');
+
+        var colours = {
+            "b": '3e00ff', //blau
+            "gr": '009c00', //green
+            "s": '000000', //schwarz
+            "r": 'ff2a2a', //red
+            "w": 'ffffff', //weiss
+            "ge": 'ffc300' //gelb
+        };
+
+        var shapes = {
+            'de': 'triangle',
+            'fr': 'square',
+            'it': 'circle',
+            'rm': 'pentagon'
+        };
+
+
+        return [new ol.style.Style({
+            image: new ol.style.Icon(({
+                anchor: [7, 7],
+                anchorXUnits: 'pixels',
+                anchorYUnits: 'pixels',
+                opacity: 1.0,
+                scale: 1.0, //lang_code == 'fr' ? 0.8: 1.0,
+                src: 'img/' + shapes[lang_code] + '_' + colours[colour_code] + '_14.png'
+            }))
+        })]
+
+
+
+
+    }
+
 
     var source = new ol.source.GeoJSON({
         url: 'data/storymap.json'
@@ -171,10 +124,15 @@ function init() {
 
     var vector = new ol.layer.Vector({
         source: source,
-        style: styleFunction
+        style: newStyleFunction //iconStyle //styleFunction
     });
 
     map.addLayer(vector);
+    var vector2 = new ol.layer.Vector({
+        source: source,
+        style: textStyleFunction
+    });
+    map.addLayer(vector2);
 
     // Popup showing the position the user clicked
     var popup = new ol.Overlay({
