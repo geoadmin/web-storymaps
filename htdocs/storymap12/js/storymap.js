@@ -41,8 +41,9 @@ if ($.inArray( requestedLang, ['de','fr','it','en'] ) > 0) {
     
 // Create the KML Layer
 var vector = new ol.layer.Vector({
-  source: new ol.source.KML({
+  source: new ol.source.Vector({
     projection: 'EPSG:21781',
+     format: new ol.format.KML(),
     url: 'data/' + lang +'.kml'
   })
 });
