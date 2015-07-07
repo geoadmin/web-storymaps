@@ -35,7 +35,7 @@
         "infolinks": [
             "<h3>swisstopo</h3>",
             "<ul><li><a class='infobox' href='http://www.swisstopo.admin.ch/internet/swisstopo/fr/home/products/landscape/swissNAMES3D.html'>Le produit swissNAMES<sup>3D</sup></a></li>",
-            "<li><a class='infobox' href='http://map.geo.admin.ch/?X=190000.00&Y=660000.00&zoom=1&lang=fr&topic=swisstopo&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.swisstopo.swissnames3d&catalogNodes=457,491'>swissNAMES<sup>3D</sup> in map.geo.admin.ch</a><br></li>",
+            "<li><a class='infobox' href='http://map.geo.admin.ch/?X=190000.00&Y=660000.00&zoom=1&lang=fr&topic=swisstopo&bgLayer=ch.swisstopo.swissimage&layers=ch.swisstopo.swissnames3d'>swissNAMES<sup>3D</sup> in map.geo.admin.ch</a><br></li>",
             "<li><a class='infobox'href='http://www.swisstopo.admin.ch/internet/swisstopo/fr/home/products/freeproducts.html'>swissNAMES<sup>3D</sup> est gratuit</a><br></li></ul>",
             "<h3>De plus amples informations</h3>",
             "<a  class='infobox' href='http://henrysuter.ch/glossaires/toponymes.html'>Noms de lieux de Suisse romande, Savoie et environs</a>"
