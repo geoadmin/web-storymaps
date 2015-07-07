@@ -37,7 +37,7 @@
         "infolinks": [
             "<h3>swisstopo</h3>",
             "<ul><li><a class='infobox' href='http://www.swisstopo.admin.ch/internet/swisstopo/de/home/products/landscape/swissNAMES3D.html'>Das Produkt swissNAMES<sup>3D</sup><br></a></li>",
-            "<li><a class='infobox' href='http://map.geo.admin.ch/?X=190000.00&Y=660000.00&zoom=1&lang=de&topic=swisstopo&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.swisstopo.swissnames3d&catalogNodes=457,491'>swissNAMES<sup>3D</sup> in map.geo.admin.ch</a><br></li>",
+            "<li><a class='infobox' href='http://map.geo.admin.ch/?X=190000.00&Y=660000.00&zoom=1&lang=fr&topic=swisstopo&bgLayer=ch.swisstopo.swissimage&layers=ch.swisstopo.swissnames3d'>swissNAMES<sup>3D</sup> in map.geo.admin.ch</a><br></li>",
             "<li><a class='infobox'href='http://www.swisstopo.admin.ch/internet/swisstopo/de/home/products/freeproducts.html'>swissNAMES<sup>3D</sup> ist gratis</a><br></li></ul>",
             "<h3>Weitere Informationen</h3>",
             "<a  class='infobox' href='http://www.ortsnamen.ch'>Ortsnamen</a>"
