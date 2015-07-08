@@ -27,8 +27,8 @@
 
 "html": {
     "infolinks": [
-		"<a href='http://www.bafu.admin.ch/hydrologie/01831/01841/index.html?lang=de' target='_blank'>Temperaturmessnetz</a></br>", 
-		"<a class='infobox' href='http://www.hydrodaten.admin.ch/de/index.html#aktuelle_situation_gewaesser' target='_blank'>Aktuelle hydrologische Daten</a> <br>",
+		"<a href='http://www.bafu.admin.ch/wasser/13462/14737/15059/index.html?lang=de' target='_blank'>Temperaturmessnetz</a></br>", 
+		"<a class='infobox' href='http://www.hydrodaten.admin.ch/de/messstationen_temperatur.html ' target='_blank'>Aktuelle hydrologische Daten</a> <br>",
 		"<a class='infobox'  href='http://s.geo.admin.ch/465352d97' target='_blank'>Karte Basismessnetz</a> <br>",
 		"<a class='infobox' href='http://s.geo.admin.ch/10ec72dc1' target='_blank'>Karte Messstationen Wassertemperatur</a>"
 	],
