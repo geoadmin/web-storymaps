@@ -28,8 +28,8 @@
 
 "html": {
     "infolinks": [
-		"<a href='http://www.bafu.admin.ch/hydrologie/01831/01841/index.html?lang=en' target='_blank'>Water temperature monitoring network</a></br>", 
-		"<a class='infobox' href='http://www.hydrodaten.admin.ch/en/index.html#aktuelle_situation_gewaesser' target='_blank'>Hydrological data</a> <br>",
+		"<a href='http://www.bafu.admin.ch/wasser/13462/14737/15059/index.html?lang=en' target='_blank'>Water temperature monitoring network</a></br>", 
+		"<a class='infobox' href='http://www.hydrodaten.admin.ch/en/messstationen_temperatur.html' target='_blank'>Hydrological data</a> <br>",
 		"<a class='infobox'  href='http://s.geo.admin.ch/03826b3d6' target='_blank'>Map of basic monitoring network</a> <br>",
 		"<a class='infobox' href='http://s.geo.admin.ch/f39365243' target='_blank'>Map of water temperature monitoring network</a>"
 	],
