@@ -116,8 +116,9 @@ function init() {
     }
 
 
-    var source = new ol.source.GeoJSON({
-        url: 'data/storymap.json'
+    var source = new ol.source.Vector({
+        url: 'data/storymap.json',
+        format: new ol.format.GeoJSON({defaultDataProjection : 'EPSG:21781'})
     });
 
 

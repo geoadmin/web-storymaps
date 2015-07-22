@@ -92,9 +92,10 @@ function initMaps() {
   };
 
   var vectorLayer = new ol.layer.Vector({
-    source: new ol.source.GeoJSON({
+    source: new ol.source.Vector({
       //projection: 'EPSG:21781',
-      url: 'data/hydromessstationen.geojson'
+      url: 'data/hydromessstationen.geojson',
+      format: new ol.format.GeoJSON({defaultDataProjection : 'EPSG:21781'})
     }),
     style: styleFunction
   });
@@ -102,9 +103,10 @@ function initMaps() {
   overviewLayer = vectorLayer;
 
   detailedLayer = new ol.layer.Vector({
-    source: new ol.source.GeoJSON({
+    source: new ol.source.Vector({
       //projection: 'EPSG:21781',
-      url: 'data/hydromessstationen.geojson'
+      url: 'data/hydromessstationen.geojson',
+      format: new ol.format.GeoJSON({defaultDataProjection : 'EPSG:21781'})
     }),
     style: selectStyle
   });

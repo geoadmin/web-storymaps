@@ -94,9 +94,10 @@ function initMaps() {
   };
 
   var vectorLayer = new ol.layer.Vector({
-    source: new ol.source.GeoJSON({
+    source: new ol.source.Vector({
       //projection: 'EPSG:21781',
-      url: 'data/stauanlagen.json'
+      url: 'data/stauanlagen.json',
+      format: new ol.format.GeoJSON({defaultDataProjection : 'EPSG:21781'})
     }),
     style: styleFunction
   });
@@ -105,9 +106,10 @@ function initMaps() {
 
 
   detailedLayer = new ol.layer.Vector({
-    source: new ol.source.GeoJSON({
+    source: new ol.source.Vector({
       //projection: 'EPSG:21781',
-      url: 'data/stauanlagen.json'
+      url: 'data/stauanlagen.json',
+       format: new ol.format.GeoJSON({defaultDataProjection : 'EPSG:21781'})
     }),
     style: selectStyle
   });
