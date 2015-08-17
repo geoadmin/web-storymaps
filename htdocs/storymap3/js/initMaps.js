@@ -11,9 +11,14 @@ var detailedLayer;
 var detailedMap;
 
 var select, selectedFeature, selectStyle;
-
-function initMaps() {
-
+var format = new ol.format.GeoJSON();
+function initMaps(data) {
+  if (!data || data.length == 0) {
+    window.console.log('No data to display');
+    return;
+  }
+  var geojson = {type: "FeatureCollection", features:data};
+  var features = format.readFeatures(geojson);
   var defaultStyle = {
     'Point': [new ol.style.Style({
       image: new ol.style.Circle({
@@ -95,9 +100,7 @@ function initMaps() {
 
   var vectorLayer = new ol.layer.Vector({
     source: new ol.source.Vector({
-      //projection: 'EPSG:21781',
-      url: 'data/stauanlagen.json',
-      format: new ol.format.GeoJSON({defaultDataProjection : 'EPSG:21781'})
+      features: features
     }),
     style: styleFunction
   });
@@ -107,9 +110,7 @@ function initMaps() {
 
   detailedLayer = new ol.layer.Vector({
     source: new ol.source.Vector({
-      //projection: 'EPSG:21781',
-      url: 'data/stauanlagen.json',
-       format: new ol.format.GeoJSON({defaultDataProjection : 'EPSG:21781'})
+      features: features
     }),
     style: selectStyle
   });
@@ -217,15 +218,13 @@ function loadData() {
   $.getJSON(url, function(data) {
 
     var features = selection = data.features;
+    initMaps(features);
     loadChart(features);
     var idx = Math.floor(Math.random() * features.length);
     selectedId = features[idx].properties.reservoir_stabil_id;
-
     selection = sortFeaturesByAttribute(features, 'damheight', -1);
-
     zoomToFeature(selectedId);
     updateChart(selectedId);
-
   }).fail(function() {
     console.log('loadData: fail to load data error');
   });

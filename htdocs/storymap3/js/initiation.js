@@ -35,8 +35,6 @@ function initiation() {
         ' modern web browser!</p>' +
         '</div)');
   } else {
-    initMaps();
     loadData();
   }
-
 }
