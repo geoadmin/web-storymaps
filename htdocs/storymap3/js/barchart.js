@@ -74,20 +74,19 @@ function loadChart(newData) {
         highlightBar(selectedId);
         displayObjectData(selectedId);
 
-          });
-
+        });
   $('.bar').tipsy({
     trigger: ' manual',
     gravity: 's',
     html: true,
     title: function() {
+      var selectedIdx = getIndexFromId(selectedId);
       var name = dataset[selectedIdx].damname;
       var number = dataset[selectedIdx].damheight;
       return '<h1 class="tips" >' + name + '<br>' + number + ' m  </h1>';
     }
-  });
+  }); 
   updateChart(selectedId);
-
 }
 
 
