@@ -6,8 +6,25 @@
 
     hydro.cgi is a CGI script to convert BAFU XML Hydrodaten to a JSON file
 
-    If you provide a paramter 'formal=xml' it will only return the original
+    If you provide a parameter 'format=xml' it will only return the original
     XML data acting as a proxy only.
+
+    As 1st of Mai 2016, the format has change to the following:
+    <?xml version='1.0' encoding='utf-8'?><!DOCTYPE AKT_Data SYSTEM "AKT_Data.dtd"><?xml-stylesheet type="text/xsl" href="pseudosms.xsl"?>
+    <AKT_Data ID="SMS-Liste" ZeitSt="03.05.2016 16:55">
+      <MesPar DH="HBCHa" StrNr="2415" Typ="10" Var="10">
+      <Name>Glatt - Rheinsfelden</Name>
+      <Datum>03.05.2016</Datum>
+      <Zeit>16:00</Zeit>
+      <Wert>9.97</Wert>
+      <Wert dt="-24h">12.01</Wert>
+      <Wert Typ="delta24">-2.043</Wert>
+      <Wert Typ="m24">10.65</Wert>
+      <Wert Typ="max24">12.01</Wert>
+      <Wert Typ="min24">9.97</Wert>
+      </MesPar>
+      ...
+    </AKT_Data>
 
 """
 
@@ -17,9 +34,8 @@ import cgi
 import json
 import datetime
 
-import pprint
 from urllib2 import Request, urlopen, URLError
-from xml.dom.minidom import parse, parseString
+from xml.dom.minidom import parseString
 from urlparse import parse_qs
 
 
@@ -69,7 +85,6 @@ def handleWerte(werte):
         if len(wert.attributes):
             attribute_name = wert.attributes.keys()[0]
             attribute_val = wert.attributes[attribute_name].nodeValue
-            value = wert.nodeValue
 
             w[attribute_val] = getText(wert.childNodes)  # attribute_name
         else:
@@ -94,7 +109,7 @@ def handleSMSList(data, format='json'):
             d[key] = value
 
         d['mesPar'] = mesPar
-        d['strnrs'] = ids
+        d['StrNrs'] = ids
 
         return d
     else:
@@ -105,7 +120,11 @@ def handleStation(station):
     d = {}
     for key, value in list(station.attributes.items()):
         if key == 'StrNr':
-            d['strnr'] = int(value)
+            try:
+                d['strnr'] = int(value)
+            except ValueError:
+                d['strnr'] = value
+
         else:
             d[key] = value
 
@@ -150,8 +169,10 @@ def handleStations(stations, max_num=25):
 
 def main():
 
-    form = cgi.FieldStorage()
-    qs = os.environ['QUERY_STRING']
+    try:
+        qs = os.environ['QUERY_STRING']
+    except:
+        qs = 'format=xml'
     params = parse_qs(qs)
     data = get_data("http://www.hydrodaten.admin.ch/lhg/SMS.xml")
     if 'format' in params:
