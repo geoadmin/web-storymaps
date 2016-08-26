@@ -34,7 +34,7 @@
     "html": {
         "infolinks": [
             "<h3>swisstopo</h3>",
-            "<ul><li><a class='infobox' href='http://www.swisstopo.admin.ch/internet/swisstopo/en/home/products/landscape/swissNAMES3D.html'>The product swissNAMES<sup>3D</sup></a></li>",
+            "<ul><li><a class='infobox' href='https://shop.swisstopo.admin.ch/en/products/landscape/names3D'>The product swissNAMES<sup>3D</sup></a></li>",
             "<li><a class='infobox' href='http://map.geo.admin.ch/?X=190000.00&Y=660000.00&zoom=1&lang=fr&topic=swisstopo&bgLayer=ch.swisstopo.swissimage&layers=ch.swisstopo.swissnames3d'>swissNAMES<sup>3D</sup> in map.geo.admin.ch</a><br></li>",
             "<li><a class='infobox'href='http://www.swisstopo.admin.ch/internet/swisstopo/en/home/products/freeproducts.html'>swissNAMES<sup>3D</sup> is free</li></ul>"
            
