@@ -44,7 +44,7 @@
             "<ul>",
             "<li>Résalisé avec : ",
             "<a href='http://api3.geo.admin.ch' target='_blank'>api3.geo.admin.ch</a><br></li>",
-            "<li><a href='http://www.geo.admin.ch/internet/geoportal/de/home/geoadmin/contact.html#copyright' target='_blank'>Copyright und Datenschutzerklärung</a><br></li>",
+            "<li><a href='https://www.geo.admin.ch/fr/geo-admin-ch/impressum.html' target='_blank'>Copyright und Datenschutzerklärung</a><br></li>",
             "</ul>"
         ]
     }
