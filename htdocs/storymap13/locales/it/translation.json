@@ -29,9 +29,9 @@
   "html": {
     "infolinks": [
       "<p>Ufficio federale di topografia swisstopo</p>",
-        "<ul><li><a href='http://www.swisstopo.admin.ch/internet/swisstopo/it/home/topics/nlk.html' target='_blank'>Nuova carta nazionale della Svizzera</a></li>",
-        "<li><a href='http://www.swisstopo.admin.ch/internet/swisstopo/de/home/topics/nlk.parsysrelated1.45280.downloadList.76672.DownloadFile.tmp/nlkinfoblatta4www.pdf' target='_blank'>Sommario dei fogli – Nuova carta nazionale 1:25‘000</a></li>",
-        "<li><a href='http://www.swisstopo.admin.ch/internet/swisstopo/it/home/products.html' target='_blank'>Prodotti swisstopo</a></li></ul>",
+        "<ul><li><a href='https://www.swisstopo.admin.ch/it/conoscenze-fatti/carte-e-piu/nuove-carte-nazionali%20.html' target='_blank'>Nuova carta nazionale della Svizzera</a></li>",
+        "<li><a href='https://map.geo.admin.ch/?topic=ech&lang=it&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.swisstopo.zeitreihen,ch.bfs.gebaeude_wohnungs_register,ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege,ch.swisstopo.pixelkarte-pk25.metadata&layers_visibility=false,false,false,false,true&layers_timestamp=18641231,,,,&X=215160.00&Y=668660.00&zoom=3' target='_blank'>Sommario dei fogli – Nuova carta nazionale 1:25‘000</a></li>",
+        "<li><a href='https://shop.swisstopo.admin.ch/it/products/maps/national/lk25' target='_blank'>Prodotti swisstopo</a></li></ul>",
         "<p>Carte nel geoportale federale</p>",
         "<ul><li><a href='http://map.geo.admin.ch/?X=199013.04&Y=626396.56&zoom=8&lang=it' target='_blank'>map.geo.admin.ch</a></li></ul>"
 
