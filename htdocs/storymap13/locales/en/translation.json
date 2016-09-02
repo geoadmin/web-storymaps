@@ -30,9 +30,9 @@
   "html": {
     "infolinks": [
       "<p>Federal Office of Topography swisstopo</p>",
-        "<ul><li><a href='http://www.swisstopo.admin.ch/internet/swisstopo/en/home/topics/nlk.html' target='_blank'>New national map of Switzerland</a></li>",
-        "<li><a href='http://www.swisstopo.admin.ch/internet/swisstopo/de/home/topics/nlk.parsysrelated1.45280.downloadList.76672.DownloadFile.tmp/nlkinfoblatta4www.pdf' target='_blank'>Map sheet index – New national maps 1:25‘000</a></li>",
-        "<li><a href='http://www.swisstopo.admin.ch/internet/swisstopo/en/home/products.html' target='_blank'>swisstopo products</a></li></ul>",
+        "<ul><li><a href='https://www.swisstopo.admin.ch/en/knowledge-facts/maps-and-more/new-national-maps.html' target='_blank'>New national map of Switzerland</a></li>",
+        "<li><a href='https://map.geo.admin.ch/?topic=ech&lang=en&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.swisstopo.zeitreihen,ch.bfs.gebaeude_wohnungs_register,ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege,ch.swisstopo.pixelkarte-pk25.metadata&layers_visibility=false,false,false,false,true&layers_timestamp=18641231,,,,&X=215160.00&Y=668660.00&zoom=3' target='_blank'>Map sheet index – New national maps 1:25‘000</a></li>",
+        "<li><a href='https://shop.swisstopo.admin.ch/en/products/maps/national/lk25' ctarget='_blank'>swisstopo products</a></li></ul>",
         "<p>Maps on the federal geoportal</p>",
         "<ul><li><a href='http://map.geo.admin.ch/?X=199013.04&Y=626396.56&zoom=8&lang=en' target='_blank'>map.geo.admin.ch</a></li></ul>"
     ],
